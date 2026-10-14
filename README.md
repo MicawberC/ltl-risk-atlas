@@ -10,6 +10,7 @@
 - [历史关键计时报告](reproduction/adaptive_risk_ltl/key_timing_20261014/KEY_TIMING_REPORT_CN.md)：残差修正前的固定产品模型配对规划时间。
 - [CARLA 实验](reproduction/carla_local_risk/)：场景、闭环控制、轨迹与基线。
 - [四组规划计时和任务到达报告](reproduction/carla_local_risk/observed_hybrid_probe/FOUR_CASE_AND_ARRIVAL_CN.md)：合成网格、单行人和双行人结果及其限制。
+- [修正后 CARLA 闭环复测](reproduction/carla_local_risk/revised_certificate_20261014/REPORT_CN.md)：Town01 单、双行人各两轮，保基 LP 对比和逐点核验。
 - [方法定理、证明与修订版验证](docs/METHOD_THEORY.md)：策略区域、占据度量组合、上下界证书、失败时的返回条件及修订代码复测。
 
 合成网格的加速结论不能直接等同于 CARLA 的实时驾驶性能。CARLA 实验使用研究者构建的高层网格和风险映射，不是原论文未公开的完整仿真代码。所有数值和适用边界以对应报告及原始 JSON 为准。

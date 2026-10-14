@@ -177,7 +177,7 @@ The observed-initialization method first solves (1) at the first observed $\thet
 
 Results 1–7 are exact-arithmetic statements about the stated product MDP. The Python implementation uses double-precision sparse linear algebra, residual checks and independent policy/LP spot checks. Its `certified` flag is a **numerically checked model certificate**, not a machine-verified interval-arithmetic proof. In particular, obtaining a strict floating-point guarantee would require outward-rounded bounds for value/flow residuals and for the reported risk and objective.
 
-CARLA supplies observations and executes a controller coupled to a high-level grid model. The guarantee in (7) applies to that grid model's expected discounted quantities, conditional on fixed transitions and labels; it does not imply pathwise collision freedom, calibrated pedestrian probabilities or a 20 Hz worst-case planning bound. The older CARLA timing JSON predates the small residual-accounting correction in this note; it has **not** been rerun with the revised code, so it must not be quoted as new-code CARLA timing.
+CARLA supplies observations and executes a controller coupled to a high-level grid model. The guarantee in (7) applies to that grid model's expected discounted quantities, conditional on fixed transitions and labels; it does not imply pathwise collision freedom, calibrated pedestrian probabilities or a 20 Hz worst-case planning bound. The earlier CARLA timing JSON predates the residual-accounting correction. Revised-code Town01 closed-loop runs and independent LP replays are reported separately in `reproduction/carla_local_risk/revised_certificate_20261014/REPORT_CN.md`.
 
 ## 7. Checks of the revised implementation
 
@@ -189,7 +189,7 @@ CARLA supplies observations and executes a controller coupled to a high-level gr
 | 32×32, local `walk` | 4.305 s | 38.201 s | 16/20 | 20/20 |
 | 16×16, active hard budget, `iid` | 6.360 s | 5.421 s | 3/20 | 20/20 |
 
-The hard budget is active in 16/20 queries of the last case, and the atlas is slower there. These are three single-run checks, not a claim of uniform speed superiority or a statistically stable timing estimate. The detailed JSON, including per-query policy-evaluation errors, is in `docs/validation/paired_20261014/` and `docs/validation/paired_hard_20261014/`. The original CARLA closed-loop run was not repeated for this proof update.
+The hard budget is active in 16/20 queries of the last case, and the atlas is slower there. These are three single-run checks, not a claim of uniform speed superiority or a statistically stable timing estimate. The detailed JSON, including per-query policy-evaluation errors, is in `docs/validation/paired_20261014/` and `docs/validation/paired_hard_20261014/`. A subsequent CARLA closed-loop rerun with the revised code is reported in `reproduction/carla_local_risk/revised_certificate_20261014/REPORT_CN.md`; its timing is a separate experiment.
 
 From the repository root, reproduce the mathematical checks and the three paired planning runs with:
 
