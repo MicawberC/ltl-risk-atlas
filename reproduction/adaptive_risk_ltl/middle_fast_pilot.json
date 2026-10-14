@@ -1,0 +1,62 @@
+[
+  {
+    "case": "16:middle_fast",
+    "states": 2049,
+    "sparse_lp_seconds": 0.9272744999998395,
+    "sparse_lp_objective": 5.202317548424039,
+    "objective": 5.186454591231899,
+    "risk": 0.8,
+    "upper": 5.225850360980014,
+    "gap": 0.03939576974811487,
+    "evaluations": 3,
+    "seconds": 0.07826600000043982,
+    "prices": [
+      0.5,
+      1.0
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "certified": true,
+    "objective_difference": -0.015862957192140037
+  },
+  {
+    "case": "24:middle_fast",
+    "states": 4609,
+    "sparse_lp_seconds": 4.488469100000657,
+    "sparse_lp_objective": 3.0983892698545836,
+    "objective": 3.09768140004699,
+    "risk": 0.8,
+    "upper": 3.098542533878968,
+    "gap": 0.0008611338319779449,
+    "evaluations": 4,
+    "seconds": 0.20721899999989546,
+    "prices": [
+      0.25,
+      0.5
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "certified": true,
+    "objective_difference": -0.0007078698075937417
+  },
+  {
+    "case": "32:middle_fast",
+    "states": 8193,
+    "sparse_lp_seconds": 16.708091799999238,
+    "sparse_lp_objective": 1.7977156066616748,
+    "objective": 1.7818327362398332,
+    "risk": 0.7999999999986871,
+    "upper": 1.7977156067557707,
+    "gap": 0.01588287051593751,
+    "evaluations": 4,
+    "seconds": 0.40642269999989367,
+    "prices": [
+      0.0,
+      0.25
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "certified": true,
+    "objective_difference": -0.015882870421841666
+  }
+]

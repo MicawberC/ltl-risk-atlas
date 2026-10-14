@@ -1,0 +1,104 @@
+[
+  {
+    "case": "24:barrier_hard_active",
+    "interval": [
+      -9.879171404551161e-08,
+      8.048157334255884e-10
+    ],
+    "prepare_seconds": 0.41357000000061817,
+    "base_prices": [
+      1.0062111794348785,
+      1.0062112794348785
+    ],
+    "base_gap": 6.228455973200653e-09,
+    "rows": [
+      {
+        "theta": -0.01,
+        "transfer_certified": false,
+        "transfer_seconds": 6.999998731771484e-07,
+        "fresh_seconds": 0.26994509999894944,
+        "fresh_objective": 0.8818746470920606,
+        "fresh_risk": 5.000000000000002,
+        "reason": "outside_parameter_region"
+      },
+      {
+        "theta": -0.005,
+        "transfer_certified": false,
+        "transfer_seconds": 8.999995770864189e-07,
+        "fresh_seconds": 0.25944170000002487,
+        "fresh_objective": 0.8563375885639575,
+        "fresh_risk": 5.0,
+        "reason": "outside_parameter_region"
+      },
+      {
+        "theta": 0.005,
+        "transfer_certified": false,
+        "transfer_seconds": 1.2999989849049598e-06,
+        "fresh_seconds": 0.25392660000034084,
+        "fresh_objective": 0.8060257717623243,
+        "fresh_risk": 5.0,
+        "reason": "outside_parameter_region"
+      },
+      {
+        "theta": 0.01,
+        "transfer_certified": false,
+        "transfer_seconds": 1.0000003385357559e-06,
+        "fresh_seconds": 0.3162570999993477,
+        "fresh_objective": 0.7969989545538436,
+        "fresh_risk": 0.8000000000000003,
+        "reason": "outside_parameter_region"
+      }
+    ]
+  },
+  {
+    "case": "32:barrier_hard_active",
+    "interval": [
+      -9.823671672331858e-08,
+      1.3598130606963805e-09
+    ],
+    "prepare_seconds": 0.9138444000000163,
+    "base_prices": [
+      1.0062111788764339,
+      1.006211278876434
+    ],
+    "base_gap": 1.1646270170473372e-08,
+    "rows": [
+      {
+        "theta": -0.01,
+        "transfer_certified": false,
+        "transfer_seconds": 6.000009307172149e-07,
+        "fresh_seconds": 0.9033586000005016,
+        "fresh_objective": 0.8818746470920606,
+        "fresh_risk": 5.000000000000002,
+        "reason": "outside_parameter_region"
+      },
+      {
+        "theta": -0.005,
+        "transfer_certified": false,
+        "transfer_seconds": 1.2999989849049598e-06,
+        "fresh_seconds": 0.7128315000009025,
+        "fresh_objective": 0.8563375885639575,
+        "fresh_risk": 5.0,
+        "reason": "outside_parameter_region"
+      },
+      {
+        "theta": 0.005,
+        "transfer_certified": false,
+        "transfer_seconds": 1.1000010999850929e-06,
+        "fresh_seconds": 0.48883310000019264,
+        "fresh_objective": 0.8060257717623278,
+        "fresh_risk": 5.0,
+        "reason": "outside_parameter_region"
+      },
+      {
+        "theta": 0.01,
+        "transfer_certified": false,
+        "transfer_seconds": 1.2000000424450263e-06,
+        "fresh_seconds": 0.6070103000001836,
+        "fresh_objective": 0.7969989545538441,
+        "fresh_risk": 0.7999999999999999,
+        "reason": "outside_parameter_region"
+      }
+    ]
+  }
+]

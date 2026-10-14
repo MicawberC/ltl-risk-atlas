@@ -1,0 +1,32 @@
+[
+  {
+    "case": "24:middle_fast:0:m0.8",
+    "order_seed": 405,
+    "states": 4609,
+    "hits": 17,
+    "expansions": 8,
+    "final_policies": 18,
+    "fresh_seconds": 10.428439800009073,
+    "atlas_seconds": 6.301638800010551,
+    "speedup": 1.6548774264865218,
+    "setup_seconds": 0.5572221000002173,
+    "query_seconds": 0.2793577000120422,
+    "expansion_seconds": 5.465058999998291,
+    "max_gap": 0.023560188576195795
+  },
+  {
+    "case": "24:middle_fast:0:m0.8",
+    "order_seed": 406,
+    "states": 4609,
+    "hits": 17,
+    "expansions": 8,
+    "final_policies": 18,
+    "fresh_seconds": 11.117990800008556,
+    "atlas_seconds": 6.13712210000449,
+    "speedup": 1.8115968069138502,
+    "setup_seconds": 0.5400442000027397,
+    "query_seconds": 0.3259651999978814,
+    "expansion_seconds": 5.271112700003869,
+    "max_gap": 0.012742377931167947
+  }
+]

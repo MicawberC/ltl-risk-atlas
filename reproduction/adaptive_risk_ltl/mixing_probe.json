@@ -1,0 +1,24 @@
+{
+  "grid": 32,
+  "scenario": "barrier_hard",
+  "full_states": 8193,
+  "soft_budget": 0.8,
+  "hard_budget": 5.0,
+  "dual_price": 1.0062111801242268,
+  "high_risk": {
+    "risk": 14.03402611756966,
+    "reward": 14.121193981654008
+  },
+  "low_risk": {
+    "risk": 0.0,
+    "reward": 0.0
+  },
+  "high_risk_policy_weight": 0.35627694847598546,
+  "stationary_mixture": {
+    "risk": 5.0,
+    "objective": 0.8310559006211404,
+    "flow_residual": 1.1102230246251565e-16
+  },
+  "sparse_lp_objective": 0.8310559006211404,
+  "objective_difference": 0.0
+}

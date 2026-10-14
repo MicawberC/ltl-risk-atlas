@@ -1,0 +1,411 @@
+[
+  {
+    "case": "24:barrier_hard_active:0",
+    "prepare_seconds": 0.39839410000058706,
+    "rows": [
+      {
+        "scale": 0.8,
+        "certified": true,
+        "transfer_seconds": 0.00040549999903305434,
+        "fresh_seconds": 0.8335233999987395,
+        "fresh_objective": 2.088819875776422,
+        "objective": 2.088819875776421,
+        "risk": 5.0,
+        "gap": 5.366769251224923e-09
+      },
+      {
+        "scale": 0.9,
+        "certified": true,
+        "transfer_seconds": 0.0004357999987405492,
+        "fresh_seconds": 0.5097034999998868,
+        "fresh_objective": 1.3900621118012655,
+        "objective": 1.3900621118012628,
+        "risk": 5.0,
+        "gap": 5.845484984945415e-09
+      },
+      {
+        "scale": 0.95,
+        "certified": true,
+        "transfer_seconds": 0.0004231999992043711,
+        "fresh_seconds": 0.4945177000008698,
+        "fresh_objective": 1.0958483164433037,
+        "objective": 1.095848316443302,
+        "risk": 5.0,
+        "gap": 6.047048639601371e-09
+      },
+      {
+        "scale": 0.99,
+        "certified": true,
+        "transfer_seconds": 0.000542799998584087,
+        "fresh_seconds": 0.36980860000039684,
+        "fresh_objective": 0.8818746470920606,
+        "objective": 0.8818746470920571,
+        "risk": 5.0,
+        "gap": 6.193641155505247e-09
+      },
+      {
+        "scale": 1,
+        "certified": true,
+        "transfer_seconds": 0.0007045000002108281,
+        "fresh_seconds": 0.4023503999997047,
+        "fresh_objective": 0.8310559006211369,
+        "objective": 0.831055900621136,
+        "risk": 5.0,
+        "gap": 6.2284568613790725e-09
+      },
+      {
+        "scale": 1.01,
+        "certified": true,
+        "transfer_seconds": 0.0006518999998661457,
+        "fresh_seconds": 0.4790149000000383,
+        "fresh_objective": 0.7969989545538436,
+        "objective": 0.7969989545538435,
+        "risk": 0.8,
+        "gap": 9.129181521849716e-09
+      },
+      {
+        "scale": 1.02,
+        "certified": true,
+        "transfer_seconds": 0.0004059000002598623,
+        "fresh_seconds": 0.5276610000000801,
+        "fresh_objective": 0.78918523931312,
+        "objective": 0.7891852393131196,
+        "risk": 0.8,
+        "gap": 9.134534573185249e-09
+      },
+      {
+        "scale": 1.05,
+        "certified": true,
+        "transfer_seconds": 0.0006456000010075513,
+        "fresh_seconds": 0.5851865000004182,
+        "fresh_objective": 0.7666370896184594,
+        "objective": 0.766637089618459,
+        "risk": 0.8,
+        "gap": 9.149982216349883e-09
+      },
+      {
+        "scale": 1.1,
+        "certified": true,
+        "transfer_seconds": 0.0006671999999525724,
+        "fresh_seconds": 0.48230879999937315,
+        "fresh_objective": 0.7317899491812562,
+        "objective": 0.7317899491812563,
+        "risk": 0.8,
+        "gap": 9.173855675115306e-09
+      },
+      {
+        "scale": 1.2,
+        "certified": true,
+        "transfer_seconds": 0.0004141000008530682,
+        "fresh_seconds": 0.3993812999997317,
+        "fresh_objective": 0.6708074534161521,
+        "objective": 0.6708074534161517,
+        "risk": 0.8,
+        "gap": 9.215634477754975e-09
+      }
+    ]
+  },
+  {
+    "case": "32:barrier_hard_active:0",
+    "prepare_seconds": 1.3676605000000563,
+    "rows": [
+      {
+        "scale": 0.8,
+        "certified": true,
+        "transfer_seconds": 0.0010029000004578847,
+        "fresh_seconds": 2.1689360000000306,
+        "fresh_objective": 2.0888198757764247,
+        "objective": 2.0888198757764265,
+        "risk": 5.0,
+        "gap": 1.0086524504515637e-08
+      },
+      {
+        "scale": 0.9,
+        "certified": true,
+        "transfer_seconds": 0.001175699999294011,
+        "fresh_seconds": 1.982704800000647,
+        "fresh_objective": 1.3900621118012673,
+        "objective": 1.3900621118012673,
+        "risk": 5.0,
+        "gap": 1.0953050022521893e-08
+      },
+      {
+        "scale": 0.95,
+        "certified": true,
+        "transfer_seconds": 0.0006969000005483394,
+        "fresh_seconds": 2.7189497999988816,
+        "fresh_objective": 1.0958483164433037,
+        "objective": 1.0958483164433064,
+        "risk": 5.0,
+        "gap": 1.1317901948970643e-08
+      },
+      {
+        "scale": 0.99,
+        "certified": true,
+        "transfer_seconds": 0.0007249999998748535,
+        "fresh_seconds": 0.9680838999993284,
+        "fresh_objective": 0.8818746470920606,
+        "objective": 0.8818746470920615,
+        "risk": 5.0,
+        "gap": 1.158324947070355e-08
+      },
+      {
+        "scale": 1,
+        "certified": true,
+        "transfer_seconds": 0.0007822999996278668,
+        "fresh_seconds": 1.1308652000006987,
+        "fresh_objective": 0.8310559006211395,
+        "objective": 0.8310559006211404,
+        "risk": 5.0,
+        "gap": 1.1646269282294952e-08
+      },
+      {
+        "scale": 1.01,
+        "certified": true,
+        "transfer_seconds": 0.001174400000309106,
+        "fresh_seconds": 1.0269198999994842,
+        "fresh_objective": 0.7969989545538441,
+        "objective": 0.7969989545538442,
+        "risk": 0.8,
+        "gap": 1.6896888443973523e-08
+      },
+      {
+        "scale": 1.02,
+        "certified": true,
+        "transfer_seconds": 0.0007076000001688953,
+        "fresh_seconds": 1.4075976999993145,
+        "fresh_objective": 0.7891852393131202,
+        "objective": 0.7891852393131202,
+        "risk": 0.8,
+        "gap": 1.6906578137465544e-08
+      },
+      {
+        "scale": 1.05,
+        "certified": true,
+        "transfer_seconds": 0.0005887999996048165,
+        "fresh_seconds": 1.1298384000001533,
+        "fresh_objective": 0.7666370896184593,
+        "objective": 0.7666370896184597,
+        "risk": 0.8,
+        "gap": 1.6934539881496846e-08
+      },
+      {
+        "scale": 1.1,
+        "certified": true,
+        "transfer_seconds": 0.001019100000121398,
+        "fresh_seconds": 1.3216978999989806,
+        "fresh_objective": 0.7317899491812568,
+        "objective": 0.7317899491812568,
+        "risk": 0.8,
+        "gap": 1.6977753647395843e-08
+      },
+      {
+        "scale": 1.2,
+        "certified": true,
+        "transfer_seconds": 0.001096500000130618,
+        "fresh_seconds": 1.1541508999998769,
+        "fresh_objective": 0.6708074534161523,
+        "objective": 0.6708074534161522,
+        "risk": 0.8,
+        "gap": 1.7053377487918908e-08
+      }
+    ]
+  },
+  {
+    "case": "24:middle_fast:0",
+    "prepare_seconds": 0.3201637000001938,
+    "rows": [
+      {
+        "scale": 0.8,
+        "certified": false,
+        "transfer_seconds": 6.800000846851617e-06,
+        "fresh_seconds": 0.2122278999995615,
+        "fresh_objective": 3.147174999489201
+      },
+      {
+        "scale": 0.9,
+        "certified": false,
+        "transfer_seconds": 4.800000169780105e-06,
+        "fresh_seconds": 0.22131249999983993,
+        "fresh_objective": 3.1165185116786933
+      },
+      {
+        "scale": 0.95,
+        "certified": false,
+        "transfer_seconds": 5.300000339047983e-06,
+        "fresh_seconds": 0.23460770000019693,
+        "fresh_objective": 3.103871844193387
+      },
+      {
+        "scale": 0.99,
+        "certified": true,
+        "transfer_seconds": 0.0004688000008172821,
+        "fresh_seconds": 0.22440290000122332,
+        "fresh_objective": 3.100028509692136,
+        "objective": 3.100028509692137,
+        "risk": 0.8,
+        "gap": 0.0005342262070326953
+      },
+      {
+        "scale": 1,
+        "certified": true,
+        "transfer_seconds": 0.0004805000007763738,
+        "fresh_seconds": 0.24194050000005518,
+        "fresh_objective": 3.09768140004699,
+        "objective": 3.097681400055937,
+        "risk": 0.8,
+        "gap": 0.0008611338230308796
+      },
+      {
+        "scale": 1.01,
+        "certified": true,
+        "transfer_seconds": 0.0004748999999719672,
+        "fresh_seconds": 0.22513200000139477,
+        "fresh_objective": 3.095380767838275,
+        "objective": 3.0953807678382756,
+        "risk": 0.8,
+        "gap": 0.0011815680208902002
+      },
+      {
+        "scale": 1.02,
+        "certified": true,
+        "transfer_seconds": 0.00024849999863363337,
+        "fresh_seconds": 0.21732490000067628,
+        "fresh_objective": 3.093125246056254,
+        "objective": 3.0931252460562546,
+        "risk": 0.8,
+        "gap": 0.0014957191952622573
+      },
+      {
+        "scale": 1.05,
+        "certified": true,
+        "transfer_seconds": 0.0004403000002639601,
+        "fresh_seconds": 0.22159649999957765,
+        "fresh_objective": 3.0781576669781905,
+        "objective": 3.086616454628137,
+        "risk": 0.8,
+        "gap": 0.002402269727021178
+      },
+      {
+        "scale": 1.1,
+        "certified": true,
+        "transfer_seconds": 0.00043200000072829425,
+        "fresh_seconds": 0.21761919999880774,
+        "fresh_objective": 3.061098951896663,
+        "objective": 3.076557413330137,
+        "risk": 0.8,
+        "gap": 0.003803302367012318
+      },
+      {
+        "scale": 1.2,
+        "certified": true,
+        "transfer_seconds": 0.00041899999996530823,
+        "fresh_seconds": 0.2893104000013409,
+        "fresh_objective": 3.0521805367202766,
+        "objective": 3.058954091058637,
+        "risk": 0.8,
+        "gap": 0.006255109486997146
+      }
+    ]
+  },
+  {
+    "case": "32:middle_fast:0",
+    "prepare_seconds": 1.1959808000010526,
+    "rows": [
+      {
+        "scale": 0.8,
+        "certified": false,
+        "transfer_seconds": 9.899998985929415e-06,
+        "fresh_seconds": 0.12304419999964011,
+        "fresh_objective": 1.797715606661842
+      },
+      {
+        "scale": 0.9,
+        "certified": true,
+        "transfer_seconds": 0.0007237000008899486,
+        "fresh_seconds": 0.3269681000001583,
+        "fresh_objective": 1.7856271670663988,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 0.95,
+        "certified": true,
+        "transfer_seconds": 0.0006670999991911231,
+        "fresh_seconds": 0.6156191999998555,
+        "fresh_objective": 1.7906028743194322,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 0.99,
+        "certified": true,
+        "transfer_seconds": 0.0012206999999762047,
+        "fresh_seconds": 0.4333100000003469,
+        "fresh_objective": 1.782542441193095,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 1,
+        "certified": true,
+        "transfer_seconds": 0.0007141999994928483,
+        "fresh_seconds": 0.4375491000009788,
+        "fresh_objective": 1.7818327362398332,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 1.01,
+        "certified": true,
+        "transfer_seconds": 0.0007256999997480307,
+        "fresh_seconds": 0.4498038000001543,
+        "fresh_objective": 1.7811370848500017,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 1.02,
+        "certified": true,
+        "transfer_seconds": 0.0007127000008040341,
+        "fresh_seconds": 0.44808929999999236,
+        "fresh_objective": 1.7804550736835005,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 1.05,
+        "certified": true,
+        "transfer_seconds": 0.0006594000005861744,
+        "fresh_seconds": 0.5670386000001599,
+        "fresh_objective": 1.7911689191815614,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 1.1,
+        "certified": true,
+        "transfer_seconds": 0.0007319000014831545,
+        "fresh_seconds": 0.583939800000735,
+        "fresh_objective": 1.7894869186654898,
+        "objective": 1.7977156066618418,
+        "risk": 0.8,
+        "gap": 9.39288646861769e-11
+      },
+      {
+        "scale": 1.2,
+        "certified": false,
+        "transfer_seconds": 8.400000297115184e-06,
+        "fresh_seconds": 0.5631401000009646,
+        "fresh_objective": 1.787520186206553
+      }
+    ]
+  }
+]

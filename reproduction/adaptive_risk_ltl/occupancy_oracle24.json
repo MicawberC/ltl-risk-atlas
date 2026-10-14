@@ -1,0 +1,192 @@
+[
+  {
+    "grid": 24,
+    "seed": 0,
+    "runs": [
+      {
+        "fraction": 0.02,
+        "certified": false,
+        "states": 681,
+        "seconds": 6.418771699998615,
+        "gap": 0.02169143448261418,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.04,
+        "certified": false,
+        "states": 1049,
+        "seconds": 11.689335200000642,
+        "gap": 0.02122114415715909,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.08,
+        "certified": false,
+        "states": 1840,
+        "seconds": 19.244812700000693,
+        "gap": 0.0051690023108947325,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 656,
+        "seconds": 1.8092223000003287,
+        "gap": 6.870299939898405e-05,
+        "rounds": 3
+      }
+    ]
+  },
+  {
+    "grid": 24,
+    "seed": 1,
+    "runs": [
+      {
+        "fraction": 0.02,
+        "certified": false,
+        "states": 699,
+        "seconds": 10.665944300000774,
+        "gap": 0.020803186674417773,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.04,
+        "certified": false,
+        "states": 1121,
+        "seconds": 13.701374899999792,
+        "gap": 0.020803186674409196,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.08,
+        "certified": true,
+        "states": 551,
+        "seconds": 2.179717699998946,
+        "gap": 1.0641487691032125e-13,
+        "rounds": 4
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 668,
+        "seconds": 1.6372300000002724,
+        "gap": 1.0658141036401503e-13,
+        "rounds": 3
+      }
+    ]
+  },
+  {
+    "grid": 24,
+    "seed": 2,
+    "runs": [
+      {
+        "fraction": 0.02,
+        "certified": false,
+        "states": 714,
+        "seconds": 11.271967799999402,
+        "gap": 0.007216138616667339,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.04,
+        "certified": true,
+        "states": 520,
+        "seconds": 3.1319462999999814,
+        "gap": 0.0015486530176102575,
+        "rounds": 6
+      },
+      {
+        "fraction": 0.08,
+        "certified": false,
+        "states": 1774,
+        "seconds": 23.57944779999889,
+        "gap": 0.00564315452268041,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 2836,
+        "seconds": 47.04929819999961,
+        "gap": 1.0672018824209317e-13,
+        "rounds": 19
+      }
+    ]
+  },
+  {
+    "grid": 24,
+    "seed": 3,
+    "runs": [
+      {
+        "fraction": 0.02,
+        "certified": true,
+        "states": 583,
+        "seconds": 7.715027200001714,
+        "gap": 0.005376979038284269,
+        "rounds": 14
+      },
+      {
+        "fraction": 0.04,
+        "certified": true,
+        "states": 630,
+        "seconds": 5.247873999998774,
+        "gap": 0.003294109024949643,
+        "rounds": 9
+      },
+      {
+        "fraction": 0.08,
+        "certified": true,
+        "states": 644,
+        "seconds": 3.0160799999994197,
+        "gap": 0.00537697903831913,
+        "rounds": 5
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 1011,
+        "seconds": 3.6304053999992902,
+        "gap": 0.0032941090249172245,
+        "rounds": 5
+      }
+    ]
+  },
+  {
+    "grid": 24,
+    "seed": 4,
+    "runs": [
+      {
+        "fraction": 0.02,
+        "certified": false,
+        "states": 701,
+        "seconds": 10.954241499999625,
+        "gap": 0.005868187244062531,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.04,
+        "certified": false,
+        "states": 1118,
+        "seconds": 14.497389199999816,
+        "gap": 0.009018051312930125,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.08,
+        "certified": false,
+        "states": 1936,
+        "seconds": 25.4235563000002,
+        "gap": 0.009018051312965791,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 862,
+        "seconds": 2.433304700000008,
+        "gap": 2.396391803882736e-07,
+        "rounds": 4
+      }
+    ]
+  }
+]

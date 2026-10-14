@@ -1,0 +1,3894 @@
+{
+  "scope": "same fixed Town01 product model, four actual CARLA traces",
+  "method": "monotone risk certificate with LP anchor oracle",
+  "variants": {
+    "floor_anchor": false,
+    "low_rank_repair": true,
+    "reduced_lp_repair": false,
+    "repair_max_changes": 16,
+    "repair_max_bases": 1,
+    "repair_gap_factor": 1.5,
+    "directional_upper": false,
+    "residual_upper": false,
+    "targeted_policy": false,
+    "targeted_gap_factor": null,
+    "lookahead_anchor": 2,
+    "lookahead_max_risk": null
+  },
+  "states": 8193,
+  "atlas_setup_s": 9.16632749999917,
+  "hybrid_lp_setup_s": 7.611766099998931,
+  "prewarm_center_s": 0.0,
+  "floor_anchor_s": 0.0,
+  "directional_reach_setup_s": 0.0,
+  "reach_upper": [],
+  "lp_setup_s": 7.493980100000044,
+  "anchor_theta": [
+    -0.6355423497944246,
+    -0.47967669673447644,
+    -0.3999670231703749,
+    -0.4796806223933413,
+    -0.6355408096469286
+  ],
+  "overall": {
+    "samples": 80,
+    "direct_hits": 68,
+    "full_fallbacks": 0,
+    "lp_fallbacks": 7,
+    "atlas_online_s": 2.021794399999635,
+    "lp_online_s": 7.338816700004827,
+    "atlas_p50_ms": 0.7049499999993714,
+    "atlas_p95_ms": 188.9736149987584,
+    "atlas_max_ms": 688.3725000006962,
+    "lp_p50_ms": 93.00634999999602,
+    "lp_p95_ms": 113.43204500099091,
+    "lp_max_ms": 803.8285999973596,
+    "max_objective_difference": 0.0004299867587365669,
+    "max_certificate_gap": 0.0015107737480839212,
+    "max_risk": 1.0,
+    "atlas_total_s": 11.188121899998805,
+    "lp_total_s": 14.832796800004871,
+    "total_speedup_lp_over_atlas": 1.3257628878718648
+  },
+  "episodes": [
+    {
+      "trace": "reproduction\\carla_local_risk\\grid32_first80\\carla_trace_20hz_grid32.json",
+      "walker_speed_mps": 1.3,
+      "walker_start_side": -1,
+      "crossing_offset_m": 0.0,
+      "summary": {
+        "samples": 80,
+        "direct_hits": 68,
+        "full_fallbacks": 0,
+        "lp_fallbacks": 7,
+        "atlas_online_s": 2.021794399999635,
+        "lp_online_s": 7.338816700004827,
+        "atlas_p50_ms": 0.7049499999993714,
+        "atlas_p95_ms": 188.9736149987584,
+        "atlas_max_ms": 688.3725000006962,
+        "lp_p50_ms": 93.00634999999602,
+        "lp_p95_ms": 113.43204500099091,
+        "lp_max_ms": 803.8285999973596,
+        "max_objective_difference": 0.0004299867587365669,
+        "max_certificate_gap": 0.0015107737480839212,
+        "max_risk": 1.0
+      },
+      "rows": [
+        {
+          "episode": 0,
+          "sample": 0,
+          "time_s": 0.0,
+          "theta": [
+            -0.6355423497944246,
+            -0.47967669673447644,
+            -0.3999670231703749,
+            -0.4796806223933413,
+            -0.6355408096469286
+          ],
+          "atlas_s": 0.003763799999433104,
+          "lp_s": 0.018691400000534486,
+          "atlas_objective": 0.15904595573438346,
+          "lp_objective": 0.15904595573438352,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 4.7452296092487245e-08,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "full_atlas_scan",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 1,
+          "time_s": 0.05,
+          "theta": [
+            -0.6346638278060641,
+            -0.47796514125509737,
+            -0.39782903759559374,
+            -0.4779682481274541,
+            -0.6346614279043921
+          ],
+          "atlas_s": 0.0005963000003248453,
+          "lp_s": 0.8038285999973596,
+          "atlas_objective": 0.15900631509742708,
+          "lp_objective": 0.15900631509742716,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 3.9688089252476466e-05,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 1156
+        },
+        {
+          "episode": 0,
+          "sample": 2,
+          "time_s": 0.1,
+          "theta": [
+            -0.6333418501503408,
+            -0.47538963030867376,
+            -0.39461183690300783,
+            -0.4753914936507364,
+            -0.6333381449109114
+          ],
+          "atlas_s": 0.0004255999992892612,
+          "lp_s": 0.10941060000186553,
+          "atlas_objective": 0.1589467137215273,
+          "lp_objective": 0.15894671372152747,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 9.928946515225245e-05,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 87
+        },
+        {
+          "episode": 0,
+          "sample": 3,
+          "time_s": 0.15,
+          "theta": [
+            -0.6315669120072527,
+            -0.4719316395677766,
+            -0.3902922727196122,
+            -0.47193181175507015,
+            -0.6315614323260337
+          ],
+          "atlas_s": 0.0005675999964296352,
+          "lp_s": 0.019323499996971805,
+          "atlas_objective": 0.1588667827901806,
+          "lp_objective": 0.15886678279018063,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 0.0001792203964989525,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 4,
+          "time_s": 0.2,
+          "theta": [
+            -0.6293329155994696,
+            -0.46757927994409176,
+            -0.38485548194679,
+            -0.4675772886493247,
+            -0.6293251671186855
+          ],
+          "atlas_s": 0.0004153000008955132,
+          "lp_s": 0.030087300001468975,
+          "atlas_objective": 0.15876632893012851,
+          "lp_objective": 0.15876632893012857,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 0.00027967425655103795,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 1
+        },
+        {
+          "episode": 0,
+          "sample": 5,
+          "time_s": 0.25,
+          "theta": [
+            -0.6266259143713279,
+            -0.46230536845534687,
+            -0.3782674936500905,
+            -0.46230070372006615,
+            -0.6266153641064349
+          ],
+          "atlas_s": 0.000727400001778733,
+          "lp_s": 0.10351349999837112,
+          "atlas_objective": 0.15864482921936732,
+          "lp_objective": 0.15864482921936737,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15904600318667955,
+          "gap": 0.000401173967312235,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 77
+        },
+        {
+          "episode": 0,
+          "sample": 6,
+          "time_s": 0.3,
+          "theta": [
+            -0.6234331142199607,
+            -0.4560872979621491,
+            -0.3705029626725789,
+            -0.4560840745116175,
+            -0.6234239781318829
+          ],
+          "atlas_s": 0.0006308000010903925,
+          "lp_s": 0.10583860000042478,
+          "atlas_objective": 0.1585018443934212,
+          "lp_objective": 0.15850184439342124,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15904600318667955,
+          "gap": 0.0005441587932583647,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 78
+        },
+        {
+          "episode": 0,
+          "sample": 7,
+          "time_s": 0.35,
+          "theta": [
+            -0.6197414934196599,
+            -0.4488974455326493,
+            -0.3615245693645115,
+            -0.44889525745585357,
+            -0.6197333456661921
+          ],
+          "atlas_s": 0.0006917999999132007,
+          "lp_s": 0.10921180000150343,
+          "atlas_objective": 0.15833694141607293,
+          "lp_objective": 0.15833694141607293,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 0.0007090617706066171,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 83
+        },
+        {
+          "episode": 0,
+          "sample": 8,
+          "time_s": 0.4,
+          "theta": [
+            -0.6155331995583321,
+            -0.44069859194737226,
+            -0.35128277574798616,
+            -0.44069213792996886,
+            -0.6155205876580891
+          ],
+          "atlas_s": 0.0004864000002271496,
+          "lp_s": 0.10878389999925275,
+          "atlas_objective": 0.15814950142787854,
+          "lp_objective": 0.1581495014278787,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 0.000896501758801016,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 91
+        },
+        {
+          "episode": 0,
+          "sample": 9,
+          "time_s": 0.45,
+          "theta": [
+            -0.6107838502441845,
+            -0.4314480440426325,
+            -0.3397302555330869,
+            -0.4314416172992259,
+            -0.6107711739493884
+          ],
+          "atlas_s": 0.0005702999987988733,
+          "lp_s": 0.10692209999979241,
+          "atlas_objective": 0.1579386679605289,
+          "lp_objective": 0.15793866796052894,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 0.0011073352261506408,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 81
+        },
+        {
+          "episode": 0,
+          "sample": 10,
+          "time_s": 0.5,
+          "theta": [
+            -0.6054803435521091,
+            -0.42111531674521063,
+            -0.32682273490757463,
+            -0.42110327715272544,
+            -0.6054618031007555
+          ],
+          "atlas_s": 0.00047650000124122016,
+          "lp_s": 0.10346019999997225,
+          "atlas_objective": 0.15770409948001396,
+          "lp_objective": 0.15770409948001407,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15904600318667955,
+          "gap": 0.0013419037066655926,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 77
+        },
+        {
+          "episode": 0,
+          "sample": 11,
+          "time_s": 0.55,
+          "theta": [
+            -0.5995946913692842,
+            -0.4096509361113747,
+            -0.31250472178798105,
+            -0.4096377223879939,
+            -0.5995748366968948
+          ],
+          "atlas_s": 0.0242048000000068,
+          "lp_s": 0.1040093000010529,
+          "atlas_objective": 0.15744486033874253,
+          "lp_objective": 0.15744486033874264,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15822462231357742,
+          "gap": 0.0007797619748348972,
+          "direct_hit": false,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": true,
+          "repair_changed_states": 15,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.017107799998484552,
+            "changed_states": 15,
+            "gap": 0.0007797619748348972,
+            "changed_state_indices": [
+              3165,
+              3677,
+              3673,
+              3676,
+              3164,
+              3672,
+              3160,
+              3161,
+              5220,
+              5221,
+              5216,
+              5217,
+              4465,
+              4469,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 6.60704109201049e-07,
+            "bound_source": "repaired_bellman_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0168900753475547,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "low_rank_local_repair",
+          "lp_iterations": 77
+        },
+        {
+          "episode": 0,
+          "sample": 12,
+          "time_s": 0.6,
+          "theta": [
+            -0.5931020344401217,
+            -0.3970039555675704,
+            -0.2967094346043173,
+            -0.39698895052249594,
+            -0.5930802243501845
+          ],
+          "atlas_s": 0.0004743999998026993,
+          "lp_s": 0.1052053999992495,
+          "atlas_objective": 0.1571601828584673,
+          "lp_objective": 0.1571601828584676,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15822462231357742,
+          "gap": 0.0010644394551101166,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 79
+        },
+        {
+          "episode": 0,
+          "sample": 13,
+          "time_s": 0.65,
+          "theta": [
+            -0.5862241600623955,
+            -0.38360364626202814,
+            -0.2799695757101879,
+            -0.38358079960149194,
+            -0.5861941792306157
+          ],
+          "atlas_s": 0.0005495000004884787,
+          "lp_s": 0.10683829999834416,
+          "atlas_objective": 0.15686008315211494,
+          "lp_objective": 0.15686008315211503,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15822462231357742,
+          "gap": 0.0013645391614624802,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 80
+        },
+        {
+          "episode": 0,
+          "sample": 14,
+          "time_s": 0.7,
+          "theta": [
+            -0.5792216411348468,
+            -0.3699632377822544,
+            -0.2629332076554005,
+            -0.36993789605728855,
+            -0.5791889819389224
+          ],
+          "atlas_s": 0.022361999999702675,
+          "lp_s": 0.10457469999892055,
+          "atlas_objective": 0.15655609909833676,
+          "lp_objective": 0.1565560990983369,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15775901790586982,
+          "gap": 0.0012029188075330655,
+          "direct_hit": false,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": true,
+          "repair_changed_states": 15,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.015486399999645073,
+            "changed_states": 15,
+            "gap": 0.0012029188075330655,
+            "changed_state_indices": [
+              3673,
+              3161,
+              3677,
+              3165,
+              3164,
+              3160,
+              3676,
+              3672,
+              5220,
+              5221,
+              5216,
+              5217,
+              4465,
+              4469,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 6.60704109201049e-07,
+            "bound_source": "repaired_bellman_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0656989123761011,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "low_rank_local_repair",
+          "lp_iterations": 79
+        },
+        {
+          "episode": 0,
+          "sample": 15,
+          "time_s": 0.75,
+          "theta": [
+            -0.5720932922886455,
+            -0.3560776834997731,
+            -0.24559060839049085,
+            -0.3560497167814507,
+            -0.5720578238032258
+          ],
+          "atlas_s": 0.0006522000003315043,
+          "lp_s": 0.10690480000266689,
+          "atlas_objective": 0.1562482441577859,
+          "lp_objective": 0.15624824415778604,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15775901790586982,
+          "gap": 0.0015107737480839212,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 74
+        },
+        {
+          "episode": 0,
+          "sample": 16,
+          "time_s": 0.8,
+          "theta": [
+            -0.5648484059658402,
+            -0.34196197758325286,
+            -0.227956624874613,
+            -0.34192504440463933,
+            -0.5648036193475428
+          ],
+          "atlas_s": 0.6883725000006962,
+          "lp_s": 0.10394720000113011,
+          "atlas_objective": 0.15593698137905307,
+          "lp_objective": 0.1559369813790569,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15594698137905308,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.017285300000366988,
+            "changed_states": 16,
+            "gap": 0.0018220365268130367,
+            "changed_state_indices": [
+              3160,
+              3676,
+              4688,
+              3942,
+              5221,
+              5220,
+              5216,
+              5217,
+              4468,
+              3952,
+              3969,
+              3973,
+              3964,
+              4465,
+              4469,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                10,
+                18
+              ],
+              [
+                12,
+                15
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.00012397833306326822,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.16836921798714,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 79
+        },
+        {
+          "episode": 0,
+          "sample": 17,
+          "time_s": 0.85,
+          "theta": [
+            -0.5574838032320117,
+            -0.32761604199542593,
+            -0.21003879518856117,
+            -0.32757602944774367,
+            -0.5574357465841602
+          ],
+          "atlas_s": 0.0005845000014232937,
+          "lp_s": 0.1274197999991884,
+          "atlas_objective": 0.15562225594973067,
+          "lp_objective": 0.1556565972781512,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15594698137905308,
+          "gap": 0.0003247254293224089,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 87
+        },
+        {
+          "episode": 0,
+          "sample": 18,
+          "time_s": 0.9,
+          "theta": [
+            -0.5500059466680092,
+            -0.31304945304429554,
+            -0.1918453176280286,
+            -0.3130062247551413,
+            -0.5499544832464112
+          ],
+          "atlas_s": 0.0005023000012442935,
+          "lp_s": 0.10960859999977401,
+          "atlas_objective": 0.15530440314929056,
+          "lp_objective": 0.15540435659777357,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15594698137905308,
+          "gap": 0.0006425782297625193,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 76
+        },
+        {
+          "episode": 0,
+          "sample": 19,
+          "time_s": 0.95,
+          "theta": [
+            -0.542421968170473,
+            -0.2982726988639659,
+            -0.17338503972380304,
+            -0.29821931094975795,
+            -0.5423599712982184
+          ],
+          "atlas_s": 0.0005611000015051104,
+          "lp_s": 0.10436440000194125,
+          "atlas_objective": 0.15498377985593198,
+          "lp_objective": 0.15514952799125006,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15594698137905308,
+          "gap": 0.0009632015231210989,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 20,
+          "time_s": 1.0,
+          "theta": [
+            -0.5347288838335995,
+            -0.28328666957032134,
+            -0.15466744359166107,
+            -0.2832295839370871,
+            -0.5346629926062321
+          ],
+          "atlas_s": 0.0005220000020926818,
+          "lp_s": 0.020679799999925308,
+          "atlas_objective": 0.15466033588061628,
+          "lp_objective": 0.15489206379373485,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15594698137905308,
+          "gap": 0.0012866454984367948,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 21,
+          "time_s": 1.05,
+          "theta": [
+            -0.5269379652271158,
+            -0.26810641010723546,
+            -0.13570268820856146,
+            -0.26803826736386194,
+            -0.5268606268149465
+          ],
+          "atlas_s": 0.022034800000255927,
+          "lp_s": 0.10604819999934989,
+          "atlas_objective": 0.15433458636264946,
+          "lp_objective": 0.15463236029584906,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.1554637229946373,
+          "gap": 0.001129136631987826,
+          "direct_hit": false,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": true,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.016039699999964796,
+            "changed_states": 16,
+            "gap": 0.001129136631987826,
+            "changed_state_indices": [
+              5221,
+              5216,
+              5217,
+              1496,
+              1497,
+              1500,
+              1501,
+              3942,
+              3952,
+              3969,
+              3973,
+              4468,
+              3964,
+              4465,
+              4469,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                12,
+                15
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.002634807194287214,
+            "bound_source": "repaired_bellman_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0446722197402627,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "low_rank_local_repair",
+          "lp_iterations": 76
+        },
+        {
+          "episode": 0,
+          "sample": 22,
+          "time_s": 1.1,
+          "theta": [
+            -0.5190463480950746,
+            -0.2527334502120664,
+            -0.11650156248053944,
+            -0.25266111049957196,
+            -0.5189646110195254
+          ],
+          "atlas_s": 0.0004967000022588763,
+          "lp_s": 0.11331100000097649,
+          "atlas_objective": 0.15400648235023068,
+          "lp_objective": 0.15437037233486478,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999998,
+          "upper": 0.1554637229946373,
+          "gap": 0.00145724064440661,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 88
+        },
+        {
+          "episode": 0,
+          "sample": 23,
+          "time_s": 1.15,
+          "theta": [
+            -0.511062341880155,
+            -0.23718047052054758,
+            -0.09707552575959832,
+            -0.23710378415909594,
+            -0.5109760569917141
+          ],
+          "atlas_s": 0.022194500001205597,
+          "lp_s": 0.10473060000003898,
+          "atlas_objective": 0.1536764134488157,
+          "lp_objective": 0.15410640020755226,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15516346881628523,
+          "gap": 0.001487055367469542,
+          "direct_hit": false,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": true,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.016149200000654673,
+            "changed_states": 16,
+            "gap": 0.001487055367469542,
+            "changed_state_indices": [
+              1497,
+              1500,
+              1501,
+              5220,
+              5221,
+              5216,
+              5217,
+              3942,
+              3952,
+              3969,
+              3973,
+              4468,
+              3964,
+              4465,
+              4469,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                15
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.0030132025612283897,
+            "bound_source": "repaired_bellman_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.1629587194556072,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "low_rank_local_repair",
+          "lp_iterations": 94
+        },
+        {
+          "episode": 0,
+          "sample": 24,
+          "time_s": 1.2,
+          "theta": [
+            -0.5029949535815461,
+            -0.22146109129716773,
+            -0.07743668734024456,
+            -0.22137206022875167,
+            -0.502895912999126
+          ],
+          "atlas_s": 0.18307049999930314,
+          "lp_s": 0.11204550000184099,
+          "atlas_objective": 0.15384076180540263,
+          "lp_objective": 0.1538407618082292,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15385076180540264,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.015928200002235826,
+            "changed_states": 16,
+            "gap": 0.0016390340804683101,
+            "changed_state_indices": [
+              1497,
+              1500,
+              1501,
+              5221,
+              5220,
+              5217,
+              5216,
+              3942,
+              3952,
+              3969,
+              3973,
+              4468,
+              3964,
+              4465,
+              4469,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                27,
+                5
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                12,
+                15
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.0030132025612283897,
+            "bound_source": "repaired_bellman_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.1859295334702342,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 90
+        },
+        {
+          "episode": 0,
+          "sample": 25,
+          "time_s": 1.25,
+          "theta": [
+            -0.4948414725992403,
+            -0.20557777087504014,
+            -0.05759778208019761,
+            -0.20548387604913732,
+            -0.4947373630606474
+          ],
+          "atlas_s": 0.0007313999994948972,
+          "lp_s": 0.11847130000023753,
+          "atlas_objective": 0.15357241119730536,
+          "lp_objective": 0.15357341364969998,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15385076180540264,
+          "gap": 0.0002783506080972775,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 76
+        },
+        {
+          "episode": 0,
+          "sample": 26,
+          "time_s": 1.3,
+          "theta": [
+            -0.4866152027746017,
+            -0.1895526086987176,
+            -0.037581645961710874,
+            -0.18945370287695118,
+            -0.4865058784114489
+          ],
+          "atlas_s": 0.0014157000005070586,
+          "lp_s": 0.11573190000126488,
+          "atlas_objective": 0.15330255437940796,
+          "lp_objective": 0.15330480878802255,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15385076180540264,
+          "gap": 0.000548207425994679,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 78
+        },
+        {
+          "episode": 0,
+          "sample": 27,
+          "time_s": 1.35,
+          "theta": [
+            -0.47831854624773906,
+            -0.1733860288273954,
+            -0.017383493865071875,
+            -0.17327345266897454,
+            -0.47819512085193905
+          ],
+          "atlas_s": 0.000653500002954388,
+          "lp_s": 0.0922208000010869,
+          "atlas_objective": 0.15303127926276483,
+          "lp_objective": 0.15303503834264337,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15385076180540264,
+          "gap": 0.0008194825426378061,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 28,
+          "time_s": 1.4,
+          "theta": [
+            -0.4699527465486215,
+            -0.15708884365987608,
+            0.00297269118229182,
+            -0.15697072266981338,
+            -0.46982356943387016
+          ],
+          "atlas_s": 0.0004936000004818197,
+          "lp_s": 0.09314799999992829,
+          "atlas_objective": 0.1527586640244905,
+          "lp_objective": 0.15276418350233834,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15385076180540264,
+          "gap": 0.0010920977809121268,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 74
+        },
+        {
+          "episode": 0,
+          "sample": 29,
+          "time_s": 1.45,
+          "theta": [
+            -0.461528324840617,
+            -0.14067740718489552,
+            0.02347165509460769,
+            -0.14055358722349776,
+            -0.4613932437328543
+          ],
+          "atlas_s": 0.0009648000013839919,
+          "lp_s": 0.08933090000209631,
+          "atlas_objective": 0.15248505831478232,
+          "lp_objective": 0.15249259449645997,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15385076180540264,
+          "gap": 0.001365703490620318,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 76
+        },
+        {
+          "episode": 0,
+          "sample": 30,
+          "time_s": 1.5,
+          "theta": [
+            -0.4530565027842963,
+            -0.12416899468765719,
+            0.04409754683486944,
+            -0.12403015516823235,
+            -0.4529059532175057
+          ],
+          "atlas_s": 0.1708954999994603,
+          "lp_s": 0.09790259999863338,
+          "atlas_objective": 0.15226360330880886,
+          "lp_objective": 0.15226360330880875,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15227360330880887,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.01856959999713581,
+            "changed_states": 16,
+            "gap": 0.0016301245510611795,
+            "changed_state_indices": [
+              3974,
+              4725,
+              4721,
+              3942,
+              3952,
+              3969,
+              3973,
+              4468,
+              3964,
+              4465,
+              4469,
+              3689,
+              3693,
+              3688,
+              3692,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                12,
+                15
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.007932546215274172,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0773380319931205,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 84
+        },
+        {
+          "episode": 0,
+          "sample": 31,
+          "time_s": 1.55,
+          "theta": [
+            -0.4445347304632641,
+            -0.1075676924918314,
+            0.06483395530207203,
+            -0.10742262392204771,
+            -0.4443777452803226
+          ],
+          "atlas_s": 0.000698499999998603,
+          "lp_s": 0.08699069999784115,
+          "atlas_objective": 0.15206003227957815,
+          "lp_objective": 0.15206190182772347,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15227360330880887,
+          "gap": 0.00021357102923072468,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 73
+        },
+        {
+          "episode": 0,
+          "sample": 32,
+          "time_s": 1.6,
+          "theta": [
+            -0.4359745854884636,
+            -0.09089158150478993,
+            0.08566388301443317,
+            -0.09074013274374959,
+            -0.43581101615811657
+          ],
+          "atlas_s": 0.0005854000010003801,
+          "lp_s": 0.03205029999662656,
+          "atlas_objective": 0.15185568371763294,
+          "lp_objective": 0.15186026010655085,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15227360330880887,
+          "gap": 0.00041791959117593036,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 2
+        },
+        {
+          "episode": 0,
+          "sample": 33,
+          "time_s": 1.65,
+          "theta": [
+            -0.4273883332959191,
+            -0.07415963158785832,
+            0.10656978552181084,
+            -0.07399180765948543,
+            -0.4272079235093895
+          ],
+          "atlas_s": 0.000680199998896569,
+          "lp_s": 0.08983040000020992,
+          "atlas_objective": 0.15165084073494292,
+          "lp_objective": 0.15165896006947416,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15227360330880887,
+          "gap": 0.0006227625738659537,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 77
+        },
+        {
+          "episode": 0,
+          "sample": 34,
+          "time_s": 1.7,
+          "theta": [
+            -0.4187734014187796,
+            -0.05737656236253175,
+            0.12753361457398205,
+            -0.05720183502651133,
+            -0.41858588417263654
+          ],
+          "atlas_s": 0.0006419999990612268,
+          "lp_s": 0.08595539999805624,
+          "atlas_objective": 0.15144546516039956,
+          "lp_objective": 0.15145796543382925,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15227360330880887,
+          "gap": 0.0008281381484093187,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 77
+        },
+        {
+          "episode": 0,
+          "sample": 35,
+          "time_s": 1.75,
+          "theta": [
+            -0.4101476530615451,
+            -0.04056721164871946,
+            0.14853678713102947,
+            -0.040375134965060955,
+            -0.4099423093712612
+          ],
+          "atlas_s": 0.0007196000005933456,
+          "lp_s": 0.01847079999788548,
+          "atlas_objective": 0.15123996118806451,
+          "lp_objective": 0.1512576705030029,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15227360330880887,
+          "gap": 0.0010336421207443602,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 36,
+          "time_s": 1.8,
+          "theta": [
+            -0.40150845286243086,
+            -0.023736631961699617,
+            0.16956027006134677,
+            -0.02353713852365913,
+            -0.4012954892953653
+          ],
+          "atlas_s": 0.0005433000005723443,
+          "lp_s": 0.09382840000034776,
+          "atlas_objective": 0.15103428943680922,
+          "lp_objective": 0.15105803380681995,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15227360330880887,
+          "gap": 0.0012393138719996588,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 84
+        },
+        {
+          "episode": 0,
+          "sample": 37,
+          "time_s": 1.85,
+          "theta": [
+            -0.39286899105238526,
+            -0.006905481581308548,
+            0.1905845513493729,
+            -0.006698434201932946,
+            -0.3926482743538935
+          ],
+          "atlas_s": 0.0007263000006787479,
+          "lp_s": 0.08880219999991823,
+          "atlas_objective": 0.15082875275434965,
+          "lp_objective": 0.1508593443706227,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15227360330880887,
+          "gap": 0.001444850554459226,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 76
+        },
+        {
+          "episode": 0,
+          "sample": 38,
+          "time_s": 1.9,
+          "theta": [
+            -0.3842431025141074,
+            0.0099047814821136,
+            0.21158968989167581,
+            0.010130502332006186,
+            -0.3840032225470428
+          ],
+          "atlas_s": 0.22896919999766396,
+          "lp_s": 0.10194490000139922,
+          "atlas_objective": 0.15066189966859647,
+          "lp_objective": 0.15066189966859644,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0000000000000002,
+          "upper": 0.15067189966859648,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.016656200001307297,
+            "changed_states": 16,
+            "gap": 0.0016390995246754192,
+            "changed_state_indices": [
+              3974,
+              3942,
+              4725,
+              4721,
+              3952,
+              3969,
+              3973,
+              4468,
+              3964,
+              4469,
+              4465,
+              3689,
+              3693,
+              3688,
+              3692,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                16,
+                15
+              ],
+              [
+                12,
+                15
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.09123097225926968,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.095330037997452,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 86
+        },
+        {
+          "episode": 0,
+          "sample": 39,
+          "time_s": 1.95,
+          "theta": [
+            -0.37563201285115366,
+            0.026680895024725926,
+            0.2325455381352275,
+            0.026914649805083624,
+            -0.3753839025686887
+          ],
+          "atlas_s": 0.0006358999999065418,
+          "lp_s": 0.08941979999872274,
+          "atlas_objective": 0.15046048716377758,
+          "lp_objective": 0.15046574012292566,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0000000000000002,
+          "upper": 0.15067189966859648,
+          "gap": 0.00021141250481890306,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 82
+        },
+        {
+          "episode": 0,
+          "sample": 40,
+          "time_s": 2.0,
+          "theta": [
+            -0.3670416687152298,
+            0.04341665976189146,
+            0.25345107905490405,
+            0.04365858020480218,
+            -0.36678520091675004
+          ],
+          "atlas_s": 0.0006700999983877409,
+          "lp_s": 0.10650170000008075,
+          "atlas_objective": 0.15025967115327024,
+          "lp_objective": 0.1502709767851766,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15067189966859648,
+          "gap": 0.0004122285153262406,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 81
+        },
+        {
+          "episode": 0,
+          "sample": 41,
+          "time_s": 2.05,
+          "theta": [
+            -0.35849075601480807,
+            0.06008150417380764,
+            0.2742754087638697,
+            0.06034337499414355,
+            -0.35821383793774175
+          ],
+          "atlas_s": 0.0013435000000754371,
+          "lp_s": 0.11311790000036126,
+          "atlas_objective": 0.15005987418464173,
+          "lp_objective": 0.15007800453932446,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15067189966859648,
+          "gap": 0.0006120254839547534,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 78
+        },
+        {
+          "episode": 0,
+          "sample": 42,
+          "time_s": 2.1,
+          "theta": [
+            -0.34997617954625093,
+            0.07666990435442522,
+            0.29499719696465854,
+            0.07694039473288616,
+            -0.34969045435631363
+          ],
+          "atlas_s": 0.0005974000014248304,
+          "lp_s": 0.0979101000011724,
+          "atlas_objective": 0.14986104818527027,
+          "lp_objective": 0.14988676020281413,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.15067189966859648,
+          "gap": 0.0008108514833262137,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 43,
+          "time_s": 2.15,
+          "theta": [
+            -0.34151269917527916,
+            0.09315882668187547,
+            0.3155948172603391,
+            0.09343804059519778,
+            -0.3412180684983861
+          ],
+          "atlas_s": 0.000952299997152295,
+          "lp_s": 0.09807400000136113,
+          "atlas_objective": 0.14966352326138627,
+          "lp_objective": 0.14969754294666815,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15067189966859648,
+          "gap": 0.0010083764072102153,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 76
+        },
+        {
+          "episode": 0,
+          "sample": 44,
+          "time_s": 2.2,
+          "theta": [
+            -0.33311563168239144,
+            0.10952460070545822,
+            0.3360464076759284,
+            0.10982497362751564,
+            -0.3327993348273188
+          ],
+          "atlas_s": 0.001217299999552779,
+          "lp_s": 0.0999275000031048,
+          "atlas_objective": 0.14946764085367203,
+          "lp_objective": 0.14951065776517924,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15067189966859648,
+          "gap": 0.001204258814924447,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 79
+        },
+        {
+          "episode": 0,
+          "sample": 45,
+          "time_s": 2.25,
+          "theta": [
+            -0.32478147990214,
+            0.12576181235929806,
+            0.3563299338304988,
+            0.12607131646323189,
+            -0.32445587599657655
+          ],
+          "atlas_s": 0.0007190000033006072,
+          "lp_s": 0.1050390000018524,
+          "atlas_objective": 0.14927334402639889,
+          "lp_objective": 0.1493260274579032,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.15067189966859648,
+          "gap": 0.0013985556421975964,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 46,
+          "time_s": 2.3,
+          "theta": [
+            -0.3165321546558614,
+            0.14184022133552943,
+            0.37642316651768626,
+            0.14217171403821216,
+            -0.31618404986665216
+          ],
+          "atlas_s": 0.18863739999869722,
+          "lp_s": 0.09792340000058175,
+          "atlas_objective": 0.14914408295597206,
+          "lp_objective": 0.14914408295597187,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14915408295597207,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.018154800000047544,
+            "changed_states": 16,
+            "gap": 0.001579471449349723,
+            "changed_state_indices": [
+              4217,
+              4221,
+              4725,
+              4721,
+              3952,
+              3969,
+              3973,
+              4468,
+              3964,
+              4465,
+              4469,
+              3689,
+              3693,
+              3688,
+              3692,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.08515497659881,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0669895153044366,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 78
+        },
+        {
+          "episode": 0,
+          "sample": 47,
+          "time_s": 2.35,
+          "theta": [
+            -0.30836382163317544,
+            0.15775462973397003,
+            0.3963037906405029,
+            0.15809562284373313,
+            -0.3080060478996445
+          ],
+          "atlas_s": 0.0008605000002717134,
+          "lp_s": 0.09814019999976153,
+          "atlas_objective": 0.14895668431524767,
+          "lp_objective": 0.14896473669433416,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14915408295597207,
+          "gap": 0.0001973986407244055,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 48,
+          "time_s": 2.4,
+          "theta": [
+            -0.30029214002701365,
+            0.17348080926984877,
+            0.41594938392354996,
+            0.17383136459938586,
+            -0.29992464254017426
+          ],
+          "atlas_s": 0.0006692999995721038,
+          "lp_s": 0.10248049999790965,
+          "atlas_objective": 0.14877157689437492,
+          "lp_objective": 0.14879697841028655,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14915408295597207,
+          "gap": 0.00038250606159714873,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 82
+        },
+        {
+          "episode": 0,
+          "sample": 49,
+          "time_s": 2.45,
+          "theta": [
+            -0.2923332254873714,
+            0.188994070988606,
+            0.4353374841826083,
+            0.18936765812803702,
+            -0.2919421818832231
+          ],
+          "atlas_s": 0.0006570000005012844,
+          "lp_s": 0.02223740000044927,
+          "atlas_objective": 0.14858911255597684,
+          "lp_objective": 0.14866961631186018,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14915408295597207,
+          "gap": 0.0005649703999952294,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 50,
+          "time_s": 2.5,
+          "theta": [
+            -0.2844826308577766,
+            0.20428976691604395,
+            0.45444565841295637,
+            0.2046732206043944,
+            -0.28408156833514275
+          ],
+          "atlas_s": 0.0007269999987329356,
+          "lp_s": 0.09286470000006375,
+          "atlas_objective": 0.14840921574613725,
+          "lp_objective": 0.14854456206267524,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14915408295597207,
+          "gap": 0.0007448672098348263,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 78
+        },
+        {
+          "episode": 0,
+          "sample": 51,
+          "time_s": 2.55,
+          "theta": [
+            -0.27675993751777095,
+            0.2193363467025704,
+            0.4732427366749159,
+            0.2197296869285279,
+            -0.2763488441279074
+          ],
+          "atlas_s": 0.0008035999999265186,
+          "lp_s": 0.09148510000159149,
+          "atlas_objective": 0.14823231740509832,
+          "lp_objective": 0.1484220849186682,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14915408295597207,
+          "gap": 0.0009217655508737543,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 52,
+          "time_s": 2.6,
+          "theta": [
+            -0.2691742677257507,
+            0.2341230589122396,
+            0.49172405803043384,
+            0.23454034694734593,
+            -0.2687387135239634
+          ],
+          "atlas_s": 0.0005668999983754475,
+          "lp_s": 0.09001340000031632,
+          "atlas_objective": 0.14805860755588077,
+          "lp_objective": 0.14830228396882028,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14915408295597207,
+          "gap": 0.0010954754000913058,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 80
+        },
+        {
+          "episode": 0,
+          "sample": 53,
+          "time_s": 2.65,
+          "theta": [
+            -0.2617240856495533,
+            0.24863896233880056,
+            0.5098585516125269,
+            0.24906637716108504,
+            -0.2612782710656274
+          ],
+          "atlas_s": 0.0007695999993302394,
+          "lp_s": 0.08856250000098953,
+          "atlas_objective": 0.1478880781595301,
+          "lp_objective": 0.14818513321802443,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14915408295597207,
+          "gap": 0.001266004796441983,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 72
+        },
+        {
+          "episode": 0,
+          "sample": 54,
+          "time_s": 2.7,
+          "theta": [
+            -0.25442553599780093,
+            0.2628595161127254,
+            0.5276241959683625,
+            0.2632970543536186,
+            -0.2539694729484261
+          ],
+          "atlas_s": 0.0006331000004138332,
+          "lp_s": 0.022262399997998727,
+          "atlas_objective": 0.1477210798882093,
+          "lp_objective": 0.14807084066666673,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14915408295597207,
+          "gap": 0.0014330030677627836,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 55,
+          "time_s": 2.75,
+          "theta": [
+            -0.24729507305267684,
+            0.2767599654208004,
+            0.5449991887260865,
+            0.27722222047601486,
+            -0.24681378490668648
+          ],
+          "atlas_s": 0.20815889999721549,
+          "lp_s": 0.09578549999787356,
+          "atlas_objective": 0.14795961529791987,
+          "lp_objective": 0.14795961529791982,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.017435400000977097,
+            "changed_states": 16,
+            "gap": 0.0015662617002325518,
+            "changed_state_indices": [
+              4477,
+              3952,
+              4217,
+              4221,
+              3973,
+              3969,
+              4468,
+              3964,
+              4465,
+              4469,
+              4192,
+              3689,
+              3693,
+              3688,
+              3692,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                15,
+                17
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.13886028623168567,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0816125590314363,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 71
+        },
+        {
+          "episode": 0,
+          "sample": 56,
+          "time_s": 2.8,
+          "theta": [
+            -0.24032663606454396,
+            0.29033760339442827,
+            0.5619620186444887,
+            0.2908101265860199,
+            -0.23983496747096789
+          ],
+          "atlas_s": 0.000574500001675915,
+          "lp_s": 0.03411889999915729,
+          "atlas_objective": 0.1478434506206964,
+          "lp_objective": 0.14785135916986655,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.00012616467722348368,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 2
+        },
+        {
+          "episode": 0,
+          "sample": 57,
+          "time_s": 2.85,
+          "theta": [
+            -0.23353634755128105,
+            0.30356822689088125,
+            0.5784914541402768,
+            0.30405097699823935,
+            -0.2330343489640756
+          ],
+          "atlas_s": 0.0007389999991573859,
+          "lp_s": 0.09334640000088257,
+          "atlas_objective": 0.1477300888731564,
+          "lp_objective": 0.14774627451375158,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.00023952642476349206,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 73
+        },
+        {
+          "episode": 0,
+          "sample": 58,
+          "time_s": 2.9,
+          "theta": [
+            -0.22694055838818739,
+            0.31642755089065666,
+            0.5945666150295128,
+            0.3169356210392331,
+            -0.2264127396550506
+          ],
+          "atlas_s": 0.0006220000032044481,
+          "lp_s": 0.03467799999998533,
+          "atlas_objective": 0.1476197994460642,
+          "lp_objective": 0.14764456385772784,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.00034981585185567265,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 1
+        },
+        {
+          "episode": 0,
+          "sample": 59,
+          "time_s": 2.95,
+          "theta": [
+            -0.2205322143756494,
+            0.32891425838457033,
+            0.6101670442098508,
+            0.3294326074661267,
+            -0.219994028041137
+          ],
+          "atlas_s": 0.0007652999993297271,
+          "lp_s": 0.09020430000236956,
+          "atlas_objective": 0.1475125109368261,
+          "lp_objective": 0.14754611490702707,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0004571043610937797,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 70
+        },
+        {
+          "episode": 0,
+          "sample": 60,
+          "time_s": 3.0,
+          "theta": [
+            -0.21433518144705288,
+            0.3409970738220356,
+            0.6252726855969011,
+            0.34154109947824773,
+            -0.2137708243326899
+          ],
+          "atlas_s": 0.0006060999985493254,
+          "lp_s": 0.08616729999994277,
+          "atlas_objective": 0.14740860262862754,
+          "lp_objective": 0.1474512285622306,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.0005610126692923434,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 70
+        },
+        {
+          "episode": 0,
+          "sample": 61,
+          "time_s": 3.05,
+          "theta": [
+            -0.20834167956988292,
+            0.3526757555011957,
+            0.6398640017122876,
+            0.3532300427941961,
+            -0.20776698770994417
+          ],
+          "atlas_s": 0.0008257999979832675,
+          "lp_s": 0.08863689999998314,
+          "atlas_objective": 0.14730799176438572,
+          "lp_objective": 0.1473597827900768,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0006616235335341614,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 70
+        },
+        {
+          "episode": 0,
+          "sample": 62,
+          "time_s": 3.1,
+          "theta": [
+            -0.20256739055881523,
+            0.3639274056768147,
+            0.6539219500558213,
+            0.3644918426428423,
+            -0.20198248616233827
+          ],
+          "atlas_s": 0.0005560999998124316,
+          "lp_s": 0.08737439999822527,
+          "atlas_objective": 0.1472109380569986,
+          "lp_objective": 0.14727196760209887,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.0007586772409212683,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 69
+        },
+        {
+          "episode": 0,
+          "sample": 63,
+          "time_s": 3.15,
+          "theta": [
+            -0.1970280830472393,
+            0.3747292678899994,
+            0.6674280526428287,
+            0.37531966740660994,
+            -0.19641673592764097
+          ],
+          "atlas_s": 0.0007325000005948823,
+          "lp_s": 0.08949459999712417,
+          "atlas_objective": 0.1471177028579982,
+          "lp_objective": 0.1471879722667935,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0008519124399216926,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 67
+        },
+        {
+          "episode": 0,
+          "sample": 64,
+          "time_s": 3.2,
+          "theta": [
+            -0.19171723697749932,
+            0.3850781743404872,
+            0.6803585273276407,
+            0.38567859054490716,
+            -0.1910958275577792
+          ],
+          "atlas_s": 0.0006244999967748299,
+          "lp_s": 0.09793350000109058,
+          "atlas_objective": 0.14702822529429443,
+          "lp_objective": 0.14710769678141256,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0009413900036254474,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 72
+        },
+        {
+          "episode": 0,
+          "sample": 65,
+          "time_s": 3.25,
+          "theta": [
+            -0.18664504823090855,
+            0.39496216152993724,
+            0.6927082985155981,
+            0.39557245100465543,
+            -0.18601373039833025
+          ],
+          "atlas_s": 0.0007114000000001397,
+          "lp_s": 0.09201500000199303,
+          "atlas_objective": 0.1469426729381102,
+          "lp_objective": 0.1470312471909253,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.001026942359809685,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 67
+        },
+        {
+          "episode": 0,
+          "sample": 66,
+          "time_s": 3.3,
+          "theta": [
+            -0.18182924395461408,
+            0.4043548529273542,
+            0.7044546105075875,
+            0.40499118689621105,
+            -0.18117141879261656
+          ],
+          "atlas_s": 0.0005845999985467643,
+          "lp_s": 0.08872709999923245,
+          "atlas_objective": 0.1468613402048581,
+          "lp_objective": 0.14695884212147073,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0011082750930617724,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 78
+        },
+        {
+          "episode": 0,
+          "sample": 67,
+          "time_s": 3.35,
+          "theta": [
+            -0.1772596064324481,
+            0.41325987777946027,
+            0.715581663171561,
+            0.413905857004391,
+            -0.17659211920074003
+          ],
+          "atlas_s": 0.0008465999999316409,
+          "lp_s": 0.08748049999849172,
+          "atlas_objective": 0.1467841036605506,
+          "lp_objective": 0.14689033010797461,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0011855116373692687,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 74
+        },
+        {
+          "episode": 0,
+          "sample": 68,
+          "time_s": 3.4,
+          "theta": [
+            -0.17295064539702998,
+            0.42165706858357876,
+            0.7260743829789098,
+            0.4223124931490796,
+            -0.17227370704066813
+          ],
+          "atlas_s": 0.00065819999872474,
+          "lp_s": 0.1081642000026477,
+          "atlas_objective": 0.1467112031164264,
+          "lp_objective": 0.14682588311110467,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0012584121814934734,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 75
+        },
+        {
+          "episode": 0,
+          "sample": 69,
+          "time_s": 3.45,
+          "theta": [
+            -0.16891678697338985,
+            0.42952665487144626,
+            0.7359184851341636,
+            0.430207993622159,
+            -0.16821349207525138
+          ],
+          "atlas_s": 0.0007896999995864462,
+          "lp_s": 0.0927880000017467,
+          "atlas_objective": 0.1466428766821248,
+          "lp_objective": 0.14676567125383763,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.0013267386157950756,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 70
+        },
+        {
+          "episode": 0,
+          "sample": 70,
+          "time_s": 3.5,
+          "theta": [
+            -0.16514648072251714,
+            0.43687451046519477,
+            0.7451005332406684,
+            0.43756495748355784,
+            -0.16443409120328312
+          ],
+          "atlas_s": 0.0006027000017638784,
+          "lp_s": 0.020080499998584855,
+          "atlas_objective": 0.14657897739828715,
+          "lp_objective": 0.14670952851736813,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0013906378996327295,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 71,
+          "time_s": 3.55,
+          "theta": [
+            -0.16166207237801844,
+            0.4436738157658564,
+            0.7536079057076457,
+            0.44439000047266597,
+            -0.1609235172780492
+          ],
+          "atlas_s": 0.0007716000000073109,
+          "lp_s": 0.020346799999970244,
+          "atlas_objective": 0.14651985822363262,
+          "lp_objective": 0.14665772846587066,
+          "atlas_risk": 1.0,
+          "lp_risk": 0.9999999999999999,
+          "upper": 0.14796961529791988,
+          "gap": 0.0014497570742872667,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 72,
+          "time_s": 3.6,
+          "theta": [
+            -0.15845109534037816,
+            0.4499320303899257,
+            0.7614288978791468,
+            0.4506569087197212,
+            -0.15770388043936534
+          ],
+          "atlas_s": 0.017003000000840984,
+          "lp_s": 0.0916389000012714,
+          "atlas_objective": 0.14656294658759794,
+          "lp_objective": 0.1466100955266318,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.00140666871032194,
+          "direct_hit": false,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": true,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.009293999999499647,
+            "changed_states": 16,
+            "gap": 0.00140666871032194,
+            "changed_state_indices": [
+              3969,
+              3973,
+              4473,
+              4477,
+              4221,
+              4217,
+              4468,
+              3964,
+              4465,
+              4469,
+              4192,
+              3689,
+              3693,
+              3688,
+              3692,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": null,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0269711782667534,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "low_rank_local_repair",
+          "lp_iterations": 68
+        },
+        {
+          "episode": 0,
+          "sample": 73,
+          "time_s": 3.65,
+          "theta": [
+            -0.1555266046828454,
+            0.45563210426609,
+            0.7685526848674091,
+            0.4563654012492171,
+            -0.15477101632567813
+          ],
+          "atlas_s": 0.0008426999993389472,
+          "lp_s": 0.09268169999995735,
+          "atlas_objective": 0.146519312369287,
+          "lp_objective": 0.1465667863675369,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14796961529791988,
+          "gap": 0.0014503029286328795,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 68
+        },
+        {
+          "episode": 0,
+          "sample": 74,
+          "time_s": 3.7,
+          "theta": [
+            -0.1529014384855103,
+            0.4607575718184487,
+            0.774969374261681,
+            0.4615161062753923,
+            -0.15212021016560318
+          ],
+          "atlas_s": 0.19536169999992126,
+          "lp_s": 0.03522050000174204,
+          "atlas_objective": 0.14652795314845474,
+          "lp_objective": 0.1465279531484546,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14653795314845475,
+          "gap": 1e-05,
+          "direct_hit": false,
+          "lp_fallback": true,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": true,
+          "repair_certified": false,
+          "repair_changed_states": 16,
+          "repair_info": {
+            "reason": null,
+            "seconds": 0.01657340000019758,
+            "changed_states": 16,
+            "gap": 0.0014893689515602382,
+            "changed_state_indices": [
+              3969,
+              3973,
+              4473,
+              4477,
+              4221,
+              4217,
+              4468,
+              3964,
+              4465,
+              4469,
+              4192,
+              3689,
+              3693,
+              3688,
+              3692,
+              4196
+            ],
+            "changed_coordinates": [
+              [
+                16,
+                15
+              ],
+              [
+                16,
+                15
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                12,
+                16
+              ]
+            ],
+            "max_bellman_residual": 0.18844499135200313,
+            "bound_source": "reused_monotone_upper",
+            "reduced_lp_variables": null
+          },
+          "repair_pre_gap_ratio": 1.0167017864375716,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "lp_oracle_anchor",
+          "lp_iterations": 1
+        },
+        {
+          "episode": 0,
+          "sample": 75,
+          "time_s": 3.75,
+          "theta": [
+            -0.15056173242661397,
+            0.4653183727962893,
+            0.7806700554438009,
+            0.4660848037981906,
+            -0.149772673660989
+          ],
+          "atlas_s": 0.0008988000008685049,
+          "lp_s": 0.02102530000047409,
+          "atlas_objective": 0.14649218052544996,
+          "lp_objective": 0.14649340395752664,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14653795314845475,
+          "gap": 4.577262300478613e-05,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        },
+        {
+          "episode": 0,
+          "sample": 76,
+          "time_s": 3.8,
+          "theta": [
+            -0.14852037986411415,
+            0.46929789385059606,
+            0.7856446011204319,
+            0.4700718935876371,
+            -0.14772383000572842
+          ],
+          "atlas_s": 0.000741700001526624,
+          "lp_s": 0.03490640000018175,
+          "atlas_objective": 0.14646104765965012,
+          "lp_objective": 0.14646329567435076,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0000000000000002,
+          "upper": 0.14653795314845475,
+          "gap": 7.690548880462389e-05,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 1
+        },
+        {
+          "episode": 0,
+          "sample": 77,
+          "time_s": 3.85,
+          "theta": [
+            -0.14678718935217527,
+            0.4726856626273004,
+            0.7898907196656915,
+            0.4734841833779002,
+            -0.14596574384626493
+          ],
+          "atlas_s": 0.000687899999320507,
+          "lp_s": 0.031635999999707565,
+          "atlas_objective": 0.14643465350062537,
+          "lp_objective": 0.14643774084474517,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14653795314845475,
+          "gap": 0.00010329964782937462,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 2
+        },
+        {
+          "episode": 0,
+          "sample": 78,
+          "time_s": 3.9,
+          "theta": [
+            -0.1453479189478406,
+            0.4754921760577442,
+            0.7933999727544645,
+            0.4762976518012807,
+            -0.14451961728342844
+          ],
+          "atlas_s": 0.001190299997688271,
+          "lp_s": 0.035790499998256564,
+          "atlas_objective": 0.1464127891432149,
+          "lp_objective": 0.14641655133556566,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14653795314845475,
+          "gap": 0.00012516400523984728,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 2
+        },
+        {
+          "episode": 0,
+          "sample": 79,
+          "time_s": 3.95,
+          "theta": [
+            -0.1442134281363534,
+            0.47770488090162666,
+            0.7961674272488262,
+            0.47851695710745235,
+            -0.14337863605921064
+          ],
+          "atlas_s": 0.0007862999991630204,
+          "lp_s": 0.019178200000169454,
+          "atlas_objective": 0.14639557918707746,
+          "lp_objective": 0.14639985954227214,
+          "atlas_risk": 1.0,
+          "lp_risk": 1.0,
+          "upper": 0.14653795314845475,
+          "gap": 0.00014237396137728453,
+          "direct_hit": true,
+          "lp_fallback": false,
+          "targeted_added": false,
+          "targeted_certified": false,
+          "forecast_solved": false,
+          "repair_attempted": false,
+          "repair_certified": false,
+          "repair_changed_states": 0,
+          "repair_info": null,
+          "repair_pre_gap_ratio": null,
+          "full_fallback": false,
+          "expansion": null,
+          "certificate_type": "monotone_dominance",
+          "lp_iterations": 0
+        }
+      ]
+    }
+  ]
+}

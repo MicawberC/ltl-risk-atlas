@@ -1,0 +1,12 @@
+.venv-repro/
+__pycache__/
+*.pyc
+Risk_LTL_Planning.zip
+reproduction/logs/
+.venv-core/
+.local-tools/
+reproduction/carla_local_risk/*.log
+reproduction/carla_local_risk/observed_hybrid_probe/*.log
+reproduction/carla_local_risk/observed_hybrid_probe/preview/*.log
+reproduction/carla_local_risk/observed_hybrid_probe/preview/*.err
+

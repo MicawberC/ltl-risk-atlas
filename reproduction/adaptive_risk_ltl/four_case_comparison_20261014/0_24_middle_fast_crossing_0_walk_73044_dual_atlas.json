@@ -1,0 +1,584 @@
+{
+  "case": "24:middle_fast_crossing:0",
+  "stream": "walk",
+  "seed": 73044,
+  "method": "dual_atlas",
+  "states": 4609,
+  "risk_cells": [
+    [
+      12,
+      10
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      14
+    ]
+  ],
+  "thetas": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.4468685301437816,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.2927610406973927,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      0.0,
+      0.0649978743647408,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.34319544427107895,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.058804465944278794,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.6083580522725326,
+      0.4970797008803354,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.16458187247855904,
+      0.4970797008803354,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.16458187247855904,
+      0.4970797008803354,
+      -0.005310967742138517
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.49309822821817195,
+      -0.005310967742138517
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.49309822821817195,
+      -0.012870000148287264
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      -0.012870000148287264
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      0.36041289742208943
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      -0.012133295451820347,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ],
+    [
+      0.3704357142497604,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ]
+  ],
+  "setup_seconds": 6.299999768089037e-06,
+  "online_seconds": 11.121187100000498,
+  "total_seconds": 11.121193400000266,
+  "p95_ms": 4242.0417600001665,
+  "max_ms": 5300.071200000275,
+  "peak_rss_mb": 163.98828125,
+  "cache_size": 10,
+  "direct_hits": 15,
+  "fallbacks": 5,
+  "within_one_percent": 20,
+  "hard_active_updates": 0,
+  "rows": [
+    {
+      "index": 0,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 5.300071200000275,
+      "objective": 2.687234965993413,
+      "risk": 1.0,
+      "upper": 2.687334965993413,
+      "direct_hit": false,
+      "fallback": true,
+      "policy_objective_error": 1.3915237984107875e-07,
+      "policy_risk_error": 1.081912337497215e-12,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 1,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.4468685301437816,
+        0.0
+      ],
+      "seconds": 4.18635600000016,
+      "objective": 2.9609965677113137,
+      "risk": 1.0,
+      "upper": 2.961096567711314,
+      "direct_hit": false,
+      "fallback": true,
+      "policy_objective_error": 3.2058119847633293e-06,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 2,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.2927610406973927,
+        0.0
+      ],
+      "seconds": 0.5248203999999532,
+      "objective": 2.9291745621676033,
+      "risk": 1.0,
+      "upper": 2.9292745621676035,
+      "direct_hit": false,
+      "fallback": true,
+      "policy_objective_error": 3.124243769914159e-06,
+      "policy_risk_error": 2.0053603222436323e-10,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 3,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.6304798000001028,
+      "objective": 2.9384399277280715,
+      "risk": 1.0,
+      "upper": 2.9385399277280717,
+      "direct_hit": false,
+      "fallback": true,
+      "policy_objective_error": 1.2108317948289482e-07,
+      "policy_risk_error": 6.477041125663163e-13,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 4,
+      "theta": [
+        0.0,
+        0.0,
+        0.0649978743647408,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.0006045999998605112,
+      "objective": 2.9346008719021297,
+      "risk": 1.0,
+      "upper": 2.9384499277280716,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 8.881784197001252e-16,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 5,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.34319544427107895,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.4478508000001966,
+      "objective": 2.9351889466154995,
+      "risk": 0.9999999999999998,
+      "upper": 2.9352889466154997,
+      "direct_hit": false,
+      "fallback": true,
+      "policy_objective_error": 2.2067200911024543e-07,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 6,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.058804465944278794,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.007641599999260507,
+      "objective": 2.940884486307894,
+      "risk": 1.0,
+      "upper": 2.9439249988972116,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 8.881784197001252e-16,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 7,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.6083580522725326,
+        0.4970797008803354,
+        -0.4571088137674025
+      ],
+      "seconds": 0.0007249999998748535,
+      "objective": 2.928002995382393,
+      "risk": 1.0057445951209218,
+      "upper": 2.9351989466154995,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 8,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.16458187247855904,
+        0.4970797008803354,
+        -0.4571088137674025
+      ],
+      "seconds": 0.0008036999997784733,
+      "objective": 2.937984315330023,
+      "risk": 1.0,
+      "upper": 2.9439249988972116,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 4.440892098500626e-16,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 9,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.16458187247855904,
+        0.4970797008803354,
+        -0.005310967742138517
+      ],
+      "seconds": 0.0006730000004608883,
+      "objective": 2.937984315330023,
+      "risk": 1.0,
+      "upper": 2.9439249988972116,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 4.440892098500626e-16,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 10,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.49309822821817195,
+        -0.005310967742138517
+      ],
+      "seconds": 0.01024280000001454,
+      "objective": 2.9624456416565517,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 11,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.49309822821817195,
+        -0.012870000148287264
+      ],
+      "seconds": 0.002018600000155857,
+      "objective": 2.9624456416565517,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 12,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        -0.012870000148287264
+      ],
+      "seconds": 0.0015838999997868086,
+      "objective": 2.9624456416565517,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 13,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        0.36041289742208943
+      ],
+      "seconds": 0.0009116000001085922,
+      "objective": 2.9624456416565517,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 14,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 0.0008425999994869926,
+      "objective": 2.9624456416565517,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 0.0,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 15,
+      "theta": [
+        0.0,
+        -0.8,
+        -0.012133295451820347,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 0.0019370999998500338,
+      "objective": 2.9634222185282937,
+      "risk": 1.0,
+      "upper": 2.9663086368247207,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 4.440892098500626e-16,
+      "policy_risk_error": 4.440892098500626e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 16,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 0.0007396999999400578,
+      "objective": 2.961146246427103,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 17,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 0.0010047000005215523,
+      "objective": 2.961146246427103,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 18,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 0.0009033000005729264,
+      "objective": 2.961146246427103,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 19,
+      "theta": [
+        0.3704357142497604,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 0.0009767000001374981,
+      "objective": 2.961146246427103,
+      "risk": 1.0,
+      "upper": 2.966308629480503,
+      "direct_hit": true,
+      "fallback": false,
+      "policy_objective_error": 0.0,
+      "policy_risk_error": 2.220446049250313e-16,
+      "within_one_percent": true,
+      "hard_active": false
+    }
+  ]
+}

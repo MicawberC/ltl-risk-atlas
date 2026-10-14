@@ -1,0 +1,544 @@
+{
+  "case": "24:middle_fast_crossing:0",
+  "stream": "walk",
+  "seed": 73044,
+  "method": "simple_cache",
+  "states": 4609,
+  "risk_cells": [
+    [
+      12,
+      10
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      14
+    ]
+  ],
+  "thetas": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.4468685301437816,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.2927610406973927,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      0.0,
+      0.0649978743647408,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.34319544427107895,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.058804465944278794,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.6083580522725326,
+      0.4970797008803354,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.16458187247855904,
+      0.4970797008803354,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.16458187247855904,
+      0.4970797008803354,
+      -0.005310967742138517
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.49309822821817195,
+      -0.005310967742138517
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.49309822821817195,
+      -0.012870000148287264
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      -0.012870000148287264
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      0.36041289742208943
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      -0.012133295451820347,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ],
+    [
+      0.3704357142497604,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ]
+  ],
+  "setup_seconds": 1.0316452000042773,
+  "online_seconds": 0.00026929999148705974,
+  "total_seconds": 1.0319144999957643,
+  "p95_ms": 0.026689999140217007,
+  "max_ms": 0.08159999561030418,
+  "peak_rss_mb": 87.29296875,
+  "cache_size": 2,
+  "direct_hits": 0,
+  "fallbacks": 0,
+  "within_one_percent": 1,
+  "hard_active_updates": 0,
+  "rows": [
+    {
+      "index": 0,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 8.159999561030418e-05,
+      "objective": 2.687234965993435,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 1,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.4468685301437816,
+        0.0
+      ],
+      "seconds": 2.3799999326001853e-05,
+      "objective": 2.7941582316531877,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 2,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.2927610406973927,
+        0.0
+      ],
+      "seconds": 1.630000042496249e-05,
+      "objective": 2.754399446938953,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 3,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 7.099995855242014e-06,
+      "objective": 2.8606276726267925,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 4,
+      "theta": [
+        0.0,
+        0.0,
+        0.0649978743647408,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 5.000001692678779e-06,
+      "objective": 2.8606276726267925,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 5,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.34319544427107895,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 4.800000169780105e-06,
+      "objective": 2.8606276726267925,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 6,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.058804465944278794,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 5.099995178170502e-06,
+      "objective": 2.8606276726267925,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 7,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.6083580522725326,
+        0.4970797008803354,
+        -0.4571088137674025
+      ],
+      "seconds": 1.2899996363557875e-05,
+      "objective": 2.7857934070338572,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 8,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.16458187247855904,
+        0.4970797008803354,
+        -0.4571088137674025
+      ],
+      "seconds": 1.0399999155197293e-05,
+      "objective": 2.848526875344211,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 9,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.16458187247855904,
+        0.4970797008803354,
+        -0.005310967742138517
+      ],
+      "seconds": 9.79999458650127e-06,
+      "objective": 2.6367031961161214,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 10,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.49309822821817195,
+        -0.005310967742138517
+      ],
+      "seconds": 1.0100004146806896e-05,
+      "objective": 2.7025349614754286,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 11,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.49309822821817195,
+        -0.012870000148287264
+      ],
+      "seconds": 1.0299998393747956e-05,
+      "objective": 2.705600118114786,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 12,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        -0.012870000148287264
+      ],
+      "seconds": 9.399998816661537e-06,
+      "objective": 2.6591454711058433,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 13,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        0.36041289742208943
+      ],
+      "seconds": 8.800001523923129e-06,
+      "objective": 2.5456093353180886,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 14,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 9.300005331169814e-06,
+      "objective": 2.5163534275853876,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 15,
+      "theta": [
+        0.0,
+        -0.8,
+        -0.012133295451820347,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 8.499999239575118e-06,
+      "objective": 2.5293977025003773,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 16,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 9.10000380827114e-06,
+      "objective": 2.486843086793908,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 17,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 8.900002285372466e-06,
+      "objective": 2.4210324302239012,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 18,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 9.199997293762863e-06,
+      "objective": 2.4210324302239012,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    },
+    {
+      "index": 19,
+      "theta": [
+        0.3704357142497604,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 8.900002285372466e-06,
+      "objective": 2.417728968342385,
+      "risk": null,
+      "upper": null,
+      "direct_hit": false,
+      "fallback": false,
+      "within_one_percent": false,
+      "hard_active": false
+    }
+  ]
+}

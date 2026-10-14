@@ -1,0 +1,62 @@
+[
+  {
+    "grid": 32,
+    "seed": 1,
+    "runs": [
+      {
+        "fraction": 0.04,
+        "certified": true,
+        "states": 733,
+        "seconds": 2.6975031000001763,
+        "gap": 0.0009559040085188597,
+        "rounds": 4
+      },
+      {
+        "fraction": 0.08,
+        "certified": true,
+        "states": 814,
+        "seconds": 2.1228591999988566,
+        "gap": 1.0755285551056204e-13,
+        "rounds": 3
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 1162,
+        "seconds": 2.344326899999942,
+        "gap": 1.0733081090563701e-13,
+        "rounds": 3
+      }
+    ]
+  },
+  {
+    "grid": 32,
+    "seed": 2,
+    "runs": [
+      {
+        "fraction": 0.04,
+        "certified": false,
+        "states": 1857,
+        "seconds": 22.589786399999866,
+        "gap": 0.00715424814100174,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.08,
+        "certified": false,
+        "states": 3222,
+        "seconds": 36.04422909999994,
+        "gap": 0.0056229631517509815,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 4155,
+        "seconds": 40.02013220000117,
+        "gap": 1.4219181387886692e-13,
+        "rounds": 14
+      }
+    ]
+  }
+]

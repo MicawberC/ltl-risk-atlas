@@ -1,0 +1,654 @@
+{
+  "source_trace": "C:\\Users\\76082\\Documents\\LTLCodeGenPPT\\reproduction\\carla_local_risk\\carla_trace.json",
+  "scope": "stationary ego; CARLA pedestrian trace; offline repeated planning",
+  "model_assumptions": {
+    "motion_probability": 0.75,
+    "environment_transition": [
+      [
+        0.8,
+        0.2
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "risk_multiplier": "0.2 + 1.6 exp(-distance^2 / (2*3^2))",
+    "risk_parameter": "multiplier - 1 per five crossing cells",
+    "risk_labels": "crossing conflict if environment mode is occupied",
+    "offroad_labels": "CARLA driving-lane waypoint mask"
+  },
+  "parameters": {
+    "gamma": 0.8,
+    "soft": 1.0,
+    "hard": 2.0
+  },
+  "states": 3201,
+  "actions": 9,
+  "initial_xy": [
+    6,
+    10
+  ],
+  "atlas_setup_s": 0.793780400000287,
+  "lp_setup_s": 0.7115917000000991,
+  "rows": [
+    {
+      "sample": 0,
+      "time_s": 0.0,
+      "theta": [
+        -0.6355423497944246,
+        -0.47967669673447644,
+        -0.3999670231703749,
+        -0.4796806223933413,
+        -0.6355408096469286
+      ],
+      "walker_xyz": [
+        339.72491455078125,
+        281.7458801269531,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.8908461999999417,
+      "lp_s": 0.21867199999996956,
+      "atlas_objective": 0.764540064919264,
+      "lp_objective": 0.7645400649201917,
+      "atlas_upper": 0.7645401058257603,
+      "atlas_gap": 4.090649630139609e-08,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0000000000000002,
+      "direct_hit": false,
+      "full_fallback": true,
+      "nominal_policy_cache_objective": 0.747681502992501,
+      "nominal_cache_within_one_percent": false,
+      "lp_iterations": 575,
+      "fresh_sparse_lp_s": 0.7495092999997723
+    },
+    {
+      "sample": 1,
+      "time_s": 0.4,
+      "theta": [
+        -0.6155331995583321,
+        -0.44069859194737226,
+        -0.35128277574798616,
+        -0.44069213792996886,
+        -0.6155205876580891
+      ],
+      "walker_xyz": [
+        339.5135192871094,
+        281.7458190917969,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.006523399999423418,
+      "lp_s": 0.03766540000015084,
+      "atlas_objective": 0.7617736841477529,
+      "lp_objective": 0.761773684147753,
+      "atlas_upper": 0.7629874179444378,
+      "atlas_gap": 0.0012137337966848794,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7474539286487103,
+      "nominal_cache_within_one_percent": false,
+      "lp_iterations": 31,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 2,
+      "time_s": 0.8,
+      "theta": [
+        -0.5648484059658402,
+        -0.34196197758325286,
+        -0.227956624874613,
+        -0.34192504440463933,
+        -0.5648036193475428
+      ],
+      "walker_xyz": [
+        339.0325012207031,
+        281.74566650390625,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.9146273999995174,
+      "lp_s": 0.03582689999984723,
+      "atlas_objective": 0.7551787767464255,
+      "lp_objective": 0.7551787767464258,
+      "atlas_upper": 0.7551788174009575,
+      "atlas_gap": 4.065453196311353e-08,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": false,
+      "full_fallback": true,
+      "nominal_policy_cache_objective": 0.7468776840481441,
+      "nominal_cache_within_one_percent": false,
+      "lp_iterations": 30,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 3,
+      "time_s": 1.2,
+      "theta": [
+        -0.5029949535815461,
+        -0.22146109129716773,
+        -0.07743668734024456,
+        -0.22137206022875167,
+        -0.502895912999126
+      ],
+      "walker_xyz": [
+        338.5124816894531,
+        281.7455139160156,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.9283341000000291,
+      "lp_s": 0.04179440000007162,
+      "atlas_objective": 0.7503112306205999,
+      "lp_objective": 0.7503112306206001,
+      "atlas_upper": 0.7503112711767947,
+      "atlas_gap": 4.0556194846885774e-08,
+      "atlas_risk": 1.0,
+      "lp_risk": 0.9999999999999999,
+      "direct_hit": false,
+      "full_fallback": true,
+      "nominal_policy_cache_objective": 0.7461748429257726,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 29,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 4,
+      "time_s": 1.6,
+      "theta": [
+        -0.4359745854884636,
+        -0.09089158150478993,
+        0.08566388301443317,
+        -0.09074013274374959,
+        -0.43581101615811657
+      ],
+      "walker_xyz": [
+        337.99249267578125,
+        281.7453308105469,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.10891189999983908,
+      "lp_s": 0.04342700000051991,
+      "atlas_objective": 0.7471414507198879,
+      "lp_objective": 0.747160109913346,
+      "atlas_upper": 0.7537430029924845,
+      "atlas_gap": 0.0066015522725966225,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0000000000000002,
+      "direct_hit": false,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7454138455280552,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 19,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 5,
+      "time_s": 2.0,
+      "theta": [
+        -0.3670416687152298,
+        0.04341665976189146,
+        0.25345107905490405,
+        0.04365858020480218,
+        -0.36678520091675004
+      ],
+      "walker_xyz": [
+        337.4725036621094,
+        281.74517822265625,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.10481940000045142,
+      "lp_s": 0.04171379999934288,
+      "atlas_objective": 0.7446622635067208,
+      "lp_objective": 0.7446925541839193,
+      "atlas_upper": 0.744705412359111,
+      "atlas_gap": 4.314885239020683e-05,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": false,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7446316048200676,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 24,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 6,
+      "time_s": 2.4,
+      "theta": [
+        -0.30029214002701365,
+        0.17348080926984877,
+        0.41594938392354996,
+        0.17383136459938586,
+        -0.29992464254017426
+      ],
+      "walker_xyz": [
+        336.9524841308594,
+        281.7450256347656,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.11943239999982325,
+      "lp_s": 0.054490200000145705,
+      "atlas_objective": 0.7439891779851342,
+      "lp_objective": 0.7441426773035793,
+      "atlas_upper": 0.7441552509440845,
+      "atlas_gap": 0.00016607295895032514,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": false,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.743874626885352,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 11,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 7,
+      "time_s": 2.8,
+      "theta": [
+        -0.24032663606454396,
+        0.29033760339442827,
+        0.5619620186444887,
+        0.2908101265860199,
+        -0.23983496747096789
+      ],
+      "walker_xyz": [
+        336.4324951171875,
+        281.744873046875,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.019374599999537168,
+      "lp_s": 0.06058519999987766,
+      "atlas_objective": 0.7434084281895026,
+      "lp_objective": 0.7436979051202988,
+      "atlas_upper": 0.743710438161918,
+      "atlas_gap": 0.0003020099724153624,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7431949484923002,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 11,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 8,
+      "time_s": 3.2,
+      "theta": [
+        -0.19171723697749932,
+        0.3850781743404872,
+        0.6803585273276407,
+        0.38567859054490716,
+        -0.1910958275577792
+      ],
+      "walker_xyz": [
+        335.9125061035156,
+        281.7447204589844,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.013422899999568472,
+      "lp_s": 0.0495362000001478,
+      "atlas_objective": 0.7429368034114665,
+      "lp_objective": 0.7433374687483995,
+      "atlas_upper": 0.7433499683657276,
+      "atlas_gap": 0.000413164954261136,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7426441624243503,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 12,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 9,
+      "time_s": 3.6,
+      "theta": [
+        -0.15845109534037816,
+        0.4499320303899257,
+        0.7614288978791468,
+        0.4506569087197212,
+        -0.15770388043936534
+      ],
+      "walker_xyz": [
+        335.3924865722656,
+        281.74456787109375,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.10261910000008356,
+      "lp_s": 0.0376789000001736,
+      "atlas_objective": 0.7426134790766499,
+      "lp_objective": 0.7430907584180094,
+      "atlas_upper": 0.7431032348738943,
+      "atlas_gap": 0.0004897557972444178,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0000000000000002,
+      "direct_hit": false,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.742267180713764,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 11,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 10,
+      "time_s": 4.0,
+      "theta": [
+        -0.14339422028226867,
+        0.47931198546956444,
+        0.7981891862495931,
+        0.4801476558062876,
+        -0.14253548941293004
+      ],
+      "walker_xyz": [
+        334.87249755859375,
+        281.7444152832031,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.01159419999930833,
+      "lp_s": 0.03712919999998121,
+      "atlas_objective": 0.7424667366071638,
+      "lp_objective": 0.7429788816887719,
+      "atlas_upper": 0.7429913475392775,
+      "atlas_gap": 0.000524610932113756,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7420962566524447,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 9,
+      "fresh_sparse_lp_s": 0.8940340999997716
+    },
+    {
+      "sample": 11,
+      "time_s": 4.4,
+      "theta": [
+        -0.14787403952469869,
+        0.47062792722430014,
+        0.7873987029265386,
+        0.47155105948003384,
+        -0.14692780552325635
+      ],
+      "walker_xyz": [
+        334.35247802734375,
+        281.7442626953125,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.011300400000436639,
+      "lp_s": 0.04110119999950257,
+      "atlas_objective": 0.7425097310824287,
+      "lp_objective": 0.7430116270876131,
+      "atlas_upper": 0.7430240959757082,
+      "atlas_gap": 0.0005143648932794953,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0000000000000002,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.742146345084995,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 9,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 12,
+      "time_s": 4.8,
+      "theta": [
+        -0.17149247087658614,
+        0.42465153077828255,
+        0.7300163014122096,
+        0.4256310213770822,
+        -0.17049052397602482
+      ],
+      "walker_xyz": [
+        333.8324890136719,
+        281.7441101074219,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.012597399999322079,
+      "lp_s": 0.012158600000475417,
+      "atlas_objective": 0.7427385760020655,
+      "lp_objective": 0.7431861069429604,
+      "atlas_upper": 0.7431985921963203,
+      "atlas_gap": 0.00046001619425484197,
+      "atlas_risk": 1.0,
+      "lp_risk": 0.9999999999999999,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7424130289176576,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 0,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 13,
+      "time_s": 5.2,
+      "theta": [
+        -0.21217536108016755,
+        0.34541277748652854,
+        0.6310621994056582,
+        0.3463973021847415,
+        -0.2111700721213028
+      ],
+      "walker_xyz": [
+        333.3125,
+        281.7439270019531,
+        0.9514999985694885
+      ],
+      "atlas_s": 0.011402199999793083,
+      "lp_s": 0.03772539999954461,
+      "atlas_objective": 0.7431329338726347,
+      "lp_objective": 0.7434871794699364,
+      "atlas_upper": 0.7434996927675072,
+      "atlas_gap": 0.0003667588948724765,
+      "atlas_risk": 1.0,
+      "lp_risk": 0.9999999999999998,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7428731568480904,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 14,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 14,
+      "time_s": 5.6,
+      "theta": [
+        -0.26649249201312486,
+        0.23959461812145233,
+        0.4988844701430766,
+        0.24053617739493038,
+        -0.2655326822974189
+      ],
+      "walker_xyz": [
+        332.79248046875,
+        281.74371337890625,
+        1.0552548170089722
+      ],
+      "atlas_s": 0.011320499999783351,
+      "lp_s": 0.05235189999984868,
+      "atlas_objective": 0.7436590537836576,
+      "lp_objective": 0.7438896049911775,
+      "atlas_upper": 0.7439021553094775,
+      "atlas_gap": 0.00024310152581985545,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7434881570650953,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 8,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 15,
+      "time_s": 6.0,
+      "theta": [
+        -0.33009998070827895,
+        0.11564970856599,
+        0.3440290189018833,
+        0.11648398062133292,
+        -0.32925115932270343
+      ],
+      "walker_xyz": [
+        332.2724914550781,
+        281.743408203125,
+        1.0552548170089722
+      ],
+      "atlas_s": 0.10989710000012565,
+      "lp_s": 0.0360740000005535,
+      "atlas_objective": 0.7442744965670105,
+      "lp_objective": 0.7443614544113598,
+      "atlas_upper": 0.7443740474512085,
+      "atlas_gap": 9.95508841979964e-05,
+      "atlas_risk": 1.0,
+      "lp_risk": 0.9999999999999999,
+      "direct_hit": false,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7442092243199845,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 10,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 16,
+      "time_s": 6.4,
+      "theta": [
+        -0.39837309312156344,
+        -0.017386904111498236,
+        0.17781336171030282,
+        -0.016669597650310397,
+        -0.3976446548536057
+      ],
+      "walker_xyz": [
+        331.75250244140625,
+        281.74310302734375,
+        1.0552548170089722
+      ],
+      "atlas_s": 0.11228970000047411,
+      "lp_s": 0.044183699999848614,
+      "atlas_objective": 0.7454355911163203,
+      "lp_objective": 0.7454669191770628,
+      "atlas_upper": 0.7471661900908131,
+      "atlas_gap": 0.0017305989744927919,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": false,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7449838057556484,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 16,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 17,
+      "time_s": 6.8,
+      "theta": [
+        -0.4668902112896627,
+        -0.1508992382327734,
+        0.011002428534344855,
+        -0.15030077463912495,
+        -0.4662835961114784
+      ],
+      "walker_xyz": [
+        331.23248291015625,
+        281.7427978515625,
+        1.0552548170089722
+      ],
+      "atlas_s": 1.0643019999997705,
+      "lp_s": 0.04059719999986555,
+      "atlas_objective": 0.7485789852565751,
+      "lp_objective": 0.748578985256575,
+      "atlas_upper": 0.7485790257793262,
+      "atlas_gap": 4.052275115462578e-08,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": false,
+      "full_fallback": true,
+      "nominal_policy_cache_objective": 0.7457618037406633,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 18,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 18,
+      "time_s": 7.2,
+      "theta": [
+        -0.5318889720906761,
+        -0.27755946204521265,
+        -0.1472526218844894,
+        -0.2770820348447989,
+        -0.5314060444681588
+      ],
+      "walker_xyz": [
+        330.7124938964844,
+        281.7424621582031,
+        1.0552548170089722
+      ],
+      "atlas_s": 0.01249400000051537,
+      "lp_s": 0.0401001999998698,
+      "atlas_objective": 0.7517550576596058,
+      "lp_objective": 0.7517550576596059,
+      "atlas_upper": 0.7517550982549538,
+      "atlas_gap": 4.0595347972072204e-08,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7465004982050003,
+      "nominal_cache_within_one_percent": true,
+      "lp_iterations": 16,
+      "fresh_sparse_lp_s": null
+    },
+    {
+      "sample": 19,
+      "time_s": 7.6,
+      "theta": [
+        -0.5905943089256858,
+        -0.39195216078931994,
+        -0.29017570427493755,
+        -0.39157705563012035,
+        -0.5902155874116518
+      ],
+      "walker_xyz": [
+        330.1925048828125,
+        281.7421569824219,
+        1.0552548170089722
+      ],
+      "atlas_s": 0.012805599999410333,
+      "lp_s": 0.05790580000029877,
+      "atlas_objective": 0.7584409718513826,
+      "lp_objective": 0.758440971851383,
+      "atlas_upper": 0.7584410125937184,
+      "atlas_gap": 4.074233583839515e-08,
+      "atlas_risk": 1.0,
+      "lp_risk": 1.0,
+      "direct_hit": true,
+      "full_fallback": false,
+      "nominal_policy_cache_objective": 0.7471681202627791,
+      "nominal_cache_within_one_percent": false,
+      "lp_iterations": 51,
+      "fresh_sparse_lp_s": 0.8277478999998493
+    }
+  ],
+  "summary": {
+    "samples": 20,
+    "direct_hits": 10,
+    "full_fallbacks": 4,
+    "certified": 20,
+    "hard_risk_satisfied": 20,
+    "nominal_cache_within_one_percent": 16,
+    "atlas_total_s": 5.372694899997441,
+    "lp_total_s": 1.7323089000001346,
+    "total_speedup_lp_over_atlas": 0.3224283031595484,
+    "atlas_p50_ms": 60.996849999810365,
+    "atlas_p95_ms": 935.1324950000163,
+    "lp_p50_ms": 41.407499999422726,
+    "lp_p95_ms": 68.48953999988235,
+    "max_objective_difference": 0.0005121450816081285,
+    "max_certificate_gap": 0.0066015522725966225,
+    "max_atlas_risk": 1.0
+  }
+}

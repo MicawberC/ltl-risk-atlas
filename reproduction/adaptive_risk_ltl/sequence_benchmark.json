@@ -1,0 +1,59 @@
+[
+  {
+    "case": "16:sequence",
+    "states": 3073,
+    "sparse_lp_seconds": 1.313855499998681,
+    "sparse_lp_objective": 0.953113376246342,
+    "objective": 0.9531078906728657,
+    "risk": 0.7999999999999998,
+    "upper": 0.9584185830083725,
+    "gap": 0.005310692335506739,
+    "evaluations": 7,
+    "seconds": 0.27122199999939767,
+    "prices": [
+      0.0625,
+      0.09375
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "objective_difference": -5.485573476238237e-06
+  },
+  {
+    "case": "24:sequence",
+    "states": 6913,
+    "sparse_lp_seconds": 12.411368800001583,
+    "sparse_lp_objective": 0.9531133762463485,
+    "objective": 0.9531078906728657,
+    "risk": 0.7999999999999996,
+    "upper": 0.9584185835777166,
+    "gap": 0.005310692904850867,
+    "evaluations": 7,
+    "seconds": 0.9745788000000175,
+    "prices": [
+      0.0625,
+      0.09375
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "objective_difference": -5.485573482788553e-06
+  },
+  {
+    "case": "32:sequence",
+    "states": 12289,
+    "sparse_lp_seconds": 49.865117100000134,
+    "sparse_lp_objective": 0.9531133762463803,
+    "objective": 0.9531078906728656,
+    "risk": 0.7999999999999998,
+    "upper": 0.9584185835777166,
+    "gap": 0.005310692904850978,
+    "evaluations": 7,
+    "seconds": 2.0610879000014393,
+    "prices": [
+      0.0625,
+      0.09375
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "objective_difference": -5.4855735146519535e-06
+  }
+]

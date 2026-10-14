@@ -1,0 +1,45 @@
+{
+  "case": "24:middle_fast:five_zone:m0.8",
+  "fresh_total_seconds": 25.508801799998764,
+  "replays": [
+    {
+      "order_seed": 0,
+      "hits": 16,
+      "expansions": 34,
+      "policies": 36,
+      "fast_saves": 34,
+      "full_fallbacks": 0,
+      "prepare_seconds": 0.38108869999996386,
+      "query_seconds": 1.5361497000048985,
+      "expansion_seconds": 3.122275500005344,
+      "total_seconds": 5.039513900010206,
+      "fresh_over_atlas": 5.061758396965053
+    },
+    {
+      "order_seed": 1,
+      "hits": 19,
+      "expansions": 31,
+      "policies": 34,
+      "fast_saves": 30,
+      "full_fallbacks": 1,
+      "prepare_seconds": 0.5445710999993025,
+      "query_seconds": 1.4130122999958985,
+      "expansion_seconds": 3.9658499999968626,
+      "total_seconds": 5.923433399992064,
+      "fresh_over_atlas": 4.3064216439122855
+    },
+    {
+      "order_seed": 2,
+      "hits": 18,
+      "expansions": 32,
+      "policies": 34,
+      "fast_saves": 32,
+      "full_fallbacks": 0,
+      "prepare_seconds": 0.5475513000019419,
+      "query_seconds": 1.3181888999934017,
+      "expansion_seconds": 3.2188789999854635,
+      "total_seconds": 5.084619199980807,
+      "fresh_over_atlas": 5.016855893573122
+    }
+  ]
+}

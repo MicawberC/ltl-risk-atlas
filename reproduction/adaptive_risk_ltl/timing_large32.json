@@ -1,0 +1,48 @@
+[
+  {
+    "case": "32:near",
+    "states": 8193,
+    "actions": 9,
+    "construction_seconds": 0.262677600000643,
+    "sparse_lp_seconds": [
+      12.761453999999503,
+      13.082464099999925,
+      13.163344000000507
+    ],
+    "guided_seconds": [
+      3.9482863999992333,
+      4.004665500000556,
+      4.008291099999951
+    ],
+    "sparse_lp_median_seconds": 13.082464099999925,
+    "guided_median_seconds": 4.004665500000556,
+    "median_speedup": 3.2668057044959458,
+    "baseline_objective_range": [
+      1.768170883678741,
+      1.768170883678741
+    ]
+  },
+  {
+    "case": "32:barrier_hard",
+    "states": 8193,
+    "actions": 9,
+    "construction_seconds": 0.26672989999951824,
+    "sparse_lp_seconds": [
+      11.524364599999899,
+      11.274981800000205,
+      11.44675289999941
+    ],
+    "guided_seconds": [
+      2.9123633999997764,
+      2.9044615000002523,
+      2.9168393999998443
+    ],
+    "sparse_lp_median_seconds": 11.44675289999941,
+    "guided_median_seconds": 2.9123633999997764,
+    "median_speedup": 3.930399928800193,
+    "baseline_objective_range": [
+      0.8310559006216476,
+      0.8310559006216476
+    ]
+  }
+]

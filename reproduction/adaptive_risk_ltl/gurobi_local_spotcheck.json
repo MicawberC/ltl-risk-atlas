@@ -1,0 +1,20 @@
+[
+  {
+    "index": 0,
+    "status": "license_limit",
+    "detail": "Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information",
+    "seconds": 0.09426170000006096
+  },
+  {
+    "index": 10,
+    "status": "license_limit",
+    "detail": "Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information",
+    "seconds": 0.1001243999999133
+  },
+  {
+    "index": 19,
+    "status": "license_limit",
+    "detail": "Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information",
+    "seconds": 0.10014400000000023
+  }
+]

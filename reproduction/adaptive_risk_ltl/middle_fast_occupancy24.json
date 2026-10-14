@@ -1,0 +1,33 @@
+[
+  {
+    "grid": 24,
+    "seed": 0,
+    "scenario": "middle_fast",
+    "runs": [
+      {
+        "fraction": 0.04,
+        "certified": false,
+        "states": 1119,
+        "seconds": 9.36893869999949,
+        "gap": 0.09533022584306527,
+        "rounds": 20
+      },
+      {
+        "fraction": 0.08,
+        "certified": true,
+        "states": 1296,
+        "seconds": 6.336342700000387,
+        "gap": 0.0286508731570847,
+        "rounds": 12
+      },
+      {
+        "fraction": 0.16,
+        "certified": true,
+        "states": 1033,
+        "seconds": 1.987713700000313,
+        "gap": 0.028820306788538197,
+        "rounds": 5
+      }
+    ]
+  }
+]

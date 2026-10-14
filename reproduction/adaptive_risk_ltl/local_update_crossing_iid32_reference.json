@@ -1,0 +1,56 @@
+[
+  {
+    "index": 0,
+    "theta": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warm_lp_objective": 10.116000892723648,
+    "fresh_cmdp_objective": 10.116000892722818,
+    "fresh_cmdp_upper": 10.116000892816748,
+    "fresh_cmdp_seconds": 0.248081199999433,
+    "sparse_lp": {
+      "status": "time_limit_15s",
+      "detail": "LP status 1: Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)"
+    }
+  },
+  {
+    "index": 10,
+    "theta": [
+      -0.4483723309503198,
+      0.6863265150500648,
+      -0.19697888955443066,
+      -0.1361171031991273,
+      -0.7476819663409753
+    ],
+    "warm_lp_objective": 10.851589671486721,
+    "fresh_cmdp_objective": 10.851589671483966,
+    "fresh_cmdp_upper": 10.851589671577894,
+    "fresh_cmdp_seconds": 0.24352080000244314,
+    "sparse_lp": {
+      "status": "time_limit_15s",
+      "detail": "LP status 1: Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)"
+    }
+  },
+  {
+    "index": 19,
+    "theta": [
+      -0.23593481170466823,
+      -0.766900796297342,
+      -0.07681762561867056,
+      -0.260913833031157,
+      0.68416990298734
+    ],
+    "warm_lp_objective": 11.126469593722959,
+    "fresh_cmdp_objective": 11.126469079351871,
+    "fresh_cmdp_upper": 11.132768695211201,
+    "fresh_cmdp_seconds": 0.6367280999984359,
+    "sparse_lp": {
+      "status": "time_limit_15s",
+      "detail": "LP status 1: Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)"
+    }
+  }
+]

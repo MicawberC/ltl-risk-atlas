@@ -1,0 +1,110 @@
+[
+  {
+    "case": "24:near",
+    "states": 4609,
+    "sparse_lp_seconds": 5.463490900000579,
+    "sparse_lp_objective": 1.7681708836787418,
+    "objective": 1.7613884484478675,
+    "risk": 0.7999999999999992,
+    "upper": 1.7686808318139429,
+    "gap": 0.007292383366075406,
+    "evaluations": 3,
+    "seconds": 0.2496977999999217,
+    "prices": [
+      0.0,
+      0.5
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "objective_difference": -0.006782435230874295
+  },
+  {
+    "case": "24:middle",
+    "states": 4609,
+    "sparse_lp_seconds": 5.787501300000258,
+    "sparse_lp_objective": 0.023624438111714684,
+    "objective": 0.023624437934511886,
+    "risk": 0.07032859242738307,
+    "upper": 0.02362443793458293,
+    "gap": 7.104386523515416e-14,
+    "evaluations": 1,
+    "seconds": 0.08723970000028203,
+    "prices": [
+      0.0
+    ],
+    "mixed": false,
+    "objective_difference": -1.7720279757438284e-10
+  },
+  {
+    "case": "24:far",
+    "states": 4609,
+    "sparse_lp_seconds": 6.827983799999856,
+    "sparse_lp_objective": 0.0002736563399579307,
+    "objective": 0.0002736563389397187,
+    "risk": 0.0007030003587946591,
+    "upper": 0.00027365633901077285,
+    "gap": 7.105416515579277e-14,
+    "evaluations": 1,
+    "seconds": 0.08664709999993647,
+    "prices": [
+      0.0
+    ],
+    "mixed": false,
+    "objective_difference": -1.0182120446268483e-12
+  },
+  {
+    "case": "24:barrier_hard",
+    "states": 4609,
+    "sparse_lp_seconds": 4.5969169999998485,
+    "sparse_lp_objective": 0.8310559006389999,
+    "objective": 0.8310559006211404,
+    "risk": 5.0,
+    "upper": 0.8390625000011369,
+    "gap": 0.008006599379996482,
+    "evaluations": 10,
+    "seconds": 0.8359571999999389,
+    "prices": [
+      1.0,
+      1.0078125
+    ],
+    "mixed": true,
+    "target": 5.0,
+    "objective_difference": -1.7859491663330118e-11
+  },
+  {
+    "case": "32:near",
+    "states": 8193,
+    "sparse_lp_seconds": 19.15312399999948,
+    "sparse_lp_objective": 1.768170883678741,
+    "objective": 1.7613884484478683,
+    "risk": 0.799999999999999,
+    "upper": 1.76868083276772,
+    "gap": 0.007292384319851575,
+    "evaluations": 3,
+    "seconds": 0.4169188000005306,
+    "prices": [
+      0.0,
+      0.5
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "objective_difference": -0.006782435230872741
+  },
+  {
+    "case": "32:middle",
+    "states": 8193,
+    "sparse_lp_seconds": 20.58647579999979,
+    "sparse_lp_objective": 0.0032345375778332196,
+    "objective": 0.003234537474664345,
+    "risk": 0.00847900588260402,
+    "upper": 0.0032345374747353977,
+    "gap": 7.105253885253404e-14,
+    "evaluations": 1,
+    "seconds": 0.1487440000000788,
+    "prices": [
+      0.0
+    ],
+    "mixed": false,
+    "objective_difference": -1.0316887448513778e-10
+  }
+]

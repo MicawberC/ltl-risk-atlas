@@ -1,0 +1,15 @@
+{
+  "case": "24:sequence:0:m0.05",
+  "order_seed": 303,
+  "states": 6913,
+  "hits": 25,
+  "expansions": 0,
+  "final_policies": 2,
+  "fresh_seconds": 39.623611599996366,
+  "atlas_seconds": 2.275033699992491,
+  "speedup": 17.41671413488387,
+  "setup_seconds": 2.1901562999992166,
+  "query_seconds": 0.0848773999932746,
+  "expansion_seconds": 0.0,
+  "max_gap": 3.761370206678549e-05
+}

@@ -1,0 +1,2868 @@
+{
+  "simulator": "0.9.16",
+  "town": "Carla/Maps/Town01",
+  "scope": "lane-only high-level LTL product; CARLA closed-loop speed control",
+  "controller": "forward if policy action 5 probability >= 0.5; otherwise brake",
+  "drivable_cells": 54,
+  "max_ticks": 440,
+  "plan_every_ticks": 10,
+  "second_walker": true,
+  "trials": [
+    {
+      "method": "warm_lp",
+      "goal": false,
+      "collision": true,
+      "goal_sim_time_s": null,
+      "elapsed_sim_time_s": 9.200000000000001,
+      "planning_time_s": 2.708069600004819,
+      "wall_time_s": 3.7258337999992364,
+      "lp_fallbacks": 19,
+      "planning_calls": 19,
+      "rows": [
+        {
+          "tick": 0,
+          "sim_time_s": 0.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.99999987663449,
+          "walkers_xyz": [
+            [
+              339.72491455078125,
+              281.7458801269531,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1512,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.058523499999864725,
+          "plan_s": 0.31404370000382187,
+          "lp_fallback": true,
+          "objective": 1.251411437988284,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 10,
+          "sim_time_s": 0.5,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.999969359061822,
+          "walkers_xyz": [
+            [
+              339.41259765625,
+              281.74578857421875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.02380310000080499,
+          "plan_s": 0.03150140000070678,
+          "lp_fallback": true,
+          "objective": 1.2514114379882837,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 20,
+          "sim_time_s": 1.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.689178399010586,
+          "walkers_xyz": [
+            [
+              338.7724914550781,
+              281.7455749511719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.05345169999782229,
+          "plan_s": 0.07546770000044489,
+          "lp_fallback": true,
+          "objective": 1.2514114379882841,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 30,
+          "sim_time_s": 1.5,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -6.472473294308827,
+          "walkers_xyz": [
+            [
+              338.12249755859375,
+              281.7453918457031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.054212300001381664,
+          "plan_s": 0.07381750000058673,
+          "lp_fallback": true,
+          "objective": 1.6685485839843774,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 40,
+          "sim_time_s": 2.0,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -5.226807013145105,
+          "walkers_xyz": [
+            [
+              337.4725036621094,
+              281.74517822265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.03785559999960242,
+          "plan_s": 0.04223449999699369,
+          "lp_fallback": true,
+          "objective": 1.6685485839843779,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 50,
+          "sim_time_s": 2.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.9912725661071704,
+          "walkers_xyz": [
+            [
+              336.8224792480469,
+              281.7449951171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.04399059999923338,
+          "plan_s": 0.29292110000096727,
+          "lp_fallback": true,
+          "objective": 0.6554889249662389,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 60,
+          "sim_time_s": 3.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4970099591757275,
+          "walkers_xyz": [
+            [
+              336.1724853515625,
+              281.74481201171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.029966900001454633,
+          "plan_s": 0.2821974999969825,
+          "lp_fallback": true,
+          "objective": 0.1596452064479258,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 70,
+          "sim_time_s": 3.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              335.5224914550781,
+              281.7445983886719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011643899997579865,
+          "plan_s": 0.02207500000076834,
+          "lp_fallback": true,
+          "objective": 0.14556617233269706,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 80,
+          "sim_time_s": 4.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.87249755859375,
+              281.7444152832031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.012849599999753991,
+          "plan_s": 0.01952240000537131,
+          "lp_fallback": true,
+          "objective": 0.13999309247175776,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 90,
+          "sim_time_s": 4.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.2225036621094,
+              281.74420166015625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013332300000911346,
+          "plan_s": 0.020181699997920077,
+          "lp_fallback": true,
+          "objective": 0.14214473819826193,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 100,
+          "sim_time_s": 5.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              333.5724792480469,
+              281.7440185546875,
+              0.9514999985694885
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013903399998525856,
+          "plan_s": 0.022282500001892913,
+          "lp_fallback": true,
+          "objective": 0.15232380072978238,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 110,
+          "sim_time_s": 5.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.9224853515625,
+              281.7438049316406,
+              0.9963108897209167
+            ],
+            [
+              329.970703125,
+              284.7398986816406,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.061910899999929825,
+          "plan_s": 0.20051380000222707,
+          "lp_fallback": true,
+          "objective": 0.6056664076464203,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 120,
+          "sim_time_s": 6.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.2724914550781,
+              281.743408203125,
+              1.0552548170089722
+            ],
+            [
+              330.5495910644531,
+              284.7400817871094,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0717428367974671,
+          "go": false,
+          "product_s": 0.029407199999695877,
+          "plan_s": 0.04847850000078324,
+          "lp_fallback": true,
+          "objective": 0.7358716042005933,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 130,
+          "sim_time_s": 6.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              331.62249755859375,
+              281.7430114746094,
+              1.0552548170089722
+            ],
+            [
+              331.14959716796875,
+              284.74029541015625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.03497689999858267,
+          "plan_s": 0.2887047000003804,
+          "lp_fallback": true,
+          "objective": 2.2247314453125044,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 140,
+          "sim_time_s": 7.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.3257452307965636,
+          "walkers_xyz": [
+            [
+              330.9725036621094,
+              281.7426452636719,
+              1.0552548170089722
+            ],
+            [
+              331.7496032714844,
+              284.740478515625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011277099998551421,
+          "plan_s": 0.016900500002520857,
+          "lp_fallback": true,
+          "objective": 2.2247314453125044,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 150,
+          "sim_time_s": 7.5,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -2.4844673050569313,
+          "walkers_xyz": [
+            [
+              330.3224792480469,
+              281.74224853515625,
+              1.0552548170089722
+            ],
+            [
+              332.349609375,
+              284.7406921386719,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011124199998448603,
+          "plan_s": 0.01774210000075982,
+          "lp_fallback": true,
+          "objective": 2.966308593750005,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 160,
+          "sim_time_s": 8.0,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -1.288147938897417,
+          "walkers_xyz": [
+            [
+              329.6724853515625,
+              281.7418518066406,
+              1.0552548170089722
+            ],
+            [
+              332.9496154785156,
+              284.7408752441406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1008,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.028573299998242874,
+          "plan_s": 0.3477215000020806,
+          "lp_fallback": true,
+          "objective": 0.4044734398570905,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 170,
+          "sim_time_s": 8.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.04437374723911347,
+          "walkers_xyz": [
+            [
+              329.0224914550781,
+              281.741455078125,
+              1.0552548170089722
+            ],
+            [
+              333.5495910644531,
+              284.7410583496094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011835000001156004,
+          "plan_s": 0.018931200000224635,
+          "lp_fallback": true,
+          "objective": 0.35898752005015183,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 180,
+          "sim_time_s": 9.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": 0.5938402499674353,
+          "walkers_xyz": [
+            [
+              328.37249755859375,
+              281.7410583496094,
+              1.051919937133789
+            ],
+            [
+              334.14959716796875,
+              284.74127197265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011014200001227437,
+          "plan_s": 0.019180599996616365,
+          "lp_fallback": true,
+          "objective": 0.3340421984778656,
+          "risk": 1.0,
+          "gap": 0.0
+        }
+      ],
+      "repetition": 0
+    },
+    {
+      "method": "incremental",
+      "goal": true,
+      "collision": false,
+      "goal_sim_time_s": 15.4,
+      "elapsed_sim_time_s": 15.4,
+      "planning_time_s": 4.0629564999944705,
+      "wall_time_s": 5.320717500002502,
+      "lp_fallbacks": 18,
+      "planning_calls": 31,
+      "rows": [
+        {
+          "tick": 0,
+          "sim_time_s": 0.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.99999987663449,
+          "walkers_xyz": [
+            [
+              339.72491455078125,
+              281.7458801269531,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1512,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.04892490000202088,
+          "plan_s": 0.23909829999684007,
+          "lp_fallback": true,
+          "objective": 1.2514114379882835,
+          "risk": 0.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 10,
+          "sim_time_s": 0.5,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.999969359061822,
+          "walkers_xyz": [
+            [
+              339.41259765625,
+              281.74578857421875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.015601899998728186,
+          "plan_s": 0.017157399997813627,
+          "lp_fallback": false,
+          "objective": 1.2514114379882835,
+          "risk": 0.0,
+          "gap": 1.000000001250001e-06
+        },
+        {
+          "tick": 20,
+          "sim_time_s": 1.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.689178399010586,
+          "walkers_xyz": [
+            [
+              338.7724914550781,
+              281.7455749511719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.014382600002136314,
+          "plan_s": 0.016541599998163292,
+          "lp_fallback": false,
+          "objective": 1.251411437988284,
+          "risk": 0.0,
+          "gap": 1.0000000005838672e-06
+        },
+        {
+          "tick": 30,
+          "sim_time_s": 1.5,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -6.472473294308827,
+          "walkers_xyz": [
+            [
+              338.12249755859375,
+              281.7453918457031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.01650589999917429,
+          "plan_s": 0.01540949999980512,
+          "lp_fallback": false,
+          "objective": 1.668548583984377,
+          "risk": 0.0,
+          "gap": 1.0000000019161348e-06
+        },
+        {
+          "tick": 40,
+          "sim_time_s": 2.0,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -5.226807013145105,
+          "walkers_xyz": [
+            [
+              337.4725036621094,
+              281.74517822265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.013073699999949895,
+          "plan_s": 0.014776699998037657,
+          "lp_fallback": false,
+          "objective": 1.6685485839843777,
+          "risk": 0.0,
+          "gap": 1.0000000016940902e-06
+        },
+        {
+          "tick": 50,
+          "sim_time_s": 2.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.9912725661071704,
+          "walkers_xyz": [
+            [
+              336.8224792480469,
+              281.7449951171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.02598809999835794,
+          "plan_s": 0.13094279999859282,
+          "lp_fallback": true,
+          "objective": 0.6554889249662378,
+          "risk": 0.9999999999999999,
+          "gap": 1e-05
+        },
+        {
+          "tick": 60,
+          "sim_time_s": 3.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4970099591757275,
+          "walkers_xyz": [
+            [
+              336.1724853515625,
+              281.74481201171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.03809410000030766,
+          "plan_s": 0.21971010000197566,
+          "lp_fallback": true,
+          "objective": 0.15964520644792543,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 70,
+          "sim_time_s": 3.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              335.5224914550781,
+              281.7445983886719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.014492999998765299,
+          "plan_s": 0.22684360000130255,
+          "lp_fallback": true,
+          "objective": 0.14556617233269706,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 80,
+          "sim_time_s": 4.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.87249755859375,
+              281.7444152832031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.01486500000100932,
+          "plan_s": 0.20994120000250405,
+          "lp_fallback": true,
+          "objective": 0.13999309247175779,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 90,
+          "sim_time_s": 4.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.2225036621094,
+              281.74420166015625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.01723669999773847,
+          "plan_s": 0.22882600000230013,
+          "lp_fallback": true,
+          "objective": 0.1421447381982619,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 100,
+          "sim_time_s": 5.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              333.5724792480469,
+              281.7440185546875,
+              0.9514999985694885
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.012196299998322502,
+          "plan_s": 0.2135651999997208,
+          "lp_fallback": true,
+          "objective": 0.15232380072978247,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 110,
+          "sim_time_s": 5.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.9224853515625,
+              281.7438049316406,
+              0.9963108897209167
+            ],
+            [
+              329.970703125,
+              284.7398986816406,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.03845849999925122,
+          "plan_s": 0.170945900001243,
+          "lp_fallback": true,
+          "objective": 0.6056664076464204,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 120,
+          "sim_time_s": 6.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.2724914550781,
+              281.743408203125,
+              1.0552548170089722
+            ],
+            [
+              330.5495910644531,
+              284.7400817871094,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.07174283679746732,
+          "go": false,
+          "product_s": 0.013627000000269618,
+          "plan_s": 0.19211290000021108,
+          "lp_fallback": true,
+          "objective": 0.7358716042005933,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 130,
+          "sim_time_s": 6.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              331.62249755859375,
+              281.7430114746094,
+              1.0552548170089722
+            ],
+            [
+              331.14959716796875,
+              284.74029541015625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.029777300002024276,
+          "plan_s": 0.24003480000101263,
+          "lp_fallback": true,
+          "objective": 2.2247314453125044,
+          "risk": 0.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 140,
+          "sim_time_s": 7.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.3257452307965636,
+          "walkers_xyz": [
+            [
+              330.9725036621094,
+              281.7426452636719,
+              1.0552548170089722
+            ],
+            [
+              331.7496032714844,
+              284.740478515625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.014894600000843639,
+          "plan_s": 0.015028899997560075,
+          "lp_fallback": false,
+          "objective": 2.224731445312504,
+          "risk": 0.0,
+          "gap": 1.000000002360224e-06
+        },
+        {
+          "tick": 150,
+          "sim_time_s": 7.5,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -2.4844673050569313,
+          "walkers_xyz": [
+            [
+              330.3224792480469,
+              281.74224853515625,
+              1.0552548170089722
+            ],
+            [
+              332.349609375,
+              284.7406921386719,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.01564470000084839,
+          "plan_s": 0.014673499998025363,
+          "lp_fallback": false,
+          "objective": 2.966308593750004,
+          "risk": 0.0,
+          "gap": 1.000000002360224e-06
+        },
+        {
+          "tick": 160,
+          "sim_time_s": 8.0,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -1.288147938897417,
+          "walkers_xyz": [
+            [
+              329.6724853515625,
+              281.7418518066406,
+              1.0552548170089722
+            ],
+            [
+              332.9496154785156,
+              284.7408752441406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1008,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.03176240000175312,
+          "plan_s": 0.15169610000157263,
+          "lp_fallback": true,
+          "objective": 0.40447343985708967,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 170,
+          "sim_time_s": 8.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6547252005997493,
+          "walkers_xyz": [
+            [
+              329.0224914550781,
+              281.741455078125,
+              1.0552548170089722
+            ],
+            [
+              333.5495910644531,
+              284.7410583496094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.014837200000329176,
+          "plan_s": 0.14482589999897755,
+          "lp_fallback": true,
+          "objective": 0.3589875200501518,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 180,
+          "sim_time_s": 9.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              328.37249755859375,
+              281.7410583496094,
+              1.051919937133789
+            ],
+            [
+              334.14959716796875,
+              284.74127197265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.01289829999950598,
+          "plan_s": 0.1635463000020536,
+          "lp_fallback": true,
+          "objective": 0.3340421984778656,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 190,
+          "sim_time_s": 9.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              327.7225036621094,
+              281.7406921386719,
+              1.051919937133789
+            ],
+            [
+              334.7496032714844,
+              284.741455078125,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013265000001410954,
+          "plan_s": 0.16070289999697707,
+          "lp_fallback": true,
+          "objective": 0.32644693172571787,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 200,
+          "sim_time_s": 10.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              327.0724792480469,
+              281.74029541015625,
+              1.051919937133789
+            ],
+            [
+              335.349609375,
+              284.7416687011719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.012326799998845672,
+          "plan_s": 0.14061889999720734,
+          "lp_fallback": true,
+          "objective": 0.33523071497257567,
+          "risk": 0.9999999999999999,
+          "gap": 1e-05
+        },
+        {
+          "tick": 210,
+          "sim_time_s": 10.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              326.4224853515625,
+              281.7398986816406,
+              1.051919937133789
+            ],
+            [
+              335.9496154785156,
+              284.7418518066406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011945199999900069,
+          "plan_s": 0.14442250000138301,
+          "lp_fallback": true,
+          "objective": 0.3615171092725882,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 220,
+          "sim_time_s": 11.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              325.7724914550781,
+              281.739501953125,
+              1.051919937133789
+            ],
+            [
+              336.5495910644531,
+              284.7420349121094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.010980900002323324,
+          "plan_s": 0.13295479999942472,
+          "lp_fallback": true,
+          "objective": 0.4086671464499274,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 230,
+          "sim_time_s": 11.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              325.12249755859375,
+              281.7391052246094,
+              1.051919937133789
+            ],
+            [
+              337.14959716796875,
+              284.74224853515625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1008,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.02814090000174474,
+          "plan_s": 0.1885474000009708,
+          "lp_fallback": true,
+          "objective": 3.955078125000006,
+          "risk": 0.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 240,
+          "sim_time_s": 12.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.4843760362560161,
+          "walkers_xyz": [
+            [
+              324.4725036621094,
+              281.7387390136719,
+              1.051919937133789
+            ],
+            [
+              337.7496032714844,
+              284.742431640625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011650699998426717,
+          "plan_s": 0.013808899999276036,
+          "lp_fallback": false,
+          "objective": 3.9550781250000044,
+          "risk": 0.0,
+          "gap": 1.0000000032484024e-06
+        },
+        {
+          "tick": 250,
+          "sim_time_s": 12.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": 0.3585797294387305,
+          "walkers_xyz": [
+            [
+              323.8224792480469,
+              281.73834228515625,
+              1.051919937133789
+            ],
+            [
+              338.349609375,
+              284.7426452636719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012096600003133062,
+          "plan_s": 0.014378500000020722,
+          "lp_fallback": false,
+          "objective": 3.9550781250000053,
+          "risk": 0.0,
+          "gap": 1.000000002360224e-06
+        },
+        {
+          "tick": 260,
+          "sim_time_s": 13.0,
+          "ego_xy": [
+            11,
+            10
+          ],
+          "longitudinal_m": 1.5545927404990891,
+          "walkers_xyz": [
+            [
+              323.1724853515625,
+              281.7379455566406,
+              1.051919937133789
+            ],
+            [
+              338.9496154785156,
+              284.7428283691406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011997499997960404,
+          "plan_s": 0.01620139999795356,
+          "lp_fallback": false,
+          "objective": 5.273437500000005,
+          "risk": 0.0,
+          "gap": 1.0000000036924916e-06
+        },
+        {
+          "tick": 270,
+          "sim_time_s": 13.5,
+          "ego_xy": [
+            11,
+            10
+          ],
+          "longitudinal_m": 2.7982436824942454,
+          "walkers_xyz": [
+            [
+              322.5224914550781,
+              281.737548828125,
+              1.051919937133789
+            ],
+            [
+              339.5495910644531,
+              284.7430114746094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011615600000368431,
+          "plan_s": 0.01315450000038254,
+          "lp_fallback": false,
+          "objective": 5.273437500000005,
+          "risk": 0.0,
+          "gap": 1.0000000028043132e-06
+        },
+        {
+          "tick": 280,
+          "sim_time_s": 14.0,
+          "ego_xy": [
+            12,
+            10
+          ],
+          "longitudinal_m": 4.046014496799586,
+          "walkers_xyz": [
+            [
+              321.87249755859375,
+              281.7371520996094,
+              1.051919937133789
+            ],
+            [
+              340.14959716796875,
+              284.74322509765625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011617699998168973,
+          "plan_s": 0.01292950000060955,
+          "lp_fallback": false,
+          "objective": 7.031250000000005,
+          "risk": 0.0,
+          "gap": 1.00000000458067e-06
+        },
+        {
+          "tick": 290,
+          "sim_time_s": 14.5,
+          "ego_xy": [
+            13,
+            10
+          ],
+          "longitudinal_m": 5.294059969258939,
+          "walkers_xyz": [
+            [
+              321.2225036621094,
+              281.7367858886719,
+              1.051919937133789
+            ],
+            [
+              340.7496032714844,
+              284.743408203125,
+              1.0231224298477173
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012326600000960752,
+          "plan_s": 0.016961400000582216,
+          "lp_fallback": false,
+          "objective": 9.375000000000005,
+          "risk": 0.0,
+          "gap": 1.000000006357027e-06
+        },
+        {
+          "tick": 300,
+          "sim_time_s": 15.0,
+          "ego_xy": [
+            13,
+            10
+          ],
+          "longitudinal_m": 6.542105441718292,
+          "walkers_xyz": [
+            [
+              320.5724792480469,
+              281.73638916015625,
+              1.051919937133789
+            ],
+            [
+              341.349609375,
+              284.7438049316406,
+              1.0557711124420166
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.015057299999170937,
+          "plan_s": 0.016316099998221034,
+          "lp_fallback": false,
+          "objective": 9.375000000000005,
+          "risk": 0.0,
+          "gap": 1.000000006357027e-06
+        }
+      ],
+      "repetition": 0
+    },
+    {
+      "method": "incremental",
+      "goal": true,
+      "collision": false,
+      "goal_sim_time_s": 15.4,
+      "elapsed_sim_time_s": 15.4,
+      "planning_time_s": 3.8185691999933624,
+      "wall_time_s": 5.053222399998049,
+      "lp_fallbacks": 18,
+      "planning_calls": 31,
+      "rows": [
+        {
+          "tick": 0,
+          "sim_time_s": 0.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.99999987663449,
+          "walkers_xyz": [
+            [
+              339.72491455078125,
+              281.7458801269531,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1512,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.04357429999799933,
+          "plan_s": 0.1849359000007098,
+          "lp_fallback": true,
+          "objective": 1.2514114379882835,
+          "risk": 0.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 10,
+          "sim_time_s": 0.5,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.999969359061822,
+          "walkers_xyz": [
+            [
+              339.41259765625,
+              281.74578857421875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012170499998319428,
+          "plan_s": 0.014109499999904074,
+          "lp_fallback": false,
+          "objective": 1.2514114379882835,
+          "risk": 0.0,
+          "gap": 1.000000001250001e-06
+        },
+        {
+          "tick": 20,
+          "sim_time_s": 1.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.689178399010586,
+          "walkers_xyz": [
+            [
+              338.7724914550781,
+              281.7455749511719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.01207559999966179,
+          "plan_s": 0.014528499999869382,
+          "lp_fallback": false,
+          "objective": 1.251411437988284,
+          "risk": 0.0,
+          "gap": 1.0000000005838672e-06
+        },
+        {
+          "tick": 30,
+          "sim_time_s": 1.5,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -6.472473294308827,
+          "walkers_xyz": [
+            [
+              338.12249755859375,
+              281.7453918457031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.013163699997676304,
+          "plan_s": 0.013275400000566151,
+          "lp_fallback": false,
+          "objective": 1.668548583984377,
+          "risk": 0.0,
+          "gap": 1.0000000019161348e-06
+        },
+        {
+          "tick": 40,
+          "sim_time_s": 2.0,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -5.226807013145105,
+          "walkers_xyz": [
+            [
+              337.4725036621094,
+              281.74517822265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011998800000583287,
+          "plan_s": 0.012922099998831982,
+          "lp_fallback": false,
+          "objective": 1.6685485839843777,
+          "risk": 0.0,
+          "gap": 1.0000000016940902e-06
+        },
+        {
+          "tick": 50,
+          "sim_time_s": 2.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.9912725661071704,
+          "walkers_xyz": [
+            [
+              336.8224792480469,
+              281.7449951171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.02267000000210828,
+          "plan_s": 0.1365046999999322,
+          "lp_fallback": true,
+          "objective": 0.6554889249662378,
+          "risk": 0.9999999999999999,
+          "gap": 1e-05
+        },
+        {
+          "tick": 60,
+          "sim_time_s": 3.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4970099591757275,
+          "walkers_xyz": [
+            [
+              336.1724853515625,
+              281.74481201171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.0329660999996122,
+          "plan_s": 0.18388390000109212,
+          "lp_fallback": true,
+          "objective": 0.15964520644792543,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 70,
+          "sim_time_s": 3.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              335.5224914550781,
+              281.7445983886719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.012558700000226963,
+          "plan_s": 0.22286309999981313,
+          "lp_fallback": true,
+          "objective": 0.14556617233269706,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 80,
+          "sim_time_s": 4.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.87249755859375,
+              281.7444152832031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013079000000288943,
+          "plan_s": 0.1889385000031325,
+          "lp_fallback": true,
+          "objective": 0.13999309247175779,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 90,
+          "sim_time_s": 4.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.2225036621094,
+              281.74420166015625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.0146041999978479,
+          "plan_s": 0.22240590000001248,
+          "lp_fallback": true,
+          "objective": 0.1421447381982619,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 100,
+          "sim_time_s": 5.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              333.5724792480469,
+              281.7440185546875,
+              0.9514999985694885
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.012451600003259955,
+          "plan_s": 0.25222329999814974,
+          "lp_fallback": true,
+          "objective": 0.15232380072978247,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 110,
+          "sim_time_s": 5.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.9224853515625,
+              281.7438049316406,
+              0.9963108897209167
+            ],
+            [
+              329.970703125,
+              284.7398986816406,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.046471900001051836,
+          "plan_s": 0.17466509999940172,
+          "lp_fallback": true,
+          "objective": 0.6056664076464204,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 120,
+          "sim_time_s": 6.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.2724914550781,
+              281.743408203125,
+              1.0552548170089722
+            ],
+            [
+              330.5495910644531,
+              284.7400817871094,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.07174283679746732,
+          "go": false,
+          "product_s": 0.014584900000045309,
+          "plan_s": 0.17660650000107125,
+          "lp_fallback": true,
+          "objective": 0.7358716042005933,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 130,
+          "sim_time_s": 6.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              331.62249755859375,
+              281.7430114746094,
+              1.0552548170089722
+            ],
+            [
+              331.14959716796875,
+              284.74029541015625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.026777600000059465,
+          "plan_s": 0.18453740000040852,
+          "lp_fallback": true,
+          "objective": 2.2247314453125044,
+          "risk": 0.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 140,
+          "sim_time_s": 7.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.3257452307965636,
+          "walkers_xyz": [
+            [
+              330.9725036621094,
+              281.7426452636719,
+              1.0552548170089722
+            ],
+            [
+              331.7496032714844,
+              284.740478515625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011372299999493407,
+          "plan_s": 0.014861799998470815,
+          "lp_fallback": false,
+          "objective": 2.224731445312504,
+          "risk": 0.0,
+          "gap": 1.000000002360224e-06
+        },
+        {
+          "tick": 150,
+          "sim_time_s": 7.5,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -2.4844673050569313,
+          "walkers_xyz": [
+            [
+              330.3224792480469,
+              281.74224853515625,
+              1.0552548170089722
+            ],
+            [
+              332.349609375,
+              284.7406921386719,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012548000002425397,
+          "plan_s": 0.018664699997316347,
+          "lp_fallback": false,
+          "objective": 2.966308593750004,
+          "risk": 0.0,
+          "gap": 1.000000002360224e-06
+        },
+        {
+          "tick": 160,
+          "sim_time_s": 8.0,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -1.288147938897417,
+          "walkers_xyz": [
+            [
+              329.6724853515625,
+              281.7418518066406,
+              1.0552548170089722
+            ],
+            [
+              332.9496154785156,
+              284.7408752441406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1008,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.03129270000135875,
+          "plan_s": 0.1267933000017365,
+          "lp_fallback": true,
+          "objective": 0.40447343985708967,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 170,
+          "sim_time_s": 8.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6547252005997493,
+          "walkers_xyz": [
+            [
+              329.0224914550781,
+              281.741455078125,
+              1.0552548170089722
+            ],
+            [
+              333.5495910644531,
+              284.7410583496094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.010676499998226063,
+          "plan_s": 0.12103539999952773,
+          "lp_fallback": true,
+          "objective": 0.3589875200501518,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 180,
+          "sim_time_s": 9.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              328.37249755859375,
+              281.7410583496094,
+              1.051919937133789
+            ],
+            [
+              334.14959716796875,
+              284.74127197265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.010615699997288175,
+          "plan_s": 0.13920539999890025,
+          "lp_fallback": true,
+          "objective": 0.3340421984778656,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 190,
+          "sim_time_s": 9.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              327.7225036621094,
+              281.7406921386719,
+              1.051919937133789
+            ],
+            [
+              334.7496032714844,
+              284.741455078125,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.01214080000136164,
+          "plan_s": 0.12692869999955292,
+          "lp_fallback": true,
+          "objective": 0.32644693172571787,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 200,
+          "sim_time_s": 10.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              327.0724792480469,
+              281.74029541015625,
+              1.051919937133789
+            ],
+            [
+              335.349609375,
+              284.7416687011719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013277099998958874,
+          "plan_s": 0.14397279999684542,
+          "lp_fallback": true,
+          "objective": 0.33523071497257567,
+          "risk": 0.9999999999999999,
+          "gap": 1e-05
+        },
+        {
+          "tick": 210,
+          "sim_time_s": 10.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              326.4224853515625,
+              281.7398986816406,
+              1.051919937133789
+            ],
+            [
+              335.9496154785156,
+              284.7418518066406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011816499998531071,
+          "plan_s": 0.16499169999951846,
+          "lp_fallback": true,
+          "objective": 0.3615171092725882,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 220,
+          "sim_time_s": 11.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              325.7724914550781,
+              281.739501953125,
+              1.051919937133789
+            ],
+            [
+              336.5495910644531,
+              284.7420349121094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011666200000036042,
+          "plan_s": 0.15552170000228216,
+          "lp_fallback": true,
+          "objective": 0.4086671464499274,
+          "risk": 1.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 230,
+          "sim_time_s": 11.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.6543895073004009,
+          "walkers_xyz": [
+            [
+              325.12249755859375,
+              281.7391052246094,
+              1.051919937133789
+            ],
+            [
+              337.14959716796875,
+              284.74224853515625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1008,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.030312700000649784,
+          "plan_s": 0.19799710000006598,
+          "lp_fallback": true,
+          "objective": 3.955078125000006,
+          "risk": 0.0,
+          "gap": 1e-05
+        },
+        {
+          "tick": 240,
+          "sim_time_s": 12.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.4843760362560161,
+          "walkers_xyz": [
+            [
+              324.4725036621094,
+              281.7387390136719,
+              1.051919937133789
+            ],
+            [
+              337.7496032714844,
+              284.742431640625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011588899997150293,
+          "plan_s": 0.013448300000163727,
+          "lp_fallback": false,
+          "objective": 3.9550781250000044,
+          "risk": 0.0,
+          "gap": 1.0000000032484024e-06
+        },
+        {
+          "tick": 250,
+          "sim_time_s": 12.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": 0.3585797294387305,
+          "walkers_xyz": [
+            [
+              323.8224792480469,
+              281.73834228515625,
+              1.051919937133789
+            ],
+            [
+              338.349609375,
+              284.7426452636719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.01161790000332985,
+          "plan_s": 0.013481800000590738,
+          "lp_fallback": false,
+          "objective": 3.9550781250000053,
+          "risk": 0.0,
+          "gap": 1.000000002360224e-06
+        },
+        {
+          "tick": 260,
+          "sim_time_s": 13.0,
+          "ego_xy": [
+            11,
+            10
+          ],
+          "longitudinal_m": 1.5545927404990891,
+          "walkers_xyz": [
+            [
+              323.1724853515625,
+              281.7379455566406,
+              1.051919937133789
+            ],
+            [
+              338.9496154785156,
+              284.7428283691406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012245899997651577,
+          "plan_s": 0.014345999999932246,
+          "lp_fallback": false,
+          "objective": 5.273437500000005,
+          "risk": 0.0,
+          "gap": 1.0000000036924916e-06
+        },
+        {
+          "tick": 270,
+          "sim_time_s": 13.5,
+          "ego_xy": [
+            11,
+            10
+          ],
+          "longitudinal_m": 2.7982436824942454,
+          "walkers_xyz": [
+            [
+              322.5224914550781,
+              281.737548828125,
+              1.051919937133789
+            ],
+            [
+              339.5495910644531,
+              284.7430114746094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.013365799997700378,
+          "plan_s": 0.014123099997959798,
+          "lp_fallback": false,
+          "objective": 5.273437500000005,
+          "risk": 0.0,
+          "gap": 1.0000000028043132e-06
+        },
+        {
+          "tick": 280,
+          "sim_time_s": 14.0,
+          "ego_xy": [
+            12,
+            10
+          ],
+          "longitudinal_m": 4.046014496799586,
+          "walkers_xyz": [
+            [
+              321.87249755859375,
+              281.7371520996094,
+              1.051919937133789
+            ],
+            [
+              340.14959716796875,
+              284.74322509765625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012211400000524009,
+          "plan_s": 0.014325100000860402,
+          "lp_fallback": false,
+          "objective": 7.031250000000005,
+          "risk": 0.0,
+          "gap": 1.00000000458067e-06
+        },
+        {
+          "tick": 290,
+          "sim_time_s": 14.5,
+          "ego_xy": [
+            13,
+            10
+          ],
+          "longitudinal_m": 5.295524812747004,
+          "walkers_xyz": [
+            [
+              321.2225036621094,
+              281.7367858886719,
+              1.051919937133789
+            ],
+            [
+              340.7496032714844,
+              284.743408203125,
+              1.0231224298477173
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011394900000595953,
+          "plan_s": 0.013358100000914419,
+          "lp_fallback": false,
+          "objective": 9.375000000000005,
+          "risk": 0.0,
+          "gap": 1.000000006357027e-06
+        },
+        {
+          "tick": 300,
+          "sim_time_s": 15.0,
+          "ego_xy": [
+            13,
+            10
+          ],
+          "longitudinal_m": 6.544241671805054,
+          "walkers_xyz": [
+            [
+              320.5724792480469,
+              281.73638916015625,
+              1.051919937133789
+            ],
+            [
+              341.349609375,
+              284.7438049316406,
+              1.0557711124420166
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.012551800002256641,
+          "plan_s": 0.013272399999550544,
+          "lp_fallback": false,
+          "objective": 9.375000000000005,
+          "risk": 0.0,
+          "gap": 1.000000006357027e-06
+        }
+      ],
+      "repetition": 1
+    },
+    {
+      "method": "warm_lp",
+      "goal": false,
+      "collision": true,
+      "goal_sim_time_s": null,
+      "elapsed_sim_time_s": 9.200000000000001,
+      "planning_time_s": 2.187231800013251,
+      "wall_time_s": 2.950308600000426,
+      "lp_fallbacks": 19,
+      "planning_calls": 19,
+      "rows": [
+        {
+          "tick": 0,
+          "sim_time_s": 0.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.99999987663449,
+          "walkers_xyz": [
+            [
+              339.72491455078125,
+              281.7458801269531,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1512,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.04063329999917187,
+          "plan_s": 0.2070860999992874,
+          "lp_fallback": true,
+          "objective": 1.251411437988284,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 10,
+          "sim_time_s": 0.5,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.999969359061822,
+          "walkers_xyz": [
+            [
+              339.41259765625,
+              281.74578857421875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011278000001766486,
+          "plan_s": 0.019124800001009135,
+          "lp_fallback": true,
+          "objective": 1.2514114379882837,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 20,
+          "sim_time_s": 1.0,
+          "ego_xy": [
+            6,
+            10
+          ],
+          "longitudinal_m": -7.689178399010586,
+          "walkers_xyz": [
+            [
+              338.7724914550781,
+              281.7455749511719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011205099999642698,
+          "plan_s": 0.01837829999567475,
+          "lp_fallback": true,
+          "objective": 1.2514114379882841,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 30,
+          "sim_time_s": 1.5,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -6.472473294308827,
+          "walkers_xyz": [
+            [
+              338.12249755859375,
+              281.7453918457031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.011712399998941692,
+          "plan_s": 0.020229600002494408,
+          "lp_fallback": true,
+          "objective": 1.6685485839843774,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 40,
+          "sim_time_s": 2.0,
+          "ego_xy": [
+            7,
+            10
+          ],
+          "longitudinal_m": -5.226807013145105,
+          "walkers_xyz": [
+            [
+              337.4725036621094,
+              281.74517822265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.01332399999955669,
+          "plan_s": 0.020576499995513586,
+          "lp_fallback": true,
+          "objective": 1.6685485839843779,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 50,
+          "sim_time_s": 2.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.9912725661071704,
+          "walkers_xyz": [
+            [
+              336.8224792480469,
+              281.7449951171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.04994100000112667,
+          "plan_s": 0.2730110999982571,
+          "lp_fallback": true,
+          "objective": 0.6554889249662389,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 60,
+          "sim_time_s": 3.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4970099591757275,
+          "walkers_xyz": [
+            [
+              336.1724853515625,
+              281.74481201171875,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.02997500000128639,
+          "plan_s": 0.3180949000015971,
+          "lp_fallback": true,
+          "objective": 0.1596452064479258,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 70,
+          "sim_time_s": 3.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              335.5224914550781,
+              281.7445983886719,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.014784900002268841,
+          "plan_s": 0.019600700001319638,
+          "lp_fallback": true,
+          "objective": 0.14556617233269706,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 80,
+          "sim_time_s": 4.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.87249755859375,
+              281.7444152832031,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013827099999616621,
+          "plan_s": 0.021833800001331838,
+          "lp_fallback": true,
+          "objective": 0.13999309247175776,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 90,
+          "sim_time_s": 4.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              334.2225036621094,
+              281.74420166015625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.01536149999810732,
+          "plan_s": 0.02442420000079437,
+          "lp_fallback": true,
+          "objective": 0.14214473819826193,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 100,
+          "sim_time_s": 5.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              333.5724792480469,
+              281.7440185546875,
+              0.9514999985694885
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.013359299999137875,
+          "plan_s": 0.021390099998825463,
+          "lp_fallback": true,
+          "objective": 0.15232380072978238,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 110,
+          "sim_time_s": 5.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.9224853515625,
+              281.7438049316406,
+              0.9963108897209167
+            ],
+            [
+              329.970703125,
+              284.7398986816406,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 1080,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.035434500001429114,
+          "plan_s": 0.06748109999898588,
+          "lp_fallback": true,
+          "objective": 0.6056664076464203,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 120,
+          "sim_time_s": 6.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              332.2724914550781,
+              281.743408203125,
+              1.0552548170089722
+            ],
+            [
+              330.5495910644531,
+              284.7400817871094,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0717428367974671,
+          "go": false,
+          "product_s": 0.013458900000841822,
+          "plan_s": 0.03289220000442583,
+          "lp_fallback": true,
+          "objective": 0.7358716042005933,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 130,
+          "sim_time_s": 6.5,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.4968268537397194,
+          "walkers_xyz": [
+            [
+              331.62249755859375,
+              281.7430114746094,
+              1.0552548170089722
+            ],
+            [
+              331.14959716796875,
+              284.74029541015625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 792,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.025057300001208205,
+          "plan_s": 0.3043083000011393,
+          "lp_fallback": true,
+          "objective": 2.2247314453125044,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 140,
+          "sim_time_s": 7.0,
+          "ego_xy": [
+            8,
+            10
+          ],
+          "longitudinal_m": -3.3257452307965636,
+          "walkers_xyz": [
+            [
+              330.9725036621094,
+              281.7426452636719,
+              1.0552548170089722
+            ],
+            [
+              331.7496032714844,
+              284.740478515625,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.013699600000109058,
+          "plan_s": 0.020160000000032596,
+          "lp_fallback": true,
+          "objective": 2.2247314453125044,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 150,
+          "sim_time_s": 7.5,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -2.4844673050569313,
+          "walkers_xyz": [
+            [
+              330.3224792480469,
+              281.74224853515625,
+              1.0552548170089722
+            ],
+            [
+              332.349609375,
+              284.7406921386719,
+              1.0570229291915894
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.013398400002188282,
+          "plan_s": 0.019543700000212993,
+          "lp_fallback": true,
+          "objective": 2.966308593750005,
+          "risk": 0.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 160,
+          "sim_time_s": 8.0,
+          "ego_xy": [
+            9,
+            10
+          ],
+          "longitudinal_m": -1.288147938897417,
+          "walkers_xyz": [
+            [
+              329.6724853515625,
+              281.7418518066406,
+              1.0552548170089722
+            ],
+            [
+              332.9496154785156,
+              284.7408752441406,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 1008,
+          "forward_probability": 1.0,
+          "go": true,
+          "product_s": 0.03555240000059712,
+          "plan_s": 0.3529008000041358,
+          "lp_fallback": true,
+          "objective": 0.4044734398570905,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 170,
+          "sim_time_s": 8.5,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": -0.04437374723911347,
+          "walkers_xyz": [
+            [
+              329.0224914550781,
+              281.741455078125,
+              1.0552548170089722
+            ],
+            [
+              333.5495910644531,
+              284.7410583496094,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.011976999998296378,
+          "plan_s": 0.020983200003684033,
+          "lp_fallback": true,
+          "objective": 0.35898752005015183,
+          "risk": 1.0,
+          "gap": 0.0
+        },
+        {
+          "tick": 180,
+          "sim_time_s": 9.0,
+          "ego_xy": [
+            10,
+            10
+          ],
+          "longitudinal_m": 0.5938402499674353,
+          "walkers_xyz": [
+            [
+              328.37249755859375,
+              281.7410583496094,
+              1.051919937133789
+            ],
+            [
+              334.14959716796875,
+              284.74127197265625,
+              0.9514999985694885
+            ]
+          ],
+          "changed_product_rows": 360,
+          "forward_probability": 0.0,
+          "go": false,
+          "product_s": 0.012249100000190083,
+          "plan_s": 0.01898359999904642,
+          "lp_fallback": true,
+          "objective": 0.3340421984778656,
+          "risk": 1.0,
+          "gap": 0.0
+        }
+      ],
+      "repetition": 1
+    }
+  ]
+}

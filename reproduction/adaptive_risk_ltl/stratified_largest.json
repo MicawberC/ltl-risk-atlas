@@ -1,0 +1,76 @@
+[
+  {
+    "case": "32:barrier_hard",
+    "states": 8193,
+    "sparse_lp_seconds": 14.929867699998795,
+    "sparse_lp_objective": 0.8310559006216476,
+    "objective": 0.8310559006211404,
+    "risk": 5.0,
+    "upper": 0.8390625003736676,
+    "gap": 0.008006599752527155,
+    "evaluations": 10,
+    "seconds": 1.7255213999997068,
+    "prices": [
+      1.0,
+      1.0078125
+    ],
+    "mixed": true,
+    "target": 5.0,
+    "objective_difference": -5.071498776487715e-13
+  },
+  {
+    "case": "40:near",
+    "states": 12801,
+    "sparse_lp_seconds": 40.649446100000205,
+    "sparse_lp_objective": 1.7681708836790249,
+    "objective": 1.7613884484478692,
+    "risk": 0.7999999999999989,
+    "upper": 1.76868083276772,
+    "gap": 0.007292384319850687,
+    "evaluations": 3,
+    "seconds": 0.7206600999998045,
+    "prices": [
+      0.0,
+      0.5
+    ],
+    "mixed": true,
+    "target": 0.8,
+    "objective_difference": -0.006782435231155626
+  },
+  {
+    "case": "40:middle",
+    "states": 12801,
+    "sparse_lp_seconds": 57.686700300000666,
+    "sparse_lp_objective": 0.00044797506635124056,
+    "objective": 0.0004479750254098263,
+    "risk": 0.0011688411507984808,
+    "upper": 0.0004479750255519346,
+    "gap": 1.4210833031158554e-13,
+    "evaluations": 1,
+    "seconds": 0.2792237000012392,
+    "prices": [
+      0.0
+    ],
+    "mixed": false,
+    "objective_difference": -4.094141426705042e-11
+  },
+  {
+    "case": "40:barrier_hard",
+    "states": 12801,
+    "sparse_lp_seconds": 50.040017199999056,
+    "sparse_lp_objective": 0.8310559006085843,
+    "objective": 0.8310559006211404,
+    "risk": 5.0,
+    "upper": 0.839062500126906,
+    "gap": 0.008006599505765544,
+    "evaluations": 10,
+    "seconds": 2.682791900000666,
+    "prices": [
+      1.0,
+      1.0078125
+    ],
+    "mixed": true,
+    "target": 5.0,
+    "objective_difference": 1.255617831930067e-11
+  }
+]

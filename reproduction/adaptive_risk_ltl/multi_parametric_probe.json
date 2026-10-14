@@ -1,0 +1,632 @@
+[
+  {
+    "case": "24:middle_fast",
+    "prepare_seconds": 0.41465449999850534,
+    "rows": [
+      {
+        "theta": [
+          -0.05,
+          -0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0003844999991997611,
+        "fresh_seconds": 0.2514656000003015,
+        "fresh_objective": 3.103871844193387,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          -0.05,
+          -0.02
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0002731000004132511,
+        "fresh_seconds": 0.24445080000077724,
+        "fresh_objective": 3.1025834175873834,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          -0.05,
+          0.0
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0002570000015111873,
+        "fresh_seconds": 0.2460799999989831,
+        "fresh_objective": 3.1017298388193617,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          -0.05,
+          0.02
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0002624000007926952,
+        "fresh_seconds": 0.24085899999954563,
+        "fresh_objective": 3.1008805203578413,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          -0.05,
+          0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.00025649999952293,
+        "fresh_seconds": 0.2457029999986844,
+        "fresh_objective": 3.0996144612133523,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          -0.02,
+          -0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0002637999987200601,
+        "fresh_seconds": 0.25678960000004736,
+        "fresh_objective": 3.0981241547108342,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          -0.02,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0006625000005442416,
+        "fresh_seconds": 0.3387836999991123,
+        "fresh_objective": 3.102423519509768,
+        "risk": 0.8,
+        "objective": 3.102423519524994,
+        "gap": 0.00022544590816808707
+      },
+      {
+        "theta": [
+          -0.02,
+          0.0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0012031000005663373,
+        "fresh_seconds": 0.32409199999892735,
+        "fresh_objective": 3.101596963876916,
+        "risk": 0.8,
+        "objective": 3.1015969638864025,
+        "gap": 0.00035130633450108917
+      },
+      {
+        "theta": [
+          -0.02,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0007385999997495674,
+        "fresh_seconds": 0.30356399999982386,
+        "fresh_objective": 3.1007734155931024,
+        "risk": 0.8,
+        "objective": 3.1007734155931024,
+        "gap": 0.00047415941554262986
+      },
+      {
+        "theta": [
+          -0.02,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.001153199998952914,
+        "fresh_seconds": 0.2982921000002534,
+        "fresh_objective": 3.0995436961019474,
+        "risk": 0.8,
+        "objective": 3.099543696120026,
+        "gap": 0.0006528360702313663
+      },
+      {
+        "theta": [
+          0.0,
+          -0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0003101999991486082,
+        "fresh_seconds": 0.3370847000005597,
+        "fresh_objective": 3.1002021460059743,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.0,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0006625000005442416,
+        "fresh_seconds": 0.2547162999999273,
+        "fresh_objective": 3.098485857765912,
+        "risk": 0.8,
+        "objective": 3.098485857788076,
+        "gap": 0.0007573713027952955
+      },
+      {
+        "theta": [
+          0,
+          0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0007433999999193475,
+        "fresh_seconds": 0.3077271000001929,
+        "fresh_objective": 3.09768140004699,
+        "risk": 0.8,
+        "objective": 3.097681400055937,
+        "gap": 0.0008611338226756082
+      },
+      {
+        "theta": [
+          0.0,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0011432000010245247,
+        "fresh_seconds": 0.30834499999946274,
+        "fresh_objective": 3.0968798160615147,
+        "risk": 0.8,
+        "objective": 3.096879816061515,
+        "gap": 0.000962022604838797
+      },
+      {
+        "theta": [
+          0.0,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0006799000002501998,
+        "fresh_seconds": 0.2617059000003792,
+        "fresh_objective": 3.095682794721749,
+        "risk": 0.8,
+        "objective": 3.0956827947335888,
+        "gap": 0.001108001114377366
+      },
+      {
+        "theta": [
+          0.02,
+          -0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.00025070000083360355,
+        "fresh_seconds": 0.2665038999984972,
+        "fresh_objective": 3.096745069167355,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.02,
+          -0.02
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0002488999998604413,
+        "fresh_seconds": 0.26377379999939876,
+        "fresh_objective": 3.0953820658887388,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.02,
+          0.0
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0003696000003401423,
+        "fresh_seconds": 0.3448296999995364,
+        "fresh_objective": 3.0944807842633315,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.02,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0006359999988490017,
+        "fresh_seconds": 0.344289700000445,
+        "fresh_objective": 3.093125246056254,
+        "risk": 0.8,
+        "objective": 3.0931252460562546,
+        "gap": 0.001310856267808358
+      },
+      {
+        "theta": [
+          0.02,
+          0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0006830999991507269,
+        "fresh_seconds": 0.3369105000001582,
+        "fresh_objective": 3.0919593934860172,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.05,
+          -0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.00046459999975922983,
+        "fresh_seconds": 0.3411780999995244,
+        "fresh_objective": 3.080528862302746,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.05,
+          -0.02
+        ],
+        "certified": false,
+        "transfer_seconds": 0.00045529999988502823,
+        "fresh_seconds": 0.3551900000002206,
+        "fresh_objective": 3.079794176260463,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.05,
+          0.0
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0004295999988244148,
+        "fresh_seconds": 0.32152189999942493,
+        "fresh_objective": 3.07931575165217,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.05,
+          0.02
+        ],
+        "certified": false,
+        "transfer_seconds": 0.0003089000001637032,
+        "fresh_seconds": 0.3580742999984068,
+        "fresh_objective": 3.0788461272171768,
+        "reason": "Bellman region"
+      },
+      {
+        "theta": [
+          0.05,
+          0.05
+        ],
+        "certified": false,
+        "transfer_seconds": 0.00020670000048994552,
+        "fresh_seconds": 0.303956300000209,
+        "fresh_objective": 3.0781576669781905,
+        "reason": "Bellman region"
+      }
+    ]
+  },
+  {
+    "case": "32:middle_fast",
+    "prepare_seconds": 1.3919189999996888,
+    "rows": [
+      {
+        "theta": [
+          -0.05,
+          -0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0015960999990056735,
+        "fresh_seconds": 0.5176014000007854,
+        "fresh_objective": 1.7906028743194322,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.05,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0011735999996744795,
+        "fresh_seconds": 0.52768499999911,
+        "fresh_objective": 1.7901450254461087,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.05,
+          0.0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0013755999989371048,
+        "fresh_seconds": 0.512268700000277,
+        "fresh_objective": 1.7898495051255012,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.05,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0019898999998986255,
+        "fresh_seconds": 0.5366758000000118,
+        "fresh_objective": 1.7895614128431925,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          -0.05,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0013263000000733882,
+        "fresh_seconds": 0.5219336999998632,
+        "fresh_objective": 1.789142600694161,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.02,
+          -0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0016985999991447898,
+        "fresh_seconds": 0.4479988000002777,
+        "fresh_objective": 1.7897169307625609,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.02,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.000887700000021141,
+        "fresh_seconds": 0.4479637000004004,
+        "fresh_objective": 1.783266629920914,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.02,
+          0.0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.001014999999824795,
+        "fresh_seconds": 0.48561159999917436,
+        "fresh_objective": 1.78275823195998,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          -0.02,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0010972000000037951,
+        "fresh_seconds": 0.47127610000097775,
+        "fresh_objective": 1.7822607283422955,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          -0.02,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009520999992673751,
+        "fresh_seconds": 0.45812069999919913,
+        "fresh_objective": 1.7815341459100897,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.0,
+          -0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0013930999994045123,
+        "fresh_seconds": 0.4741235000001325,
+        "fresh_objective": 1.782728390931315,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          0.0,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009630999993532896,
+        "fresh_seconds": 0.44829030000073544,
+        "fresh_objective": 1.782326331941875,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          0,
+          0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009589999990566866,
+        "fresh_seconds": 0.4383431999995082,
+        "fresh_objective": 1.7818327362398332,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.0,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009529999988444615,
+        "fresh_seconds": 0.4593574999998964,
+        "fresh_objective": 1.7813496206778758,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.0,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009853999999904772,
+        "fresh_seconds": 0.45280110000021523,
+        "fresh_objective": 1.780643878908875,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          0.02,
+          -0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0012786999996023951,
+        "fresh_seconds": 0.5017408000003343,
+        "fresh_objective": 1.7817678374588477,
+        "risk": 0.8,
+        "objective": 1.7977156066618423,
+        "gap": -8.881784197001252e-16
+      },
+      {
+        "theta": [
+          0.02,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0011297999990347307,
+        "fresh_seconds": 0.46309669999936887,
+        "fresh_objective": 1.7809988262588785,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.02,
+          0.0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0015106999999261461,
+        "fresh_seconds": 0.4667718999990029,
+        "fresh_objective": 1.7804991492415754,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          0.02,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009521000010863645,
+        "fresh_seconds": 0.45669420000012906,
+        "fresh_objective": 1.7804550736835005,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.02,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0010358999988966389,
+        "fresh_seconds": 0.5827558000000863,
+        "fresh_objective": 1.7916206941144328,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.05,
+          -0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0008990999995148741,
+        "fresh_seconds": 0.600219100000686,
+        "fresh_objective": 1.791891834461973,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.05,
+          -0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0008485000016662525,
+        "fresh_seconds": 0.5829497999984596,
+        "fresh_objective": 1.7916655760493974,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.05,
+          0.0
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009778000003279885,
+        "fresh_seconds": 0.6346874000009848,
+        "fresh_objective": 1.7915193420143,
+        "risk": 0.8,
+        "objective": 1.797715606661842,
+        "gap": -6.661338147750939e-16
+      },
+      {
+        "theta": [
+          0.05,
+          0.02
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009428000012121629,
+        "fresh_seconds": 0.6627026999994996,
+        "fresh_objective": 1.7913766363527315,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      },
+      {
+        "theta": [
+          0.05,
+          0.05
+        ],
+        "certified": true,
+        "transfer_seconds": 0.0009642999993957346,
+        "fresh_seconds": 0.5702874999988126,
+        "fresh_objective": 1.7911689191815614,
+        "risk": 0.8,
+        "objective": 1.7977156066618418,
+        "gap": -4.440892098500626e-16
+      }
+    ]
+  }
+]

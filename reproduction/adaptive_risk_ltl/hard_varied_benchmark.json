@@ -1,0 +1,326 @@
+[
+  {
+    "grid": 24,
+    "seed": 0,
+    "scenario": "barrier_hard_varied",
+    "states": 4609,
+    "sparse_lp_objective": 0.8310559006389999,
+    "sparse_lp_seconds": 2.833358699999735,
+    "stratified": {
+      "objective": 0.8310559006211369,
+      "risk": 5.0,
+      "upper": 0.8310559068495929,
+      "gap": 6.228455973200653e-09,
+      "evaluations": 5,
+      "seconds": 0.282216999999946,
+      "prices": [
+        1.0062111794348785,
+        1.0062112794348785
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.008310559006211369,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 10.039645733603141
+  },
+  {
+    "grid": 24,
+    "seed": 1,
+    "scenario": "barrier_hard_varied",
+    "states": 4609,
+    "sparse_lp_objective": 0.6708074534161522,
+    "sparse_lp_seconds": 2.6262389999992592,
+    "stratified": {
+      "objective": 0.670807453416152,
+      "risk": 0.8,
+      "upper": 0.6750000000008527,
+      "gap": 0.004192546584700696,
+      "evaluations": 7,
+      "seconds": 0.3846785000005184,
+      "prices": [
+        0.8125,
+        0.84375
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.00670807453416152,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 6.827101072702842
+  },
+  {
+    "grid": 24,
+    "seed": 2,
+    "scenario": "barrier_hard_varied",
+    "states": 4609,
+    "sparse_lp_objective": 0.5749778172180078,
+    "sparse_lp_seconds": 3.1526594999995723,
+    "stratified": {
+      "objective": 0.5749778172138446,
+      "risk": 0.8,
+      "upper": 0.5750000000011369,
+      "gap": 2.2182787292379658e-05,
+      "evaluations": 7,
+      "seconds": 0.37833860000137065,
+      "prices": [
+        0.6875,
+        0.71875
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.0057497781721384455,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 8.33290470490759
+  },
+  {
+    "grid": 24,
+    "seed": 3,
+    "scenario": "barrier_hard_varied",
+    "states": 4609,
+    "sparse_lp_objective": 0.5031055900587611,
+    "sparse_lp_seconds": 2.9130932000007306,
+    "stratified": {
+      "objective": 0.503105590062114,
+      "risk": 0.8000000000000003,
+      "upper": 0.5062500000008526,
+      "gap": 0.003144409938738657,
+      "evaluations": 9,
+      "seconds": 0.4702235999993718,
+      "prices": [
+        0.625,
+        0.6328125
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.00503105590062114,
+    "certified": true,
+    "bound_violation": 3.3528735343679728e-12,
+    "speedup": 6.195123341330853
+  },
+  {
+    "grid": 24,
+    "seed": 4,
+    "scenario": "barrier_hard_varied",
+    "states": 4609,
+    "sparse_lp_objective": 0.4472049689345028,
+    "sparse_lp_seconds": 3.0136899999997695,
+    "stratified": {
+      "objective": 0.4472049689441013,
+      "risk": 0.7999999999999998,
+      "upper": 0.45000000000085266,
+      "gap": 0.0027950310567513847,
+      "evaluations": 7,
+      "seconds": 0.3535498000001098,
+      "prices": [
+        0.53125,
+        0.5625
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.004472049689441013,
+    "certified": true,
+    "bound_violation": 9.598488670548022e-12,
+    "speedup": 8.524089109932556
+  },
+  {
+    "grid": 24,
+    "seed": 5,
+    "scenario": "barrier_hard_varied",
+    "states": 4609,
+    "sparse_lp_objective": 0.4024844720506635,
+    "sparse_lp_seconds": 3.4814389999992272,
+    "stratified": {
+      "objective": 0.4024844720496912,
+      "risk": 0.8000000000000002,
+      "upper": 0.40625000000113687,
+      "gap": 0.0037655279514456907,
+      "evaluations": 9,
+      "seconds": 0.45580379999955767,
+      "prices": [
+        0.5,
+        0.5078125
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.004024844720496912,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 7.638021008167562
+  },
+  {
+    "grid": 32,
+    "seed": 0,
+    "scenario": "barrier_hard_varied",
+    "states": 8193,
+    "sparse_lp_objective": 0.8310559006216476,
+    "sparse_lp_seconds": 10.243671100000938,
+    "stratified": {
+      "objective": 0.8310559006211395,
+      "risk": 5.0,
+      "upper": 0.8310559122674097,
+      "gap": 1.1646270170473372e-08,
+      "evaluations": 7,
+      "seconds": 0.6915687999990041,
+      "prices": [
+        1.0062111788764339,
+        1.006211278876434
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.008310559006211396,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 14.812222731875252
+  },
+  {
+    "grid": 32,
+    "seed": 1,
+    "scenario": "barrier_hard_varied",
+    "states": 8193,
+    "sparse_lp_objective": 0.6708074534126497,
+    "sparse_lp_seconds": 9.090009999999893,
+    "stratified": {
+      "objective": 0.670807453416152,
+      "risk": 0.8000000000000002,
+      "upper": 0.6750000003736676,
+      "gap": 0.004192546957515586,
+      "evaluations": 7,
+      "seconds": 0.7201307000013912,
+      "prices": [
+        0.8125,
+        0.84375
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.00670807453416152,
+    "certified": true,
+    "bound_violation": 3.502309553482519e-12,
+    "speedup": 12.62272251409686
+  },
+  {
+    "grid": 32,
+    "seed": 2,
+    "scenario": "barrier_hard_varied",
+    "states": 8193,
+    "sparse_lp_objective": 0.5749778172167063,
+    "sparse_lp_seconds": 9.727960500000336,
+    "stratified": {
+      "objective": 0.5749778172138446,
+      "risk": 0.8,
+      "upper": 0.5750000003736676,
+      "gap": 2.2183159823052634e-05,
+      "evaluations": 7,
+      "seconds": 0.7180689999986498,
+      "prices": [
+        0.6875,
+        0.71875
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.0057497781721384455,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 13.547389596290367
+  },
+  {
+    "grid": 32,
+    "seed": 3,
+    "scenario": "barrier_hard_varied",
+    "states": 8193,
+    "sparse_lp_objective": 0.5031055900746991,
+    "sparse_lp_seconds": 9.149428599999737,
+    "stratified": {
+      "objective": 0.503105590062114,
+      "risk": 0.8000000000000003,
+      "upper": 0.5062500003736675,
+      "gap": 0.003144410311553547,
+      "evaluations": 9,
+      "seconds": 0.9223980999995547,
+      "prices": [
+        0.625,
+        0.6328125
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.00503105590062114,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 9.919175462313023
+  },
+  {
+    "grid": 32,
+    "seed": 4,
+    "scenario": "barrier_hard_varied",
+    "states": 8193,
+    "sparse_lp_objective": 0.44720496894534634,
+    "sparse_lp_seconds": 11.123959700000341,
+    "stratified": {
+      "objective": 0.4472049689441012,
+      "risk": 0.8,
+      "upper": 0.45000000037366755,
+      "gap": 0.0027950314295663303,
+      "evaluations": 7,
+      "seconds": 0.7209378000006836,
+      "prices": [
+        0.53125,
+        0.5625
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.004472049689441013,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 15.429846652498721
+  },
+  {
+    "grid": 32,
+    "seed": 5,
+    "scenario": "barrier_hard_varied",
+    "states": 8193,
+    "sparse_lp_objective": 0.4024844720375282,
+    "sparse_lp_seconds": 11.790765800000372,
+    "stratified": {
+      "objective": 0.4024844720496911,
+      "risk": 0.8000000000000002,
+      "upper": 0.40625000037366754,
+      "gap": 0.0037655283239764192,
+      "evaluations": 9,
+      "seconds": 0.9114970999999059,
+      "prices": [
+        0.5,
+        0.5078125
+      ],
+      "mixed": true,
+      "target": 0.8,
+      "certified": true
+    },
+    "target_gap": 0.004024844720496911,
+    "certified": true,
+    "bound_violation": 1.216293732397844e-11,
+    "speedup": 12.935604293202458
+  }
+]

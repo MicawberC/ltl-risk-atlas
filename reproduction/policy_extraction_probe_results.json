@@ -1,0 +1,44 @@
+{
+  "5.0": {
+    "hard_bound": 5.0,
+    "lp_occupation": {
+      "objective": 1.3620227941214877,
+      "risk": 0.8075040145423659,
+      "goal_reward": 1.3695268086638535,
+      "max_flow_residual": 1.1102230246251565e-16
+    },
+    "paper_normalized_randomized_policy": {
+      "risk": 0.8075040145423662,
+      "goal_reward": 1.3695268086638541,
+      "objective": 1.362022794121488
+    },
+    "released_code_deterministic_policy": {
+      "risk": 0.8075040145423662,
+      "goal_reward": 1.3695268086638541,
+      "objective": 1.362022794121488
+    },
+    "states_with_multiple_positive_actions": []
+  },
+  "0.5": {
+    "hard_bound": 0.5,
+    "lp_occupation": {
+      "objective": 0.998400000000001,
+      "risk": 0.5,
+      "goal_reward": 0.998400000000001,
+      "max_flow_residual": 1.1102230246251565e-16
+    },
+    "paper_normalized_randomized_policy": {
+      "risk": 0.5000000000000001,
+      "goal_reward": 0.9984000000000012,
+      "objective": 0.9984000000000012
+    },
+    "released_code_deterministic_policy": {
+      "risk": 0.533257368094015,
+      "goal_reward": 1.0648083126101304,
+      "objective": 1.0648083126101304
+    },
+    "states_with_multiple_positive_actions": [
+      4
+    ]
+  }
+}

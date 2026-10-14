@@ -1,0 +1,70 @@
+{
+  "parameters": {
+    "soft_risk_threshold": 0.8,
+    "hard_risk_bound": 5.0,
+    "discount": 0.9
+  },
+  "default_initial": {
+    "initial_product_state": 4,
+    "product_state": [
+      1,
+      1,
+      1
+    ],
+    "lp_occupation": {
+      "objective": 1.3620227941214877,
+      "risk": 0.8075040145423659,
+      "goal_reward": 1.3695268086638535,
+      "max_flow_residual": 1.1102230246251565e-16
+    },
+    "paper_normalized_randomized_policy": {
+      "risk": 0.8075040145423662,
+      "goal_reward": 1.3695268086638541,
+      "objective": 1.362022794121488
+    },
+    "released_code_deterministic_policy": {
+      "risk": 0.8075040145423662,
+      "goal_reward": 1.3695268086638541,
+      "objective": 1.362022794121488
+    },
+    "mixed_states": []
+  },
+  "alternate_initial": {
+    "initial_product_state": 88,
+    "product_state": [
+      22,
+      1,
+      1
+    ],
+    "lp_occupation": {
+      "objective": 8.902725366876327,
+      "risk": 5.000000000000001,
+      "goal_reward": 13.102725366876328,
+      "max_flow_residual": 4.440892098500626e-16
+    },
+    "paper_normalized_randomized_policy": {
+      "risk": 5.000000000000001,
+      "goal_reward": 13.10272536687633,
+      "objective": 8.902725366876329
+    },
+    "released_code_deterministic_policy": {
+      "risk": 6.064690026954187,
+      "goal_reward": 14.285714285714317,
+      "objective": 9.021024258760129
+    },
+    "mixed_states": [
+      {
+        "product_state": 93,
+        "occupancy": {
+          "7": 0.35342663950157677,
+          "8": 0.41404612159329446
+        },
+        "normalized_probabilities": {
+          "7": 0.460507079101258,
+          "8": 0.5394929208987419
+        },
+        "released_code_action": 7
+      }
+    ]
+  }
+}

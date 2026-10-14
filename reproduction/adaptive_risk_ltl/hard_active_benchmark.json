@@ -1,0 +1,272 @@
+[
+  {
+    "grid": 24,
+    "seed": 1,
+    "scenario": "barrier_hard_active",
+    "states": 4609,
+    "sparse_lp_objective": 1.2503105590062544,
+    "sparse_lp_seconds": 2.7055863000005047,
+    "stratified": {
+      "objective": 1.250310559006235,
+      "risk": 5.000000000000002,
+      "upper": 1.2503105724061343,
+      "gap": 1.3399899412291916e-08,
+      "evaluations": 9,
+      "seconds": 0.4887542999986181,
+      "prices": [
+        1.0900621102144303,
+        1.0900622102144304
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.012503105590062348,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 5.535677742391534
+  },
+  {
+    "grid": 24,
+    "seed": 2,
+    "scenario": "barrier_hard_active",
+    "states": 4609,
+    "sparse_lp_objective": 1.5497781721427524,
+    "sparse_lp_seconds": 3.0032013000000006,
+    "stratified": {
+      "objective": 1.5497781721384465,
+      "risk": 4.999999999999998,
+      "upper": 1.552893300091645,
+      "gap": 0.00311512795319846,
+      "evaluations": 17,
+      "seconds": 0.8761598999990383,
+      "prices": [
+        1.147054090142544,
+        1.150578660017988
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.015497781721384465,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 3.4276863161659157
+  },
+  {
+    "grid": 24,
+    "seed": 3,
+    "scenario": "barrier_hard_active",
+    "states": 4609,
+    "sparse_lp_objective": 1.7743788819921162,
+    "sparse_lp_seconds": 2.609419099999286,
+    "stratified": {
+      "objective": 1.7743788819876043,
+      "risk": 5.0,
+      "upper": 1.779051986329978,
+      "gap": 0.0046731043423737795,
+      "evaluations": 13,
+      "seconds": 0.6611893999997847,
+      "prices": [
+        1.194302571149036,
+        1.2480157330724337
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.017743788819876042,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 3.946553135909523
+  },
+  {
+    "grid": 24,
+    "seed": 4,
+    "scenario": "barrier_hard_active",
+    "states": 4609,
+    "sparse_lp_objective": 1.9490683229811854,
+    "sparse_lp_seconds": 3.356390899998587,
+    "stratified": {
+      "objective": 1.9490683229813959,
+      "risk": 5.0,
+      "upper": 1.9558626582962386,
+      "gap": 0.006794335314842748,
+      "evaluations": 15,
+      "seconds": 0.7322862000000896,
+      "prices": [
+        1.2287305273471718,
+        1.242261570727046
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.019490683229813958,
+    "certified": true,
+    "bound_violation": 2.1049828546892968e-13,
+    "speedup": 4.5834414194862285
+  },
+  {
+    "grid": 24,
+    "seed": 5,
+    "scenario": "barrier_hard_active",
+    "states": 4609,
+    "sparse_lp_objective": 2.0888198757823577,
+    "sparse_lp_seconds": 3.4507057999999233,
+    "stratified": {
+      "objective": 2.088819875776424,
+      "risk": 5.0,
+      "upper": 2.0912439907282536,
+      "gap": 0.0024241149518298144,
+      "evaluations": 16,
+      "seconds": 0.7990423999999621,
+      "prices": [
+        1.2516846282172773,
+        1.258248798145196
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.020888198757764237,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 4.3185515562128955
+  },
+  {
+    "grid": 32,
+    "seed": 1,
+    "scenario": "barrier_hard_active",
+    "states": 8193,
+    "sparse_lp_objective": 1.2503105590081356,
+    "sparse_lp_seconds": 9.196652600001471,
+    "stratified": {
+      "objective": 1.250310559006235,
+      "risk": 5.000000000000002,
+      "upper": 1.2548801981880842,
+      "gap": 0.004569639181849272,
+      "evaluations": 15,
+      "seconds": 1.5233370999994804,
+      "prices": [
+        1.0765470877871375,
+        1.0909760395404633
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.012503105590062348,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 6.0371749627870335
+  },
+  {
+    "grid": 32,
+    "seed": 2,
+    "scenario": "barrier_hard_active",
+    "states": 8193,
+    "sparse_lp_objective": 1.5497781721145722,
+    "sparse_lp_seconds": 10.72519629999988,
+    "stratified": {
+      "objective": 1.5497781721384465,
+      "risk": 4.999999999999998,
+      "upper": 1.5528933006878098,
+      "gap": 0.003115128549363355,
+      "evaluations": 17,
+      "seconds": 1.7608242999995127,
+      "prices": [
+        1.1470540901425443,
+        1.1505786600179884
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.015497781721384465,
+    "certified": true,
+    "bound_violation": 2.3874235921539366e-11,
+    "speedup": 6.091008796279588
+  },
+  {
+    "grid": 32,
+    "seed": 3,
+    "scenario": "barrier_hard_active",
+    "states": 8193,
+    "sparse_lp_objective": 1.7743788819876052,
+    "sparse_lp_seconds": 10.924050599998736,
+    "stratified": {
+      "objective": 1.7743788819876043,
+      "risk": 5.0,
+      "upper": 1.7790519870382413,
+      "gap": 0.004673105050637005,
+      "evaluations": 13,
+      "seconds": 1.303827600000659,
+      "prices": [
+        1.194302571149036,
+        1.2480157330724337
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.017743788819876042,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 8.378447119844077
+  },
+  {
+    "grid": 32,
+    "seed": 4,
+    "scenario": "barrier_hard_active",
+    "states": 8193,
+    "sparse_lp_objective": 1.9490683229818213,
+    "sparse_lp_seconds": 9.881185899999764,
+    "stratified": {
+      "objective": 1.9490683229813959,
+      "risk": 5.0,
+      "upper": 1.959698920244568,
+      "gap": 0.01063059726317217,
+      "evaluations": 15,
+      "seconds": 1.4982691000004706,
+      "prices": [
+        1.2184650432508946,
+        1.2319397838844999
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.019490683229813958,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 6.595067534928579
+  },
+  {
+    "grid": 32,
+    "seed": 5,
+    "scenario": "barrier_hard_active",
+    "states": 8193,
+    "sparse_lp_objective": 2.0888198757655774,
+    "sparse_lp_seconds": 10.773849399998653,
+    "stratified": {
+      "objective": 2.0888198757764256,
+      "risk": 5.0,
+      "upper": 2.1068603016961447,
+      "gap": 0.018040425919719105,
+      "evaluations": 15,
+      "seconds": 1.5032357000000047,
+      "prices": [
+        1.2549668224031811,
+        1.2680375799048798
+      ],
+      "mixed": true,
+      "target": 5.0,
+      "certified": true
+    },
+    "target_gap": 0.020888198757764258,
+    "certified": true,
+    "bound_violation": 1.084821121821733e-11,
+    "speedup": 7.167105863703623
+  }
+]

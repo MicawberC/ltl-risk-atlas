@@ -1,0 +1,8 @@
+{
+  "grid": 32,
+  "scenario": "terrain",
+  "seed": 0,
+  "method": "highs-ipm",
+  "seconds": 16.184257000000798,
+  "objective": 0.09345177659045945
+}

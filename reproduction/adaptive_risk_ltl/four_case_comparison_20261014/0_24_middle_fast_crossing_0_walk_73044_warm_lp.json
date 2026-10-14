@@ -1,0 +1,584 @@
+{
+  "case": "24:middle_fast_crossing:0",
+  "stream": "walk",
+  "seed": 73044,
+  "method": "warm_lp",
+  "states": 4609,
+  "risk_cells": [
+    [
+      12,
+      10
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      14
+    ]
+  ],
+  "thetas": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.4468685301437816,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.2927610406973927,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      0.0,
+      0.0649978743647408,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.34319544427107895,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.058804465944278794,
+      -0.2927610406973927,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.6083580522725326,
+      0.4970797008803354,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.16458187247855904,
+      0.4970797008803354,
+      -0.4571088137674025
+    ],
+    [
+      0.0,
+      -0.3194319587671555,
+      0.16458187247855904,
+      0.4970797008803354,
+      -0.005310967742138517
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.49309822821817195,
+      -0.005310967742138517
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.49309822821817195,
+      -0.012870000148287264
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      -0.012870000148287264
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      0.36041289742208943
+    ],
+    [
+      0.0,
+      -0.8,
+      0.16458187247855904,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      -0.012133295451820347,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.4767707107709718
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ],
+    [
+      0.0,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ],
+    [
+      0.3704357142497604,
+      -0.8,
+      0.5749085130672749,
+      0.8,
+      0.8
+    ]
+  ],
+  "setup_seconds": 5.130691800000022,
+  "online_seconds": 6.747785500001555,
+  "total_seconds": 11.878477300001578,
+  "p95_ms": 647.7539099997582,
+  "max_ms": 4020.07550000053,
+  "peak_rss_mb": 123.0234375,
+  "cache_size": 1,
+  "direct_hits": 0,
+  "fallbacks": 0,
+  "within_one_percent": 20,
+  "hard_active_updates": 0,
+  "rows": [
+    {
+      "index": 0,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 0.01336540000011155,
+      "objective": 2.687234965993413,
+      "risk": 1.0,
+      "upper": 2.687244965993413,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 1,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.4468685301437816,
+        0.0
+      ],
+      "seconds": 4.02007550000053,
+      "objective": 2.9609965677113137,
+      "risk": 1.0,
+      "upper": 2.9610065677113138,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 2,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.2927610406973927,
+        0.0
+      ],
+      "seconds": 0.39122170000064216,
+      "objective": 2.9291745621676033,
+      "risk": 1.0,
+      "upper": 2.9291845621676034,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 3,
+      "theta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.47026329999971495,
+      "objective": 2.9384399277280715,
+      "risk": 1.0,
+      "upper": 2.9384499277280716,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 4,
+      "theta": [
+        0.0,
+        0.0,
+        0.0649978743647408,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.2323619000007966,
+      "objective": 2.9346008719021324,
+      "risk": 1.0,
+      "upper": 2.9346108719021324,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 5,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.34319544427107895,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.24469150000004447,
+      "objective": 2.9351889466154897,
+      "risk": 1.0000000000000038,
+      "upper": 2.9351989466154897,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 6,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.058804465944278794,
+        -0.2927610406973927,
+        -0.4571088137674025
+      ],
+      "seconds": 0.1859626000004937,
+      "objective": 2.940884486307745,
+      "risk": 1.0,
+      "upper": 2.940894486307745,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 7,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.6083580522725326,
+        0.4970797008803354,
+        -0.4571088137674025
+      ],
+      "seconds": 0.2498022999998284,
+      "objective": 2.9309267324012596,
+      "risk": 1.0,
+      "upper": 2.9309367324012596,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 8,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.16458187247855904,
+        0.4970797008803354,
+        -0.4571088137674025
+      ],
+      "seconds": 0.17070020000028308,
+      "objective": 2.9379843153298837,
+      "risk": 1.0,
+      "upper": 2.9379943153298838,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 9,
+      "theta": [
+        0.0,
+        -0.3194319587671555,
+        0.16458187247855904,
+        0.4970797008803354,
+        -0.005310967742138517
+      ],
+      "seconds": 0.1966658000001189,
+      "objective": 2.937984315329873,
+      "risk": 1.0000000000000002,
+      "upper": 2.937994315329873,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 10,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.49309822821817195,
+        -0.005310967742138517
+      ],
+      "seconds": 0.1968565999995917,
+      "objective": 2.9624456416560268,
+      "risk": 1.0000000000000018,
+      "upper": 2.962455641656027,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 11,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.49309822821817195,
+        -0.012870000148287264
+      ],
+      "seconds": 0.013462699999763572,
+      "objective": 2.962445641656412,
+      "risk": 0.9999999999999998,
+      "upper": 2.9624556416564123,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 12,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        -0.012870000148287264
+      ],
+      "seconds": 0.013957299999674433,
+      "objective": 2.962445641656412,
+      "risk": 0.9999999999999998,
+      "upper": 2.9624556416564123,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 13,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        0.36041289742208943
+      ],
+      "seconds": 0.014333699999951932,
+      "objective": 2.962445641656412,
+      "risk": 0.9999999999999998,
+      "upper": 2.9624556416564123,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 14,
+      "theta": [
+        0.0,
+        -0.8,
+        0.16458187247855904,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 0.01367110000046523,
+      "objective": 2.962445641656412,
+      "risk": 0.9999999999999998,
+      "upper": 2.9624556416564123,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 15,
+      "theta": [
+        0.0,
+        -0.8,
+        -0.012133295451820347,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 0.1359762000001865,
+      "objective": 2.963422218528153,
+      "risk": 1.0000000000000002,
+      "upper": 2.963432218528153,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 16,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.4767707107709718
+      ],
+      "seconds": 0.14456350000000384,
+      "objective": 2.961146246426978,
+      "risk": 0.9999999999999998,
+      "upper": 2.9611562464269783,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 17,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 0.01362189999963448,
+      "objective": 2.9611462464269604,
+      "risk": 1.0,
+      "upper": 2.9611562464269605,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 18,
+      "theta": [
+        0.0,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 0.013045499999861931,
+      "objective": 2.9611462464269604,
+      "risk": 1.0,
+      "upper": 2.9611562464269605,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    },
+    {
+      "index": 19,
+      "theta": [
+        0.3704357142497604,
+        -0.8,
+        0.5749085130672749,
+        0.8,
+        0.8
+      ],
+      "seconds": 0.013186799999857612,
+      "objective": 2.9611462464269604,
+      "risk": 0.9999999999999999,
+      "upper": 2.9611562464269605,
+      "direct_hit": false,
+      "fallback": false,
+      "policy_objective_error": null,
+      "policy_risk_error": null,
+      "within_one_percent": true,
+      "hard_active": false
+    }
+  ]
+}

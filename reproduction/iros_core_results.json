@@ -1,0 +1,14 @@
+{
+  "source": "papers/Risk_LTL_Planning-main",
+  "states": 128,
+  "actions": 9,
+  "initial_state": 4,
+  "accepting_states": 64,
+  "trap_states": 64,
+  "risk": 0.8075040145423659,
+  "hard_risk_bound": 5,
+  "objective": 1.3620227941214877,
+  "max_flow_residual": 1.1102230246251565e-16,
+  "transition_row_sum_min": 0.6400000000000001,
+  "transition_row_sum_max": 1.0000000000000002
+}

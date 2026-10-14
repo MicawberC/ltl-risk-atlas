@@ -1,0 +1,282 @@
+{
+  "case": "24:sequence:0",
+  "prepare_seconds": 12.258284200001071,
+  "total_seconds": 21.4004535000131,
+  "rows": [
+    {
+      "theta": [
+        0.02,
+        0.05
+      ],
+      "objective": 0.9511208737313795,
+      "risk": 0.8,
+      "seconds": 0.02577960000053281,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.05,
+        0.05
+      ],
+      "objective": 0.9537090003489824,
+      "risk": 0.8,
+      "seconds": 0.028107500002079178,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.0,
+        -0.05
+      ],
+      "objective": 0.9544146653485047,
+      "risk": 0.8,
+      "seconds": 8.378113400001894,
+      "iterations": 5213,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.0,
+        -0.02
+      ],
+      "objective": 0.9536319462667228,
+      "risk": 0.8,
+      "seconds": 0.029366599999775644,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.05,
+        0.05
+      ],
+      "objective": 0.9501041851284152,
+      "risk": 0.8,
+      "seconds": 0.06021359999795095,
+      "iterations": 1,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.05,
+        0.0
+      ],
+      "objective": 0.9550652903439506,
+      "risk": 0.8,
+      "seconds": 0.032506400002603186,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.05,
+        0.02
+      ],
+      "objective": 0.950835067647349,
+      "risk": 0.8,
+      "seconds": 0.03133490000254824,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.02,
+        -0.02
+      ],
+      "objective": 0.9544030295825889,
+      "risk": 0.8,
+      "seconds": 0.029305400003067916,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.02,
+        -0.02
+      ],
+      "objective": 0.9528874729786467,
+      "risk": 0.8,
+      "seconds": 0.03310319999945932,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.05,
+        0.0
+      ],
+      "objective": 0.9513252235895681,
+      "risk": 0.8,
+      "seconds": 0.029958600000099977,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.05,
+        0.02
+      ],
+      "objective": 0.9545206643905435,
+      "risk": 0.8,
+      "seconds": 0.028981700001168065,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.05,
+        -0.02
+      ],
+      "objective": 0.9518177196651862,
+      "risk": 0.8,
+      "seconds": 0.028538600003230385,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.02,
+        0.02
+      ],
+      "objective": 0.953346173116564,
+      "risk": 0.8,
+      "seconds": 0.026535900000453694,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.05,
+        -0.05
+      ],
+      "objective": 0.9564393243240376,
+      "risk": 0.8,
+      "seconds": 0.031034900002850918,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.05,
+        -0.05
+      ],
+      "objective": 0.9525608883199534,
+      "risk": 0.8,
+      "seconds": 0.03725910000139265,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.0,
+        0.0
+      ],
+      "objective": 0.9531133762463353,
+      "risk": 0.8,
+      "seconds": 0.03136530000119819,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.02,
+        0.02
+      ],
+      "objective": 0.9518742975507211,
+      "risk": 0.8,
+      "seconds": 0.03423859999747947,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.0,
+        0.02
+      ],
+      "objective": 0.9525973778732997,
+      "risk": 0.8,
+      "seconds": 0.028004100000543986,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.02,
+        0.0
+      ],
+      "objective": 0.9538732644094023,
+      "risk": 0.8,
+      "seconds": 0.029796300001180498,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.02,
+        -0.05
+      ],
+      "objective": 0.9552027355459349,
+      "risk": 0.8,
+      "seconds": 0.0345205999983591,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.02,
+        0.0
+      ],
+      "objective": 0.9523796477044483,
+      "risk": 0.8,
+      "seconds": 0.027849999998579733,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.0,
+        0.05
+      ],
+      "objective": 0.9518281604615165,
+      "risk": 0.8,
+      "seconds": 0.02629779999915627,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.02,
+        0.05
+      ],
+      "objective": 0.9525605055866722,
+      "risk": 0.8,
+      "seconds": 0.03326759999981732,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        -0.05,
+        -0.02
+      ],
+      "objective": 0.9556127552342536,
+      "risk": 0.8,
+      "seconds": 0.0345551999998861,
+      "iterations": 0,
+      "basis_valid": true
+    },
+    {
+      "theta": [
+        0.02,
+        -0.05
+      ],
+      "objective": 0.9536538916651894,
+      "risk": 0.8,
+      "seconds": 0.032134399996721186,
+      "iterations": 0,
+      "basis_valid": true
+    }
+  ]
+}

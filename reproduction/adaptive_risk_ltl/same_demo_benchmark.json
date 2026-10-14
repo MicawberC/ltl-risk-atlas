@@ -1,0 +1,1697 @@
+[
+  {
+    "seed": 0,
+    "queries": 25,
+    "hits": 24,
+    "fast_saves": 0,
+    "fallbacks": 1,
+    "upstream_gurobi_seconds": 6.372743300005823,
+    "atlas_prepare_seconds": 0.020150499996816507,
+    "atlas_query_seconds": 0.011153599993122043,
+    "atlas_expand_seconds": 0.040805699998600176,
+    "atlas_total_seconds": 0.07210979998853873,
+    "warm_lp_seconds": 0.036615599994547665,
+    "rows": [
+      {
+        "index": 19,
+        "theta": [
+          0.02,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.26444420000188984
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332137,
+          "seconds": 0.0005874999988009222,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 4,
+        "theta": [
+          -0.05,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.397083019373961,
+          "risk": 0.8,
+          "seconds": 0.2548389999974461
+        },
+        "warm_lp": {
+          "objective": 1.3970830193739614,
+          "risk": 0.8000000000000002,
+          "seconds": 0.0013180999994801823,
+          "iterations": 35,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3970830193739614,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3970831171898395
+      },
+      {
+        "index": 10,
+        "theta": [
+          0.0,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.2530240000014601
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214889,
+          "risk": 0.807504014542365,
+          "seconds": 0.0014310000005934853,
+          "iterations": 32,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 11,
+        "theta": [
+          0.0,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.2478689999989001
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423664,
+          "seconds": 0.0005600999975285958,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 24,
+        "theta": [
+          0.05,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.26345950000177254
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943699,
+          "risk": 0.8478792152694847,
+          "seconds": 0.0006057000027794857,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 2,
+        "theta": [
+          -0.05,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3976064040336165,
+          "risk": 0.8,
+          "seconds": 0.27142689999891445
+        },
+        "warm_lp": {
+          "objective": 1.3976064040336167,
+          "risk": 0.7999999999999997,
+          "seconds": 0.0013518000014300924,
+          "iterations": 2,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3976064040336165,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3976065038194634
+      },
+      {
+        "index": 23,
+        "theta": [
+          0.05,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.26496899999983725
+        },
+        "warm_lp": {
+          "objective": 1.321647593394366,
+          "risk": 0.8478792152694877,
+          "seconds": 0.0011437999964982737,
+          "iterations": 7,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 6,
+        "theta": [
+          -0.02,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3768250728396123,
+          "risk": 0.8000000000000004,
+          "seconds": 0.2799878000005265
+        },
+        "warm_lp": {
+          "objective": 1.3768250728396128,
+          "risk": 0.7999999999999997,
+          "seconds": 0.0014535999980580527,
+          "iterations": 19,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3768250728396128,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3768251727839511
+      },
+      {
+        "index": 16,
+        "theta": [
+          0.02,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.2546564000003855
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332124,
+          "seconds": 0.0009020000034070108,
+          "iterations": 2,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 22,
+        "theta": [
+          0.05,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.25613520000115386
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943697,
+          "risk": 0.8478792152694846,
+          "seconds": 0.0016012000014598016,
+          "iterations": 37,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 3,
+        "theta": [
+          -0.05,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3973946823605097,
+          "risk": 0.8000000000000002,
+          "seconds": 0.2475611999980174
+        },
+        "warm_lp": {
+          "objective": 1.3973946823605108,
+          "risk": 0.8000000000000004,
+          "seconds": 0.0013848999988113064,
+          "iterations": 27,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.39739468236051,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3973947821479715
+      },
+      {
+        "index": 21,
+        "theta": [
+          0.05,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.28459700000166777
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943734,
+          "risk": 0.8478792152694775,
+          "seconds": 0.0012689000031969044,
+          "iterations": 17,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 8,
+        "theta": [
+          -0.02,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3767171124861526,
+          "risk": 0.8,
+          "seconds": 0.2535256999981357
+        },
+        "warm_lp": {
+          "objective": 1.3767171124861528,
+          "risk": 0.8,
+          "seconds": 0.001549900000100024,
+          "iterations": 18,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3767171124861526,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.376717212431314
+      },
+      {
+        "index": 0,
+        "theta": [
+          -0.05,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.398150055275941,
+          "risk": 0.8000000000000006,
+          "seconds": 0.2584229999993113
+        },
+        "warm_lp": {
+          "objective": 1.3981500552759396,
+          "risk": 0.8,
+          "seconds": 0.0009938000002875924,
+          "iterations": 9,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3981500552759407,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3981501550576412
+      },
+      {
+        "index": 20,
+        "theta": [
+          0.05,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.25979450000158977
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943725,
+          "risk": 0.847879215269483,
+          "seconds": 0.0010915999991993885,
+          "iterations": 8,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 12,
+        "theta": [
+          0.0,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.26523079999969923
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423663,
+          "seconds": 0.00102119999792194,
+          "iterations": 4,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 18,
+        "theta": [
+          0.02,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.25706239999999525
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0005914999965170864,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 13,
+        "theta": [
+          0.0,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.2537235000017972
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423663,
+          "seconds": 0.000574999998207204,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 7,
+        "theta": [
+          -0.02,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3767706904341073,
+          "risk": 0.8000000000000009,
+          "seconds": 0.2636982000003627
+        },
+        "warm_lp": {
+          "objective": 1.3767706904341077,
+          "risk": 0.7999999999999999,
+          "seconds": 0.0011024000014003832,
+          "iterations": 6,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3767706904341075,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3767707903788606
+      },
+      {
+        "index": 5,
+        "theta": [
+          -0.02,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3769081948904052,
+          "risk": 0.7999999999999998,
+          "seconds": 0.23976480000055744
+        },
+        "warm_lp": {
+          "objective": 1.376908194890409,
+          "risk": 0.8,
+          "seconds": 0.0004498999987845309,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3769081948904058,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3769082948341103
+      },
+      {
+        "index": 17,
+        "theta": [
+          0.02,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.23829090000072028
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306426,
+          "risk": 0.8236540948332113,
+          "seconds": 0.0008262999981525354,
+          "iterations": 2,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 14,
+        "theta": [
+          0.0,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.24696210000183783
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423663,
+          "seconds": 0.0007066999969538301,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 9,
+        "theta": [
+          -0.02,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3766382153036232,
+          "risk": 0.8,
+          "seconds": 0.22865220000312547
+        },
+        "warm_lp": {
+          "objective": 1.3766382153036238,
+          "risk": 0.8,
+          "seconds": 0.0009241000007023104,
+          "iterations": 3,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3766382153036232,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3766383152493866
+      },
+      {
+        "index": 1,
+        "theta": [
+          -0.05,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3978213673772792,
+          "risk": 0.7999999999999998,
+          "seconds": 0.23225629999797093
+        },
+        "warm_lp": {
+          "objective": 1.39782136737728,
+          "risk": 0.8,
+          "seconds": 0.0004980000012437813,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3978213673772795,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3978214671614868
+      },
+      {
+        "index": 15,
+        "theta": [
+          0.02,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.23238969999874826
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306406,
+          "risk": 0.8236540948332132,
+          "seconds": 0.001112400001147762,
+          "iterations": 8,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "queries": 25,
+    "hits": 24,
+    "fast_saves": 0,
+    "fallbacks": 1,
+    "upstream_gurobi_seconds": 5.8094172999990406,
+    "atlas_prepare_seconds": 0.014963800000259653,
+    "atlas_query_seconds": 0.010893599988776259,
+    "atlas_expand_seconds": 0.0410182999985409,
+    "atlas_total_seconds": 0.06687569998757681,
+    "warm_lp_seconds": 0.029051100005744956,
+    "rows": [
+      {
+        "index": 1,
+        "theta": [
+          -0.05,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3978213673772792,
+          "risk": 0.7999999999999998,
+          "seconds": 0.23219030000109342
+        },
+        "warm_lp": {
+          "objective": 1.3978213673772806,
+          "risk": 0.8000000000000004,
+          "seconds": 0.0008572000006097369,
+          "iterations": 3,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3978213673772797,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3978214671614868
+      },
+      {
+        "index": 20,
+        "theta": [
+          0.05,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.23437140000169165
+        },
+        "warm_lp": {
+          "objective": 1.321647593394371,
+          "risk": 0.8478792152694842,
+          "seconds": 0.0025040000000444707,
+          "iterations": 109,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 7,
+        "theta": [
+          -0.02,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3767706904341073,
+          "risk": 0.8000000000000009,
+          "seconds": 0.23809090000213473
+        },
+        "warm_lp": {
+          "objective": 1.3767706904341077,
+          "risk": 0.7999999999999998,
+          "seconds": 0.0011687000005622394,
+          "iterations": 5,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3767706904341075,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3767707903788606
+      },
+      {
+        "index": 21,
+        "theta": [
+          0.05,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.2331703000018024
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943648,
+          "risk": 0.8478792152694883,
+          "seconds": 0.0009757000007084571,
+          "iterations": 8,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 17,
+        "theta": [
+          0.02,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.2345774999994319
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0005620999982056674,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 15,
+        "theta": [
+          0.02,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.23071100000015576
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.00045230000250739977,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 23,
+        "theta": [
+          0.05,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.23341590000200085
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943697,
+          "risk": 0.8478792152694846,
+          "seconds": 0.0005008000007364899,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 16,
+        "theta": [
+          0.02,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.2343732999979693
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0005697000015061349,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 24,
+        "theta": [
+          0.05,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.22938330000033602
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943697,
+          "risk": 0.8478792152694846,
+          "seconds": 0.0005162999987078365,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 11,
+        "theta": [
+          0.0,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.23932190000050468
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423663,
+          "seconds": 0.0005227000001468696,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 2,
+        "theta": [
+          -0.05,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3976064040336165,
+          "risk": 0.8,
+          "seconds": 0.2320828000010806
+        },
+        "warm_lp": {
+          "objective": 1.3976064040336171,
+          "risk": 0.8000000000000003,
+          "seconds": 0.0008491000007779803,
+          "iterations": 3,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3976064040336165,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3976065038194634
+      },
+      {
+        "index": 22,
+        "theta": [
+          0.05,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.22905890000038198
+        },
+        "warm_lp": {
+          "objective": 1.321647593394371,
+          "risk": 0.8478792152694822,
+          "seconds": 0.0008521999989170581,
+          "iterations": 4,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 12,
+        "theta": [
+          0.0,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.2304266999999527
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423663,
+          "seconds": 0.00045650000174646266,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 10,
+        "theta": [
+          0.0,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.23178729999926873
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423663,
+          "seconds": 0.0004531999984465074,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 3,
+        "theta": [
+          -0.05,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3973946823605097,
+          "risk": 0.8000000000000002,
+          "seconds": 0.2377995999995619
+        },
+        "warm_lp": {
+          "objective": 1.3973946823605108,
+          "risk": 0.8000000000000004,
+          "seconds": 0.0008879999986675102,
+          "iterations": 3,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3973946823605101,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3973947821479715
+      },
+      {
+        "index": 4,
+        "theta": [
+          -0.05,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.397083019373961,
+          "risk": 0.8,
+          "seconds": 0.24273929999981192
+        },
+        "warm_lp": {
+          "objective": 1.3970830193739663,
+          "risk": 0.8,
+          "seconds": 0.0010025000010500662,
+          "iterations": 13,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3970830193739612,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.397207907448628
+      },
+      {
+        "index": 5,
+        "theta": [
+          -0.02,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3769081948904052,
+          "risk": 0.7999999999999998,
+          "seconds": 0.23837640000056126
+        },
+        "warm_lp": {
+          "objective": 1.376908194890406,
+          "risk": 0.8,
+          "seconds": 0.0012421999999787658,
+          "iterations": 20,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3769081948904058,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3769082948341103
+      },
+      {
+        "index": 8,
+        "theta": [
+          -0.02,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3767171124861526,
+          "risk": 0.8,
+          "seconds": 0.22765979999894626
+        },
+        "warm_lp": {
+          "objective": 1.376717112486153,
+          "risk": 0.8,
+          "seconds": 0.0004923000014969148,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3767171124861526,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.376717212431314
+      },
+      {
+        "index": 0,
+        "theta": [
+          -0.05,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.398150055275941,
+          "risk": 0.8000000000000006,
+          "seconds": 0.22630389999903855
+        },
+        "warm_lp": {
+          "objective": 1.3981500552759405,
+          "risk": 0.8,
+          "seconds": 0.0005677999979525339,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3981500552759405,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3981501550576412
+      },
+      {
+        "index": 9,
+        "theta": [
+          -0.02,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3766382153036232,
+          "risk": 0.8,
+          "seconds": 0.22463059999790858
+        },
+        "warm_lp": {
+          "objective": 1.3766382153036643,
+          "risk": 0.8,
+          "seconds": 0.0005397999993874691,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3766382153036234,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3766383152493866
+      },
+      {
+        "index": 14,
+        "theta": [
+          0.0,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.22796179999932065
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214873,
+          "risk": 0.807504014542366,
+          "seconds": 0.0008535000015399419,
+          "iterations": 8,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 18,
+        "theta": [
+          0.02,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.22749560000011115
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0010686000023270026,
+          "iterations": 20,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 13,
+        "theta": [
+          0.0,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.23225929999898653
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423654,
+          "seconds": 0.000487299999804236,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 6,
+        "theta": [
+          -0.02,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3768250728396123,
+          "risk": 0.8000000000000004,
+          "seconds": 0.2304134999976668
+        },
+        "warm_lp": {
+          "objective": 1.3768250728396116,
+          "risk": 0.7999999999999988,
+          "seconds": 0.0013259000006655697,
+          "iterations": 20,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.376825072839613,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3768251727839511
+      },
+      {
+        "index": 19,
+        "theta": [
+          0.02,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.23081599999932223
+        },
+        "warm_lp": {
+          "objective": 1.34587271383064,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0011259999992034864,
+          "iterations": 4,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "queries": 25,
+    "hits": 24,
+    "fast_saves": 0,
+    "fallbacks": 1,
+    "upstream_gurobi_seconds": 5.755674900006852,
+    "atlas_prepare_seconds": 0.014822899996943306,
+    "atlas_query_seconds": 0.008634999991045333,
+    "atlas_expand_seconds": 0.03873759999987669,
+    "atlas_total_seconds": 0.06219549998786533,
+    "warm_lp_seconds": 0.029406800007564016,
+    "rows": [
+      {
+        "index": 14,
+        "theta": [
+          0.0,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.23466520000147284
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423664,
+          "seconds": 0.0005220999992161524,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 21,
+        "theta": [
+          0.05,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.2335620999983803
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943699,
+          "risk": 0.8478792152694847,
+          "seconds": 0.0011855999982799403,
+          "iterations": 30,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 20,
+        "theta": [
+          0.05,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.2337576000027184
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943697,
+          "risk": 0.8478792152694846,
+          "seconds": 0.00042830000165849924,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 7,
+        "theta": [
+          -0.02,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3767706904341073,
+          "risk": 0.8000000000000009,
+          "seconds": 0.2341274999998859
+        },
+        "warm_lp": {
+          "objective": 1.3767706904341077,
+          "risk": 0.8000000000000002,
+          "seconds": 0.0015873000011197291,
+          "iterations": 56,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3711780277377605,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3776223908107483
+      },
+      {
+        "index": 16,
+        "theta": [
+          0.02,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.2293202000000747
+        },
+        "warm_lp": {
+          "objective": 1.345872713830641,
+          "risk": 0.8236540948332133,
+          "seconds": 0.001131699998950353,
+          "iterations": 5,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 18,
+        "theta": [
+          0.02,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.23196209999878192
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332137,
+          "seconds": 0.00044780000098398887,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 23,
+        "theta": [
+          0.05,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.2279116999998223
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943699,
+          "risk": 0.8478792152694847,
+          "seconds": 0.0009537000005366281,
+          "iterations": 12,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 6,
+        "theta": [
+          -0.02,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3768250728396123,
+          "risk": 0.8000000000000004,
+          "seconds": 0.23082050000084564
+        },
+        "warm_lp": {
+          "objective": 1.376825072839613,
+          "risk": 0.7999999999999997,
+          "seconds": 0.001317000002018176,
+          "iterations": 31,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3711856088910896,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3776751973470025
+      },
+      {
+        "index": 24,
+        "theta": [
+          0.05,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.23353560000032303
+        },
+        "warm_lp": {
+          "objective": 1.321647593394371,
+          "risk": 0.847879215269483,
+          "seconds": 0.0009204000016325153,
+          "iterations": 7,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 12,
+        "theta": [
+          0.0,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.22526250000009895
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.8075040145423664,
+          "seconds": 0.000468999998702202,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 15,
+        "theta": [
+          0.02,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.22391690000222297
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0012199000011605676,
+          "iterations": 15,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 19,
+        "theta": [
+          0.02,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.2273949000009452
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0012816000016755424,
+          "iterations": 37,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 2,
+        "theta": [
+          -0.05,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3976064040336165,
+          "risk": 0.8,
+          "seconds": 0.22875420000127633
+        },
+        "warm_lp": {
+          "objective": 1.3976064040336167,
+          "risk": 0.7999999999999997,
+          "seconds": 0.0008843999967211857,
+          "iterations": 2,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3976064040336165,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3976065038194634
+      },
+      {
+        "index": 11,
+        "theta": [
+          0.0,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.22200030000021798
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214882,
+          "risk": 0.807504014542366,
+          "seconds": 0.0008715000003576279,
+          "iterations": 5,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 10,
+        "theta": [
+          0.0,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.23753130000113742
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214884,
+          "risk": 0.8075040145423666,
+          "seconds": 0.00051799999710056,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 13,
+        "theta": [
+          0.0,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3620227941214877,
+          "risk": 0.8075040145423659,
+          "seconds": 0.22663939999983995
+        },
+        "warm_lp": {
+          "objective": 1.3620227941214884,
+          "risk": 0.8075040145423666,
+          "seconds": 0.00046150000343914144,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.362022794121488,
+        "atlas_risk": 0.807504014542366,
+        "atlas_upper": 1.3620228941214871
+      },
+      {
+        "index": 0,
+        "theta": [
+          -0.05,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.398150055275941,
+          "risk": 0.8000000000000006,
+          "seconds": 0.23852980000083335
+        },
+        "warm_lp": {
+          "objective": 1.3981500552759414,
+          "risk": 0.7999999999999999,
+          "seconds": 0.0011774999984481838,
+          "iterations": 11,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3981500552759407,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3981501550576412
+      },
+      {
+        "index": 22,
+        "theta": [
+          0.05,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3216475933943694,
+          "risk": 0.8478792152694841,
+          "seconds": 0.22137020000081975
+        },
+        "warm_lp": {
+          "objective": 1.3216475933943699,
+          "risk": 0.8478792152694845,
+          "seconds": 0.0012066000017512124,
+          "iterations": 22,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3216475933943697,
+        "atlas_risk": 0.8478792152694843,
+        "atlas_upper": 1.321647693394369
+      },
+      {
+        "index": 17,
+        "theta": [
+          0.02,
+          0.0
+        ],
+        "upstream": {
+          "objective": 1.3458727138306403,
+          "risk": 0.8236540948332132,
+          "seconds": 0.2222146000021894
+        },
+        "warm_lp": {
+          "objective": 1.3458727138306408,
+          "risk": 0.8236540948332136,
+          "seconds": 0.0013757000015175436,
+          "iterations": 33,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3458727138306408,
+        "atlas_risk": 0.8236540948332133,
+        "atlas_upper": 1.34587281383064
+      },
+      {
+        "index": 9,
+        "theta": [
+          -0.02,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.3766382153036232,
+          "risk": 0.8,
+          "seconds": 0.23125190000064322
+        },
+        "warm_lp": {
+          "objective": 1.3766382153036236,
+          "risk": 0.8,
+          "seconds": 0.0007793000004312489,
+          "iterations": 2,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3766382153036232,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3766383152493866
+      },
+      {
+        "index": 5,
+        "theta": [
+          -0.02,
+          -0.05
+        ],
+        "upstream": {
+          "objective": 1.3769081948904052,
+          "risk": 0.7999999999999998,
+          "seconds": 0.22644880000007106
+        },
+        "warm_lp": {
+          "objective": 1.3769081948904103,
+          "risk": 0.8,
+          "seconds": 0.0005906000005779788,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3769081948904058,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3769082948341103
+      },
+      {
+        "index": 3,
+        "theta": [
+          -0.05,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3973946823605097,
+          "risk": 0.8000000000000002,
+          "seconds": 0.21907899999860092
+        },
+        "warm_lp": {
+          "objective": 1.3973946823605097,
+          "risk": 0.8,
+          "seconds": 0.000473000000056345,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.39739468236051,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3973947821479715
+      },
+      {
+        "index": 4,
+        "theta": [
+          -0.05,
+          0.05
+        ],
+        "upstream": {
+          "objective": 1.397083019373961,
+          "risk": 0.8,
+          "seconds": 0.2397806999979366
+        },
+        "warm_lp": {
+          "objective": 1.3970830193739574,
+          "risk": 0.8,
+          "seconds": 0.00048120000064955093,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3970830193739614,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3970831171898395
+      },
+      {
+        "index": 8,
+        "theta": [
+          -0.02,
+          0.02
+        ],
+        "upstream": {
+          "objective": 1.3767171124861526,
+          "risk": 0.8,
+          "seconds": 0.24510989999907906
+        },
+        "warm_lp": {
+          "objective": 1.376717112486153,
+          "risk": 0.8,
+          "seconds": 0.0004991000023437664,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3767171124861526,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.376717212431314
+      },
+      {
+        "index": 1,
+        "theta": [
+          -0.05,
+          -0.02
+        ],
+        "upstream": {
+          "objective": 1.3978213673772792,
+          "risk": 0.7999999999999998,
+          "seconds": 0.23072799999863491
+        },
+        "warm_lp": {
+          "objective": 1.39782136737728,
+          "risk": 0.8,
+          "seconds": 0.00043139999979757704,
+          "iterations": 0,
+          "basis_valid": true
+        },
+        "atlas_objective": 1.3978213673772795,
+        "atlas_risk": 0.8,
+        "atlas_upper": 1.3978214671614868
+      }
+    ]
+  }
+]

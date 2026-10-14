@@ -1,0 +1,1861 @@
+{
+  "scope": "fixed product MDP, five physical risk locations",
+  "parameters": {
+    "gamma": 0.9,
+    "soft": 0.8,
+    "hard": 5.0,
+    "magnitude": 0.8,
+    "samples_per_stream": 20,
+    "stream_seed": 73041
+  },
+  "cases": [
+    {
+      "case": "32:middle_fast_varied:0",
+      "states": 8193,
+      "risk_locations": [
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          13
+        ]
+      ],
+      "streams": [
+        {
+          "kind": "walk",
+          "seed": 73041,
+          "samples": 20,
+          "atlas_setup_seconds": 1.0460241000000678,
+          "lp_setup_seconds": 20.191376700000546,
+          "atlas_total_seconds": 3.3332080000000133,
+          "lp_total_seconds": 49.56964860000153,
+          "total_speedup": 14.871453746661274,
+          "atlas_p50_ms": 13.260499999887543,
+          "atlas_p95_ms": 214.08712000247826,
+          "lp_p50_ms": 549.0067999999155,
+          "lp_p95_ms": 2553.226225001175,
+          "direct_hits": 12,
+          "full_fallbacks": 1,
+          "simple_cache_within_one_percent": 20,
+          "rows": [
+            {
+              "index": 0,
+              "theta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.004493600001296727,
+              "lp_seconds": 0.0400355000019772,
+              "atlas_objective": 2.713194347460008,
+              "lp_objective": 2.714304274434367,
+              "atlas_upper": 2.714304374811496,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.713194347460008,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 2.71430427512262,
+                "seconds": 22.069009599999845
+              }
+            },
+            {
+              "index": 1,
+              "theta": [
+                0.0,
+                0.5571518733386668,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.005032299999584211,
+              "lp_seconds": 18.968016399998305,
+              "atlas_objective": 2.6951830856636296,
+              "lp_objective": 2.6967393847552414,
+              "atlas_upper": 2.6971840944265186,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.6951830856636296,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 2,
+              "theta": [
+                -0.18182734257817895,
+                0.5571518733386668,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.004285999999410706,
+              "lp_seconds": 1.689289900001313,
+              "atlas_objective": 2.6982325456736493,
+              "lp_objective": 2.7009060847741857,
+              "atlas_upper": 2.7010515241862882,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.6982325456736493,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 3,
+              "theta": [
+                -0.18182734257817895,
+                0.5571518733386668,
+                0.22502042249805054,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.14066380000076606,
+              "lp_seconds": 0.02449279999927967,
+              "atlas_objective": 2.692433474567981,
+              "lp_objective": 2.692445197875352,
+              "atlas_upper": 2.6966023516069635,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.691766082860944,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 4,
+              "theta": [
+                0.031545616926118625,
+                0.5571518733386668,
+                0.22502042249805054,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.007272499999089632,
+              "lp_seconds": 0.9368128999994951,
+              "atlas_objective": 2.68650513567406,
+              "lp_objective": 2.6882549432170766,
+              "atlas_upper": 2.690997951180942,
+              "risk": 0.8022216278020486,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.68650513567406,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 5,
+              "theta": [
+                0.031545616926118625,
+                0.44487679570797967,
+                0.22502042249805054,
+                0.0,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.14164030000029015,
+              "lp_seconds": 0.8696971999997913,
+              "atlas_objective": 2.703401397959622,
+              "lp_objective": 2.7038900103563828,
+              "atlas_upper": 2.708415263355702,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.7019788328529186,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 6,
+              "theta": [
+                0.10430533115530777,
+                0.44487679570797967,
+                0.22502042249805054,
+                0.0,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.006611000000702916,
+              "lp_seconds": 0.5927666000025056,
+              "atlas_objective": 2.7017275081470773,
+              "lp_objective": 2.7023550155189446,
+              "atlas_upper": 2.7065041750226184,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.700585048585239,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 7,
+              "theta": [
+                -0.00722062274968549,
+                0.44487679570797967,
+                0.22502042249805054,
+                0.13082314592611755,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.14992919999713195,
+              "lp_seconds": 0.5315773000002082,
+              "atlas_objective": 2.698600007197031,
+              "lp_objective": 2.6996885377814426,
+              "atlas_upper": 2.7020615326686364,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.697667646602711,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 8,
+              "theta": [
+                -0.00722062274968549,
+                0.44487679570797967,
+                0.19674881860292504,
+                0.13082314592611755,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.009224299999914365,
+              "lp_seconds": 0.0414070000006177,
+              "atlas_objective": 2.6997061811536804,
+              "lp_objective": 2.7007266108461003,
+              "atlas_upper": 2.7033482318445357,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.698612486007592,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 9,
+              "theta": [
+                -0.4707242108872729,
+                0.44487679570797967,
+                0.19674881860292504,
+                0.13082314592611755,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.009559500002069399,
+              "lp_seconds": 0.5194460999991861,
+              "atlas_objective": 2.711879504240529,
+              "lp_objective": 2.7119981125628243,
+              "atlas_upper": 2.716422934885375,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.707846472998927,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 10,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                0.19674881860292504,
+                0.13082314592611755,
+                -0.02014547749097706
+              ],
+              "atlas_seconds": 0.009511699998256518,
+              "lp_seconds": 0.5334831000000122,
+              "atlas_objective": 2.6848200717666195,
+              "lp_objective": 2.687803363428745,
+              "atlas_upper": 2.6878034634163166,
+              "risk": 0.8039066917094889,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.6848200717666195,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 2.687803363427847,
+                "seconds": 19.35922920000303
+              }
+            },
+            {
+              "index": 11,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                0.19674881860292504,
+                0.13082314592611755,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.01044710000132909,
+              "lp_seconds": 0.03970859999753884,
+              "atlas_objective": 2.6711399697050497,
+              "lp_objective": 2.68463978146439,
+              "atlas_upper": 2.684639881416229,
+              "risk": 0.817586793771059,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.6711399697050497,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 12,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                0.19674881860292504,
+                -0.47651343967202,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.16095950000089942,
+              "lp_seconds": 0.5096315000009781,
+              "atlas_objective": 2.710737144245006,
+              "lp_objective": 2.711140237778306,
+              "atlas_upper": 2.7141093828899967,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.704297288617345,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 13,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                -0.18627625405569204,
+                -0.47651343967202,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.011578400000871625,
+              "lp_seconds": 0.48957050000171876,
+              "atlas_objective": 2.728246113575299,
+              "lp_objective": 2.7283521579036725,
+              "atlas_upper": 2.730484969355477,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.714506147280196,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 14,
+              "theta": [
+                -0.17368842353676617,
+                -0.2359518494826336,
+                -0.18627625405569204,
+                -0.47651343967202,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.154616799998621,
+              "lp_seconds": 0.479717599999276,
+              "atlas_objective": 2.749558205994222,
+              "lp_objective": 2.7547497945643524,
+              "atlas_upper": 2.7547498944395272,
+              "risk": 0.7722708633323176,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 15,
+              "theta": [
+                -0.17368842353676617,
+                -0.018448340424092158,
+                -0.18627625405569204,
+                0.006639100734848746,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.1653781999993953,
+              "lp_seconds": 0.6816470000012487,
+              "atlas_objective": 2.7269468183541616,
+              "lp_objective": 2.7270487857579075,
+              "atlas_upper": 2.728567404809893,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.722449782466399,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 16,
+              "theta": [
+                -0.17368842353676617,
+                -0.018448340424092158,
+                -0.18627625405569204,
+                -0.31771215433734973,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.16763800000262563,
+              "lp_seconds": 0.6170879999990575,
+              "atlas_objective": 2.739960481425829,
+              "lp_objective": 2.7399605016610686,
+              "atlas_upper": 2.7403127994427163,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.73652056385601,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 17,
+              "theta": [
+                -0.4835433273688435,
+                -0.018448340424092158,
+                -0.18627625405569204,
+                -0.31771215433734973,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.016778699999122182,
+              "lp_seconds": 0.5645304999998189,
+              "atlas_objective": 2.745431037524712,
+              "lp_objective": 2.7455781782173956,
+              "atlas_upper": 2.7481032705882287,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 18,
+              "theta": [
+                -0.4835433273688435,
+                -0.24094445471763043,
+                -0.18627625405569204,
+                -0.31771215433734973,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.01494259999890346,
+              "lp_seconds": 0.6454957999994804,
+              "atlas_objective": 2.749558205994222,
+              "lp_objective": 2.753409317672212,
+              "atlas_upper": 2.7546324498964445,
+              "risk": 0.7766902062882858,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 19,
+              "theta": [
+                -0.4835433273688435,
+                -0.24094445471763043,
+                -0.18627625405569204,
+                -0.8,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 1.096620399999665,
+              "lp_seconds": 0.6038575999991735,
+              "atlas_objective": 2.7670035267485296,
+              "lp_objective": 2.7670732584792113,
+              "atlas_upper": 2.767073358460194,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": true,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 2.767073258477155,
+                "seconds": 20.79870909999954
+              }
+            }
+          ]
+        },
+        {
+          "kind": "iid",
+          "seed": 73041,
+          "samples": 20,
+          "atlas_setup_seconds": 0.9645859000011114,
+          "lp_setup_seconds": 19.59937870000067,
+          "atlas_total_seconds": 4.4927034999927855,
+          "lp_total_seconds": 56.512622200003534,
+          "total_speedup": 12.578756243338622,
+          "atlas_p50_ms": 18.05745000092429,
+          "atlas_p95_ms": 1114.3937899994853,
+          "lp_p50_ms": 905.8197499998641,
+          "lp_p95_ms": 3472.8361049999985,
+          "direct_hits": 12,
+          "full_fallbacks": 2,
+          "simple_cache_within_one_percent": 15,
+          "rows": [
+            {
+              "index": 0,
+              "theta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.004815100000996608,
+              "lp_seconds": 0.039373499999783235,
+              "atlas_objective": 2.713194347460008,
+              "lp_objective": 2.714304274434367,
+              "atlas_upper": 2.714304374811496,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.713194347460008,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 2.71430427512262,
+                "seconds": 21.871621700000105
+              }
+            },
+            {
+              "index": 1,
+              "theta": [
+                -0.48978102049765565,
+                0.6857253825706668,
+                -0.2237874985577587,
+                -0.4964532757482676,
+                0.2769482123052929
+              ],
+              "atlas_seconds": 0.13491119999889634,
+              "lp_seconds": 18.109111900001153,
+              "atlas_objective": 2.7293435853740373,
+              "lp_objective": 2.7299241528377065,
+              "atlas_upper": 2.731811724006149,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.7155123767886193,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 2,
+              "theta": [
+                0.26261287323605864,
+                0.7550189999841819,
+                -0.5331276582755408,
+                -0.5670456782886157,
+                -0.13818471093007645
+              ],
+              "atlas_seconds": 0.1541785000008531,
+              "lp_seconds": 1.1902883000002475,
+              "atlas_objective": 2.737741990575952,
+              "lp_objective": 2.7378787442380297,
+              "atlas_upper": 2.738525407583413,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.7222427029696905,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 3,
+              "theta": [
+                0.08955041751284809,
+                -0.615312134600019,
+                0.1610131026782986,
+                -0.00722062274968549,
+                -0.7440276665607831
+              ],
+              "atlas_seconds": 1.1078928999995696,
+              "lp_seconds": 2.7025057999999262,
+              "atlas_objective": 2.7675379254052297,
+              "lp_objective": 2.7675379254056285,
+              "atlas_upper": 2.767538025280412,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": true,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 4,
+              "theta": [
+                -0.03479582017861593,
+                -0.5704659546308769,
+                0.714762249706375,
+                0.4876442556435221,
+                0.542251244453567
+              ],
+              "atlas_seconds": 1.237910699997883,
+              "lp_seconds": 1.0767469000020355,
+              "atlas_objective": 2.6825744344838083,
+              "lp_objective": 2.6842564584754083,
+              "atlas_upper": 2.6846799525647502,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": true,
+              "simple_cache_objective": 2.5882189644295543,
+              "simple_cache_within_one_percent": false,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 5,
+              "theta": [
+                0.5053766040935537,
+                0.13936055859113383,
+                -0.13763399809240906,
+                -0.7474911822746307,
+                -0.4714154740413749
+              ],
+              "atlas_seconds": 0.01729709999926854,
+              "lp_seconds": 1.5635842000010598,
+              "atlas_objective": 2.753366856156113,
+              "lp_objective": 2.7541140183130324,
+              "atlas_upper": 2.7548941985478,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 6,
+              "theta": [
+                -0.4628156575596789,
+                0.3655825075083159,
+                -0.2359518494826336,
+                0.4029946503361337,
+                0.1981713858032894
+              ],
+              "atlas_seconds": 0.17678840000007767,
+              "lp_seconds": 1.3942423999978928,
+              "atlas_objective": 2.698853314459203,
+              "lp_objective": 2.699326845568157,
+              "atlas_upper": 2.708656536991592,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.696194632690064,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 7,
+              "theta": [
+                0.5946492805007615,
+                0.2676966265335894,
+                -0.3992015447042443,
+                -0.45870965047670237,
+                -0.3813598816394798
+              ],
+              "atlas_seconds": 0.01679139999760082,
+              "lp_seconds": 0.8041604999998526,
+              "atlas_objective": 2.7401710586441212,
+              "lp_objective": 2.740365103259668,
+              "atlas_upper": 2.7440512806448307,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7354148365198903,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 8,
+              "theta": [
+                -0.273841371438201,
+                -0.2562236809322709,
+                -0.7754453634256481,
+                -0.42688244939108205,
+                0.1286533907921118
+              ],
+              "atlas_seconds": 0.014537899998686044,
+              "lp_seconds": 0.6345744999998715,
+              "atlas_objective": 2.7649157569964906,
+              "lp_objective": 2.76561310934137,
+              "atlas_upper": 2.767538024384878,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 9,
+              "theta": [
+                0.29026422459256196,
+                -0.17638615328640783,
+                0.5535292464038815,
+                0.5911491021797761,
+                -0.4815978877562705
+              ],
+              "atlas_seconds": 0.17195079999873997,
+              "lp_seconds": 0.7289025999998557,
+              "atlas_objective": 2.695581758443507,
+              "lp_objective": 2.698486275210407,
+              "atlas_upper": 2.702120710954725,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.639263567196617,
+              "simple_cache_within_one_percent": false,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 10,
+              "theta": [
+                0.5051172212927464,
+                0.09817840677793588,
+                -0.7645657712312701,
+                -0.6607429931411325,
+                0.0435765142058715
+              ],
+              "atlas_seconds": 0.015759599999000784,
+              "lp_seconds": 0.8828436000003421,
+              "atlas_objective": 2.7533380529002756,
+              "lp_objective": 2.7537395811641745,
+              "atlas_upper": 2.767537991663621,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 2.7537395811629533,
+                "seconds": 27.493473700000322
+              }
+            },
+            {
+              "index": 11,
+              "theta": [
+                0.36947446794183847,
+                -0.24532297272075,
+                0.47403033821281904,
+                -0.7772064117540358,
+                -0.38957373305761467
+              ],
+              "atlas_seconds": 0.016176199998881202,
+              "lp_seconds": 1.1762022000002617,
+              "atlas_objective": 2.756578026467686,
+              "lp_objective": 2.7595282753362533,
+              "atlas_upper": 2.7605417769222216,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 12,
+              "theta": [
+                -0.4260966947156204,
+                0.5498175826076706,
+                -0.4760926702442051,
+                -0.5735995339239818,
+                0.06999252665516009
+              ],
+              "atlas_seconds": 0.01516049999918323,
+              "lp_seconds": 0.6339918000012403,
+              "atlas_objective": 2.74677432336085,
+              "lp_objective": 2.7492940817639724,
+              "atlas_upper": 2.750129431904686,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7351725544337553,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 13,
+              "theta": [
+                -0.051680421841282076,
+                0.275335391317157,
+                0.7166591243644154,
+                -0.7087062183354226,
+                0.7393332586323345
+              ],
+              "atlas_seconds": 0.017576600002939813,
+              "lp_seconds": 0.9287958999993862,
+              "atlas_objective": 2.6909574171846913,
+              "lp_objective": 2.6965344880328157,
+              "atlas_upper": 2.6990712321995174,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.6905425349002616,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 14,
+              "theta": [
+                0.03296772313601859,
+                -0.17112834038445668,
+                0.7906323815366025,
+                0.19812977104301888,
+                0.44027724587853245
+              ],
+              "atlas_seconds": 0.1753824999977951,
+              "lp_seconds": 0.8035344000018085,
+              "atlas_objective": 2.674077827010575,
+              "lp_objective": 2.676009431870692,
+              "atlas_upper": 2.6810792416980864,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.5909810798579427,
+              "simple_cache_within_one_percent": false,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 15,
+              "theta": [
+                -0.17179441866854295,
+                0.7191895840901044,
+                -0.2833827235274805,
+                0.47930936226719756,
+                0.22686460065507563
+              ],
+              "atlas_seconds": 0.014752999999473104,
+              "lp_seconds": 0.8530489000004309,
+              "atlas_objective": 2.675985118582918,
+              "lp_objective": 2.6779143249999553,
+              "atlas_upper": 2.6893213808404566,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.645242931428049,
+              "simple_cache_within_one_percent": false,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 16,
+              "theta": [
+                0.49975882153922435,
+                -0.5724779868039551,
+                0.39485388326465864,
+                0.2573530659986816,
+                -0.3915469424045688
+              ],
+              "atlas_seconds": 0.014227800002117874,
+              "lp_seconds": 0.6115653999986534,
+              "atlas_objective": 2.741121765036648,
+              "lp_objective": 2.741406782574644,
+              "atlas_upper": 2.7465249701467025,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.711570323576999,
+              "simple_cache_within_one_percent": false,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 17,
+              "theta": [
+                0.28067736369277396,
+                -0.7968082259359388,
+                0.7613706260289184,
+                -0.3908600682982577,
+                -0.24592770350322846
+              ],
+              "atlas_seconds": 0.019281799999589566,
+              "lp_seconds": 0.8114140999969095,
+              "atlas_objective": 2.76298801721161,
+              "lp_objective": 2.7637855893348453,
+              "atlas_upper": 2.7640725194018727,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 18,
+              "theta": [
+                0.5662826956974707,
+                -0.369152171731521,
+                -0.7638129270819477,
+                0.624456950501991,
+                0.7690528929328131
+              ],
+              "atlas_seconds": 0.18418730000121286,
+              "lp_seconds": 0.9643104000024323,
+              "atlas_objective": 2.697948376212196,
+              "lp_objective": 2.7032218590896253,
+              "atlas_upper": 2.7056672436246125,
+              "risk": 0.8,
+              "hit": false,
+              "fallback": false,
+              "simple_cache_objective": 2.6895746546779344,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 19,
+              "theta": [
+                -0.5714685146854945,
+                -0.3122714294630544,
+                0.3014848407515627,
+                -0.4777568645900379,
+                -0.7862885781050757
+              ],
+              "atlas_seconds": 0.01853829999890877,
+              "lp_seconds": 1.0040461999997206,
+              "atlas_objective": 2.7675379254052297,
+              "lp_objective": 2.767537925432365,
+              "atlas_upper": 2.767538025339085,
+              "risk": 0.8,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 2.7410779386852466,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 2.767537925404846,
+                "seconds": 21.929610200000752
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "32:middle_fast_varied:34",
+      "states": 8193,
+      "risk_locations": [
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          20
+        ]
+      ],
+      "streams": [
+        {
+          "kind": "walk",
+          "seed": 73041,
+          "samples": 20,
+          "atlas_setup_seconds": 0.3808045999976457,
+          "lp_setup_seconds": 18.23727080000026,
+          "atlas_total_seconds": 0.43584639999608044,
+          "lp_total_seconds": 19.235617899998033,
+          "total_speedup": 44.133937782143015,
+          "atlas_p50_ms": 2.7615499984676717,
+          "atlas_p95_ms": 3.239325003050908,
+          "lp_p50_ms": 25.229299999409704,
+          "lp_p95_ms": 97.11204999930513,
+          "direct_hits": 20,
+          "full_fallbacks": 0,
+          "simple_cache_within_one_percent": 20,
+          "rows": [
+            {
+              "index": 0,
+              "theta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.0030618000018876046,
+              "lp_seconds": 0.025517199999740114,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298022296,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.40883595579922727,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 1.557383929802354,
+                "seconds": 22.518713900000876
+              }
+            },
+            {
+              "index": 1,
+              "theta": [
+                0.0,
+                0.5571518733386668,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.0024980999987747055,
+              "lp_seconds": 0.02536129999862169,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025278,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5316174038364884,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 2,
+              "theta": [
+                -0.18182734257817895,
+                0.5571518733386668,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.0029371999989962205,
+              "lp_seconds": 0.024283499999000924,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025265,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5138473407926784,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 3,
+              "theta": [
+                -0.18182734257817895,
+                0.5571518733386668,
+                0.22502042249805054,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.0024991999998746905,
+              "lp_seconds": 0.023920300001918804,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024634,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5342639255832801,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 4,
+              "theta": [
+                0.031545616926118625,
+                0.5571518733386668,
+                0.22502042249805054,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.002542199999879813,
+              "lp_seconds": 0.02190359999804059,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025258,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5551169551027837,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 5,
+              "theta": [
+                0.031545616926118625,
+                0.44487679570797967,
+                0.22502042249805054,
+                0.0,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.002757700000074692,
+              "lp_seconds": 0.025662100000772625,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929802543,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5303745154383797,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 6,
+              "theta": [
+                0.10430533115530777,
+                0.44487679570797967,
+                0.22502042249805054,
+                0.0,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.0028125999997428153,
+              "lp_seconds": 0.02300450000257115,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025387,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5374853530636196,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 7,
+              "theta": [
+                -0.00722062274968549,
+                0.44487679570797967,
+                0.22502042249805054,
+                0.13082314592611755,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.0024464999987685587,
+              "lp_seconds": 0.025093500000366475,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025418,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5265858744493915,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 8,
+              "theta": [
+                -0.00722062274968549,
+                0.44487679570797967,
+                0.19674881860292504,
+                0.13082314592611755,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.0032311000031768344,
+              "lp_seconds": 0.026099400001839967,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025374,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5240207312873475,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 9,
+              "theta": [
+                -0.4707242108872729,
+                0.44487679570797967,
+                0.19674881860292504,
+                0.13082314592611755,
+                -0.46072461360950034
+              ],
+              "atlas_seconds": 0.0031886999968264718,
+              "lp_seconds": 0.02509730000019772,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025471,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.4787223297078619,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 10,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                0.19674881860292504,
+                0.13082314592611755,
+                -0.02014547749097706
+              ],
+              "atlas_seconds": 0.0024454000013065524,
+              "lp_seconds": 0.024490899999364046,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024559,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.556982034720291,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 1.5573839297581735,
+                "seconds": 25.135912099998677
+              }
+            },
+            {
+              "index": 11,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                0.19674881860292504,
+                0.13082314592611755,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0029324999995878898,
+              "lp_seconds": 0.02422110000043176,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025667,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.556982034720291,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 12,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                0.19674881860292504,
+                -0.47651343967202,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0023905000016384292,
+              "lp_seconds": 0.0789504999993369,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298022547,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.556982034720291,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 13,
+              "theta": [
+                -0.4707242108872729,
+                0.8,
+                -0.18627625405569204,
+                -0.47651343967202,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0027653999968606513,
+              "lp_seconds": 0.02300470000045607,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024856,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5222293496704317,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 14,
+              "theta": [
+                -0.17368842353676617,
+                -0.2359518494826336,
+                -0.18627625405569204,
+                -0.47651343967202,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0028485000002547167,
+              "lp_seconds": 0.02355879999959143,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024879,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.32296255997630663,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 15,
+              "theta": [
+                -0.17368842353676617,
+                -0.018448340424092158,
+                -0.18627625405569204,
+                0.006639100734848746,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0033956000006583054,
+              "lp_seconds": 0.03954149999844958,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024859,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.37089454598106386,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 16,
+              "theta": [
+                -0.17368842353676617,
+                -0.018448340424092158,
+                -0.18627625405569204,
+                -0.31771215433734973,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0029150000009394716,
+              "lp_seconds": 0.04210579999926267,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024819,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.37089454598106386,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 17,
+              "theta": [
+                -0.4835433273688435,
+                -0.018448340424092158,
+                -0.18627625405569204,
+                -0.31771215433734973,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.002500700000382494,
+              "lp_seconds": 0.028124600001319777,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024867,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.34061229526202114,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 18,
+              "theta": [
+                -0.4835433273688435,
+                -0.24094445471763043,
+                -0.18627625405569204,
+                -0.31771215433734973,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0023934999990160577,
+              "lp_seconds": 0.02622499999779393,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298024816,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.2915800719080507,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 19,
+              "theta": [
+                -0.4835433273688435,
+                -0.24094445471763043,
+                -0.18627625405569204,
+                -0.8,
+                0.09308497636431912
+              ],
+              "atlas_seconds": 0.0024795999997877516,
+              "lp_seconds": 0.4421814999986964,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298027585,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.2915800719080507,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 1.5573839297584606,
+                "seconds": 21.136528399998497
+              }
+            }
+          ]
+        },
+        {
+          "kind": "iid",
+          "seed": 73041,
+          "samples": 20,
+          "atlas_setup_seconds": 0.25092859999858774,
+          "lp_setup_seconds": 18.021365700002207,
+          "atlas_total_seconds": 0.3032295999910275,
+          "lp_total_seconds": 29.780864600012137,
+          "total_speedup": 98.21226094317095,
+          "atlas_p50_ms": 2.618349999465863,
+          "atlas_p95_ms": 3.009040001234098,
+          "lp_p50_ms": 340.8870500006742,
+          "lp_p95_ms": 2212.180849996914,
+          "direct_hits": 20,
+          "full_fallbacks": 0,
+          "simple_cache_within_one_percent": 20,
+          "rows": [
+            {
+              "index": 0,
+              "theta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "atlas_seconds": 0.0028684999997494742,
+              "lp_seconds": 0.0240181000008306,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298022296,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.40883595579922727,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 1.557383929802354,
+                "seconds": 22.542172299999947
+              }
+            },
+            {
+              "index": 1,
+              "theta": [
+                -0.48978102049765565,
+                0.6857253825706668,
+                -0.2237874985577587,
+                -0.4964532757482676,
+                0.2769482123052929
+              ],
+              "atlas_seconds": 0.002904000000853557,
+              "lp_seconds": 0.4766115999991598,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298021743,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.4917803590406402,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 2,
+              "theta": [
+                0.26261287323605864,
+                0.7550189999841819,
+                -0.5331276582755408,
+                -0.5670456782886157,
+                -0.13818471093007645
+              ],
+              "atlas_seconds": 0.002577999999630265,
+              "lp_seconds": 0.04765170000246144,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298029548,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.552515506676836,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 3,
+              "theta": [
+                0.08955041751284809,
+                -0.615312134600019,
+                0.1610131026782986,
+                -0.00722062274968549,
+                -0.7440276665607831
+              ],
+              "atlas_seconds": 0.0029891000012867153,
+              "lp_seconds": 0.4135956000027363,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298023269,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.29659839747642014,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 4,
+              "theta": [
+                -0.03479582017861593,
+                -0.5704659546308769,
+                0.714762249706375,
+                0.4876442556435221,
+                0.542251244453567
+              ],
+              "atlas_seconds": 0.002894699999160366,
+              "lp_seconds": 0.07377309999719728,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929802263,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.3445717377998357,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 5,
+              "theta": [
+                0.5053766040935537,
+                0.13936055859113383,
+                -0.13763399809240906,
+                -0.7474911822746307,
+                -0.4714154740413749
+              ],
+              "atlas_seconds": 0.002288099996803794,
+              "lp_seconds": 0.4693778000000748,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298022734,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.47645015652152944,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 6,
+              "theta": [
+                -0.4628156575596789,
+                0.3655825075083159,
+                -0.2359518494826336,
+                0.4029946503361337,
+                0.1981713858032894
+              ],
+              "atlas_seconds": 0.002380900001298869,
+              "lp_seconds": 0.416485300000204,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298021606,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.4227610265338407,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 7,
+              "theta": [
+                0.5946492805007615,
+                0.2676966265335894,
+                -0.3992015447042443,
+                -0.45870965047670237,
+                -0.3813598816394798
+              ],
+              "atlas_seconds": 0.0033879000002343673,
+              "lp_seconds": 0.4809857000000193,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298022187,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.4897240838707667,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 8,
+              "theta": [
+                -0.273841371438201,
+                -0.2562236809322709,
+                -0.7754453634256481,
+                -0.42688244939108205,
+                0.1286533907921118
+              ],
+              "atlas_seconds": 0.002158199997211341,
+              "lp_seconds": 4.840858400002617,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298025458,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.25525062285645356,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 9,
+              "theta": [
+                0.29026422459256196,
+                -0.17638615328640783,
+                0.5535292464038815,
+                0.5911491021797761,
+                -0.4815978877562705
+              ],
+              "atlas_seconds": 0.002303500001289649,
+              "lp_seconds": 0.3473350999993272,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929806039,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.44855568015186914,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 10,
+              "theta": [
+                0.5051172212927464,
+                0.09817840677793588,
+                -0.7645657712312701,
+                -0.6607429931411325,
+                0.0435765142058715
+              ],
+              "atlas_seconds": 0.0022742000001017004,
+              "lp_seconds": 0.35775350000039907,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929802716,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.41046649417214653,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 1.5573839301086057,
+                "seconds": 20.25051170000006
+              }
+            },
+            {
+              "index": 11,
+              "theta": [
+                0.36947446794183847,
+                -0.24532297272075,
+                0.47403033821281904,
+                -0.7772064117540358,
+                -0.38957373305761467
+              ],
+              "atlas_seconds": 0.0026395999993837904,
+              "lp_seconds": 0.0856777000008151,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929802672,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.4338919838218992,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 12,
+              "theta": [
+                -0.4260966947156204,
+                0.5498175826076706,
+                -0.4760926702442051,
+                -0.5735995339239818,
+                0.06999252665516009
+              ],
+              "atlas_seconds": 0.0021527999997488223,
+              "lp_seconds": 0.2566521000007924,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298027738,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.44516160376452535,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 13,
+              "theta": [
+                -0.051680421841282076,
+                0.275335391317157,
+                0.7166591243644154,
+                -0.7087062183354226,
+                0.7393332586323345
+              ],
+              "atlas_seconds": 0.0029453999995894264,
+              "lp_seconds": 0.23214680000091903,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298026253,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5294858173800723,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 14,
+              "theta": [
+                0.03296772313601859,
+                -0.17112834038445668,
+                0.7906323815366025,
+                0.19812977104301888,
+                0.44027724587853245
+              ],
+              "atlas_seconds": 0.0027789999985543545,
+              "lp_seconds": 0.23816110000188928,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298029017,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.4460815415561296,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 15,
+              "theta": [
+                -0.17179441866854295,
+                0.7191895840901044,
+                -0.2833827235274805,
+                0.47930936226719756,
+                0.22686460065507563
+              ],
+              "atlas_seconds": 0.0028977000001759734,
+              "lp_seconds": 0.09694099999978789,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929802008,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.5248247412540645,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 16,
+              "theta": [
+                0.49975882153922435,
+                -0.5724779868039551,
+                0.39485388326465864,
+                0.2573530659986816,
+                -0.3915469424045688
+              ],
+              "atlas_seconds": 0.002597099999547936,
+              "lp_seconds": 0.022891600001457846,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.557383929801711,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.36734461938580815,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 17,
+              "theta": [
+                0.28067736369277396,
+                -0.7968082259359388,
+                0.7613706260289184,
+                -0.3908600682982577,
+                -0.24592770350322846
+              ],
+              "atlas_seconds": 0.002357800000027055,
+              "lp_seconds": 0.47031430000060936,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298017975,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.3297521291727234,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 18,
+              "theta": [
+                0.5662826956974707,
+                -0.369152171731521,
+                -0.7638129270819477,
+                0.624456950501991,
+                0.7690528929328131
+              ],
+              "atlas_seconds": 0.0021469999992405064,
+              "lp_seconds": 0.3344390000020212,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298028094,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.3135253043545411,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": null
+            },
+            {
+              "index": 19,
+              "theta": [
+                -0.5714685146854945,
+                -0.3122714294630544,
+                0.3014848407515627,
+                -0.4777568645900379,
+                -0.7862885781050757
+              ],
+              "atlas_seconds": 0.0027574999985517934,
+              "lp_seconds": 2.0738293999966118,
+              "atlas_objective": 1.5573839297577896,
+              "lp_objective": 1.5573839298193874,
+              "atlas_upper": 1.557384029757789,
+              "risk": 0.3115241474618031,
+              "hit": true,
+              "fallback": false,
+              "simple_cache_objective": 1.5573839297577896,
+              "simple_cache_within_one_percent": true,
+              "lp_spotcheck": {
+                "objective": 1.5573839297584409,
+                "seconds": 23.325596699996822
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

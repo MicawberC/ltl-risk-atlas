@@ -1,0 +1,248 @@
+[
+  {
+    "grid": 24,
+    "seed": 0,
+    "states": 4609,
+    "sparse_lp_objective": 0.2708848953392892,
+    "sparse_lp_seconds": 4.340498099998513,
+    "stratified": {
+      "objective": 0.27088489533930316,
+      "risk": 0.7183538853044489,
+      "upper": 0.27088489533937404,
+      "gap": 7.088774012231625e-14,
+      "evaluations": 1,
+      "seconds": 0.08008449999942968,
+      "prices": [
+        0.0
+      ],
+      "mixed": false
+    },
+    "target_gap": 0.0027088489533930314,
+    "certified": true,
+    "bound_violation": 1.3933298959045715e-14,
+    "speedup": 54.198978579243466
+  },
+  {
+    "grid": 24,
+    "seed": 1,
+    "states": 4609,
+    "sparse_lp_objective": 0.18829060897805958,
+    "sparse_lp_seconds": 5.064481900000828,
+    "stratified": {
+      "objective": 0.18828946775014002,
+      "risk": 0.7999999999999999,
+      "upper": 0.18858870667718186,
+      "gap": 0.0002992389270418394,
+      "evaluations": 9,
+      "seconds": 0.877222699999038,
+      "prices": [
+        0.1015625,
+        0.109375
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.0018828946775014002,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 5.773313777683115
+  },
+  {
+    "grid": 24,
+    "seed": 2,
+    "states": 4609,
+    "sparse_lp_objective": 0.18687240928225712,
+    "sparse_lp_seconds": 5.701051299998653,
+    "stratified": {
+      "objective": 0.1858377288020767,
+      "risk": 0.7999999999999998,
+      "upper": 0.1875774477540919,
+      "gap": 0.0017397189520152179,
+      "evaluations": 8,
+      "seconds": 0.8610523000006651,
+      "prices": [
+        0.15625,
+        0.171875
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.001858377288020767,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 6.621027898066411
+  },
+  {
+    "grid": 24,
+    "seed": 3,
+    "states": 4609,
+    "sparse_lp_objective": 0.5789652026632468,
+    "sparse_lp_seconds": 6.845918799999708,
+    "stratified": {
+      "objective": 0.5789652026632406,
+      "risk": 0.8000000000000002,
+      "upper": 0.5789652026633119,
+      "gap": 7.127631818093505e-14,
+      "evaluations": 5,
+      "seconds": 0.44382839999889256,
+      "prices": [
+        0.0,
+        0.125
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.005789652026632406,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 15.424697473205388
+  },
+  {
+    "grid": 24,
+    "seed": 4,
+    "states": 4609,
+    "sparse_lp_objective": 0.1166225362552825,
+    "sparse_lp_seconds": 5.8656731999999465,
+    "stratified": {
+      "objective": 0.1166224724433962,
+      "risk": 0.8,
+      "upper": 0.11667990640119344,
+      "gap": 5.743395779723992e-05,
+      "evaluations": 8,
+      "seconds": 0.8028072999986762,
+      "prices": [
+        0.078125,
+        0.09375
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.001166224724433962,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 7.306452245775068
+  },
+  {
+    "grid": 32,
+    "seed": 0,
+    "states": 8193,
+    "sparse_lp_objective": 0.27088489533932614,
+    "sparse_lp_seconds": 19.036537199999657,
+    "stratified": {
+      "objective": 0.27088489533930327,
+      "risk": 0.7213917669266638,
+      "upper": 0.27088489629318696,
+      "gap": 9.538836942546425e-10,
+      "evaluations": 1,
+      "seconds": 0.12821729999996023,
+      "prices": [
+        0.0
+      ],
+      "mixed": false
+    },
+    "target_gap": 0.0027088489533930327,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 148.47089433333537
+  },
+  {
+    "grid": 32,
+    "seed": 1,
+    "states": 8193,
+    "sparse_lp_objective": 0.1882906089780691,
+    "sparse_lp_seconds": 19.906855799999903,
+    "stratified": {
+      "objective": 0.18828946775014,
+      "risk": 0.7999999999999999,
+      "upper": 0.18858870707506542,
+      "gap": 0.0002992393249254266,
+      "evaluations": 9,
+      "seconds": 1.7357088000007934,
+      "prices": [
+        0.1015625,
+        0.109375
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.0018828946775014,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 11.469006667472565
+  },
+  {
+    "grid": 32,
+    "seed": 2,
+    "states": 8193,
+    "sparse_lp_objective": 0.18687240928227092,
+    "sparse_lp_seconds": 20.50003319999996,
+    "stratified": {
+      "objective": 0.1858377288020767,
+      "risk": 0.7999999999999996,
+      "upper": 0.18757744819187339,
+      "gap": 0.0017397193897966956,
+      "evaluations": 8,
+      "seconds": 1.5528960000010557,
+      "prices": [
+        0.15625,
+        0.171875
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.001858377288020767,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 13.201162988368845
+  },
+  {
+    "grid": 32,
+    "seed": 3,
+    "states": 8193,
+    "sparse_lp_objective": 0.5789652026632441,
+    "sparse_lp_seconds": 19.671755600000324,
+    "stratified": {
+      "objective": 0.578965202663241,
+      "risk": 0.8,
+      "upper": 0.5789652036171246,
+      "gap": 9.538835277211888e-10,
+      "evaluations": 5,
+      "seconds": 0.8313250999999582,
+      "prices": [
+        0.0,
+        0.125
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.00578965202663241,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 23.663132028614694
+  },
+  {
+    "grid": 32,
+    "seed": 4,
+    "states": 8193,
+    "sparse_lp_objective": 0.11662253625524188,
+    "sparse_lp_seconds": 24.73398570000063,
+    "stratified": {
+      "objective": 0.11662247244339623,
+      "risk": 0.7999999999999999,
+      "upper": 0.11667990678199339,
+      "gap": 5.7434338597159296e-05,
+      "evaluations": 8,
+      "seconds": 1.5387878000001365,
+      "prices": [
+        0.078125,
+        0.09375
+      ],
+      "mixed": true,
+      "target": 0.8
+    },
+    "target_gap": 0.0011662247244339622,
+    "certified": true,
+    "bound_violation": 0.0,
+    "speedup": 16.073681959265883
+  }
+]

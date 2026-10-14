@@ -1,0 +1,8 @@
+__pycache__/
+pilot*.json
+barrier.json
+corrected_results.json
+hard_stress*.json
+strict_*.json
+timing.json
+racing04.json

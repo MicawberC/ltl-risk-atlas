@@ -1,0 +1,89 @@
+{
+  "grid": 16,
+  "scenario": "middle",
+  "states": 2049,
+  "sparse_lp_objective": 0.17567486893209258,
+  "sparse_lp_seconds": 0.8649287999996886,
+  "runs": [
+    {
+      "method": "guided",
+      "fraction": 0.02,
+      "certified": false,
+      "states": 342,
+      "gap": 0.004767664874226946,
+      "seconds": 2.0773139999992054,
+      "risk": 0.5737834331932786,
+      "rounds": 20
+    },
+    {
+      "method": "guided",
+      "fraction": 0.04,
+      "certified": false,
+      "states": 515,
+      "gap": 0.004424456374707786,
+      "seconds": 1.9111923999998908,
+      "risk": 0.4997510642547835,
+      "rounds": 20
+    },
+    {
+      "method": "guided",
+      "fraction": 0.08,
+      "certified": false,
+      "states": 902,
+      "gap": 0.004424456374707814,
+      "seconds": 3.364889399999811,
+      "risk": 0.5858838753483556,
+      "rounds": 20
+    },
+    {
+      "method": "guided",
+      "fraction": 0.16,
+      "certified": true,
+      "states": 573,
+      "gap": 0.000288225297856437,
+      "seconds": 1.1093528999999762,
+      "risk": 0.4850587220561273,
+      "rounds": 6
+    },
+    {
+      "method": "occupancy",
+      "fraction": 0.02,
+      "certified": false,
+      "states": 323,
+      "gap": 0.01760846033642066,
+      "seconds": 1.0047743999994054,
+      "risk": 0.6205096213493038,
+      "rounds": 20
+    },
+    {
+      "method": "occupancy",
+      "fraction": 0.04,
+      "certified": false,
+      "states": 505,
+      "gap": 0.01584073815710879,
+      "seconds": 1.6320182999997996,
+      "risk": 0.5737543596980529,
+      "rounds": 20
+    },
+    {
+      "method": "occupancy",
+      "fraction": 0.08,
+      "certified": false,
+      "states": 837,
+      "gap": 0.015789577332488536,
+      "seconds": 2.9854091999995944,
+      "risk": 0.5679130221956491,
+      "rounds": 20
+    },
+    {
+      "method": "occupancy",
+      "fraction": 0.16,
+      "certified": false,
+      "states": 1387,
+      "gap": 0.004424246756007638,
+      "seconds": 7.247161499999493,
+      "risk": 0.4996416188364735,
+      "rounds": 20
+    }
+  ]
+}

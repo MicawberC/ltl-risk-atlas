@@ -1,0 +1,122 @@
+[
+  {
+    "case": "24:near",
+    "states": 4609,
+    "results": [
+      {
+        "method": "highs",
+        "status": "ok",
+        "seconds": 5.510353800000303,
+        "objective": 1.7681708836787418
+      },
+      {
+        "method": "highs-ds",
+        "status": "ok",
+        "seconds": 6.28973009999936,
+        "objective": 1.7681708836787418
+      },
+      {
+        "method": "highs-ipm",
+        "status": "ok",
+        "seconds": 6.9745896000003995,
+        "objective": 1.768170883678631
+      }
+    ]
+  },
+  {
+    "case": "24:barrier_hard",
+    "states": 4609,
+    "results": [
+      {
+        "method": "highs",
+        "status": "ok",
+        "seconds": 4.425444999998945,
+        "objective": 0.8310559006389999
+      },
+      {
+        "method": "highs-ds",
+        "status": "ok",
+        "seconds": 4.557500900000377,
+        "objective": 0.8310559006389999
+      },
+      {
+        "method": "highs-ipm",
+        "status": "ok",
+        "seconds": 7.041870099999869,
+        "objective": 0.8310559006147917
+      }
+    ]
+  },
+  {
+    "case": "24:sequence",
+    "states": 6913,
+    "results": [
+      {
+        "method": "highs",
+        "status": "ok",
+        "seconds": 12.190538799999558,
+        "objective": 0.9531133762463485
+      },
+      {
+        "method": "highs-ds",
+        "status": "ok",
+        "seconds": 12.148975599999176,
+        "objective": 0.9531133762463485
+      },
+      {
+        "method": "highs-ipm",
+        "status": "ok",
+        "seconds": 67.39665759999843,
+        "objective": 0.9531133762463377
+      }
+    ]
+  },
+  {
+    "case": "32:near",
+    "states": 8193,
+    "results": [
+      {
+        "method": "highs",
+        "status": "ok",
+        "seconds": 19.386275200000455,
+        "objective": 1.768170883678741
+      },
+      {
+        "method": "highs-ds",
+        "status": "ok",
+        "seconds": 19.1063191000012,
+        "objective": 1.768170883678741
+      },
+      {
+        "method": "highs-ipm",
+        "status": "ok",
+        "seconds": 23.93004309999924,
+        "objective": 1.7681708836787609
+      }
+    ]
+  },
+  {
+    "case": "32:barrier_hard",
+    "states": 8193,
+    "results": [
+      {
+        "method": "highs",
+        "status": "ok",
+        "seconds": 16.272482899999886,
+        "objective": 0.8310559006216476
+      },
+      {
+        "method": "highs-ds",
+        "status": "ok",
+        "seconds": 16.14993460000005,
+        "objective": 0.8310559006216476
+      },
+      {
+        "method": "highs-ipm",
+        "status": "ok",
+        "seconds": 21.231364700000995,
+        "objective": 0.8310559006208145
+      }
+    ]
+  }
+]
