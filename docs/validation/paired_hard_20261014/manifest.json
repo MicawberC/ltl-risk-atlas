@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "index": 6,
+      "case": "16:barrier_hard_active:0",
+      "stream": "iid",
+      "seed": 73047,
+      "files": {
+        "warm_lp": "6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+        "hybrid_atlas": "6_16_barrier_hard_active_0_iid_73047_hybrid_atlas.json"
+      }
+    }
+  ],
+  "count": 20,
+  "methods": [
+    "warm_lp",
+    "atlas",
+    "monotone_lp",
+    "forced_mdp",
+    "simple_cache",
+    "hybrid_atlas",
+    "dual_atlas"
+  ]
+}

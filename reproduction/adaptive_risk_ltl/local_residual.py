@@ -36,10 +36,13 @@ def cached_primal(atlas, theta):
                 w = (target - risks[j]) / span
                 if -1e-9 <= w <= 1 + 1e-9:
                     w = float(np.clip(w, 0.0, 1.0))
+                    mixed_risk = w * risks[i] + (1.0 - w) * risks[j]
+                    if mixed_risk > HARD + 1e-9:
+                        continue
                     reward = w * p["reward"] + (1.0 - w) * policies[j]["reward"]
-                    value = reward - max(0.0, target - SOFT)
+                    value = reward - max(0.0, mixed_risk - SOFT)
                     if best is None or value > best[0]:
-                        best = (value, target, i, j, w)
+                        best = (value, mixed_risk, i, j, w)
     return best
 
 
@@ -115,8 +118,9 @@ def query(atlas, theta, max_policies=4, max_iterations=80,
               "residual_info": best_info,
               "seconds": time.perf_counter() - started}
     if certified:
-        occ = weight * policies[i]["occupation"] + (
-            1.0 - weight) * policies[j]["occupation"]
+        atoms = policies + atlas.get("primal_atoms", [])
+        occ = weight * atoms[i]["occupation"] + (
+            1.0 - weight) * atoms[j]["occupation"]
         total = occ.sum(axis=1)
         action_probability = np.divide(
             occ, total[:, None], out=np.zeros_like(occ),

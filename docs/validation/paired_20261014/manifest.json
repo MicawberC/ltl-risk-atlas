@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "index": 0,
+      "case": "24:middle_fast_crossing:0",
+      "stream": "walk",
+      "seed": 73044,
+      "files": {
+        "warm_lp": "0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+        "hybrid_atlas": "0_24_middle_fast_crossing_0_walk_73044_hybrid_atlas.json"
+      }
+    },
+    {
+      "index": 2,
+      "case": "32:middle_fast_crossing:0",
+      "stream": "walk",
+      "seed": 73044,
+      "files": {
+        "warm_lp": "2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+        "hybrid_atlas": "2_32_middle_fast_crossing_0_walk_73044_hybrid_atlas.json"
+      }
+    }
+  ],
+  "count": 20,
+  "methods": [
+    "warm_lp",
+    "atlas",
+    "monotone_lp",
+    "forced_mdp",
+    "simple_cache",
+    "hybrid_atlas",
+    "dual_atlas"
+  ]
+}

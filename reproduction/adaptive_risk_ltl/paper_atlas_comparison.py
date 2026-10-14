@@ -85,9 +85,12 @@ def best_atom_mix(atoms, theta):
                 weight = (target - risks[j]) / (risks[i] - risks[j])
                 if -1e-9 <= weight <= 1 + 1e-9:
                     weight = float(np.clip(weight, 0, 1))
+                    mixed_risk = weight * risks[i] + (1 - weight) * risks[j]
+                    if mixed_risk > HARD + 1e-9:
+                        continue
                     reward = weight * a["reward"] + (1 - weight) * atoms[j]["reward"]
-                    candidates.append((reward - max(0, target - SOFT),
-                                       target, i, j, weight))
+                    candidates.append((reward - max(0, mixed_risk - SOFT),
+                                       mixed_risk, i, j, weight))
     return max(candidates) if candidates else None
 
 
@@ -239,7 +242,9 @@ def main():
                                    else None))
                     fallback = bool(extension["fallback"])
                     answer = atlas_query(atlas, theta, nearest_first=8)
-            assert answer["certified"]
+            if not answer["certified"]:
+                raise RuntimeError(
+                    f"No certified strategy for {args.case} query {index}")
             objective, risk, upper = (float(answer["objective"]),
                                       float(answer["risk"]), float(answer["upper"]))
             policy = answer["policy"]

@@ -300,9 +300,20 @@ def price_interval(policy, theta):
 
 
 def dual_bound(policy, theta, t):
+    """Bound the CMDP optimum using this policy's actual Bellman residual.
+
+    The stored region is only a fast way to select prices.  Recomputing the
+    residual here keeps the upper bound valid even at a rounded endpoint.
+    """
+    if not np.isfinite(t) or t < 0:
+        raise ValueError("Risk price must be finite and nonnegative")
+    slope = policy["slopes"][:, :, 0] + np.tensordot(
+        policy["slopes"][:, :, 1:], theta, axes=([2], [0]))
+    bellman_gap = policy["intercept"] + t * slope
+    residual = max(BELLMAN_TOLERANCE, -float(np.min(bellman_gap)))
     risk_value = policy["cost_values"][0] + policy["cost_values"][1:] @ theta
     value = policy["reward_value"] - t * risk_value
-    return float(value + BELLMAN_TOLERANCE / (1 - GAMMA) +
+    return float(value + residual / (1 - GAMMA) +
                  SOFT * min(1.0, t) + HARD * max(0.0, t - 1.0))
 
 
@@ -353,9 +364,12 @@ def query(atlas, theta, materialize=True, nearest_first=None):
                 w = (target - risks[j]) / (risks[i] - risks[j])
                 if -1e-9 <= w <= 1 + 1e-9:
                     w = float(np.clip(w, 0, 1))
+                    mixed_risk = w * risks[i] + (1 - w) * risks[j]
+                    if mixed_risk > HARD + 1e-9:
+                        continue
                     reward = w * p["reward"] + (1 - w) * policies[j]["reward"]
-                    candidates.append((reward - max(0.0, target - SOFT),
-                                       target, i, j, w))
+                    candidates.append((reward - max(0.0, mixed_risk - SOFT),
+                                       mixed_risk, i, j, w))
     if not candidates:
         return {"certified": False, "reason": "no_primal_policy",
                 "seconds": time.perf_counter() - started}
