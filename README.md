@@ -4,6 +4,7 @@
 
 ## 从哪里开始
 
+- [阶段性中文结果总报告](docs/RESULTS_SUMMARY_CN.md)：统一汇总修正代码后的时间、证书、CARLA 任务结果、反例与论文边界。
 - [原论文代码快照](papers/Risk_LTL_Planning-main/)：IROS 2025 作者公开的简化示例。
 - [原示例复现说明](reproduction/README.md)：来源、兼容处理及复现边界。
 - [合成模型实验](reproduction/adaptive_risk_ltl/)：产品模型、图谱算法、保基 LP 基线和 24×24、32×32 结果。
