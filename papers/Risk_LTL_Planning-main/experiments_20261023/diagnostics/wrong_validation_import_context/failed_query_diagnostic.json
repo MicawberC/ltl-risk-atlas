@@ -1,0 +1,134 @@
+{
+  "scope": "Untimed fresh LP diagnoses; Infeasible is a solver classification, not an exact-arithmetic infeasibility proof",
+  "rows": [
+    {
+      "case": "Town01_route1_single",
+      "trial": 2,
+      "method": "fixed_warm_lp",
+      "tick": 665,
+      "initial": 1664,
+      "theta": [
+        -0.6967381113376205,
+        -0.5992333306822928,
+        -0.5497191554982912,
+        -0.5999475841182403,
+        -0.6974735484540338
+      ],
+      "recorded_error": "RuntimeError: Infeasible",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 3,
+      "method": "fixed_observed_hybrid",
+      "tick": 611,
+      "initial": 1664,
+      "theta": [
+        -0.6967855998453323,
+        -0.5992793838211349,
+        -0.5497188640292744,
+        -0.5999012182342218,
+        -0.697426137560538
+      ],
+      "recorded_error": "RuntimeError: Layer policy iteration did not converge",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 0,
+      "method": "fixed_observed_hybrid",
+      "tick": 734,
+      "initial": 1664,
+      "theta": [
+        -0.7726451512218909,
+        -0.7469699502919419,
+        -0.7340838365668102,
+        -0.7474659281036821,
+        -0.7731544420709255
+      ],
+      "recorded_error": "RuntimeError: Layer policy iteration did not converge",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 1,
+      "method": "fixed_warm_lp",
+      "tick": 681,
+      "initial": 1664,
+      "theta": [
+        -0.772670135077112,
+        -0.7469939457793519,
+        -0.7340832720837767,
+        -0.7474412461014133,
+        -0.7731294407352524
+      ],
+      "recorded_error": "RuntimeError: Infeasible",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 2,
+      "method": "fixed_warm_lp",
+      "tick": 535,
+      "initial": 1664,
+      "theta": [
+        -0.7727387903441534,
+        -0.7470600080148122,
+        -0.7340818823657825,
+        -0.7473734406272452,
+        -0.7730606334054495
+      ],
+      "recorded_error": "RuntimeError: Infeasible",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 3,
+      "method": "fixed_observed_hybrid",
+      "tick": 539,
+      "initial": 1664,
+      "theta": [
+        -0.772736955604198,
+        -0.7470582402239478,
+        -0.7340819164207428,
+        -0.7473752522677614,
+        -0.7730624741958666
+      ],
+      "recorded_error": "RuntimeError: Layer policy iteration did not converge",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 4,
+      "method": "fixed_observed_hybrid",
+      "tick": 519,
+      "initial": 1664,
+      "theta": [
+        -0.772746312224277,
+        -0.7470672567719124,
+        -0.7340817445231627,
+        -0.7473660136726602,
+        -0.7730530855783346
+      ],
+      "recorded_error": "RuntimeError: Layer policy iteration did not converge",
+      "fresh_lp_status": "Infeasible"
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 5,
+      "method": "fixed_warm_lp",
+      "tick": 387,
+      "initial": 1664,
+      "theta": [
+        -0.7728082878997886,
+        -0.7471270646232369,
+        -0.7340807173796723,
+        -0.7473048339492625,
+        -0.772990826150111
+      ],
+      "recorded_error": "RuntimeError: Infeasible",
+      "fresh_lp_status": "Infeasible"
+    }
+  ],
+  "count": 8
+}

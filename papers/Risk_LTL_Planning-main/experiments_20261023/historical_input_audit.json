@@ -1,0 +1,510 @@
+{
+  "runs": 72,
+  "all_identical": true,
+  "rows": [
+    {
+      "run": "historical_c0_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "60c3d9211af28bbee02d91600a2dbeb510f756db2f84fd632c6404bf734b0edd"
+    },
+    {
+      "run": "historical_c0_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "60c3d9211af28bbee02d91600a2dbeb510f756db2f84fd632c6404bf734b0edd"
+    },
+    {
+      "run": "historical_c0_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "60c3d9211af28bbee02d91600a2dbeb510f756db2f84fd632c6404bf734b0edd"
+    },
+    {
+      "run": "historical_c0_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "60c3d9211af28bbee02d91600a2dbeb510f756db2f84fd632c6404bf734b0edd"
+    },
+    {
+      "run": "historical_c0_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "60c3d9211af28bbee02d91600a2dbeb510f756db2f84fd632c6404bf734b0edd"
+    },
+    {
+      "run": "historical_c0_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\0_24_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "60c3d9211af28bbee02d91600a2dbeb510f756db2f84fd632c6404bf734b0edd"
+    },
+    {
+      "run": "historical_c10_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\10_24_barrier_hard_active_2_iid_73051_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "7460e6611b1d1a93d2f6f888b205f2a2e8540b6156a2f2723710b65e58c31190"
+    },
+    {
+      "run": "historical_c10_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\10_24_barrier_hard_active_2_iid_73051_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "7460e6611b1d1a93d2f6f888b205f2a2e8540b6156a2f2723710b65e58c31190"
+    },
+    {
+      "run": "historical_c10_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\10_24_barrier_hard_active_2_iid_73051_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "7460e6611b1d1a93d2f6f888b205f2a2e8540b6156a2f2723710b65e58c31190"
+    },
+    {
+      "run": "historical_c10_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\10_24_barrier_hard_active_2_iid_73051_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "7460e6611b1d1a93d2f6f888b205f2a2e8540b6156a2f2723710b65e58c31190"
+    },
+    {
+      "run": "historical_c10_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\10_24_barrier_hard_active_2_iid_73051_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "7460e6611b1d1a93d2f6f888b205f2a2e8540b6156a2f2723710b65e58c31190"
+    },
+    {
+      "run": "historical_c10_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\10_24_barrier_hard_active_2_iid_73051_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "7460e6611b1d1a93d2f6f888b205f2a2e8540b6156a2f2723710b65e58c31190"
+    },
+    {
+      "run": "historical_c11_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\11_32_barrier_hard_active3_0_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "0367a236e291be0a9bb2aad77af28eca24ded9def553278b480677649e29861d"
+    },
+    {
+      "run": "historical_c11_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\11_32_barrier_hard_active3_0_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "0367a236e291be0a9bb2aad77af28eca24ded9def553278b480677649e29861d"
+    },
+    {
+      "run": "historical_c11_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\11_32_barrier_hard_active3_0_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "0367a236e291be0a9bb2aad77af28eca24ded9def553278b480677649e29861d"
+    },
+    {
+      "run": "historical_c11_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\11_32_barrier_hard_active3_0_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "0367a236e291be0a9bb2aad77af28eca24ded9def553278b480677649e29861d"
+    },
+    {
+      "run": "historical_c11_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\11_32_barrier_hard_active3_0_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "0367a236e291be0a9bb2aad77af28eca24ded9def553278b480677649e29861d"
+    },
+    {
+      "run": "historical_c11_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\11_32_barrier_hard_active3_0_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "0367a236e291be0a9bb2aad77af28eca24ded9def553278b480677649e29861d"
+    },
+    {
+      "run": "historical_c1_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\1_24_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c304e1f778cba424808afc26578871110d60d77454316cac19157923950f3533"
+    },
+    {
+      "run": "historical_c1_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\1_24_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c304e1f778cba424808afc26578871110d60d77454316cac19157923950f3533"
+    },
+    {
+      "run": "historical_c1_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\1_24_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c304e1f778cba424808afc26578871110d60d77454316cac19157923950f3533"
+    },
+    {
+      "run": "historical_c1_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\1_24_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c304e1f778cba424808afc26578871110d60d77454316cac19157923950f3533"
+    },
+    {
+      "run": "historical_c1_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\1_24_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c304e1f778cba424808afc26578871110d60d77454316cac19157923950f3533"
+    },
+    {
+      "run": "historical_c1_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\1_24_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c304e1f778cba424808afc26578871110d60d77454316cac19157923950f3533"
+    },
+    {
+      "run": "historical_c2_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c85d5f08b35f0aa78baa18e66a030eef3993cb03d018b9c2d285ca114f02e938"
+    },
+    {
+      "run": "historical_c2_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c85d5f08b35f0aa78baa18e66a030eef3993cb03d018b9c2d285ca114f02e938"
+    },
+    {
+      "run": "historical_c2_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c85d5f08b35f0aa78baa18e66a030eef3993cb03d018b9c2d285ca114f02e938"
+    },
+    {
+      "run": "historical_c2_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c85d5f08b35f0aa78baa18e66a030eef3993cb03d018b9c2d285ca114f02e938"
+    },
+    {
+      "run": "historical_c2_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c85d5f08b35f0aa78baa18e66a030eef3993cb03d018b9c2d285ca114f02e938"
+    },
+    {
+      "run": "historical_c2_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\2_32_middle_fast_crossing_0_walk_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "c85d5f08b35f0aa78baa18e66a030eef3993cb03d018b9c2d285ca114f02e938"
+    },
+    {
+      "run": "historical_c3_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\3_32_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "a6382b19971ea987b6271c3cc89b7fa322f2267e09eb22a9c868f49c55ad4ecd"
+    },
+    {
+      "run": "historical_c3_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\3_32_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "a6382b19971ea987b6271c3cc89b7fa322f2267e09eb22a9c868f49c55ad4ecd"
+    },
+    {
+      "run": "historical_c3_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\3_32_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "a6382b19971ea987b6271c3cc89b7fa322f2267e09eb22a9c868f49c55ad4ecd"
+    },
+    {
+      "run": "historical_c3_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\3_32_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "a6382b19971ea987b6271c3cc89b7fa322f2267e09eb22a9c868f49c55ad4ecd"
+    },
+    {
+      "run": "historical_c3_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\3_32_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "a6382b19971ea987b6271c3cc89b7fa322f2267e09eb22a9c868f49c55ad4ecd"
+    },
+    {
+      "run": "historical_c3_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\3_32_middle_fast_crossing_0_iid_73044_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "a6382b19971ea987b6271c3cc89b7fa322f2267e09eb22a9c868f49c55ad4ecd"
+    },
+    {
+      "run": "historical_c4_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\4_24_middle_fast_varied_0_iid_73045_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "f4489bf1d3721dd0e8bed3c448e646ad14fa6be0cccd9c57c628b2663cd0441b"
+    },
+    {
+      "run": "historical_c4_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\4_24_middle_fast_varied_0_iid_73045_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "f4489bf1d3721dd0e8bed3c448e646ad14fa6be0cccd9c57c628b2663cd0441b"
+    },
+    {
+      "run": "historical_c4_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\4_24_middle_fast_varied_0_iid_73045_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "f4489bf1d3721dd0e8bed3c448e646ad14fa6be0cccd9c57c628b2663cd0441b"
+    },
+    {
+      "run": "historical_c4_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\4_24_middle_fast_varied_0_iid_73045_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "f4489bf1d3721dd0e8bed3c448e646ad14fa6be0cccd9c57c628b2663cd0441b"
+    },
+    {
+      "run": "historical_c4_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\4_24_middle_fast_varied_0_iid_73045_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "f4489bf1d3721dd0e8bed3c448e646ad14fa6be0cccd9c57c628b2663cd0441b"
+    },
+    {
+      "run": "historical_c4_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\4_24_middle_fast_varied_0_iid_73045_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "f4489bf1d3721dd0e8bed3c448e646ad14fa6be0cccd9c57c628b2663cd0441b"
+    },
+    {
+      "run": "historical_c5_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\5_24_middle_fast_varied_17_walk_73046_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b7072f99390ef35f40c369891f8f18cfa9afc1d3750963875f3a6ce9f1c9a534"
+    },
+    {
+      "run": "historical_c5_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\5_24_middle_fast_varied_17_walk_73046_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b7072f99390ef35f40c369891f8f18cfa9afc1d3750963875f3a6ce9f1c9a534"
+    },
+    {
+      "run": "historical_c5_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\5_24_middle_fast_varied_17_walk_73046_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b7072f99390ef35f40c369891f8f18cfa9afc1d3750963875f3a6ce9f1c9a534"
+    },
+    {
+      "run": "historical_c5_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\5_24_middle_fast_varied_17_walk_73046_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b7072f99390ef35f40c369891f8f18cfa9afc1d3750963875f3a6ce9f1c9a534"
+    },
+    {
+      "run": "historical_c5_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\5_24_middle_fast_varied_17_walk_73046_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b7072f99390ef35f40c369891f8f18cfa9afc1d3750963875f3a6ce9f1c9a534"
+    },
+    {
+      "run": "historical_c5_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\5_24_middle_fast_varied_17_walk_73046_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b7072f99390ef35f40c369891f8f18cfa9afc1d3750963875f3a6ce9f1c9a534"
+    },
+    {
+      "run": "historical_c6_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "309acec3c4bbbaac473c648d8a192213c92b0ee5ffe1c6ece35d4b3556b5862d"
+    },
+    {
+      "run": "historical_c6_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "309acec3c4bbbaac473c648d8a192213c92b0ee5ffe1c6ece35d4b3556b5862d"
+    },
+    {
+      "run": "historical_c6_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "309acec3c4bbbaac473c648d8a192213c92b0ee5ffe1c6ece35d4b3556b5862d"
+    },
+    {
+      "run": "historical_c6_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "309acec3c4bbbaac473c648d8a192213c92b0ee5ffe1c6ece35d4b3556b5862d"
+    },
+    {
+      "run": "historical_c6_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "309acec3c4bbbaac473c648d8a192213c92b0ee5ffe1c6ece35d4b3556b5862d"
+    },
+    {
+      "run": "historical_c6_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\6_16_barrier_hard_active_0_iid_73047_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "309acec3c4bbbaac473c648d8a192213c92b0ee5ffe1c6ece35d4b3556b5862d"
+    },
+    {
+      "run": "historical_c7_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\7_16_barrier_hard_active_1_walk_73048_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "ab3b89fead097ea827400803f7e527f9317a7bed3c44bf9912593d5c750237d7"
+    },
+    {
+      "run": "historical_c7_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\7_16_barrier_hard_active_1_walk_73048_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "ab3b89fead097ea827400803f7e527f9317a7bed3c44bf9912593d5c750237d7"
+    },
+    {
+      "run": "historical_c7_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\7_16_barrier_hard_active_1_walk_73048_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "ab3b89fead097ea827400803f7e527f9317a7bed3c44bf9912593d5c750237d7"
+    },
+    {
+      "run": "historical_c7_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\7_16_barrier_hard_active_1_walk_73048_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "ab3b89fead097ea827400803f7e527f9317a7bed3c44bf9912593d5c750237d7"
+    },
+    {
+      "run": "historical_c7_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\7_16_barrier_hard_active_1_walk_73048_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "ab3b89fead097ea827400803f7e527f9317a7bed3c44bf9912593d5c750237d7"
+    },
+    {
+      "run": "historical_c7_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\7_16_barrier_hard_active_1_walk_73048_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "ab3b89fead097ea827400803f7e527f9317a7bed3c44bf9912593d5c750237d7"
+    },
+    {
+      "run": "historical_c8_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\8_24_barrier_hard_active_0_iid_73049_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b1bc44c5418fa149e8f0d48715323bb20a9a7b95e873d80d934901faaa1570da"
+    },
+    {
+      "run": "historical_c8_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\8_24_barrier_hard_active_0_iid_73049_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b1bc44c5418fa149e8f0d48715323bb20a9a7b95e873d80d934901faaa1570da"
+    },
+    {
+      "run": "historical_c8_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\8_24_barrier_hard_active_0_iid_73049_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b1bc44c5418fa149e8f0d48715323bb20a9a7b95e873d80d934901faaa1570da"
+    },
+    {
+      "run": "historical_c8_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\8_24_barrier_hard_active_0_iid_73049_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b1bc44c5418fa149e8f0d48715323bb20a9a7b95e873d80d934901faaa1570da"
+    },
+    {
+      "run": "historical_c8_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\8_24_barrier_hard_active_0_iid_73049_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b1bc44c5418fa149e8f0d48715323bb20a9a7b95e873d80d934901faaa1570da"
+    },
+    {
+      "run": "historical_c8_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\8_24_barrier_hard_active_0_iid_73049_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "b1bc44c5418fa149e8f0d48715323bb20a9a7b95e873d80d934901faaa1570da"
+    },
+    {
+      "run": "historical_c9_r0_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\9_24_barrier_hard_active_1_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "6f602b70612019e8694508ae0a02bc4cc7e801be1d2e7bd37c6756af20adcc19"
+    },
+    {
+      "run": "historical_c9_r0_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\9_24_barrier_hard_active_1_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "6f602b70612019e8694508ae0a02bc4cc7e801be1d2e7bd37c6756af20adcc19"
+    },
+    {
+      "run": "historical_c9_r1_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\9_24_barrier_hard_active_1_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "6f602b70612019e8694508ae0a02bc4cc7e801be1d2e7bd37c6756af20adcc19"
+    },
+    {
+      "run": "historical_c9_r1_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\9_24_barrier_hard_active_1_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "6f602b70612019e8694508ae0a02bc4cc7e801be1d2e7bd37c6756af20adcc19"
+    },
+    {
+      "run": "historical_c9_r2_full.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\9_24_barrier_hard_active_1_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "6f602b70612019e8694508ae0a02bc4cc7e801be1d2e7bd37c6756af20adcc19"
+    },
+    {
+      "run": "historical_c9_r2_warm_lp.json",
+      "old_input": "reproduction\\adaptive_risk_ltl\\paper_suite\\9_24_barrier_hard_active_1_walk_73050_warm_lp.json",
+      "identical_theta": true,
+      "points": 20,
+      "old_file_sha256": "6f602b70612019e8694508ae0a02bc4cc7e801be1d2e7bd37c6756af20adcc19"
+    }
+  ]
+}

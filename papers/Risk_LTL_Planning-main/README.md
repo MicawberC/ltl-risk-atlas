@@ -16,6 +16,10 @@
     <img src='https://img.shields.io/youtube/views/r5kEMW8oPQE'></a>
 </p>
 
+## Team extension: controlled experiments (2026-10-23)
+
+The local-risk policy reuse experiments added by this repository's team are separate from the original authors' implementation described below. See [the Chinese experiment report](experiments_20261023/README_CN.md) for matched ablations, numerical audits, repeated trace replays, new CARLA runs, raw records, and reproduction scripts. Historical timings are kept separate from this batch.
+
 ## Overview
 
 This repository provides a minimal example of the risk-aware planning framework proposed 

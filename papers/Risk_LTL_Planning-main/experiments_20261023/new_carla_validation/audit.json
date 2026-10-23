@@ -1,0 +1,365 @@
+{
+  "scope": "Returned policies only; nonreturning planning failures retained separately, not counted as certified policies or successful drives",
+  "parameters": {
+    "gamma": 0.8,
+    "soft": 1.0,
+    "hard": 2.0
+  },
+  "traces": [
+    {
+      "case": "Town01_route0_double",
+      "trial": 0,
+      "method": "fixed_observed_hybrid",
+      "count": 722,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 722,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_double",
+      "trial": 1,
+      "method": "fixed_warm_lp",
+      "count": 693,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 693,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_double",
+      "trial": 2,
+      "method": "fixed_warm_lp",
+      "count": 581,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 581,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_double",
+      "trial": 3,
+      "method": "fixed_observed_hybrid",
+      "count": 713,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 713,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_double",
+      "trial": 4,
+      "method": "fixed_observed_hybrid",
+      "count": 491,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 491,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_double",
+      "trial": 5,
+      "method": "fixed_warm_lp",
+      "count": 490,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 490,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_single",
+      "trial": 0,
+      "method": "fixed_observed_hybrid",
+      "count": 421,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 421,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_single",
+      "trial": 1,
+      "method": "fixed_warm_lp",
+      "count": 421,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 421,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_single",
+      "trial": 2,
+      "method": "fixed_warm_lp",
+      "count": 614,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 614,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_single",
+      "trial": 3,
+      "method": "fixed_observed_hybrid",
+      "count": 601,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 601,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_single",
+      "trial": 4,
+      "method": "fixed_observed_hybrid",
+      "count": 488,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 488,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route0_single",
+      "trial": 5,
+      "method": "fixed_warm_lp",
+      "count": 487,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": true,
+      "probability_checks": 487,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 0,
+      "method": "fixed_observed_hybrid",
+      "count": 900,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": false,
+      "probability_checks": 900,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 1,
+      "method": "fixed_warm_lp",
+      "count": 900,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": false,
+      "probability_checks": 900,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 2,
+      "method": "fixed_warm_lp",
+      "count": 665,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 665,
+          "error": "RuntimeError: Infeasible"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 665,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 3,
+      "method": "fixed_observed_hybrid",
+      "count": 611,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 611,
+          "error": "RuntimeError: Layer policy iteration did not converge"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 611,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 4,
+      "method": "fixed_observed_hybrid",
+      "count": 900,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": false,
+      "probability_checks": 900,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town01_route1_single",
+      "trial": 5,
+      "method": "fixed_warm_lp",
+      "count": 900,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [],
+      "drive_goal": false,
+      "probability_checks": 900,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 0,
+      "method": "fixed_observed_hybrid",
+      "count": 734,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 734,
+          "error": "RuntimeError: Layer policy iteration did not converge"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 734,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 1,
+      "method": "fixed_warm_lp",
+      "count": 681,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 681,
+          "error": "RuntimeError: Infeasible"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 681,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 2,
+      "method": "fixed_warm_lp",
+      "count": 535,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 535,
+          "error": "RuntimeError: Infeasible"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 535,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 3,
+      "method": "fixed_observed_hybrid",
+      "count": 539,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 539,
+          "error": "RuntimeError: Layer policy iteration did not converge"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 539,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 4,
+      "method": "fixed_observed_hybrid",
+      "count": 519,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 519,
+          "error": "RuntimeError: Layer policy iteration did not converge"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 519,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    },
+    {
+      "case": "Town02_route0_single",
+      "trial": 5,
+      "method": "fixed_warm_lp",
+      "count": 387,
+      "passed": true,
+      "stored_policy_mismatches": [],
+      "nonreturning_failed_queries": [
+        {
+          "tick": 387,
+          "error": "RuntimeError: Infeasible"
+        }
+      ],
+      "drive_goal": false,
+      "probability_checks": 387,
+      "minimum_probability": 0.0,
+      "max_probability_row_sum_error": 2.220446049250313e-16
+    }
+  ],
+  "checked_points": 14993,
+  "nonreturning_failed_queries": 8,
+  "all_passed": true
+}

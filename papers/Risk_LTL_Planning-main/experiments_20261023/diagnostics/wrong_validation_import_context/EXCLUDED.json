@@ -1,0 +1,4 @@
+{
+  "excluded": true,
+  "reason": "Validation script imported an ambiguous benchmark module before pinning the paper parameters; reconstructed H=5 instead of H=2. Raw driving records and all controlled timed suites pin parameters explicitly and are unchanged. Corrected validation pins and asserts gamma=.8,S=1,H=2 before imports."
+}

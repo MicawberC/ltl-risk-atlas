@@ -32,6 +32,8 @@ STREAMS = ("walk", "iid")
 def risk_trace(kind: str, count: int, seed: int, dimension: int = 5,
                magnitude: float = .8) -> np.ndarray:
     """Predefined local-support traces; seed and trace type never use results."""
+    if dimension < 1:
+        raise ValueError("Risk trace needs at least one direction")
     rng = np.random.default_rng(seed)
     theta = np.zeros((count, dimension))
     if kind == "iid":
@@ -40,7 +42,7 @@ def risk_trace(kind: str, count: int, seed: int, dimension: int = 5,
     elif kind == "walk":
         for i in range(1, count):
             theta[i] = theta[i - 1]
-            cells = rng.choice(dimension, size=1 if i % 5 else 2,
+            cells = rng.choice(dimension, size=min(dimension, 1 if i % 5 else 2),
                                replace=False)
             theta[i, cells] = np.clip(theta[i, cells] +
                                       rng.uniform(-.65, .65, size=len(cells)),

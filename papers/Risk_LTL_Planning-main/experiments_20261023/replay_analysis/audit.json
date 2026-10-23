@@ -1,0 +1,8 @@
+{
+  "completed_runs": 36,
+  "query_records": 22113,
+  "violations": [],
+  "unpaired_runs": [],
+  "aggregation": "medians and min-max, descriptive only; three timing repeats per archived trace, four fixed traces",
+  "all_complete": true
+}

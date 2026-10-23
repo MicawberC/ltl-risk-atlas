@@ -1,0 +1,20 @@
+{
+  "pid": 37792,
+  "command": [
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4.exe",
+    "/Game/Carla/Maps/Town02",
+    "-RenderOffScreen",
+    "-quality-level=Low",
+    "-nosound",
+    "-carla-rpc-port=2000",
+    "-ResX=640",
+    "-ResY=480"
+  ],
+  "reason": "Fresh server after timeout/crash during Town01 to Town02 map switch; original execution error preserved",
+  "startup_requested_map_ignored": true,
+  "observed_initial_map": "Carla/Maps/Town10HD_Opt",
+  "readiness_monitor_timed_out_before_client_map_load": true,
+  "recovery": "Official carla.Client.load_world('Town02') called on fresh server, returned Carla/Maps/Town02; run_carla_suite.py resumed and recorded all six Town02 trials",
+  "recovered_map": "Carla/Maps/Town02",
+  "town02_trials_recorded": 6
+}

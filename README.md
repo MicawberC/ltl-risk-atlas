@@ -4,6 +4,7 @@
 
 ## 从哪里开始
 
+- [2026-10-23 补充实验报告](papers/Risk_LTL_Planning-main/experiments_20261023/README_CN.md)：统一条件消融、重复计时、风险变化敏感性、固定轨迹重跑和新增 CARLA 场景；与下列历史批次分别统计。
 - [阶段性中文结果总报告](docs/RESULTS_SUMMARY_CN.md)：统一汇总修正代码后的时间、证书、CARLA 任务结果、反例与论文边界。
 - [原论文代码快照](papers/Risk_LTL_Planning-main/)：IROS 2025 作者公开的简化示例。
 - [原示例复现说明](reproduction/README.md)：来源、兼容处理及复现边界。

@@ -1,0 +1,9 @@
+{
+  "phase": "audited_ready_to_publish",
+  "time_utc": "2026-10-23T15:02:07.243743+00:00",
+  "timed_runs": 333,
+  "timed_query_records": 28893,
+  "new_drives": 24,
+  "returned_policy_checks": 14993,
+  "nonreturning_failed_queries": 8
+}

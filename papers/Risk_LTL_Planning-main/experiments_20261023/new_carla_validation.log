@@ -1,0 +1,13 @@
+Post-run summary generated from corrected audit JSON (not verbatim process stdout).
+{
+  "scope": "Returned policies only; nonreturning planning failures retained separately, not counted as certified policies or successful drives",
+  "parameters": {
+    "gamma": 0.8,
+    "soft": 1.0,
+    "hard": 2.0
+  },
+  "checked_points": 14993,
+  "nonreturning_failed_queries": 8,
+  "all_passed": true
+}
+Traces: 24

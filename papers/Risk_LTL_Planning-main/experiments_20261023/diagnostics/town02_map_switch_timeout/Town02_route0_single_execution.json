@@ -1,0 +1,5 @@
+{
+  "error": "RuntimeError('time-out of 120000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2000')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\ltl-risk-atlas-experiments\\papers\\Risk_LTL_Planning-main\\experiments_20261023\\run_carla_suite.py\", line 32, in main\n    if not world.get_map().name.endswith('/'+town):world=client.load_world(town)\n                                                         ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: time-out of 120000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2000\n",
+  "wall_seconds": 132.8366630077362
+}

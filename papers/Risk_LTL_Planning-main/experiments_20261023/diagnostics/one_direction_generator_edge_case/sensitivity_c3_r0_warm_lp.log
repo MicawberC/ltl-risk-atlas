@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\12410\Documents\Codex\2026-10-13\1-mdp-2-cmdp-3-1\work\ltl-risk-atlas-experiments\papers\Risk_LTL_Planning-main\experiments_20261023\controlled_experiment.py", line 231, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\12410\Documents\Codex\2026-10-13\1-mdp-2-cmdp-3-1\work\ltl-risk-atlas-experiments\papers\Risk_LTL_Planning-main\experiments_20261023\controlled_experiment.py", line 229, in main
+    data=make_replay(a.replay,a.reference,a.trial,a.stride) if a.replay else make_synthetic(a.case,a.stream,a.seed,a.count,a.magnitude,a.dimension)
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\12410\Documents\Codex\2026-10-13\1-mdp-2-cmdp-3-1\work\ltl-risk-atlas-experiments\papers\Risk_LTL_Planning-main\experiments_20261023\controlled_experiment.py", line 175, in make_synthetic
+    theta=risk_trace(stream,count,seed,len(dirs),magnitude=magnitude)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\12410\Documents\Codex\2026-10-13\1-mdp-2-cmdp-3-1\work\ltl-risk-atlas-experiments\reproduction\adaptive_risk_ltl\local_update_gate.py", line 43, in risk_trace
+    cells = rng.choice(dimension, size=1 if i % 5 else 2,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 917, in numpy.random._generator.Generator.choice
+ValueError: Cannot take a larger sample than population when replace is False

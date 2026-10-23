@@ -96,6 +96,19 @@ def query(cache, theta, initial=None):
             raise RuntimeError(h.modelStatusToString(h.getModelStatus()))
         basis_reset = True
         h.run()
+    cold_rebuild = False
+    if h.getModelStatus() != highspy.HighsModelStatus.kOptimal:
+        # setBasis alone may leave stale factorization/model status. Rebuild
+        # the same current LP, retaining precision and thread options. Its
+        # cost is part of this query's timer.
+        current_lp, current_options = h.getLp(), h.getOptions()
+        fresh = highspy.Highs()
+        fresh.passOptions(current_options)
+        fresh.passModel(current_lp)
+        fresh.run()
+        h = fresh
+        cache["solver"] = h
+        cold_rebuild = True
     if h.getModelStatus() != highspy.HighsModelStatus.kOptimal:
         raise RuntimeError(h.modelStatusToString(h.getModelStatus()))
     sol = h.getSolution()
@@ -105,7 +118,8 @@ def query(cache, theta, initial=None):
             "seconds": time.perf_counter() - started,
             "iterations": h.getInfo().simplex_iteration_count,
             "basis_valid": bool(h.getBasis().valid),
-            "basis_reset": basis_reset}
+            "basis_reset": basis_reset,
+            "cold_rebuild": cold_rebuild}
 
 
 def run_case(n, scene, seed, order_seed=0):

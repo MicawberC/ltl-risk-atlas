@@ -1,0 +1,25 @@
+VALIDATE NEW TRACE Town01_route0_double 0
+VALIDATE NEW TRACE Town01_route0_double 1
+VALIDATE NEW TRACE Town01_route0_double 2
+VALIDATE NEW TRACE Town01_route0_double 3
+VALIDATE NEW TRACE Town01_route0_double 4
+VALIDATE NEW TRACE Town01_route0_double 5
+VALIDATE NEW TRACE Town01_route0_single 0
+VALIDATE NEW TRACE Town01_route0_single 1
+VALIDATE NEW TRACE Town01_route0_single 2
+VALIDATE NEW TRACE Town01_route0_single 3
+VALIDATE NEW TRACE Town01_route0_single 4
+VALIDATE NEW TRACE Town01_route0_single 5
+VALIDATE NEW TRACE Town01_route1_single 0
+VALIDATE NEW TRACE Town01_route1_single 1
+VALIDATE NEW TRACE Town01_route1_single 2
+VALIDATE NEW TRACE Town01_route1_single 3
+VALIDATE NEW TRACE Town01_route1_single 4
+VALIDATE NEW TRACE Town01_route1_single 5
+VALIDATE NEW TRACE Town02_route0_single 0
+VALIDATE NEW TRACE Town02_route0_single 1
+VALIDATE NEW TRACE Town02_route0_single 2
+VALIDATE NEW TRACE Town02_route0_single 3
+VALIDATE NEW TRACE Town02_route0_single 4
+VALIDATE NEW TRACE Town02_route0_single 5
+NEW TRACE VALIDATION FINISHED

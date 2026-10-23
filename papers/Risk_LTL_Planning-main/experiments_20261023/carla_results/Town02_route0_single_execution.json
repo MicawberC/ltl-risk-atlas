@@ -1,0 +1,29 @@
+{
+  "command": [
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\python311\\python.exe",
+    "-c",
+    "import sys,runpy,functools;sys.path.insert(0,'C:\\\\Users\\\\12410\\\\Documents\\\\Codex\\\\2026-10-13\\\\1-mdp-2-cmdp-3-1\\\\work\\\\ltl-risk-atlas-experiments\\\\reproduction\\\\adaptive_risk_ltl');sys.path.insert(0,'C:\\\\Users\\\\12410\\\\Documents\\\\Codex\\\\2026-10-13\\\\1-mdp-2-cmdp-3-1\\\\work\\\\ltl-risk-atlas-experiments\\\\reproduction\\\\carla_local_risk');import highs_reopt;highs_reopt.prepare=functools.partial(highs_reopt.prepare,feasibility_tolerance=1e-9,solver_threads=1);runpy.run_path('C:\\\\Users\\\\12410\\\\Documents\\\\Codex\\\\2026-10-13\\\\1-mdp-2-cmdp-3-1\\\\work\\\\ltl-risk-atlas-experiments\\\\reproduction\\\\carla_local_risk\\\\closed_loop_dynamic.py',run_name=\"__main__\")",
+    "--town",
+    "Town02",
+    "--route-index",
+    "0",
+    "--port",
+    "2000",
+    "--methods",
+    "fixed_observed_hybrid",
+    "fixed_warm_lp",
+    "--repeats",
+    "3",
+    "--max-ticks",
+    "900",
+    "--plan-every",
+    "1",
+    "--action-every",
+    "10",
+    "--sample-policy",
+    "--output",
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\ltl-risk-atlas-experiments\\papers\\Risk_LTL_Planning-main\\experiments_20261023\\carla_results\\Town02_route0_single.json"
+  ],
+  "returncode": 0,
+  "wall_seconds": 63.49161744117737
+}

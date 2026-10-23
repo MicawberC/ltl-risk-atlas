@@ -1,0 +1,37 @@
+CARLA CASE Town01_route0_single
+Town01_route0_single exit 0
+CARLA CASE Town01_route0_double
+Town01_route0_double exit 0
+CARLA CASE Town01_route1_single
+Town01_route1_single exit 0
+Town02_route0_single FAILED RuntimeError('time-out of 120000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2000')
+INFO:  Could not find the required file in cache, downloading...  Carla/Maps/Nav/Town10HD_Opt.bin 
+INFO:  Could not find the required file in cache, downloading...  Carla/Maps//OpenDrive/Town10HD_Opt.xodr 
+INFO:  Found the required file in cache!  Carla/Maps//Nav/Town10HD_Opt.bin 
+INFO:  Could not find the required file in cache, downloading...  Carla/Maps//TM/Town10HD_Opt.bin 
+INFO:  Could not find the required file in cache, downloading...  Carla/Maps/Nav/Town01.bin 
+INFO:  Could not find the required file in cache, downloading...  Carla/Maps//OpenDrive/Town01.xodr 
+INFO:  Found the required file in cache!  Carla/Maps//Nav/Town01.bin 
+INFO:  Could not find the required file in cache, downloading...  Carla/Maps//TM/Town01.bin 
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于目标计算机积极拒绝，无法连接。 
+INFO:  streaming client: connection failed: 由于线程退出或应用程序请求，已中止 I/O 操作。 

@@ -1,0 +1,5564 @@
+{
+  "count": 693,
+  "rows": [
+    {
+      "tick": 0,
+      "objective": 0.33258287496721206,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.13955633409863175,
+      "evaluated_objective": 0.33258287496721184,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 1,
+      "objective": 0.33206359298265975,
+      "risk": 1.0,
+      "atlas_forward": 0.13928240671584097,
+      "evaluated_objective": 0.3320635929826594,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 2,
+      "objective": 0.3310239531270117,
+      "risk": 1.0,
+      "atlas_forward": 0.1387346459119709,
+      "evaluated_objective": 0.3310239531270116,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 3,
+      "objective": 0.32947173349440007,
+      "risk": 1.0,
+      "atlas_forward": 0.13791845748098672,
+      "evaluated_objective": 0.3294717334943996,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 4,
+      "objective": 0.32741040142142513,
+      "risk": 1.0,
+      "atlas_forward": 0.13683758948781602,
+      "evaluated_objective": 0.32741040142142475,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 5,
+      "objective": 0.3248522963615079,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.13550100804394327,
+      "evaluated_objective": 0.3248522963615075,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 6,
+      "objective": 0.32180559678864096,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.13391599587147315,
+      "evaluated_objective": 0.3218055967886404,
+      "evaluated_risk": 0.9999999999999988
+    },
+    {
+      "tick": 7,
+      "objective": 0.3182873169629939,
+      "risk": 1.0,
+      "atlas_forward": 0.13209485586408312,
+      "evaluated_objective": 0.3182873169629936,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 8,
+      "objective": 0.3143137279414492,
+      "risk": 1.0,
+      "atlas_forward": 0.13004980832164642,
+      "evaluated_objective": 0.3143137279414488,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 9,
+      "objective": 0.3099004751576988,
+      "risk": 1.0,
+      "atlas_forward": 0.12779298548618198,
+      "evaluated_objective": 0.30990047515769853,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 10,
+      "objective": 0.30506880284218363,
+      "risk": 1.0,
+      "atlas_forward": 0.12533951974470928,
+      "evaluated_objective": 0.3050688028421835,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 11,
+      "objective": 0.29984561825064904,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.12270739685437611,
+      "evaluated_objective": 0.2998456182506487,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 12,
+      "objective": 0.29425696445862193,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.11991401090201537,
+      "evaluated_objective": 0.29425696445862154,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 13,
+      "objective": 0.28832850853954145,
+      "risk": 1.0,
+      "atlas_forward": 0.11697634264720914,
+      "evaluated_objective": 0.28832850853954123,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 14,
+      "objective": 0.28230085421196666,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.11401614655307139,
+      "evaluated_objective": 0.2823008542119664,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 15,
+      "objective": 0.2764197650968862,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.11115346292917863,
+      "evaluated_objective": 0.27641976509688604,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 16,
+      "objective": 0.2706794207889738,
+      "risk": 1.0,
+      "atlas_forward": 0.10838329261443863,
+      "evaluated_objective": 0.27067942078897356,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 17,
+      "objective": 0.2650820707833103,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.10570467373939661,
+      "evaluated_objective": 0.26508207078331003,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 18,
+      "objective": 0.2596268218874396,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.10311521425780758,
+      "evaluated_objective": 0.25962682188743924,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 19,
+      "objective": 0.2543126876638416,
+      "risk": 0.9999999999999997,
+      "atlas_forward": 0.10061257940045673,
+      "evaluated_objective": 0.2543126876638414,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 20,
+      "objective": 0.2491384879730954,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.09819444160883795,
+      "evaluated_objective": 0.24913848797309512,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 21,
+      "objective": 0.24410275578852697,
+      "risk": 1.0,
+      "atlas_forward": 0.09585843598136062,
+      "evaluated_objective": 0.2441027557885267,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 22,
+      "objective": 0.23920401760177784,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.09360228890423831,
+      "evaluated_objective": 0.23920401760177745,
+      "evaluated_risk": 0.9999999999999988
+    },
+    {
+      "tick": 23,
+      "objective": 0.23444051182051984,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.09142368498709418,
+      "evaluated_objective": 0.23444051182051973,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 24,
+      "objective": 0.22981046376061331,
+      "risk": 1.0,
+      "atlas_forward": 0.08932039138129863,
+      "evaluated_objective": 0.2298104637606131,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 25,
+      "objective": 0.22531198829540372,
+      "risk": 1.0,
+      "atlas_forward": 0.08729020956638697,
+      "evaluated_objective": 0.22531198829540347,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 26,
+      "objective": 0.2209429997180453,
+      "risk": 1.0,
+      "atlas_forward": 0.08533093224104814,
+      "evaluated_objective": 0.22094299971804526,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 27,
+      "objective": 0.21670340018112533,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.08344131425788079,
+      "evaluated_objective": 0.21670340018112516,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 28,
+      "objective": 0.21258707861705672,
+      "risk": 1.0,
+      "atlas_forward": 0.08161750803143351,
+      "evaluated_objective": 0.21258707861705667,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 29,
+      "objective": 0.20859376863231152,
+      "risk": 1.0,
+      "atlas_forward": 0.07985834540069281,
+      "evaluated_objective": 0.20859376863231135,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 30,
+      "objective": 0.20472124085560403,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.07816184892997077,
+      "evaluated_objective": 0.20472124085560375,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 31,
+      "objective": 0.2009672299257905,
+      "risk": 1.0,
+      "atlas_forward": 0.07652609017540786,
+      "evaluated_objective": 0.20096722992579036,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 32,
+      "objective": 0.19732934733719296,
+      "risk": 1.0,
+      "atlas_forward": 0.07494914895242535,
+      "evaluated_objective": 0.19732934733719276,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 33,
+      "objective": 0.19380528784767184,
+      "risk": 1.0,
+      "atlas_forward": 0.07342920016368257,
+      "evaluated_objective": 0.19380528784767162,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 34,
+      "objective": 0.1903927371016969,
+      "risk": 1.0,
+      "atlas_forward": 0.0719644701815167,
+      "evaluated_objective": 0.19039273710169669,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 35,
+      "objective": 0.18708928598449143,
+      "risk": 1.0,
+      "atlas_forward": 0.07055319746443978,
+      "evaluated_objective": 0.18708928598449132,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 36,
+      "objective": 0.18389265828989254,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0691937272455059,
+      "evaluated_objective": 0.1838926582898923,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 37,
+      "objective": 0.18080046669906713,
+      "risk": 1.0,
+      "atlas_forward": 0.06788440448521701,
+      "evaluated_objective": 0.18080046669906696,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 38,
+      "objective": 0.17781043570389538,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.06662366614713328,
+      "evaluated_objective": 0.17781043570389518,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 39,
+      "objective": 0.1749203123717196,
+      "risk": 1.0,
+      "atlas_forward": 0.06541000042079533,
+      "evaluated_objective": 0.1749203123717195,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 40,
+      "objective": 0.17212907185876583,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06424244758664621,
+      "evaluated_objective": 0.17212907185876558,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 41,
+      "objective": 0.16943190193097069,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.06311850226843717,
+      "evaluated_objective": 0.1694319019309705,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 42,
+      "objective": 0.16682798046346178,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.06203736373693177,
+      "evaluated_objective": 0.16682798046346167,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 43,
+      "objective": 0.1643151054114953,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.06099768603482204,
+      "evaluated_objective": 0.16431510541149516,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 44,
+      "objective": 0.16189120366306559,
+      "risk": 1.0,
+      "atlas_forward": 0.05999820759647437,
+      "evaluated_objective": 0.1618912036630655,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 45,
+      "objective": 0.1595542459583487,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15955424595834855,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 46,
+      "objective": 0.15730216739730724,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15730216739730712,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 47,
+      "objective": 0.15513306253840478,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15513306253840464,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 48,
+      "objective": 0.15304496770390374,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15304496770390363,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 49,
+      "objective": 0.15103605278326504,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15103605278326493,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 50,
+      "objective": 0.14910453972782678,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14910453972782664,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 51,
+      "objective": 0.1472486259899456,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14724862598994537,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 52,
+      "objective": 0.14546746217562095,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1454674621756208,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 53,
+      "objective": 0.1437577610442898,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14375776104428972,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 54,
+      "objective": 0.14211874115144418,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1421187411514441,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 55,
+      "objective": 0.1405488996150711,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14054889961507094,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 56,
+      "objective": 0.13904678860624636,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13904678860624614,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 57,
+      "objective": 0.1376109421359395,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13761094213593933,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 58,
+      "objective": 0.13624002449840564,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13624002449840555,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 59,
+      "objective": 0.13493275487916695,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13493275487916678,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 60,
+      "objective": 0.13368783567679543,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13368783567679532,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 61,
+      "objective": 0.13250412062548642,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13250412062548633,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 62,
+      "objective": 0.13138042292480875,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13138042292480856,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 63,
+      "objective": 0.1303156815836124,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13031568158361234,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 64,
+      "objective": 0.12930888898928322,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12930888898928306,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 65,
+      "objective": 0.12835945422378917,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12835945422378892,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 66,
+      "objective": 0.12746558509034764,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1274655850903475,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 67,
+      "objective": 0.1266268922694676,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1266268922694675,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 68,
+      "objective": 0.12584251110340297,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1258425111034029,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 69,
+      "objective": 0.12511169721215354,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12511169721215343,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 70,
+      "objective": 0.12443375706262456,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12443375706262451,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 71,
+      "objective": 0.12380798075185195,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12380798075185181,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 72,
+      "objective": 0.12323379841133428,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12323379841133417,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 73,
+      "objective": 0.1227106010748503,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12271060107485021,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 74,
+      "objective": 0.1222378962042206,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12223789620422049,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 75,
+      "objective": 0.12181524023184603,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1218152402318459,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 76,
+      "objective": 0.12144217265612571,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12144217265612557,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 77,
+      "objective": 0.12111848814573994,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12111848814573986,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 78,
+      "objective": 0.12084358505462683,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12084358505462667,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 79,
+      "objective": 0.12061731200234768,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12061731200234764,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 80,
+      "objective": 0.12043946740170682,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12043946740170668,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 81,
+      "objective": 0.12030989726769745,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12030989726769739,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 82,
+      "objective": 0.12022843024312262,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12022843024312249,
+      "evaluated_risk": 0.9999999999999988
+    },
+    {
+      "tick": 83,
+      "objective": 0.12019500753127198,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12019500753127187,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 84,
+      "objective": 0.12020961772063482,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12020961772063463,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 85,
+      "objective": 0.12027223199910603,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12027223199910589,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 86,
+      "objective": 0.12038295546948202,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12038295546948184,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 87,
+      "objective": 0.12054185426993942,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12054185426993928,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 88,
+      "objective": 0.12074910696047458,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12074910696047449,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 89,
+      "objective": 0.12100493987311592,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1210049398731157,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 90,
+      "objective": 0.12130940768698512,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.121309407686985,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 91,
+      "objective": 0.121663118551915,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12166311855191485,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 92,
+      "objective": 0.1220663115861671,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12206631158616696,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 93,
+      "objective": 0.12251934065747966,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12251934065747956,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 94,
+      "objective": 0.12302267378514242,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12302267378514226,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 95,
+      "objective": 0.12357682839849024,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12357682839849013,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 96,
+      "objective": 0.12418230556476195,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12418230556476186,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 97,
+      "objective": 0.12483974422880179,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12483974422880169,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 98,
+      "objective": 0.12554974535687885,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12554974535687877,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 99,
+      "objective": 0.1263130269218855,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12631302692188523,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 100,
+      "objective": 0.12713035843822698,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12713035843822687,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 101,
+      "objective": 0.12800249379980852,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12800249379980838,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 102,
+      "objective": 0.12892985729125112,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12892985729125095,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 103,
+      "objective": 0.1299142458305773,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.12991424583057723,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 104,
+      "objective": 0.13095614771751593,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1309561477175158,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 105,
+      "objective": 0.13205659532894284,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13205659532894276,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 106,
+      "objective": 0.1332166754871177,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13321667548711758,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 107,
+      "objective": 0.13443745975754134,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1344374597575413,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 108,
+      "objective": 0.13572014382911787,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1357201438291177,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 109,
+      "objective": 0.13706597910473772,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13706597910473753,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 110,
+      "objective": 0.13847620132964897,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.13847620132964883,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 111,
+      "objective": 0.13995217276295596,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1399521727629558,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 112,
+      "objective": 0.14149528794122676,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1414952879412267,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 113,
+      "objective": 0.1431069728650648,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14310697286506457,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 114,
+      "objective": 0.14478878284802943,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14478878284802926,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 115,
+      "objective": 0.14654141573973314,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14654141573973295,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 116,
+      "objective": 0.14836279320406304,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14836279320406282,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 117,
+      "objective": 0.14971435674903047,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14971435674903022,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 118,
+      "objective": 0.15110952686179335,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15110952686179321,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 119,
+      "objective": 0.15254795912133903,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15254795912133884,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 120,
+      "objective": 0.15402927781342327,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15402927781342324,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 121,
+      "objective": 0.15555348623932896,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1555534862393288,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 122,
+      "objective": 0.1571199043175989,
+      "risk": 1.0,
+      "atlas_forward": 0.058040450615524486,
+      "evaluated_objective": 0.1571199043175988,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 123,
+      "objective": 0.1587286485269896,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.05869912442298499,
+      "evaluated_objective": 0.15872864852698942,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 124,
+      "objective": 0.16037879077340328,
+      "risk": 1.0,
+      "atlas_forward": 0.059376252874919475,
+      "evaluated_objective": 0.1603787907734031,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 125,
+      "objective": 0.16207029394304331,
+      "risk": 1.0,
+      "atlas_forward": 0.060071940749470296,
+      "evaluated_objective": 0.16207029394304318,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 126,
+      "objective": 0.16380250860134096,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.060786043662133755,
+      "evaluated_objective": 0.16380250860134082,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 127,
+      "objective": 0.16557345837006845,
+      "risk": 1.0,
+      "atlas_forward": 0.06151786936819899,
+      "evaluated_objective": 0.16557345837006837,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 128,
+      "objective": 0.1673851430730737,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.062268370407525794,
+      "evaluated_objective": 0.16738514307307362,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 129,
+      "objective": 0.16923547853017135,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.06303681298583437,
+      "evaluated_objective": 0.16923547853017123,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 130,
+      "objective": 0.17112376535179372,
+      "risk": 1.0,
+      "atlas_forward": 0.06382303544756608,
+      "evaluated_objective": 0.17112376535179352,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 131,
+      "objective": 0.17262506845110212,
+      "risk": 1.0,
+      "atlas_forward": 0.06444959063679734,
+      "evaluated_objective": 0.17262506845110198,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 132,
+      "objective": 0.17325706809283709,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.06471373793892349,
+      "evaluated_objective": 0.17325706809283695,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 133,
+      "objective": 0.1738819703034119,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.06497514530161189,
+      "evaluated_objective": 0.17388197030341174,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 134,
+      "objective": 0.17449839350713683,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.06523322665979238,
+      "evaluated_objective": 0.1744983935071367,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 135,
+      "objective": 0.17510549409147552,
+      "risk": 1.0,
+      "atlas_forward": 0.06548761958739789,
+      "evaluated_objective": 0.1751054940914752,
+      "evaluated_risk": 0.9999999999999986
+    },
+    {
+      "tick": 136,
+      "objective": 0.17570330243915397,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06573832727700386,
+      "evaluated_objective": 0.1757033024391538,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 137,
+      "objective": 0.17629031914886148,
+      "risk": 1.0,
+      "atlas_forward": 0.06598471074547968,
+      "evaluated_objective": 0.1762903191488614,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 138,
+      "objective": 0.1768654760702238,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0662263103500083,
+      "evaluated_objective": 0.17686547607022363,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 139,
+      "objective": 0.1774287212145377,
+      "risk": 1.0,
+      "atlas_forward": 0.06646309257367819,
+      "evaluated_objective": 0.17742872121453765,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 140,
+      "objective": 0.17797823655437117,
+      "risk": 1.0,
+      "atlas_forward": 0.06669428077190634,
+      "evaluated_objective": 0.17797823655437095,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 141,
+      "objective": 0.17851523316450826,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06692037205915498,
+      "evaluated_objective": 0.17851523316450818,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 142,
+      "objective": 0.1790380210366712,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06714064254854671,
+      "evaluated_objective": 0.17903802103667105,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 143,
+      "objective": 0.17954688011715608,
+      "risk": 1.0,
+      "atlas_forward": 0.06735519749276586,
+      "evaluated_objective": 0.17954688011715597,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 144,
+      "objective": 0.18004116815534338,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06756375355647189,
+      "evaluated_objective": 0.1800411681553432,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 145,
+      "objective": 0.18052035311483744,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06776607354719114,
+      "evaluated_objective": 0.18052035311483727,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 146,
+      "objective": 0.1796419680662139,
+      "risk": 1.0,
+      "atlas_forward": 0.06739530707199512,
+      "evaluated_objective": 0.1796419680662138,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 147,
+      "objective": 0.17871760374081233,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06700561959837281,
+      "evaluated_objective": 0.17871760374081214,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 148,
+      "objective": 0.17780190642425592,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06662007725937515,
+      "evaluated_objective": 0.1778019064242557,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 149,
+      "objective": 0.17689544044988997,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.06623890241032103,
+      "evaluated_objective": 0.17689544044988975,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 150,
+      "objective": 0.17599947568643143,
+      "risk": 1.0,
+      "atlas_forward": 0.06586261254535762,
+      "evaluated_objective": 0.17599947568643123,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 151,
+      "objective": 0.17511450562398817,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.06549139728980301,
+      "evaluated_objective": 0.17511450562398806,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 152,
+      "objective": 0.1742416887883199,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1742416887883197,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 153,
+      "objective": 0.1733826318699097,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17338263186990965,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 154,
+      "objective": 0.1725384546952292,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17253845469522902,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 155,
+      "objective": 0.1717098549882051,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1717098549882049,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 156,
+      "objective": 0.1708973227668456,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17089732276684536,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 157,
+      "objective": 0.1701029285575984,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1701029285575982,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 158,
+      "objective": 0.1693271159503627,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1693271159503626,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 159,
+      "objective": 0.16857033251888398,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16857033251888387,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 160,
+      "objective": 0.1672718981279059,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16727189812790572,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 161,
+      "objective": 0.1659619361778712,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16596193617787106,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 162,
+      "objective": 0.1647014041163363,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16470140411633613,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 163,
+      "objective": 0.16349107009925734,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16349107009925712,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 164,
+      "objective": 0.16232959704920566,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16232959704920552,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 165,
+      "objective": 0.16121767679731086,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16121767679731067,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 166,
+      "objective": 0.16015457251239248,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1601545725123923,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 167,
+      "objective": 0.1591393039976863,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1591393039976861,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 168,
+      "objective": 0.15817279293484365,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15817279293484346,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 169,
+      "objective": 0.15725414246865665,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15725414246865654,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 170,
+      "objective": 0.1563824823505373,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15638248235053717,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 171,
+      "objective": 0.15555874035356707,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1555587403535669,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 172,
+      "objective": 0.154781627120157,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15478162712015683,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 173,
+      "objective": 0.15403595653422483,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15403595653422467,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 174,
+      "objective": 0.15323331292149237,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15323331292149223,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 175,
+      "objective": 0.15248330675647737,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15248330675647728,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 176,
+      "objective": 0.1517847745169457,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15178477451694555,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 177,
+      "objective": 0.15113840152427924,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15113840152427896,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 178,
+      "objective": 0.1505424979032952,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1505424979032951,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 179,
+      "objective": 0.1499978160184225,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14999781601842235,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 180,
+      "objective": 0.1495033441128738,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14950334411287358,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 181,
+      "objective": 0.14905811398524682,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14905811398524674,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 182,
+      "objective": 0.14866298014138593,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14866298014138568,
+      "evaluated_risk": 0.9999999999999988
+    },
+    {
+      "tick": 183,
+      "objective": 0.1483170471861367,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14831704718613659,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 184,
+      "objective": 0.14801946121125886,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14801946121125867,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 185,
+      "objective": 0.14777106656844258,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14777106656844252,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 186,
+      "objective": 0.1475713352298761,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14757133522987592,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 187,
+      "objective": 0.14741938662852958,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14741938662852944,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 188,
+      "objective": 0.1473162855366305,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14731628553663034,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 189,
+      "objective": 0.14726077394552567,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1472607739455256,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 190,
+      "objective": 0.14725398870278533,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14725398870278517,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 191,
+      "objective": 0.14729533516861407,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14729533516861393,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 192,
+      "objective": 0.14738425507369807,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14738425507369785,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 193,
+      "objective": 0.1475219955577229,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14752199555772272,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 194,
+      "objective": 0.14770807194755634,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14770807194755614,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 195,
+      "objective": 0.14794203421098134,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14794203421098112,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 196,
+      "objective": 0.14822524266804774,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14822524266804757,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 197,
+      "objective": 0.14855750264966977,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14855750264966963,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 198,
+      "objective": 0.14893813429082328,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14893813429082314,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 199,
+      "objective": 0.14936877046519806,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1493687704651979,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 200,
+      "objective": 0.14984914357937135,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.14984914357937124,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 201,
+      "objective": 0.1503790174791602,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1503790174791601,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 202,
+      "objective": 0.15095998865988625,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15095998865988614,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 203,
+      "objective": 0.15159129426773177,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1515912942677316,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 204,
+      "objective": 0.15227461262198666,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15227461262198655,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 205,
+      "objective": 0.1530098551053001,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15300985510529994,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 206,
+      "objective": 0.1537969619711428,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15379696197114265,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 207,
+      "objective": 0.1546377372404752,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15463773724047497,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 208,
+      "objective": 0.15553219892717957,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1555321989271794,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 209,
+      "objective": 0.1564803923013277,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15648039230132743,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 210,
+      "objective": 0.1574847748940564,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1574847748940563,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 211,
+      "objective": 0.1585444502203786,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15854445022037847,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 212,
+      "objective": 0.1596600638201633,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.15966006382016307,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 213,
+      "objective": 0.16083368086027233,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16083368086027233,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 214,
+      "objective": 0.1620648952597878,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1620648952597876,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 215,
+      "objective": 0.16335586148293907,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16335586148293896,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 216,
+      "objective": 0.16470687609913953,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1647068760991393,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 217,
+      "objective": 0.16611825756153623,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16611825756153598,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 218,
+      "objective": 0.16759229538008102,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16759229538008097,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 219,
+      "objective": 0.16912938592403648,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.16912938592403637,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 220,
+      "objective": 0.1707299446614316,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17072994466143143,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 221,
+      "objective": 0.1723963960547658,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17239639605476567,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 222,
+      "objective": 0.1741301295550112,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17413012955501106,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 223,
+      "objective": 0.1759298904532351,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17592989045323482,
+      "evaluated_risk": 0.9999999999999987
+    },
+    {
+      "tick": 224,
+      "objective": 0.17779910004931856,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.1777991000493184,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 225,
+      "objective": 0.179738337396625,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.17973833739662481,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 226,
+      "objective": 0.1817481928011138,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.18174819280111357,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 227,
+      "objective": 0.1838313511124905,
+      "risk": 1.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 0.18383135111249027,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 228,
+      "objective": 0.18598776787116028,
+      "risk": 1.0,
+      "atlas_forward": 0.07008405817225745,
+      "evaluated_objective": 0.18598776787116011,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 229,
+      "objective": 0.18822020840203996,
+      "risk": 1.0,
+      "atlas_forward": 0.07103560932753263,
+      "evaluated_objective": 0.18822020840203987,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 230,
+      "objective": 0.19052937336514586,
+      "risk": 1.0,
+      "atlas_forward": 0.07202298291942984,
+      "evaluated_objective": 0.1905293733651456,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 231,
+      "objective": 0.19291596467515126,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.07304681290773508,
+      "evaluated_objective": 0.192915964675151,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 232,
+      "objective": 0.1953828581275503,
+      "risk": 0.9999999999999997,
+      "atlas_forward": 0.07410868862176317,
+      "evaluated_objective": 0.19538285812755013,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 233,
+      "objective": 0.19793080572193777,
+      "risk": 1.0,
+      "atlas_forward": 0.07520931244771963,
+      "evaluated_objective": 0.1979308057219376,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 234,
+      "objective": 0.20056055260836234,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.07634940427784867,
+      "evaluated_objective": 0.20056055260836228,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 235,
+      "objective": 0.203276469878045,
+      "risk": 1.0,
+      "atlas_forward": 0.07753128615449104,
+      "evaluated_objective": 0.20327646987804476,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 236,
+      "objective": 0.20607657802595994,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.07875454738696618,
+      "evaluated_objective": 0.20607657802595963,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 237,
+      "objective": 0.20896299956874628,
+      "risk": 1.0,
+      "atlas_forward": 0.08002058501685748,
+      "evaluated_objective": 0.20896299956874603,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 238,
+      "objective": 0.21193877322857346,
+      "risk": 1.0,
+      "atlas_forward": 0.08133123491139459,
+      "evaluated_objective": 0.21193877322857335,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 239,
+      "objective": 0.2150039062193384,
+      "risk": 1.0,
+      "atlas_forward": 0.082687032482351,
+      "evaluated_objective": 0.21500390621933832,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 240,
+      "objective": 0.21816146673504416,
+      "risk": 1.0,
+      "atlas_forward": 0.08408989800576465,
+      "evaluated_objective": 0.218161466735044,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 241,
+      "objective": 0.22141221396419672,
+      "risk": 1.0,
+      "atlas_forward": 0.08554076656010778,
+      "evaluated_objective": 0.2214122139641966,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 242,
+      "objective": 0.2247568680813668,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.08704058654349618,
+      "evaluated_objective": 0.22475686808136658,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 243,
+      "objective": 0.2281985096474845,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.08859140435667279,
+      "evaluated_objective": 0.22819850964748423,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 244,
+      "objective": 0.23173783047634194,
+      "risk": 1.0,
+      "atlas_forward": 0.0901942366646041,
+      "evaluated_objective": 0.23173783047634167,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 245,
+      "objective": 0.23537546645910817,
+      "risk": 1.0,
+      "atlas_forward": 0.09185010994150158,
+      "evaluated_objective": 0.23537546645910806,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 246,
+      "objective": 0.23911446366987404,
+      "risk": 1.0,
+      "atlas_forward": 0.09356119285396078,
+      "evaluated_objective": 0.23911446366987393,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 247,
+      "objective": 0.2429573738573032,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.0953294883406278,
+      "evaluated_objective": 0.24295737385730293,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 248,
+      "objective": 0.24690078752292213,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.09715429375702035,
+      "evaluated_objective": 0.24690078752292174,
+      "evaluated_risk": 0.9999999999999988
+    },
+    {
+      "tick": 249,
+      "objective": 0.25094958609704204,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.0990387757754045,
+      "evaluated_objective": 0.25094958609704177,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 250,
+      "objective": 0.25510416032584715,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.10098408304788122,
+      "evaluated_objective": 0.25510416032584693,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 251,
+      "objective": 0.2593648021430874,
+      "risk": 1.0,
+      "atlas_forward": 0.10299136183832462,
+      "evaluated_objective": 0.259364802143087,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 252,
+      "objective": 0.2637343055048776,
+      "risk": 1.0,
+      "atlas_forward": 0.10506299334911431,
+      "evaluated_objective": 0.26373430550487736,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 253,
+      "objective": 0.2682119303232953,
+      "risk": 1.0,
+      "atlas_forward": 0.10719974490788406,
+      "evaluated_objective": 0.26821193032329504,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 254,
+      "objective": 0.272800320336264,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.10940405170041541,
+      "evaluated_objective": 0.2728003203362638,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 255,
+      "objective": 0.27749939862108414,
+      "risk": 0.9999999999999997,
+      "atlas_forward": 0.11167711149028885,
+      "evaluated_objective": 0.2774993986210839,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 256,
+      "objective": 0.28230894492335146,
+      "risk": 1.0,
+      "atlas_forward": 0.11402010208764805,
+      "evaluated_objective": 0.28230894492335107,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 257,
+      "objective": 0.2872313050565932,
+      "risk": 1.0,
+      "atlas_forward": 0.11643551504230314,
+      "evaluated_objective": 0.2872313050565929,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 258,
+      "objective": 0.29226600770912675,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.11892453395906626,
+      "evaluated_objective": 0.2922660077091264,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 259,
+      "objective": 0.29741240873676333,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.12148830771231117,
+      "evaluated_objective": 0.29741240873676295,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 260,
+      "objective": 0.30267516514978215,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.12413070816564328,
+      "evaluated_objective": 0.30267516514978177,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 261,
+      "objective": 0.3080479675785792,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.12685017368742788,
+      "evaluated_objective": 0.30804796757857905,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 262,
+      "objective": 0.31353229999077675,
+      "risk": 0.9999999999999999,
+      "atlas_forward": 0.12964909844799885,
+      "evaluated_objective": 0.3135322999907766,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 263,
+      "objective": 0.31912962291070496,
+      "risk": 1.0,
+      "atlas_forward": 0.13252995768666287,
+      "evaluated_objective": 0.31912962291070457,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 264,
+      "objective": 0.32483744260572694,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.13549326249853316,
+      "evaluated_objective": 0.3248374426057268,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 265,
+      "objective": 0.3306568347976033,
+      "risk": 1.0,
+      "atlas_forward": 0.13854143072270395,
+      "evaluated_objective": 0.33065683479760305,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 266,
+      "objective": 0.33658581470575016,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.14167535254718508,
+      "evaluated_objective": 0.33658581470575,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 267,
+      "objective": 0.34262214686906134,
+      "risk": 1.0,
+      "atlas_forward": 0.14489582497840187,
+      "evaluated_objective": 0.34262214686906095,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 268,
+      "objective": 0.3487662482769081,
+      "risk": 1.0,
+      "atlas_forward": 0.14820511695698152,
+      "evaluated_objective": 0.34876624827690794,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 269,
+      "objective": 0.3550153995298148,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.15160387635951422,
+      "evaluated_objective": 0.3550153995298144,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 270,
+      "objective": 0.36136660754464145,
+      "risk": 1.0000000000000007,
+      "atlas_forward": 0.15509262846468674,
+      "evaluated_objective": 0.3613666075446412,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 271,
+      "objective": 0.3678195423804709,
+      "risk": 0.9999999999999993,
+      "atlas_forward": 0.15867340552946002,
+      "evaluated_objective": 0.3678195423804706,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 272,
+      "objective": 0.37437403338794095,
+      "risk": 1.0,
+      "atlas_forward": 0.16234841248870563,
+      "evaluated_objective": 0.3743740333879406,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 273,
+      "objective": 0.38101959984445066,
+      "risk": 1.0,
+      "atlas_forward": 0.1661140712461373,
+      "evaluated_objective": 0.3810195998444503,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 274,
+      "objective": 0.3877584022396037,
+      "risk": 1.0,
+      "atlas_forward": 0.16997392123652544,
+      "evaluated_objective": 0.38775840223960323,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 275,
+      "objective": 0.3945860569647495,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.17392783791561564,
+      "evaluated_objective": 0.39458605696474924,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 276,
+      "objective": 0.4014978865087773,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.17797550586503608,
+      "evaluated_objective": 0.40149788650877705,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 277,
+      "objective": 0.4084918864339143,
+      "risk": 1.0,
+      "atlas_forward": 0.18211817231382665,
+      "evaluated_objective": 0.4084918864339138,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 278,
+      "objective": 0.4155618138281122,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.18635457017025456,
+      "evaluated_objective": 0.4155618138281121,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 279,
+      "objective": 0.42270508714690525,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.19068558421812806,
+      "evaluated_objective": 0.42270508714690486,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 280,
+      "objective": 0.4299158795991258,
+      "risk": 1.0000000000000002,
+      "atlas_forward": 0.195110114821293,
+      "evaluated_objective": 0.4299158795991256,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 281,
+      "objective": 0.43718809386735613,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.19962681261548043,
+      "evaluated_objective": 0.4371880938673557,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 282,
+      "objective": 0.4445183073287879,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.20423592367685814,
+      "evaluated_objective": 0.4445183073287876,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 283,
+      "objective": 0.45189988940794024,
+      "risk": 0.9999999999999998,
+      "atlas_forward": 0.20893561903436447,
+      "evaluated_objective": 0.45189988940793985,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 284,
+      "objective": 0.4593259752366976,
+      "risk": 1.0,
+      "atlas_forward": 0.21372378942143846,
+      "evaluated_objective": 0.4593259752366969,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 285,
+      "objective": 0.46679618016056,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.21860243880723104,
+      "evaluated_objective": 0.4667961801605598,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 286,
+      "objective": 0.47429558035866604,
+      "risk": 1.0000000000000007,
+      "atlas_forward": 0.22356395564448206,
+      "evaluated_objective": 0.4742955803586654,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 287,
+      "objective": 0.48182045648513666,
+      "risk": 1.0,
+      "atlas_forward": 0.22860784415873703,
+      "evaluated_objective": 0.4818204564851361,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 288,
+      "objective": 0.4893659728498903,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.23373277764844044,
+      "evaluated_objective": 0.4893659728498897,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 289,
+      "objective": 0.4969233322974964,
+      "risk": 1.0,
+      "atlas_forward": 0.23893457052433292,
+      "evaluated_objective": 0.4969233322974962,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 290,
+      "objective": 0.5044873620724044,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24421131228327686,
+      "evaluated_objective": 0.5044873620724042,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 291,
+      "objective": 0.5120499525592366,
+      "risk": 1.0,
+      "atlas_forward": 0.24955885480806464,
+      "evaluated_objective": 0.5120499525592358,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 292,
+      "objective": 0.519604747369795,
+      "risk": 1.0,
+      "atlas_forward": 0.25497404498680815,
+      "evaluated_objective": 0.5196047473697942,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 293,
+      "objective": 0.527142598357609,
+      "risk": 1.0,
+      "atlas_forward": 0.2604514724920727,
+      "evaluated_objective": 0.5271425983576088,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 294,
+      "objective": 0.5346570528822773,
+      "risk": 1.0,
+      "atlas_forward": 0.2659873877276143,
+      "evaluated_objective": 0.5346570528822767,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 295,
+      "objective": 0.5421416012706459,
+      "risk": 1.0,
+      "atlas_forward": 0.2715777548206,
+      "evaluated_objective": 0.5421416012706456,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 296,
+      "objective": 0.5495871299277235,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.27721629557255506,
+      "evaluated_objective": 0.5495871299277234,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 297,
+      "objective": 0.5569909560848104,
+      "risk": 1.0,
+      "atlas_forward": 0.2829013257808071,
+      "evaluated_objective": 0.5569909560848103,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 298,
+      "objective": 0.5643383098923813,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2886215699499111,
+      "evaluated_objective": 0.5643383098923808,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 299,
+      "objective": 0.5716266464818098,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.29437482187855785,
+      "evaluated_objective": 0.5716266464818095,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 300,
+      "objective": 0.578847321536266,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.3001538310452697,
+      "evaluated_objective": 0.5788473215362654,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 301,
+      "objective": 0.5859943246858674,
+      "risk": 1.0,
+      "atlas_forward": 0.30595309396424153,
+      "evaluated_objective": 0.585994324685867,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 302,
+      "objective": 0.5930610060349553,
+      "risk": 1.0,
+      "atlas_forward": 0.3117662802761755,
+      "evaluated_objective": 0.5930610060349546,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 303,
+      "objective": 0.6000416818340766,
+      "risk": 1.0,
+      "atlas_forward": 0.31758753757266633,
+      "evaluated_objective": 0.6000416818340761,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 304,
+      "objective": 0.6069286397837652,
+      "risk": 0.9999999999999987,
+      "atlas_forward": 0.32340899123245087,
+      "evaluated_objective": 0.6069286397837648,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 305,
+      "objective": 0.6137167168181241,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.32922457118795545,
+      "evaluated_objective": 0.6137167168181239,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 306,
+      "objective": 0.6204009674005511,
+      "risk": 1.0,
+      "atlas_forward": 0.33502811572325575,
+      "evaluated_objective": 0.6204009674005504,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 307,
+      "objective": 0.6269746358736292,
+      "risk": 1.0,
+      "atlas_forward": 0.3408115857222438,
+      "evaluated_objective": 0.6269746358736288,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 308,
+      "objective": 0.6334334225136186,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.34656878561988114,
+      "evaluated_objective": 0.633433422513618,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 309,
+      "objective": 0.6397726495603067,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.3522929297011352,
+      "evaluated_objective": 0.6397726495603062,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 310,
+      "objective": 0.6459917475064489,
+      "risk": 1.0,
+      "atlas_forward": 0.3579807501816073,
+      "evaluated_objective": 0.6459917475064485,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 311,
+      "objective": 0.6520791568738367,
+      "risk": 1.0,
+      "atlas_forward": 0.36361866598134196,
+      "evaluated_objective": 0.6520791568738359,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 312,
+      "objective": 0.6580351253202477,
+      "risk": 1.0,
+      "atlas_forward": 0.3692036596151612,
+      "evaluated_objective": 0.6580351253202466,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 313,
+      "objective": 0.6638570124168712,
+      "risk": 1.0,
+      "atlas_forward": 0.37472992906261554,
+      "evaluated_objective": 0.6638570124168702,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 314,
+      "objective": 0.6695408238934333,
+      "risk": 1.0,
+      "atlas_forward": 0.38019020872545684,
+      "evaluated_objective": 0.6695408238934326,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 315,
+      "objective": 0.6750847028716547,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.3855791116571862,
+      "evaluated_objective": 0.6750847028716542,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 316,
+      "objective": 0.6804865843185232,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.3908909376169519,
+      "evaluated_objective": 0.6804865843185224,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 317,
+      "objective": 0.6857452827603974,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.3961207558463306,
+      "evaluated_objective": 0.6857452827603968,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 318,
+      "objective": 0.6908584699569,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.4012624161838854,
+      "evaluated_objective": 0.6908584699568994,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 319,
+      "objective": 0.6958257207290338,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.4063116066873326,
+      "evaluated_objective": 0.695825720729033,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 320,
+      "objective": 0.7006468979473086,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.4112642970172823,
+      "evaluated_objective": 0.7006468979473083,
+      "evaluated_risk": 1.0000000000000004
+    },
+    {
+      "tick": 321,
+      "objective": 0.705320854295842,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.4161154062160225,
+      "evaluated_objective": 0.705320854295842,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 322,
+      "objective": 0.7098504197883919,
+      "risk": 1.0,
+      "atlas_forward": 0.42086401163566517,
+      "evaluated_objective": 0.7098504197883918,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 323,
+      "objective": 0.7142314125023609,
+      "risk": 1.0,
+      "atlas_forward": 0.4255018704896899,
+      "evaluated_objective": 0.7142314125023601,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 324,
+      "objective": 0.7184672839274671,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.4300287961221812,
+      "evaluated_objective": 0.7184672839274665,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 325,
+      "objective": 0.7225582809936818,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.4344413036349307,
+      "evaluated_objective": 0.7225582809936815,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 326,
+      "objective": 0.7265060999956328,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.4387375434499601,
+      "evaluated_objective": 0.7265060999956321,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 327,
+      "objective": 0.7303122993930758,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.44291562565320947,
+      "evaluated_objective": 0.7303122993930751,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 328,
+      "objective": 0.7339789980395577,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.4469743928172056,
+      "evaluated_objective": 0.7339789980395568,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 329,
+      "objective": 0.7375075658225368,
+      "risk": 1.0,
+      "atlas_forward": 0.4509119809929664,
+      "evaluated_objective": 0.7375075658225362,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 330,
+      "objective": 0.7409005643898722,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.4547279799396494,
+      "evaluated_objective": 0.7409005643898717,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 331,
+      "objective": 0.744160685577219,
+      "risk": 1.0,
+      "atlas_forward": 0.45842227868523056,
+      "evaluated_objective": 0.7441606855772189,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 332,
+      "objective": 0.7472899441723685,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.46199414588908233,
+      "evaluated_objective": 0.7472899441723679,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 333,
+      "objective": 0.7502913646185464,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.46544414767397585,
+      "evaluated_objective": 0.7502913646185457,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 334,
+      "objective": 0.7531678133058682,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.46877283084778293,
+      "evaluated_objective": 0.7531678133058679,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 335,
+      "objective": 0.7559238704479408,
+      "risk": 1.0,
+      "atlas_forward": 0.4719829017698565,
+      "evaluated_objective": 0.7559238704479396,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 336,
+      "objective": 0.7585593500315279,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.47507166735673434,
+      "evaluated_objective": 0.7585593500315267,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 337,
+      "objective": 0.7610790874293617,
+      "risk": 1.0,
+      "atlas_forward": 0.23668875701944114,
+      "evaluated_objective": 0.7610790874293607,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 338,
+      "objective": 0.7634865091063312,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.23776608154105747,
+      "evaluated_objective": 0.76348650910633,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 339,
+      "objective": 0.7657844999733155,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.23879722130259315,
+      "evaluated_objective": 0.7657844999733148,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 340,
+      "objective": 0.7679765886448028,
+      "risk": 1.0,
+      "atlas_forward": 0.23978338708558797,
+      "evaluated_objective": 0.7679765886448023,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 341,
+      "objective": 0.7700661240559975,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24072573952922183,
+      "evaluated_objective": 0.7700661240559972,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 342,
+      "objective": 0.7720566249325774,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24162554490121993,
+      "evaluated_objective": 0.7720566249325771,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 343,
+      "objective": 0.7739511333982878,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24248388140438196,
+      "evaluated_objective": 0.7739511333982869,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 344,
+      "objective": 0.7757531696918494,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2433020694266132,
+      "evaluated_objective": 0.7757531696918489,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 345,
+      "objective": 0.777466201562121,
+      "risk": 1.0,
+      "atlas_forward": 0.24408143086650244,
+      "evaluated_objective": 0.7774662015621199,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 346,
+      "objective": 0.7790932651802663,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2448231145589539,
+      "evaluated_objective": 0.7790932651802661,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 347,
+      "objective": 0.780638536739284,
+      "risk": 1.0,
+      "atlas_forward": 0.24552881154080214,
+      "evaluated_objective": 0.7806385367392835,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 348,
+      "objective": 0.7821036739281484,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24619908323222905,
+      "evaluated_objective": 0.7821036739281478,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 349,
+      "objective": 0.7834927640138946,
+      "risk": 1.0,
+      "atlas_forward": 0.24683561980799706,
+      "evaluated_objective": 0.7834927640138942,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 350,
+      "objective": 0.7848087125770286,
+      "risk": 1.0,
+      "atlas_forward": 0.24743958948008685,
+      "evaluated_objective": 0.7848087125770282,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 351,
+      "objective": 0.7860546885677553,
+      "risk": 1.0,
+      "atlas_forward": 0.2480122978145623,
+      "evaluated_objective": 0.7860546885677548,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 352,
+      "objective": 0.7872336837554621,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24855498466708947,
+      "evaluated_objective": 0.7872336837554614,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 353,
+      "objective": 0.7880048187675381,
+      "risk": 1.0,
+      "atlas_forward": 0.24891033874099994,
+      "evaluated_objective": 0.7880048187675378,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 354,
+      "objective": 0.7880047356242392,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891030040971635,
+      "evaluated_objective": 0.788004735624239,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 355,
+      "objective": 0.7880303642053265,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892211604674955,
+      "evaluated_objective": 0.7880303642053259,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 356,
+      "objective": 0.788030281184906,
+      "risk": 1.0,
+      "atlas_forward": 0.24892207777097605,
+      "evaluated_objective": 0.7880302811849055,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 357,
+      "objective": 0.7880301981650079,
+      "risk": 1.0,
+      "atlas_forward": 0.2489220394954468,
+      "evaluated_objective": 0.7880301981650069,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 358,
+      "objective": 0.7880301981650079,
+      "risk": 1.0,
+      "atlas_forward": 0.2489220394954468,
+      "evaluated_objective": 0.7880301981650069,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 359,
+      "objective": 0.7880301151456313,
+      "risk": 1.0,
+      "atlas_forward": 0.24892200122016211,
+      "evaluated_objective": 0.788030115145631,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 360,
+      "objective": 0.7880300321267775,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892196294512184,
+      "evaluated_objective": 0.7880300321267768,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 361,
+      "objective": 0.7880300321267775,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892196294512184,
+      "evaluated_objective": 0.7880300321267768,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 362,
+      "objective": 0.7880299491084454,
+      "risk": 1.0,
+      "atlas_forward": 0.24892192467032595,
+      "evaluated_objective": 0.7880299491084451,
+      "evaluated_risk": 1.0000000000000004
+    },
+    {
+      "tick": 363,
+      "objective": 0.7880299491084454,
+      "risk": 1.0,
+      "atlas_forward": 0.24892192467032595,
+      "evaluated_objective": 0.7880299491084451,
+      "evaluated_risk": 1.0000000000000004
+    },
+    {
+      "tick": 364,
+      "objective": 0.788029866090636,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489218863957744,
+      "evaluated_objective": 0.788029866090635,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 365,
+      "objective": 0.7880297830733486,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892184812146761,
+      "evaluated_objective": 0.7880297830733483,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 366,
+      "objective": 0.7880297830733486,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892184812146761,
+      "evaluated_objective": 0.7880297830733483,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 367,
+      "objective": 0.7880297000565832,
+      "risk": 1.0,
+      "atlas_forward": 0.24892180984740506,
+      "evaluated_objective": 0.7880297000565828,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 368,
+      "objective": 0.7880296170403401,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892177157358703,
+      "evaluated_objective": 0.7880296170403395,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 369,
+      "objective": 0.7880296170403401,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892177157358703,
+      "evaluated_objective": 0.7880296170403395,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 370,
+      "objective": 0.7880295340246195,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489217333000135,
+      "evaluated_objective": 0.7880295340246188,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 371,
+      "objective": 0.7880294510094206,
+      "risk": 1.0,
+      "atlas_forward": 0.24892169502668438,
+      "evaluated_objective": 0.7880294510094199,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 372,
+      "objective": 0.7880294510094206,
+      "risk": 1.0,
+      "atlas_forward": 0.24892169502668438,
+      "evaluated_objective": 0.7880294510094199,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 373,
+      "objective": 0.7880293679947444,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489216567535999,
+      "evaluated_objective": 0.7880293679947442,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 374,
+      "objective": 0.7880292849805901,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489216184807596,
+      "evaluated_objective": 0.7880292849805894,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 375,
+      "objective": 0.7880292849805901,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489216184807596,
+      "evaluated_objective": 0.7880292849805894,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 376,
+      "objective": 0.7880292019669579,
+      "risk": 1.0,
+      "atlas_forward": 0.24892158020816404,
+      "evaluated_objective": 0.7880292019669576,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 377,
+      "objective": 0.7880292019669579,
+      "risk": 1.0,
+      "atlas_forward": 0.24892158020816404,
+      "evaluated_objective": 0.7880292019669576,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 378,
+      "objective": 0.7880291189538484,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892154193581267,
+      "evaluated_objective": 0.7880291189538473,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 379,
+      "objective": 0.7880290359412607,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489215036637061,
+      "evaluated_objective": 0.7880290359412605,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 380,
+      "objective": 0.7880290359412607,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489215036637061,
+      "evaluated_objective": 0.7880290359412605,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 381,
+      "objective": 0.7880289529291957,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892146539184393,
+      "evaluated_objective": 0.7880289529291951,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 382,
+      "objective": 0.7880288699176525,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892142712022616,
+      "evaluated_objective": 0.7880288699176526,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 383,
+      "objective": 0.7880288699176525,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892142712022616,
+      "evaluated_objective": 0.7880288699176526,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 384,
+      "objective": 0.7880287869066321,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.248921388848853,
+      "evaluated_objective": 0.7880287869066318,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 385,
+      "objective": 0.7880287038961336,
+      "risk": 1.0,
+      "atlas_forward": 0.24892135057772435,
+      "evaluated_objective": 0.7880287038961334,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 386,
+      "objective": 0.7880287038961336,
+      "risk": 1.0,
+      "atlas_forward": 0.24892135057772435,
+      "evaluated_objective": 0.7880287038961334,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 387,
+      "objective": 0.7880286208861573,
+      "risk": 1.0,
+      "atlas_forward": 0.24892131230683978,
+      "evaluated_objective": 0.7880286208861564,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 388,
+      "objective": 0.7880286208861573,
+      "risk": 1.0,
+      "atlas_forward": 0.24892131230683978,
+      "evaluated_objective": 0.7880286208861564,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 389,
+      "objective": 0.7880285378767038,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489212740362002,
+      "evaluated_objective": 0.7880285378767032,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 390,
+      "objective": 0.7880284548677723,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892123576580497,
+      "evaluated_objective": 0.7880284548677714,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 391,
+      "objective": 0.7880284548677723,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892123576580497,
+      "evaluated_objective": 0.7880284548677714,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 392,
+      "objective": 0.7880283718593633,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892119749565433,
+      "evaluated_objective": 0.7880283718593626,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 393,
+      "objective": 0.788028288851476,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892115922574817,
+      "evaluated_objective": 0.7880282888514759,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 394,
+      "objective": 0.788028288851476,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892115922574817,
+      "evaluated_objective": 0.7880282888514759,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 395,
+      "objective": 0.7880282058441119,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892112095608662,
+      "evaluated_objective": 0.7880282058441115,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 396,
+      "objective": 0.7880281228372699,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489210826866694,
+      "evaluated_objective": 0.7880281228372692,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 397,
+      "objective": 0.7880281228372699,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489210826866694,
+      "evaluated_objective": 0.7880281228372692,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 398,
+      "objective": 0.7880280398309498,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489210444174967,
+      "evaluated_objective": 0.7880280398309492,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 399,
+      "objective": 0.7880279568251527,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892100614856894,
+      "evaluated_objective": 0.7880279568251525,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 400,
+      "objective": 0.7880279568251527,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892100614856894,
+      "evaluated_objective": 0.7880279568251525,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 401,
+      "objective": 0.7880278738198775,
+      "risk": 1.0,
+      "atlas_forward": 0.24892096787988535,
+      "evaluated_objective": 0.7880278738198772,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 402,
+      "objective": 0.7880278738198775,
+      "risk": 1.0,
+      "atlas_forward": 0.24892096787988535,
+      "evaluated_objective": 0.7880278738198772,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 403,
+      "objective": 0.7880277908151248,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489209296114462,
+      "evaluated_objective": 0.7880277908151243,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 404,
+      "objective": 0.7880277078108944,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489208913432518,
+      "evaluated_objective": 0.7880277078108938,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 405,
+      "objective": 0.7880277078108944,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489208913432518,
+      "evaluated_objective": 0.7880277078108938,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 406,
+      "objective": 0.7880276248071862,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892085307530198,
+      "evaluated_objective": 0.7880276248071861,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 407,
+      "objective": 0.7880275418040011,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892081480759662,
+      "evaluated_objective": 0.7880275418040007,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 408,
+      "objective": 0.7880275418040011,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24892081480759662,
+      "evaluated_objective": 0.7880275418040007,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 409,
+      "objective": 0.7880274588013381,
+      "risk": 1.0,
+      "atlas_forward": 0.24892077654013584,
+      "evaluated_objective": 0.7880274588013376,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 410,
+      "objective": 0.7880273757991976,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489207382729196,
+      "evaluated_objective": 0.7880273757991969,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 411,
+      "objective": 0.7880273757991976,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489207382729196,
+      "evaluated_objective": 0.7880273757991969,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 412,
+      "objective": 0.788027292797579,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489207000059479,
+      "evaluated_objective": 0.7880272927975782,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 413,
+      "objective": 0.788027292797579,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489207000059479,
+      "evaluated_objective": 0.7880272927975782,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 414,
+      "objective": 0.7880272097964831,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892066173922092,
+      "evaluated_objective": 0.7880272097964827,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 415,
+      "objective": 0.7880271267959097,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489206234727384,
+      "evaluated_objective": 0.7880271267959096,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 416,
+      "objective": 0.7880271267959097,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489206234727384,
+      "evaluated_objective": 0.7880271267959096,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 417,
+      "objective": 0.7880270437958589,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892058520650037,
+      "evaluated_objective": 0.7880270437958579,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 418,
+      "objective": 0.7880269607963303,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489205469405071,
+      "evaluated_objective": 0.78802696079633,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 419,
+      "objective": 0.7880269607963303,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489205469405071,
+      "evaluated_objective": 0.78802696079633,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 420,
+      "objective": 0.788026877797324,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892050867475826,
+      "evaluated_objective": 0.788026877797324,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 421,
+      "objective": 0.7880267947988405,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892047040925394,
+      "evaluated_objective": 0.7880267947988402,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 422,
+      "objective": 0.7880267947988405,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892047040925394,
+      "evaluated_objective": 0.7880267947988402,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 423,
+      "objective": 0.7880267118008795,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892043214399442,
+      "evaluated_objective": 0.7880267118008794,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 424,
+      "objective": 0.7880266288034411,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489203938789793,
+      "evaluated_objective": 0.7880266288034408,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 425,
+      "objective": 0.7880266288034411,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489203938789793,
+      "evaluated_objective": 0.7880266288034408,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 426,
+      "objective": 0.7880265458065253,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892035561420894,
+      "evaluated_objective": 0.7880265458065243,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 427,
+      "objective": 0.7880265458065253,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24892035561420894,
+      "evaluated_objective": 0.7880265458065243,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 428,
+      "objective": 0.7880264628101312,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489203173496829,
+      "evaluated_objective": 0.7880264628101308,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 429,
+      "objective": 0.7880263798142603,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489202790854017,
+      "evaluated_objective": 0.7880263798142595,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 430,
+      "objective": 0.7880263798142603,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489202790854017,
+      "evaluated_objective": 0.7880263798142595,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 431,
+      "objective": 0.7880262968189118,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489202408213652,
+      "evaluated_objective": 0.7880262968189116,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 432,
+      "objective": 0.7880262138240856,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892020255757308,
+      "evaluated_objective": 0.788026213824085,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 433,
+      "objective": 0.7880262138240856,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892020255757308,
+      "evaluated_objective": 0.788026213824085,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 434,
+      "objective": 0.788026130829782,
+      "risk": 1.0,
+      "atlas_forward": 0.24892016429402572,
+      "evaluated_objective": 0.7880261308297817,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 435,
+      "objective": 0.7880260478360013,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892012603072286,
+      "evaluated_objective": 0.7880260478360009,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 436,
+      "objective": 0.7880260478360013,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24892012603072286,
+      "evaluated_objective": 0.7880260478360009,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 437,
+      "objective": 0.7880259648427428,
+      "risk": 1.0,
+      "atlas_forward": 0.24892008776766464,
+      "evaluated_objective": 0.7880259648427419,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 438,
+      "objective": 0.7880259648427428,
+      "risk": 1.0,
+      "atlas_forward": 0.24892008776766464,
+      "evaluated_objective": 0.7880259648427419,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 439,
+      "objective": 0.7880258818500071,
+      "risk": 1.0,
+      "atlas_forward": 0.24892004950485125,
+      "evaluated_objective": 0.7880258818500068,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 440,
+      "objective": 0.7880257988577937,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892001124228225,
+      "evaluated_objective": 0.7880257988577934,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 441,
+      "objective": 0.7880257988577937,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24892001124228225,
+      "evaluated_objective": 0.7880257988577934,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 442,
+      "objective": 0.7880257158661029,
+      "risk": 1.0,
+      "atlas_forward": 0.24891997297995788,
+      "evaluated_objective": 0.7880257158661026,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 443,
+      "objective": 0.7880256328749349,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489199347178784,
+      "evaluated_objective": 0.7880256328749347,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 444,
+      "objective": 0.7880256328749349,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489199347178784,
+      "evaluated_objective": 0.7880256328749347,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 445,
+      "objective": 0.7880255498842894,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891989645604315,
+      "evaluated_objective": 0.7880255498842884,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 446,
+      "objective": 0.7880254668941665,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489198581944528,
+      "evaluated_objective": 0.7880254668941657,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 447,
+      "objective": 0.7880254668941665,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489198581944528,
+      "evaluated_objective": 0.7880254668941657,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 448,
+      "objective": 0.7880253839045666,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891981993310708,
+      "evaluated_objective": 0.7880253839045654,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 449,
+      "objective": 0.7880253009154883,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891978167200604,
+      "evaluated_objective": 0.788025300915488,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 450,
+      "objective": 0.7880253009154883,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891978167200604,
+      "evaluated_objective": 0.788025300915488,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 451,
+      "objective": 0.7880252179269333,
+      "risk": 1.0,
+      "atlas_forward": 0.2489197434111496,
+      "evaluated_objective": 0.7880252179269327,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 452,
+      "objective": 0.7880252179269333,
+      "risk": 1.0,
+      "atlas_forward": 0.2489197434111496,
+      "evaluated_objective": 0.7880252179269327,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 453,
+      "objective": 0.7880251349389009,
+      "risk": 1.0,
+      "atlas_forward": 0.24891970515053782,
+      "evaluated_objective": 0.7880251349389005,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 454,
+      "objective": 0.7880250519513908,
+      "risk": 1.0,
+      "atlas_forward": 0.24891966689017064,
+      "evaluated_objective": 0.7880250519513906,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 455,
+      "objective": 0.7880250519513908,
+      "risk": 1.0,
+      "atlas_forward": 0.24891966689017064,
+      "evaluated_objective": 0.7880250519513906,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 456,
+      "objective": 0.7880249689644041,
+      "risk": 1.0,
+      "atlas_forward": 0.24891962863004832,
+      "evaluated_objective": 0.7880249689644034,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 457,
+      "objective": 0.7880248859779395,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891959037017045,
+      "evaluated_objective": 0.7880248859779387,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 458,
+      "objective": 0.7880248859779395,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891959037017045,
+      "evaluated_objective": 0.7880248859779387,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 459,
+      "objective": 0.7880248029919978,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891955211053748,
+      "evaluated_objective": 0.7880248029919974,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 460,
+      "objective": 0.7880247200065785,
+      "risk": 1.0,
+      "atlas_forward": 0.248919513851149,
+      "evaluated_objective": 0.7880247200065782,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 461,
+      "objective": 0.7880247200065785,
+      "risk": 1.0,
+      "atlas_forward": 0.248919513851149,
+      "evaluated_objective": 0.7880247200065782,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 462,
+      "objective": 0.7880246370216818,
+      "risk": 1.0,
+      "atlas_forward": 0.24891947559200514,
+      "evaluated_objective": 0.7880246370216817,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 463,
+      "objective": 0.7880246370216818,
+      "risk": 1.0,
+      "atlas_forward": 0.24891947559200514,
+      "evaluated_objective": 0.7880246370216817,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 464,
+      "objective": 0.7880245540373083,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891943733310604,
+      "evaluated_objective": 0.7880245540373074,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 465,
+      "objective": 0.7880244710534572,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891939907445151,
+      "evaluated_objective": 0.7880244710534562,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 466,
+      "objective": 0.7880244710534572,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891939907445151,
+      "evaluated_objective": 0.7880244710534562,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 467,
+      "objective": 0.7880243880701288,
+      "risk": 1.0,
+      "atlas_forward": 0.24891936081604188,
+      "evaluated_objective": 0.7880243880701279,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 468,
+      "objective": 0.788024305087323,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489193225578769,
+      "evaluated_objective": 0.7880243050873221,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 469,
+      "objective": 0.788024305087323,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489193225578769,
+      "evaluated_objective": 0.7880243050873221,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 470,
+      "objective": 0.7880242221050402,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891928429995666,
+      "evaluated_objective": 0.7880242221050391,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 471,
+      "objective": 0.7880241391232801,
+      "risk": 1.0,
+      "atlas_forward": 0.248919246042281,
+      "evaluated_objective": 0.7880241391232793,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 472,
+      "objective": 0.7880241391232801,
+      "risk": 1.0,
+      "atlas_forward": 0.248919246042281,
+      "evaluated_objective": 0.7880241391232793,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 473,
+      "objective": 0.7880240561420423,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891920778485002,
+      "evaluated_objective": 0.7880240561420415,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 474,
+      "objective": 0.7880239731613277,
+      "risk": 1.0,
+      "atlas_forward": 0.24891916952766377,
+      "evaluated_objective": 0.7880239731613264,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 475,
+      "objective": 0.7880239731613277,
+      "risk": 1.0,
+      "atlas_forward": 0.24891916952766377,
+      "evaluated_objective": 0.7880239731613264,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 476,
+      "objective": 0.7880238901811356,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891913127072238,
+      "evaluated_objective": 0.7880238901811351,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 477,
+      "objective": 0.7880238901811356,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891913127072238,
+      "evaluated_objective": 0.7880238901811351,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 478,
+      "objective": 0.7880238072014659,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489190930140255,
+      "evaluated_objective": 0.7880238072014656,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 479,
+      "objective": 0.7880237242223198,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489190547575735,
+      "evaluated_objective": 0.7880237242223196,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 480,
+      "objective": 0.7880237242223198,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489190547575735,
+      "evaluated_objective": 0.7880237242223196,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 481,
+      "objective": 0.7880236412436963,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891901650136636,
+      "evaluated_objective": 0.788023641243696,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 482,
+      "objective": 0.788023558265595,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891897824540343,
+      "evaluated_objective": 0.7880235582655942,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 483,
+      "objective": 0.788023558265595,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891897824540343,
+      "evaluated_objective": 0.7880235582655942,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 484,
+      "objective": 0.788023475288017,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.2489189399896856,
+      "evaluated_objective": 0.7880234752880166,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 485,
+      "objective": 0.7880233923109617,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891890173421238,
+      "evaluated_objective": 0.7880233923109612,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 486,
+      "objective": 0.7880233923109617,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891890173421238,
+      "evaluated_objective": 0.7880233923109612,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 487,
+      "objective": 0.7880233093344293,
+      "risk": 1.0,
+      "atlas_forward": 0.24891886347898406,
+      "evaluated_objective": 0.7880233093344289,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 488,
+      "objective": 0.7880233093344293,
+      "risk": 1.0,
+      "atlas_forward": 0.24891886347898406,
+      "evaluated_objective": 0.7880233093344289,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 489,
+      "objective": 0.7880232263584196,
+      "risk": 1.0,
+      "atlas_forward": 0.2489188252240004,
+      "evaluated_objective": 0.788023226358419,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 490,
+      "objective": 0.7880231433829327,
+      "risk": 1.0,
+      "atlas_forward": 0.24891878696926137,
+      "evaluated_objective": 0.7880231433829319,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 491,
+      "objective": 0.7880231433829327,
+      "risk": 1.0,
+      "atlas_forward": 0.24891878696926137,
+      "evaluated_objective": 0.7880231433829319,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 492,
+      "objective": 0.7880230604079683,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891874871476724,
+      "evaluated_objective": 0.7880230604079679,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 493,
+      "objective": 0.7880229774335273,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891871046051783,
+      "evaluated_objective": 0.7880229774335268,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 494,
+      "objective": 0.7880229774335273,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891871046051783,
+      "evaluated_objective": 0.7880229774335268,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 495,
+      "objective": 0.788022894459609,
+      "risk": 1.0,
+      "atlas_forward": 0.2489186722065131,
+      "evaluated_objective": 0.7880228944596084,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 496,
+      "objective": 0.7880228114862134,
+      "risk": 1.0,
+      "atlas_forward": 0.2489186339527532,
+      "evaluated_objective": 0.788022811486213,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 497,
+      "objective": 0.7880228114862134,
+      "risk": 1.0,
+      "atlas_forward": 0.2489186339527532,
+      "evaluated_objective": 0.788022811486213,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 498,
+      "objective": 0.7880227285133408,
+      "risk": 1.0,
+      "atlas_forward": 0.24891859569923785,
+      "evaluated_objective": 0.78802272851334,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 499,
+      "objective": 0.7880226455409912,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891855744596753,
+      "evaluated_objective": 0.7880226455409904,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 500,
+      "objective": 0.7880226455409912,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891855744596753,
+      "evaluated_objective": 0.7880226455409904,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 501,
+      "objective": 0.7880225625691641,
+      "risk": 1.0,
+      "atlas_forward": 0.2489185191929419,
+      "evaluated_objective": 0.7880225625691638,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 502,
+      "objective": 0.7880225625691641,
+      "risk": 1.0,
+      "atlas_forward": 0.2489185191929419,
+      "evaluated_objective": 0.7880225625691638,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 503,
+      "objective": 0.7880224795978603,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891848094016109,
+      "evaluated_objective": 0.7880224795978599,
+      "evaluated_risk": 1.0000000000000004
+    },
+    {
+      "tick": 504,
+      "objective": 0.788022396627079,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.248918442687625,
+      "evaluated_objective": 0.7880223966270784,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 505,
+      "objective": 0.788022396627079,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.248918442687625,
+      "evaluated_objective": 0.7880223966270784,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 506,
+      "objective": 0.7880223136568206,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891840443533356,
+      "evaluated_objective": 0.7880223136568205,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 507,
+      "objective": 0.7880222306870857,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891836618328714,
+      "evaluated_objective": 0.788022230687085,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 508,
+      "objective": 0.7880222306870857,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891836618328714,
+      "evaluated_objective": 0.788022230687085,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 509,
+      "objective": 0.7880221477178729,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489183279314853,
+      "evaluated_objective": 0.7880221477178728,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 510,
+      "objective": 0.7880220647491838,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489182896799284,
+      "evaluated_objective": 0.7880220647491836,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 511,
+      "objective": 0.7880220647491838,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489182896799284,
+      "evaluated_objective": 0.7880220647491836,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 512,
+      "objective": 0.7880219817810171,
+      "risk": 1.0,
+      "atlas_forward": 0.2489182514286161,
+      "evaluated_objective": 0.7880219817810161,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 513,
+      "objective": 0.7880219817810171,
+      "risk": 1.0,
+      "atlas_forward": 0.2489182514286161,
+      "evaluated_objective": 0.7880219817810161,
+      "evaluated_risk": 0.999999999999999
+    },
+    {
+      "tick": 514,
+      "objective": 0.7880218988133736,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891821317754884,
+      "evaluated_objective": 0.788021898813373,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 515,
+      "objective": 0.7880218158462527,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891817492672624,
+      "evaluated_objective": 0.7880218158462522,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 516,
+      "objective": 0.7880218158462527,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891817492672624,
+      "evaluated_objective": 0.7880218158462522,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 517,
+      "objective": 0.7880217328796555,
+      "risk": 1.0,
+      "atlas_forward": 0.2489181366761486,
+      "evaluated_objective": 0.7880217328796549,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 518,
+      "objective": 0.7880216499135805,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891809842581555,
+      "evaluated_objective": 0.7880216499135801,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 519,
+      "objective": 0.7880216499135805,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891809842581555,
+      "evaluated_objective": 0.7880216499135801,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 520,
+      "objective": 0.7880215669480287,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891806017572746,
+      "evaluated_objective": 0.7880215669480285,
+      "evaluated_risk": 1.0000000000000002
+    },
+    {
+      "tick": 521,
+      "objective": 0.7880214839830001,
+      "risk": 1.0,
+      "atlas_forward": 0.24891802192588403,
+      "evaluated_objective": 0.7880214839829995,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 522,
+      "objective": 0.7880214839830001,
+      "risk": 1.0,
+      "atlas_forward": 0.24891802192588403,
+      "evaluated_objective": 0.7880214839829995,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 523,
+      "objective": 0.7880214010184942,
+      "risk": 1.0,
+      "atlas_forward": 0.2489179836762856,
+      "evaluated_objective": 0.788021401018494,
+      "evaluated_risk": 0.9999999999999999
+    },
+    {
+      "tick": 524,
+      "objective": 0.7880213180545117,
+      "risk": 1.0,
+      "atlas_forward": 0.2489179454269319,
+      "evaluated_objective": 0.7880213180545111,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 525,
+      "objective": 0.7880213180545117,
+      "risk": 1.0,
+      "atlas_forward": 0.2489179454269319,
+      "evaluated_objective": 0.7880213180545111,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 526,
+      "objective": 0.788021235091052,
+      "risk": 1.0,
+      "atlas_forward": 0.24891790717782294,
+      "evaluated_objective": 0.788021235091051,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 527,
+      "objective": 0.788021235091052,
+      "risk": 1.0,
+      "atlas_forward": 0.24891790717782294,
+      "evaluated_objective": 0.788021235091051,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 528,
+      "objective": 0.7880211521281155,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891786892895906,
+      "evaluated_objective": 0.7880211521281146,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 529,
+      "objective": 0.7880210691657016,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891783068033976,
+      "evaluated_objective": 0.7880210691657008,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 530,
+      "objective": 0.7880210691657016,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891783068033976,
+      "evaluated_objective": 0.7880210691657008,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 531,
+      "objective": 0.788020986203811,
+      "risk": 1.0,
+      "atlas_forward": 0.24891779243196557,
+      "evaluated_objective": 0.7880209862038106,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 532,
+      "objective": 0.7880209032424437,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891775418383602,
+      "evaluated_objective": 0.7880209032424429,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 533,
+      "objective": 0.7880209032424437,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891775418383602,
+      "evaluated_objective": 0.7880209032424429,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 534,
+      "objective": 0.7880208202815987,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489177159359513,
+      "evaluated_objective": 0.7880208202815981,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 535,
+      "objective": 0.7880207373212771,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891767768831152,
+      "evaluated_objective": 0.7880207373212769,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 536,
+      "objective": 0.7880207373212771,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891767768831152,
+      "evaluated_objective": 0.7880207373212769,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 537,
+      "objective": 0.7880206543614787,
+      "risk": 1.0,
+      "atlas_forward": 0.2489176394409165,
+      "evaluated_objective": 0.7880206543614784,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 538,
+      "objective": 0.7880206543614787,
+      "risk": 1.0,
+      "atlas_forward": 0.2489176394409165,
+      "evaluated_objective": 0.7880206543614784,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 539,
+      "objective": 0.7880205714022034,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891760119376635,
+      "evaluated_objective": 0.7880205714022026,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 540,
+      "objective": 0.7880204884434514,
+      "risk": 1.0,
+      "atlas_forward": 0.2489175629468612,
+      "evaluated_objective": 0.7880204884434503,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 541,
+      "objective": 0.7880204884434514,
+      "risk": 1.0,
+      "atlas_forward": 0.2489175629468612,
+      "evaluated_objective": 0.7880204884434503,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 542,
+      "objective": 0.7880204054852217,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.24891752470020076,
+      "evaluated_objective": 0.7880204054852215,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 543,
+      "objective": 0.7880203225275155,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891748645378522,
+      "evaluated_objective": 0.7880203225275151,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 544,
+      "objective": 0.7880203225275155,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891748645378522,
+      "evaluated_objective": 0.7880203225275151,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 545,
+      "objective": 0.7880202395703331,
+      "risk": 0.9999999999999987,
+      "atlas_forward": 0.24891744820761458,
+      "evaluated_objective": 0.7880202395703324,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 546,
+      "objective": 0.7880201566136728,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891740996168873,
+      "evaluated_objective": 0.7880201566136721,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 547,
+      "objective": 0.7880201566136728,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891740996168873,
+      "evaluated_objective": 0.7880201566136721,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 548,
+      "objective": 0.788020073657536,
+      "risk": 1.0,
+      "atlas_forward": 0.24891737171600786,
+      "evaluated_objective": 0.7880200736575355,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 549,
+      "objective": 0.7880199907019224,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891733347057188,
+      "evaluated_objective": 0.7880199907019217,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 550,
+      "objective": 0.7880199907019224,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891733347057188,
+      "evaluated_objective": 0.7880199907019217,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 551,
+      "objective": 0.7880199077468321,
+      "risk": 1.0,
+      "atlas_forward": 0.2489172952253808,
+      "evaluated_objective": 0.7880199077468316,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 552,
+      "objective": 0.7880199077468321,
+      "risk": 1.0,
+      "atlas_forward": 0.2489172952253808,
+      "evaluated_objective": 0.7880199077468316,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 553,
+      "objective": 0.7880198247922646,
+      "risk": 1.0,
+      "atlas_forward": 0.24891725698043457,
+      "evaluated_objective": 0.7880198247922642,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 554,
+      "objective": 0.7880197418382203,
+      "risk": 1.0,
+      "atlas_forward": 0.24891721873573314,
+      "evaluated_objective": 0.7880197418382195,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 555,
+      "objective": 0.7880197418382203,
+      "risk": 1.0,
+      "atlas_forward": 0.24891721873573314,
+      "evaluated_objective": 0.7880197418382195,
+      "evaluated_risk": 0.9999999999999992
+    },
+    {
+      "tick": 556,
+      "objective": 0.7880196588846995,
+      "risk": 1.0,
+      "atlas_forward": 0.24891718049127673,
+      "evaluated_objective": 0.7880196588846988,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 557,
+      "objective": 0.7880195759317016,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489171422470651,
+      "evaluated_objective": 0.7880195759317006,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 558,
+      "objective": 0.7880195759317016,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489171422470651,
+      "evaluated_objective": 0.7880195759317006,
+      "evaluated_risk": 0.9999999999999991
+    },
+    {
+      "tick": 559,
+      "objective": 0.7880194929792265,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.2489171040030985,
+      "evaluated_objective": 0.7880194929792262,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 560,
+      "objective": 0.7880194100272754,
+      "risk": 1.0,
+      "atlas_forward": 0.24891706575937667,
+      "evaluated_objective": 0.7880194100272749,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 561,
+      "objective": 0.7880194100272754,
+      "risk": 1.0,
+      "atlas_forward": 0.24891706575937667,
+      "evaluated_objective": 0.7880194100272749,
+      "evaluated_risk": 0.9999999999999998
+    },
+    {
+      "tick": 562,
+      "objective": 0.7880193270758469,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891702751589984,
+      "evaluated_objective": 0.7880193270758464,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 563,
+      "objective": 0.7880193270758469,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891702751589984,
+      "evaluated_objective": 0.7880193270758464,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 564,
+      "objective": 0.788019244124942,
+      "risk": 1.0000000000000018,
+      "atlas_forward": 0.24891698927266792,
+      "evaluated_objective": 0.7880192441249411,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 565,
+      "objective": 0.7880191611745598,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489169510296808,
+      "evaluated_objective": 0.7880191611745591,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 566,
+      "objective": 0.7880191611745598,
+      "risk": 1.0000000000000009,
+      "atlas_forward": 0.2489169510296808,
+      "evaluated_objective": 0.7880191611745591,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 567,
+      "objective": 0.7880190782247012,
+      "risk": 1.0,
+      "atlas_forward": 0.24891691278693892,
+      "evaluated_objective": 0.7880190782247011,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 568,
+      "objective": 0.7880189952753656,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891687454444145,
+      "evaluated_objective": 0.7880189952753648,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 569,
+      "objective": 0.7880189952753656,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891687454444145,
+      "evaluated_objective": 0.7880189952753648,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 570,
+      "objective": 0.7880189123265534,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.24891683630218936,
+      "evaluated_objective": 0.7880189123265527,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 571,
+      "objective": 0.7880188293782642,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891679806018205,
+      "evaluated_objective": 0.7880188293782637,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 572,
+      "objective": 0.7880188293782642,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891679806018205,
+      "evaluated_objective": 0.7880188293782637,
+      "evaluated_risk": 0.9999999999999997
+    },
+    {
+      "tick": 573,
+      "objective": 0.7880187464304984,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891675981841963,
+      "evaluated_objective": 0.7880187464304977,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 574,
+      "objective": 0.7880186634832561,
+      "risk": 1.0,
+      "atlas_forward": 0.24891672157690228,
+      "evaluated_objective": 0.7880186634832559,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 575,
+      "objective": 0.7880186634832561,
+      "risk": 1.0,
+      "atlas_forward": 0.24891672157690228,
+      "evaluated_objective": 0.7880186634832559,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 576,
+      "objective": 0.7880185805365372,
+      "risk": 1.0,
+      "atlas_forward": 0.2489166833356299,
+      "evaluated_objective": 0.7880185805365367,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 577,
+      "objective": 0.7880185805365372,
+      "risk": 1.0,
+      "atlas_forward": 0.2489166833356299,
+      "evaluated_objective": 0.7880185805365367,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 578,
+      "objective": 0.7880184975903409,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891664509460223,
+      "evaluated_objective": 0.7880184975903403,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 579,
+      "objective": 0.7880184146446682,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489166068538196,
+      "evaluated_objective": 0.7880184146446676,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 580,
+      "objective": 0.7880184146446682,
+      "risk": 0.9999999999999991,
+      "atlas_forward": 0.2489166068538196,
+      "evaluated_objective": 0.7880184146446676,
+      "evaluated_risk": 0.9999999999999996
+    },
+    {
+      "tick": 581,
+      "objective": 0.7880183316995187,
+      "risk": 1.0,
+      "atlas_forward": 0.24891656861328196,
+      "evaluated_objective": 0.7880183316995185,
+      "evaluated_risk": 1.0
+    },
+    {
+      "tick": 582,
+      "objective": 0.7880182487548926,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891653037298922,
+      "evaluated_objective": 0.788018248754892,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 583,
+      "objective": 0.7880182487548926,
+      "risk": 1.0000000000000004,
+      "atlas_forward": 0.24891653037298922,
+      "evaluated_objective": 0.788018248754892,
+      "evaluated_risk": 0.9999999999999994
+    },
+    {
+      "tick": 584,
+      "objective": 0.7880181658107899,
+      "risk": 0.9999999999999996,
+      "atlas_forward": 0.24891649213294134,
+      "evaluated_objective": 0.7880181658107888,
+      "evaluated_risk": 0.9999999999999989
+    },
+    {
+      "tick": 585,
+      "objective": 0.7880180828672103,
+      "risk": 1.0,
+      "atlas_forward": 0.24891645389313874,
+      "evaluated_objective": 0.7880180828672096,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 586,
+      "objective": 0.7880180828672103,
+      "risk": 1.0,
+      "atlas_forward": 0.24891645389313874,
+      "evaluated_objective": 0.7880180828672096,
+      "evaluated_risk": 0.9999999999999993
+    },
+    {
+      "tick": 587,
+      "objective": 1.2464977332523137,
+      "risk": 1.978233712060189,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464977332523133,
+      "evaluated_risk": 1.9782337120601903
+    },
+    {
+      "tick": 588,
+      "objective": 1.2464977332523137,
+      "risk": 1.9782337120601898,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464977332523133,
+      "evaluated_risk": 1.9782337120601903
+    },
+    {
+      "tick": 589,
+      "objective": 1.2464975297195606,
+      "risk": 1.9782339155929431,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464975297195608,
+      "evaluated_risk": 1.9782339155929427
+    },
+    {
+      "tick": 590,
+      "objective": 1.246497326189086,
+      "risk": 1.9782341191234183,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464973261890857,
+      "evaluated_risk": 1.9782341191234178
+    },
+    {
+      "tick": 591,
+      "objective": 1.246497326189086,
+      "risk": 1.9782341191234183,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464973261890857,
+      "evaluated_risk": 1.9782341191234178
+    },
+    {
+      "tick": 592,
+      "objective": 1.2464971226608887,
+      "risk": 1.9782343226516153,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246497122660888,
+      "evaluated_risk": 1.9782343226516155
+    },
+    {
+      "tick": 593,
+      "objective": 1.2464969191349693,
+      "risk": 1.978234526177535,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464969191349677,
+      "evaluated_risk": 1.9782345261775358
+    },
+    {
+      "tick": 594,
+      "objective": 1.2464969191349693,
+      "risk": 1.978234526177535,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464969191349677,
+      "evaluated_risk": 1.9782345261775358
+    },
+    {
+      "tick": 595,
+      "objective": 1.2464967156113265,
+      "risk": 1.9782347297011773,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464967156113258,
+      "evaluated_risk": 1.9782347297011778
+    },
+    {
+      "tick": 596,
+      "objective": 1.2464965120899612,
+      "risk": 1.9782349332225433,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246496512089961,
+      "evaluated_risk": 1.9782349332225426
+    },
+    {
+      "tick": 597,
+      "objective": 1.2464965120899612,
+      "risk": 1.9782349332225433,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246496512089961,
+      "evaluated_risk": 1.9782349332225426
+    },
+    {
+      "tick": 598,
+      "objective": 1.2464963085708736,
+      "risk": 1.9782351367416302,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464963085708738,
+      "evaluated_risk": 1.9782351367416298
+    },
+    {
+      "tick": 599,
+      "objective": 1.2464961050540642,
+      "risk": 1.9782353402584398,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246496105054064,
+      "evaluated_risk": 1.9782353402584396
+    },
+    {
+      "tick": 600,
+      "objective": 1.2464961050540642,
+      "risk": 1.9782353402584398,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246496105054064,
+      "evaluated_risk": 1.9782353402584396
+    },
+    {
+      "tick": 601,
+      "objective": 1.2464959015395325,
+      "risk": 1.9782355437729713,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464959015395323,
+      "evaluated_risk": 1.9782355437729713
+    },
+    {
+      "tick": 602,
+      "objective": 1.2464959015395325,
+      "risk": 1.9782355437729713,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464959015395323,
+      "evaluated_risk": 1.9782355437729713
+    },
+    {
+      "tick": 603,
+      "objective": 1.2464956980272792,
+      "risk": 1.9782357472852246,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464956980272786,
+      "evaluated_risk": 1.978235747285225
+    },
+    {
+      "tick": 604,
+      "objective": 1.2464954945173023,
+      "risk": 1.9782359507952014,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464954945173021,
+      "evaluated_risk": 1.9782359507952014
+    },
+    {
+      "tick": 605,
+      "objective": 1.2464954945173023,
+      "risk": 1.9782359507952014,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464954945173021,
+      "evaluated_risk": 1.9782359507952014
+    },
+    {
+      "tick": 606,
+      "objective": 1.2464952910096037,
+      "risk": 1.9782361543029001,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.2464952910096032,
+      "evaluated_risk": 1.9782361543029003
+    },
+    {
+      "tick": 607,
+      "objective": 1.2464950875041827,
+      "risk": 1.9782363578083215,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246495087504183,
+      "evaluated_risk": 1.9782363578083206
+    },
+    {
+      "tick": 608,
+      "objective": 1.2464950875041827,
+      "risk": 1.9782363578083215,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 1.246495087504183,
+      "evaluated_risk": 1.9782363578083206
+    },
+    {
+      "tick": 609,
+      "objective": 2.4206111002014215,
+      "risk": 1.5456974935485839,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206111002014192,
+      "evaluated_risk": 1.5456974935485843
+    },
+    {
+      "tick": 610,
+      "objective": 2.4206109829066627,
+      "risk": 1.5456976108433427,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206109829066604,
+      "evaluated_risk": 1.5456976108433431
+    },
+    {
+      "tick": 611,
+      "objective": 2.4206109829066627,
+      "risk": 1.5456976108433427,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206109829066604,
+      "evaluated_risk": 1.5456976108433431
+    },
+    {
+      "tick": 612,
+      "objective": 2.4206108656151146,
+      "risk": 1.5456977281348907,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610865615113,
+      "evaluated_risk": 1.5456977281348907
+    },
+    {
+      "tick": 613,
+      "objective": 2.4206108656151146,
+      "risk": 1.5456977281348907,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610865615113,
+      "evaluated_risk": 1.5456977281348907
+    },
+    {
+      "tick": 614,
+      "objective": 2.42061074832678,
+      "risk": 1.5456978454232253,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610748326778,
+      "evaluated_risk": 1.5456978454232257
+    },
+    {
+      "tick": 615,
+      "objective": 2.420610631041656,
+      "risk": 1.5456979627083491,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610631041654,
+      "evaluated_risk": 1.5456979627083496
+    },
+    {
+      "tick": 616,
+      "objective": 2.420610631041656,
+      "risk": 1.5456979627083491,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610631041654,
+      "evaluated_risk": 1.5456979627083496
+    },
+    {
+      "tick": 617,
+      "objective": 2.420610513759744,
+      "risk": 1.5456980799902613,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610513759742,
+      "evaluated_risk": 1.5456980799902618
+    },
+    {
+      "tick": 618,
+      "objective": 2.4206103964810444,
+      "risk": 1.5456981972689618,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206103964810413,
+      "evaluated_risk": 1.5456981972689623
+    },
+    {
+      "tick": 619,
+      "objective": 2.4206103964810444,
+      "risk": 1.5456981972689618,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206103964810413,
+      "evaluated_risk": 1.5456981972689623
+    },
+    {
+      "tick": 620,
+      "objective": 2.4206102792055546,
+      "risk": 1.5456983145444507,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206102792055524,
+      "evaluated_risk": 1.5456983145444512
+    },
+    {
+      "tick": 621,
+      "objective": 2.420610161933278,
+      "risk": 1.545698431816728,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610161933275,
+      "evaluated_risk": 1.5456984318167284
+    },
+    {
+      "tick": 622,
+      "objective": 2.420610161933278,
+      "risk": 1.545698431816728,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.420610161933275,
+      "evaluated_risk": 1.5456984318167284
+    },
+    {
+      "tick": 623,
+      "objective": 2.420610044664212,
+      "risk": 1.5456985490857935,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.42061004466421,
+      "evaluated_risk": 1.5456985490857937
+    },
+    {
+      "tick": 624,
+      "objective": 2.420609927398359,
+      "risk": 1.5456986663516465,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 2.4206099273983566,
+      "evaluated_risk": 1.545698666351647
+    },
+    {
+      "tick": 625,
+      "objective": 3.909051260636306,
+      "risk": 1.0460268643636992,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090512606363053,
+      "evaluated_risk": 1.0460268643636992
+    },
+    {
+      "tick": 626,
+      "objective": 3.9090512492289013,
+      "risk": 1.046026875771104,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090512492289005,
+      "evaluated_risk": 1.0460268757711038
+    },
+    {
+      "tick": 627,
+      "objective": 3.9090512492289013,
+      "risk": 1.046026875771104,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090512492289005,
+      "evaluated_risk": 1.0460268757711038
+    },
+    {
+      "tick": 628,
+      "objective": 3.9090512378246167,
+      "risk": 1.0460268871753886,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051237824616,
+      "evaluated_risk": 1.0460268871753886
+    },
+    {
+      "tick": 629,
+      "objective": 3.909051226423452,
+      "risk": 1.046026898576554,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090512264234514,
+      "evaluated_risk": 1.0460268985765533
+    },
+    {
+      "tick": 630,
+      "objective": 3.909051226423452,
+      "risk": 1.046026898576554,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090512264234514,
+      "evaluated_risk": 1.0460268985765533
+    },
+    {
+      "tick": 631,
+      "objective": 3.909051215025407,
+      "risk": 1.0460269099745982,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051215025406,
+      "evaluated_risk": 1.0460269099745982
+    },
+    {
+      "tick": 632,
+      "objective": 3.909051203630482,
+      "risk": 1.0460269213695232,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051203630481,
+      "evaluated_risk": 1.0460269213695235
+    },
+    {
+      "tick": 633,
+      "objective": 3.909051203630482,
+      "risk": 1.0460269213695232,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051203630481,
+      "evaluated_risk": 1.0460269213695235
+    },
+    {
+      "tick": 634,
+      "objective": 3.9090511922386773,
+      "risk": 1.046026932761328,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051192238676,
+      "evaluated_risk": 1.0460269327613285
+    },
+    {
+      "tick": 635,
+      "objective": 3.9090511808499917,
+      "risk": 1.0460269441500136,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051180849991,
+      "evaluated_risk": 1.0460269441500136
+    },
+    {
+      "tick": 636,
+      "objective": 3.9090511808499917,
+      "risk": 1.0460269441500136,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.909051180849991,
+      "evaluated_risk": 1.0460269441500136
+    },
+    {
+      "tick": 637,
+      "objective": 3.9090511694644263,
+      "risk": 1.046026955535579,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090511694644254,
+      "evaluated_risk": 1.046026955535579
+    },
+    {
+      "tick": 638,
+      "objective": 3.9090511694644263,
+      "risk": 1.046026955535579,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090511694644254,
+      "evaluated_risk": 1.046026955535579
+    },
+    {
+      "tick": 639,
+      "objective": 3.9090511580819807,
+      "risk": 1.046026966918025,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090511580819802,
+      "evaluated_risk": 1.0460269669180244
+    },
+    {
+      "tick": 640,
+      "objective": 3.9090511467026556,
+      "risk": 1.0460269782973493,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 3.9090511467026547,
+      "evaluated_risk": 1.0460269782973497
+    },
+    {
+      "tick": 641,
+      "objective": 5.273437500000007,
+      "risk": 0.5255870246739884,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255870246739885
+    },
+    {
+      "tick": 642,
+      "objective": 5.273437500000007,
+      "risk": 0.5255869847817514,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255869847817511
+    },
+    {
+      "tick": 643,
+      "objective": 5.273437500000007,
+      "risk": 0.5255869448877868,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255869448877866
+    },
+    {
+      "tick": 644,
+      "objective": 5.273437500000007,
+      "risk": 0.5255869448877868,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255869448877866
+    },
+    {
+      "tick": 645,
+      "objective": 5.273437500000007,
+      "risk": 0.5255869049920947,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255869049920948
+    },
+    {
+      "tick": 646,
+      "objective": 5.273437500000007,
+      "risk": 0.525586865094676,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.525586865094676
+    },
+    {
+      "tick": 647,
+      "objective": 5.273437500000007,
+      "risk": 0.525586865094676,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.525586865094676
+    },
+    {
+      "tick": 648,
+      "objective": 5.273437500000007,
+      "risk": 0.5255868251955302,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255868251955302
+    },
+    {
+      "tick": 649,
+      "objective": 5.273437500000007,
+      "risk": 0.5255867852946574,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255867852946574
+    },
+    {
+      "tick": 650,
+      "objective": 5.273437500000007,
+      "risk": 0.5255867852946574,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255867852946574
+    },
+    {
+      "tick": 651,
+      "objective": 5.273437500000007,
+      "risk": 0.5255867453920575,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255867453920576
+    },
+    {
+      "tick": 652,
+      "objective": 5.273437500000007,
+      "risk": 0.5255867453920575,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255867453920576
+    },
+    {
+      "tick": 653,
+      "objective": 5.273437500000007,
+      "risk": 0.5255867054877306,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255867054877307
+    },
+    {
+      "tick": 654,
+      "objective": 5.273437500000007,
+      "risk": 0.525586665581677,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.525586665581677
+    },
+    {
+      "tick": 655,
+      "objective": 5.273437500000007,
+      "risk": 0.525586665581677,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.525586665581677
+    },
+    {
+      "tick": 656,
+      "objective": 5.273437500000007,
+      "risk": 0.5255866256738959,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 5.273437500000006,
+      "evaluated_risk": 0.5255866256738959
+    },
+    {
+      "tick": 657,
+      "objective": 7.031250000000008,
+      "risk": 0.09876662752322735,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876662752322735
+    },
+    {
+      "tick": 658,
+      "objective": 7.031250000000008,
+      "risk": 0.09876662752322735,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876662752322735
+    },
+    {
+      "tick": 659,
+      "objective": 7.031250000000008,
+      "risk": 0.09876661552186483,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876661552186485
+    },
+    {
+      "tick": 660,
+      "objective": 7.031250000000008,
+      "risk": 0.09876660352017808,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876660352017806
+    },
+    {
+      "tick": 661,
+      "objective": 7.031250000000008,
+      "risk": 0.09876660352017808,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876660352017806
+    },
+    {
+      "tick": 662,
+      "objective": 7.031250000000008,
+      "risk": 0.09876659151816697,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876659151816698
+    },
+    {
+      "tick": 663,
+      "objective": 7.031250000000008,
+      "risk": 0.09876659151816697,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876659151816698
+    },
+    {
+      "tick": 664,
+      "objective": 7.031250000000008,
+      "risk": 0.09876657951583162,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876657951583162
+    },
+    {
+      "tick": 665,
+      "objective": 7.031250000000008,
+      "risk": 0.09876656751317192,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.0987665675131719
+    },
+    {
+      "tick": 666,
+      "objective": 7.031250000000008,
+      "risk": 0.09876656751317192,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.0987665675131719
+    },
+    {
+      "tick": 667,
+      "objective": 7.031250000000008,
+      "risk": 0.09876655551018787,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.0987665555101879
+    },
+    {
+      "tick": 668,
+      "objective": 7.031250000000008,
+      "risk": 0.09876654350687958,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.0987665435068796
+    },
+    {
+      "tick": 669,
+      "objective": 7.031250000000008,
+      "risk": 0.09876654350687958,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.0987665435068796
+    },
+    {
+      "tick": 670,
+      "objective": 7.031250000000008,
+      "risk": 0.09876653150324699,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876653150324702
+    },
+    {
+      "tick": 671,
+      "objective": 7.031250000000008,
+      "risk": 0.09876651949929016,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876651949929015
+    },
+    {
+      "tick": 672,
+      "objective": 7.031250000000008,
+      "risk": 0.09876651949929016,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 7.031250000000005,
+      "evaluated_risk": 0.09876651949929015
+    },
+    {
+      "tick": 673,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 674,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 675,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 676,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 677,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 678,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 679,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 680,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 681,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 682,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 683,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 684,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 685,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 686,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 687,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 688,
+      "objective": 9.375000000000009,
+      "risk": 0.0,
+      "atlas_forward": 1.0,
+      "evaluated_objective": 9.375000000000005,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 689,
+      "objective": 10.00000000000001,
+      "risk": 0.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 10.000000000000007,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 690,
+      "objective": 10.00000000000001,
+      "risk": 0.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 10.000000000000007,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 691,
+      "objective": 10.00000000000001,
+      "risk": 0.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 10.000000000000007,
+      "evaluated_risk": 0.0
+    },
+    {
+      "tick": 692,
+      "objective": 10.00000000000001,
+      "risk": 0.0,
+      "atlas_forward": 0.0,
+      "evaluated_objective": 10.000000000000007,
+      "evaluated_risk": 0.0
+    }
+  ],
+  "scope": "Untimed reconstructed warm LP, independently evaluated policies",
+  "passed": true,
+  "summary": {
+    "case": "Town01_route0_double",
+    "trial": 1,
+    "method": "fixed_warm_lp",
+    "count": 693,
+    "passed": true,
+    "stored_policy_mismatches": [],
+    "nonreturning_failed_queries": [],
+    "drive_goal": true,
+    "probability_checks": 693,
+    "minimum_probability": 0.0,
+    "max_probability_row_sum_error": 2.220446049250313e-16
+  }
+}

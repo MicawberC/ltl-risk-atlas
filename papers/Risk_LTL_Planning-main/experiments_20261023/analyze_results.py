@@ -27,6 +27,9 @@ def main():
             if r['status']!='ok' or not r.get('evaluation_ok',False):violations.append([d['_file'],i,'failed query/evaluation']);continue
             gap=r['upper']-r['objective'];tol=max(1e-4,.01*abs(r['objective']))+1e-6
             if r['evaluated_risk']>2+1e-7 or gap < -1e-6 or gap>tol:violations.append([d['_file'],i,'certificate'])
+            evaluated_gap=r['upper']-r['evaluated_objective']
+            evaluated_tol=max(1e-4,.01*abs(r['evaluated_objective']))+1e-6
+            if evaluated_gap < -1e-5 or evaluated_gap>evaluated_tol:violations.append([d['_file'],i,'independently evaluated certificate'])
             if ref is not None and i<len(ref['rows']) and ref['rows'][i].get('status')=='ok':
                 exact=ref['rows'][i]['objective']
                 if r['objective']>exact+1e-5 or exact>r['upper']+1e-5:violations.append([d['_file'],i,'LP bracket'])
@@ -45,7 +48,12 @@ def main():
             if not ds:continue
             summary.append({'case':case,'method':method,'runs':len(ds),'median_total_s':float(np.median([d['total_seconds'] for d in ds])),'min_total_s':min(d['total_seconds'] for d in ds),'max_total_s':max(d['total_seconds'] for d in ds),'median_p95_ms':float(np.median([d['p95_ms'] for d in ds])),'direct_hits':sum(d['direct_hits'] for d in ds),'queries':sum(d['count'] for d in ds),'mixed_returns':sum(d['mixed_cache_returns'] for d in ds),'full_solves':sum(d['full_solves'] for d in ds),'failures':sum(d['failures'] for d in ds)})
     (a.out/'aggregate.json').write_text(json.dumps(summary,indent=2),encoding='utf8')
-    audit={'completed_runs':len(data),'query_records':query_total,'violations':violations,'unpaired_runs':unpaired,'aggregation':'medians and min-max across runs, descriptive only; 3 timing repeats nested within 3 input seeds','all_complete':len(data)==a.expected}
+    aggregation=('medians and min-max, descriptive only; three timing repeats per archived trace, four fixed traces'
+                 if data and all(d['case'].startswith('replay:') for d in data)
+                 else 'medians and min-max, descriptive only; three timing repeats for each of twelve historical inputs'
+                 if data and all(d['group']=='historical' for d in data)
+                 else 'medians and min-max, descriptive only; core: 3 timing repeats nested within 3 input seeds; sensitivity: 3 repeats of one seed')
+    audit={'completed_runs':len(data),'query_records':query_total,'violations':violations,'unpaired_runs':unpaired,'aggregation':aggregation,'all_complete':len(data)==a.expected}
     (a.out/'audit.json').write_text(json.dumps(audit,indent=2),encoding='utf8')
     if cases:
         fig,axes=plt.subplots(1,len(cases),figsize=(5*len(cases),4.4),squeeze=False)

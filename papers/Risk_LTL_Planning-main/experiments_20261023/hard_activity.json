@@ -1,0 +1,547 @@
+{
+  "scope": "Untimed additional LP diagnostic; not another independent workload or timing repeat",
+  "rows": [
+    {
+      "seed": 73044,
+      "index": 0,
+      "risk": 2.0,
+      "lambda_hard": 0.0940170940170959,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 1,
+      "risk": 1.7344048842651583,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73044,
+      "index": 2,
+      "risk": 2.0,
+      "lambda_hard": 0.5031397263216513,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 3,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8823287554811365,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73044,
+      "index": 4,
+      "risk": 2.0,
+      "lambda_hard": 0.22497589958720932,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 5,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8944642489579461,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73044,
+      "index": 6,
+      "risk": 2.0,
+      "lambda_hard": 0.01559055739098758,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 7,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8823287554811365,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73044,
+      "index": 8,
+      "risk": 2.0,
+      "lambda_hard": 0.17506610989662352,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 9,
+      "risk": 1.9999999999999998,
+      "lambda_hard": 0.09047625328468833,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 10,
+      "risk": 2.0,
+      "lambda_hard": 0.31372027716472006,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 11,
+      "risk": 1.9999999999999998,
+      "lambda_hard": 0.7291322510563172,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 12,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.7235561610513157,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 13,
+      "risk": 1.938852298101704,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73044,
+      "index": 14,
+      "risk": 1.9365503629439185,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73044,
+      "index": 15,
+      "risk": 2.0,
+      "lambda_hard": 0.04043513069341231,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 16,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 1.3000615852127089,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 17,
+      "risk": 2.0,
+      "lambda_hard": 0.34382922554783346,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 18,
+      "risk": 2.000000000000001,
+      "lambda_hard": 0.27587882008235565,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73044,
+      "index": 19,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.5852741887472988,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 0,
+      "risk": 2.0,
+      "lambda_hard": 0.0940170940170959,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 1,
+      "risk": 2.0,
+      "lambda_hard": 0.4736960028983539,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 2,
+      "risk": 1.3469690403863501,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 3,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.9281006284700382,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 4,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8823287554811978,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 5,
+      "risk": 2.0,
+      "lambda_hard": 0.5175759442045749,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 6,
+      "risk": 2.0,
+      "lambda_hard": 0.1848240520174227,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 7,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.19425270935455252,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 8,
+      "risk": 2.0,
+      "lambda_hard": 0.4216736253753086,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 9,
+      "risk": 1.0000000000000002,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8987682630170343,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 10,
+      "risk": 2.0,
+      "lambda_hard": 0.03776846829311742,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 11,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.8426590757213868,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 12,
+      "risk": 1.6843821668554915,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 13,
+      "risk": 2.0,
+      "lambda_hard": 0.09066460119774433,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 14,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.9085646759465761,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 15,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.882328755482781,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 16,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.9034129107187496,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 17,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8823287554811664,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73045,
+      "index": 18,
+      "risk": 2.0,
+      "lambda_hard": 0.20251465343688646,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73045,
+      "index": 19,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.2013308147342654,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 0,
+      "risk": 2.0,
+      "lambda_hard": 0.0940170940170959,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 1,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.9130570323200441,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 2,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.7194820102833239,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 3,
+      "risk": 2.0,
+      "lambda_hard": 1.0752185363441904,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 4,
+      "risk": 1.4915452942774807,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 5,
+      "risk": 1.9999999999999996,
+      "lambda_hard": 0.7258487251263781,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 6,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.9424221958030927,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 7,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8877407208945206,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 8,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8866499703002725,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 9,
+      "risk": 2.0,
+      "lambda_hard": 0.19286555524205817,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 10,
+      "risk": 1.9999999999999998,
+      "lambda_hard": 0.14104810162775738,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 11,
+      "risk": 1.0,
+      "lambda_hard": 0.0,
+      "lambda_soft": 0.8823287554811374,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 12,
+      "risk": 1.9999999999999998,
+      "lambda_hard": 0.4086102836646539,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 13,
+      "risk": 2.0000000000000004,
+      "lambda_hard": 0.04331062390634721,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 14,
+      "risk": 2.0000000000000004,
+      "lambda_hard": 0.15478434270353958,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 15,
+      "risk": 1.9363155669077203,
+      "lambda_hard": 0.0,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": false,
+      "positive_hard_multiplier": false
+    },
+    {
+      "seed": 73046,
+      "index": 16,
+      "risk": 2.0,
+      "lambda_hard": 0.015632443703120114,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 17,
+      "risk": 2.000000000000001,
+      "lambda_hard": 0.1829372366205093,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 18,
+      "risk": 2.0,
+      "lambda_hard": 0.1427767203402046,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    },
+    {
+      "seed": 73046,
+      "index": 19,
+      "risk": 2.0,
+      "lambda_hard": 0.365436970611944,
+      "lambda_soft": 1.0,
+      "hard_at_boundary": true,
+      "positive_hard_multiplier": true
+    }
+  ],
+  "active_and_positive": 38,
+  "count": 60
+}

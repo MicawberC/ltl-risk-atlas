@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "clip": false,
+      "probability_min": -322.5757359760394,
+      "probability_max": 299.75803225809324,
+      "objective": 2.9572689447188765,
+      "risk": 1.000000000000001,
+      "objective_error": 0.0037276229921840986
+    },
+    {
+      "clip": true,
+      "probability_min": 0.0,
+      "probability_max": 1.0,
+      "objective": 2.96099655893949,
+      "risk": 1.000000000000001,
+      "objective_error": 8.771570580989874e-09
+    }
+  ]
+}

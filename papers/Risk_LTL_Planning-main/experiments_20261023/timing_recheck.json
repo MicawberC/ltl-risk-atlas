@@ -1,0 +1,8 @@
+{
+  "reason": "Rerun LP Not Set cases using timed cold reconstruction; initial failures retained in diagnostics",
+  "files": [
+    "sensitivity_c1_r0_warm_lp.json",
+    "sensitivity_c1_r1_warm_lp.json",
+    "sensitivity_c1_r2_warm_lp.json"
+  ]
+}

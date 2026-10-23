@@ -1,0 +1,20 @@
+{
+  "version": "0.9.16",
+  "source": "https://carla-releases.s3.us-east-005.backblazeb2.com/Windows/CARLA_0.9.16.zip",
+  "official_release": "https://github.com/carla-simulator/carla/releases/tag/0.9.16",
+  "download_bytes": 7812252810,
+  "unpacked_bytes_approx": 19400000000,
+  "zip_entries": 32841,
+  "client": "carla==0.9.16 CPython3.11 Windows amd64",
+  "server_arguments": [
+    "-RenderOffScreen",
+    "-quality-level=Low",
+    "-nosound",
+    "-carla-rpc-port=2000",
+    "-ResX=640",
+    "-ResY=480"
+  ],
+  "launch": "hidden startup window; no simulator running during synthetic/replay timing",
+  "gpu_driver": "591.44",
+  "archive_not_in_git": true
+}

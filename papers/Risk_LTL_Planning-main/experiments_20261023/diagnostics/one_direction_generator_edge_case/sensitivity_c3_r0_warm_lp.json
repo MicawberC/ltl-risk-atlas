@@ -1,0 +1,26 @@
+{
+  "error": "RuntimeError('subprocess returncode 1')",
+  "command": [
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\python311\\python.exe",
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\ltl-risk-atlas-experiments\\papers\\Risk_LTL_Planning-main\\experiments_20261023\\controlled_experiment.py",
+    "--method",
+    "warm_lp",
+    "--output",
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\ltl-risk-atlas-experiments\\papers\\Risk_LTL_Planning-main\\experiments_20261023\\results\\sensitivity_c3_r0_warm_lp.json",
+    "--case",
+    "24:middle_fast_crossing:0",
+    "--stream",
+    "walk",
+    "--seed",
+    "83001",
+    "--count",
+    "20",
+    "--magnitude",
+    "0.8",
+    "--dimension",
+    "1"
+  ],
+  "run_complete": false,
+  "group": "sensitivity",
+  "repeat": 0
+}

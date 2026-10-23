@@ -1,0 +1,8 @@
+{
+  "completed_runs": 225,
+  "query_records": 5340,
+  "violations": [],
+  "unpaired_runs": [],
+  "aggregation": "medians and min-max, descriptive only; core: 3 timing repeats nested within 3 input seeds; sensitivity: 3 repeats of one seed",
+  "all_complete": true
+}
