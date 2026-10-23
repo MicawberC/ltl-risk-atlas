@@ -1,0 +1,438 @@
+{
+  "passed": true,
+  "independent_query_checks": 48,
+  "rows": [
+    {
+      "method": "full",
+      "index": 0,
+      "objective": 1.1880341880341945,
+      "risk": 2.0,
+      "upper": 1.1880342349188096,
+      "lp": 1.1880341880397758,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 1,
+      "objective": 1.424534312734009,
+      "risk": 1.9999999999999998,
+      "upper": 1.4245343592818898,
+      "lp": 1.424534312750111,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 2,
+      "objective": 2.0909218138661907,
+      "risk": 2.0,
+      "upper": 2.0909218584093754,
+      "lp": 2.0909218138785945,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 3,
+      "objective": 1.0909114605403043,
+      "risk": 2.0,
+      "upper": 1.090911507563206,
+      "lp": 1.0909114605358963,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 4,
+      "objective": 1.6808979955672978,
+      "risk": 2.0,
+      "upper": 1.6808980417501596,
+      "lp": 1.6808979955752237,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 5,
+      "objective": 1.0640942823347266,
+      "risk": 2.0,
+      "upper": 1.064094326707324,
+      "lp": 1.0640942823352297,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 6,
+      "objective": 1.0173358118702656,
+      "risk": 1.9999999999999998,
+      "upper": 1.017335858997931,
+      "lp": 1.0173358118669285,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "full",
+      "index": 7,
+      "objective": 0.882328755481137,
+      "risk": 1.0,
+      "upper": 0.8823288039234446,
+      "lp": 0.8823287554805685,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_mix",
+      "index": 0,
+      "objective": 1.1880341880341947,
+      "risk": 1.9999999999999998,
+      "upper": 1.1880341880364413,
+      "lp": 1.1880341880397758,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 1,
+      "objective": 1.4245343127340089,
+      "risk": 1.9999999999999996,
+      "upper": 1.4252996184083055,
+      "lp": 1.424534312750111,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 2,
+      "objective": 2.0909218138661902,
+      "risk": 1.9999999999999998,
+      "upper": 2.0925992163481935,
+      "lp": 2.0909218138785945,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 3,
+      "objective": 1.090911460540304,
+      "risk": 1.9999999999999993,
+      "upper": 1.0909114605417982,
+      "lp": 1.0909114605358963,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 4,
+      "objective": 1.6808979955672978,
+      "risk": 1.9999999999999996,
+      "upper": 1.6824557346500226,
+      "lp": 1.6808979955752237,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 5,
+      "objective": 1.064094282334727,
+      "risk": 2.0000000000000004,
+      "upper": 1.0640942823430721,
+      "lp": 1.0640942823352297,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 6,
+      "objective": 1.0173358118702662,
+      "risk": 1.9999999999999987,
+      "upper": 1.0173358118727778,
+      "lp": 1.0173358118669285,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_mix",
+      "index": 7,
+      "objective": 0.8823287554811365,
+      "risk": 1.0000000000000004,
+      "upper": 0.8828125000008527,
+      "lp": 0.8823287554805685,
+      "certificate_type": "fresh_cmdp"
+    },
+    {
+      "method": "no_regions",
+      "index": 0,
+      "objective": 1.1880341880341945,
+      "risk": 2.0,
+      "upper": 1.188034238035588,
+      "lp": 1.1880341880397758,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 1,
+      "objective": 1.424534312734009,
+      "risk": 1.9999999999999998,
+      "upper": 1.425299668407453,
+      "lp": 1.424534312750111,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 2,
+      "objective": 2.0909218138661907,
+      "risk": 2.0,
+      "upper": 2.0925992663473405,
+      "lp": 2.0909218138785945,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 3,
+      "objective": 1.0909114605403043,
+      "risk": 2.0,
+      "upper": 1.0909115105409455,
+      "lp": 1.0909114605358963,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 4,
+      "objective": 1.6808979955672978,
+      "risk": 2.0,
+      "upper": 1.68245578464917,
+      "lp": 1.6808979955752237,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 5,
+      "objective": 1.0640942823347266,
+      "risk": 2.0,
+      "upper": 1.06409433234222,
+      "lp": 1.0640942823352297,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 6,
+      "objective": 1.017335811870266,
+      "risk": 1.9999999999999998,
+      "upper": 1.0173358618719257,
+      "lp": 1.0173358118669285,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_regions",
+      "index": 7,
+      "objective": 0.882328755481137,
+      "risk": 1.0,
+      "upper": 0.88281255,
+      "lp": 0.8823287554805685,
+      "certificate_type": "fixed_price_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 0,
+      "objective": 1.1880341880341945,
+      "risk": 2.0,
+      "upper": 1.1880342349188096,
+      "lp": 1.1880341880397758,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 1,
+      "objective": 1.424534312734009,
+      "risk": 1.9999999999999998,
+      "upper": 1.4245343592818898,
+      "lp": 1.424534312750111,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 2,
+      "objective": 2.0909218138661907,
+      "risk": 2.0,
+      "upper": 2.0909218584093754,
+      "lp": 2.0909218138785945,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 3,
+      "objective": 1.0909114605403043,
+      "risk": 2.0,
+      "upper": 1.090911507563206,
+      "lp": 1.0909114605358963,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 4,
+      "objective": 1.6808979955672978,
+      "risk": 2.0,
+      "upper": 1.6808980417501596,
+      "lp": 1.6808979955752237,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 5,
+      "objective": 1.0640942823347266,
+      "risk": 2.0,
+      "upper": 1.064094326707324,
+      "lp": 1.0640942823352297,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 6,
+      "objective": 1.0173358118702656,
+      "risk": 1.9999999999999998,
+      "upper": 1.017335858997931,
+      "lp": 1.0173358118669285,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "no_stream",
+      "index": 7,
+      "objective": 0.882328755481137,
+      "risk": 1.0,
+      "upper": 0.8823288039234446,
+      "lp": 0.8823287554805685,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 0,
+      "objective": 1.1880341880341945,
+      "risk": 2.0,
+      "upper": 1.1880342349188096,
+      "lp": 1.1880341880397758,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 1,
+      "objective": 1.424534312734009,
+      "risk": 1.9999999999999998,
+      "upper": 1.4245343592818898,
+      "lp": 1.424534312750111,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 2,
+      "objective": 2.0909218138661907,
+      "risk": 2.0,
+      "upper": 2.0909218584093754,
+      "lp": 2.0909218138785945,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 3,
+      "objective": 1.0909114605403043,
+      "risk": 2.0,
+      "upper": 1.090911507563206,
+      "lp": 1.0909114605358963,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 4,
+      "objective": 1.6808979955672978,
+      "risk": 2.0,
+      "upper": 1.6808980417501596,
+      "lp": 1.6808979955752237,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 5,
+      "objective": 1.0640942823347266,
+      "risk": 2.0,
+      "upper": 1.064094326707324,
+      "lp": 1.0640942823352297,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 6,
+      "objective": 1.0173358118702656,
+      "risk": 1.9999999999999998,
+      "upper": 1.017335858997931,
+      "lp": 1.0173358118669285,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "forced_mdp",
+      "index": 7,
+      "objective": 0.882328755481137,
+      "risk": 1.0,
+      "upper": 0.8823288039234446,
+      "lp": 0.8823287554805685,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 0,
+      "objective": 1.1880341880341945,
+      "risk": 2.0,
+      "upper": 1.1880342349188096,
+      "lp": 1.1880341880397758,
+      "certificate_type": "region_scan"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 1,
+      "objective": 1.4245343128082149,
+      "risk": 2.0,
+      "upper": 1.4245353128082148,
+      "lp": 1.424534312750111,
+      "certificate_type": "frozen_lp_rescue"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 2,
+      "objective": 2.090921813869445,
+      "risk": 2.000000000000001,
+      "upper": 2.090922813869445,
+      "lp": 2.0909218138785945,
+      "certificate_type": "frozen_lp_rescue"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 3,
+      "objective": 1.0909114605404335,
+      "risk": 2.0,
+      "upper": 1.0909124605404334,
+      "lp": 1.0909114605358963,
+      "certificate_type": "frozen_lp_rescue"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 4,
+      "objective": 1.680897995579672,
+      "risk": 2.0000000000000004,
+      "upper": 1.6808989955796718,
+      "lp": 1.6808979955752237,
+      "certificate_type": "frozen_lp_rescue"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 5,
+      "objective": 1.064094282328334,
+      "risk": 1.9999999999999998,
+      "upper": 1.0640952823283338,
+      "lp": 1.0640942823352297,
+      "certificate_type": "frozen_lp_rescue"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 6,
+      "objective": 1.017335811864263,
+      "risk": 2.0,
+      "upper": 1.017336811864263,
+      "lp": 1.0173358118669285,
+      "certificate_type": "frozen_lp_rescue"
+    },
+    {
+      "method": "frozen_lp",
+      "index": 7,
+      "objective": 0.8823287554733606,
+      "risk": 1.0,
+      "upper": 0.8823297554733607,
+      "lp": 0.8823287554805685,
+      "certificate_type": "frozen_lp_rescue"
+    }
+  ]
+}

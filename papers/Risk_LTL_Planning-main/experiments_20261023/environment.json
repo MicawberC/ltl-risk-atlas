@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "1dced97",
+  "cpu": "Intel Core i7-14650HX",
+  "logical_cpus": 24,
+  "physical_cpus": 16,
+  "ram_gib": 15.781120300292969,
+  "gpu": "NVIDIA RTX 4060 Laptop 8 GiB",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "timing": "Sequential fresh subprocesses, common model construction/import excluded; own setup included; independent policy evaluation excluded; OpenBLAS/OMP/MKL thread env=1. CARLA server is not running during synthetic timing. Download traffic may overlap.",
+  "seed_repeats": "three distinct risk-stream seeds, each with three timing repeats; do not treat repeats as independent road scenarios",
+  "lp_feasibility_tolerance": 1e-09,
+  "validation_tolerance": {
+    "risk": 1e-07,
+    "objective_reconstruction": 1e-05,
+    "LP_bracket": 1e-05
+  },
+  "earlier_pilot": "Default LP primal/dual feasibility tolerance produced a 1.94e-5 objective-reconstruction discrepancy; tightened LP tolerance passed at <6.3e-9. Preliminary pilot results excluded; formal suite restarted.",
+  "checks": [
+    "30 scalarized upper checks",
+    "50 independent cache-hull LP checks",
+    "40 directional reach LP checks"
+  ],
+  "policy_recovery": "Clip occupation entries below zero before normalization; assert probabilities >=0 and row sums=1; all final runs restarted after finding negative-probability amplification in near-zero-occupation LP states.",
+  "highs_threads": 1,
+  "formal_restart": "Final suite restarted after both the probability-recovery fix and explicit single-thread control."
+}

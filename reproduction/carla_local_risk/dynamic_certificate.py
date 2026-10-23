@@ -26,6 +26,10 @@ class Anchor:
 
 
 def policy_from_occupation(occupation: np.ndarray) -> np.ndarray:
+    # LP feasibility tolerances permit tiny negative occupation entries.
+    # Normalize nonnegative mass to avoid large negative probabilities at
+    # states whose total occupation is close to zero.
+    occupation = np.maximum(occupation, 0.0)
     totals = occupation.sum(axis=1)
     policy = np.divide(occupation, totals[:, None],
                        out=np.zeros_like(occupation),

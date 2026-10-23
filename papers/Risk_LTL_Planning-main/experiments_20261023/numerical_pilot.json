@@ -1,0 +1,50 @@
+{
+  "scope": "Numerical pilot, not included in formal timing tables",
+  "case": "24:middle_fast_crossing:0",
+  "seed": 73045,
+  "method": "frozen_lp",
+  "count": 20,
+  "problem_row": {
+    "objective": 2.934938808755883,
+    "risk": 0.9999999999999999,
+    "seconds": 0.6740585000006831,
+    "iterations": 164,
+    "basis_valid": true,
+    "basis_reset": false,
+    "upper": 2.934939808755883,
+    "certificate_type": "frozen_lp_rescue",
+    "mixed_cache": false,
+    "direct_hit": false,
+    "full_solve": true,
+    "scalarized_calls": 0,
+    "fresh_randomized": false,
+    "index": 4,
+    "theta": [
+      0.0,
+      0.6697247316271342,
+      0.0,
+      -0.3023658782009464,
+      -0.11801867652355313
+    ],
+    "initial": 2388,
+    "cache_size": 2,
+    "archive_size": 1,
+    "cache_array_bytes": 7134660,
+    "rss_mb": 133.48046875,
+    "status": "ok",
+    "evaluated_objective": 2.9349582344807983,
+    "evaluated_risk": 1.0,
+    "evaluation_ok": false
+  },
+  "resolution": "Optional primal/dual feasibility_tolerance=1e-9 for every LP in the formal suite; original default retained for backwards compatibility; all formal runs restarted.",
+  "tightened_max_reconstruction_error": 6.228027871202357e-09,
+  "large_grid_diagnostic": {
+    "case": "32:middle_fast_crossing:0",
+    "raw_min_occupation": -9.183769179564038e-10,
+    "raw_policy_min": -322.5757359760394,
+    "raw_policy_max": 299.75803225809324,
+    "raw_objective_reconstruction_error": 0.0037276229921840986,
+    "after_nonnegative_normalization_error": 8.771570580989874e-09,
+    "probability_recovery_regression_passed": true
+  }
+}

@@ -17,7 +17,7 @@ from joint_price_atlas import risk_directions
 HERE = Path(__file__).resolve().parent
 
 
-def prepare(model, directions):
+def prepare(model, directions, feasibility_tolerance=None, solver_threads=None):
     started = time.perf_counter()
     n, a = model.states, model.actions
     d = len(directions)
@@ -48,6 +48,11 @@ def prepare(model, directions):
     h = highspy.Highs()
     h.setOptionValue("output_flag", False)
     h.setOptionValue("solver", "simplex")
+    if solver_threads is not None:
+        h.setOptionValue("threads", solver_threads)
+    if feasibility_tolerance is not None:
+        h.setOptionValue("primal_feasibility_tolerance", feasibility_tolerance)
+        h.setOptionValue("dual_feasibility_tolerance", feasibility_tolerance)
     status = h.addCols(nx + k + 1, cost,
                        np.r_[np.zeros(nx + 1), np.full(k, -highspy.kHighsInf)],
                        np.full(nx + k + 1, highspy.kHighsInf),
