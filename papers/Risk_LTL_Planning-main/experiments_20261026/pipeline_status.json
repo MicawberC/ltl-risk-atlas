@@ -1,0 +1,9 @@
+{
+  "phase": "audited_after_isolated_pair_recheck",
+  "utc": "2026-10-26T03:47:56.177372+00:00",
+  "runs": 357,
+  "query_records": 22242,
+  "pairs": 138,
+  "all_valid": true,
+  "rechecked_pair": "replay_double_t0_r2"
+}

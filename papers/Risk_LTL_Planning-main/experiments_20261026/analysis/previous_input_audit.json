@@ -1,0 +1,374 @@
+[
+  {
+    "pair_id": "core_c0_s73044_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73044_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73044_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73045_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73045_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73045_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73046_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73046_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c0_s73046_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73044_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73044_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73044_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73045_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73045_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73045_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73046_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73046_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c1_s73046_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73044_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73044_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73044_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73045_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73045_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73045_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73046_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73046_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "core_c2_s73046_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c0_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c0_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c0_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c10_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c10_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c10_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c11_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c11_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c11_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c1_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c1_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c1_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c2_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c2_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c2_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c3_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c3_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c3_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c4_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c4_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c4_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c5_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c5_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c5_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c6_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c6_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c6_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c7_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c7_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c7_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c8_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c8_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c8_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c9_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c9_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "historical_c9_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_double_t0_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_double_t0_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_double_t0_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_double_t3_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_double_t3_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_double_t3_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_single_t0_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_single_t0_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_single_t0_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_single_t3_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_single_t3_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "replay_single_t3_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c0_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c0_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c0_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c1_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c1_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c1_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c2_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c2_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c2_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c3_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c3_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c3_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c4_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c4_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c4_r2",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c5_r0",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c5_r1",
+    "identical_to_previous_batch": true
+  },
+  {
+    "pair_id": "sensitivity_c5_r2",
+    "identical_to_previous_batch": true
+  }
+]

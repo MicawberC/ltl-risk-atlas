@@ -30,7 +30,7 @@ def workloads():
 def main():
     p=argparse.ArgumentParser();p.add_argument('--group',default='all');a=p.parse_args()
     out=HERE/'results';out.mkdir(exist_ok=True)
-    code=hashlib.sha256((HERE/'optimized_controller.py').read_bytes()).hexdigest()
+    code=hashlib.sha256((HERE/'optimized_controller.py').read_bytes().replace(b'\r\n',b'\n')).hexdigest()
     tasks=[]
     # Run the pressure inputs first to resolve the original slow cases early.
     work=workloads();work.sort(key=lambda w:(0 if w[3]=='core' and w[1]['case'].startswith('16:') else 1))

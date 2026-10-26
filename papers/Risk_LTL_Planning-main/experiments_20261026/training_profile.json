@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "elapsed": 0.0031153000018093735,
+    "cache": 2,
+    "calls": 0,
+    "full": false
+  },
+  {
+    "index": 1,
+    "elapsed": 0.05372769999667071,
+    "cache": 3,
+    "calls": 1,
+    "full": false
+  },
+  {
+    "index": 2,
+    "elapsed": 0.6127300999942236,
+    "cache": 6,
+    "calls": 15,
+    "full": true
+  },
+  {
+    "index": 3,
+    "elapsed": 0.42968000000109896,
+    "cache": 9,
+    "calls": 10,
+    "full": true
+  },
+  {
+    "index": 4,
+    "elapsed": 0.41840559999400284,
+    "cache": 12,
+    "calls": 10,
+    "full": true
+  },
+  {
+    "index": 5,
+    "elapsed": 0.4856796000021859,
+    "cache": 15,
+    "calls": 11,
+    "full": true
+  },
+  {
+    "index": 6,
+    "elapsed": 0.07002040000224952,
+    "cache": 16,
+    "calls": 1,
+    "full": false
+  },
+  {
+    "index": 7,
+    "elapsed": 0.48423259999981383,
+    "cache": 19,
+    "calls": 10,
+    "full": true
+  },
+  {
+    "index": 8,
+    "elapsed": 0.0747477999975672,
+    "cache": 20,
+    "calls": 1,
+    "full": false
+  },
+  {
+    "index": 9,
+    "elapsed": 0.3804896000001463,
+    "cache": 23,
+    "calls": 8,
+    "full": true
+  },
+  {
+    "index": 10,
+    "elapsed": 0.639971600001445,
+    "cache": 26,
+    "calls": 16,
+    "full": true
+  },
+  {
+    "index": 11,
+    "elapsed": 0.7689730999991298,
+    "cache": 29,
+    "calls": 16,
+    "full": true
+  },
+  {
+    "index": 12,
+    "elapsed": 0.8245228000014322,
+    "cache": 32,
+    "calls": 17,
+    "full": true
+  },
+  {
+    "index": 13,
+    "elapsed": 0.09794999999576248,
+    "cache": 33,
+    "calls": 1,
+    "full": false
+  },
+  {
+    "index": 14,
+    "elapsed": 0.09895590000087395,
+    "cache": 34,
+    "calls": 1,
+    "full": false
+  },
+  {
+    "index": 15,
+    "elapsed": 0.10076000000117347,
+    "cache": 35,
+    "calls": 1,
+    "full": false
+  },
+  {
+    "index": 16,
+    "elapsed": 0.6306939999994938,
+    "cache": 38,
+    "calls": 14,
+    "full": true
+  },
+  {
+    "index": 17,
+    "elapsed": 0.7051684999969439,
+    "cache": 41,
+    "calls": 15,
+    "full": true
+  },
+  {
+    "index": 18,
+    "elapsed": 0.7609034999986761,
+    "cache": 44,
+    "calls": 16,
+    "full": true
+  },
+  {
+    "index": 19,
+    "elapsed": 0.7640060999983689,
+    "cache": 47,
+    "calls": 18,
+    "full": true
+  }
+]

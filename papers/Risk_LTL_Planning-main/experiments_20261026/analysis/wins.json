@@ -1,0 +1,52 @@
+[
+  {
+    "group": "core",
+    "pairs": 27,
+    "faster": 27,
+    "slower": 0,
+    "invalid": 0,
+    "median_ratio": 16.51819447421195,
+    "min_ratio": 5.458400038826241,
+    "max_ratio": 50.7935467754313
+  },
+  {
+    "group": "historical",
+    "pairs": 36,
+    "faster": 36,
+    "slower": 0,
+    "invalid": 0,
+    "median_ratio": 25.375817671386145,
+    "min_ratio": 5.2476054673881425,
+    "max_ratio": 41.694659027694335
+  },
+  {
+    "group": "sensitivity",
+    "pairs": 18,
+    "faster": 18,
+    "slower": 0,
+    "invalid": 0,
+    "median_ratio": 16.665427294848225,
+    "min_ratio": 7.319042662856718,
+    "max_ratio": 32.14417698375043
+  },
+  {
+    "group": "replay",
+    "pairs": 12,
+    "faster": 12,
+    "slower": 0,
+    "invalid": 0,
+    "median_ratio": 3.77225800919219,
+    "min_ratio": 2.7788256788958905,
+    "max_ratio": 4.147724439107454
+  },
+  {
+    "group": "heldout",
+    "pairs": 45,
+    "faster": 45,
+    "slower": 0,
+    "invalid": 0,
+    "median_ratio": 8.1036704569523,
+    "min_ratio": 2.8204263974580948,
+    "max_ratio": 29.573562846594918
+  }
+]

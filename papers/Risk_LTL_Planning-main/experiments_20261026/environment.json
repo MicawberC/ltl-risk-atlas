@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "46bbc0a",
+  "cpu": "Intel Core i7-14650HX",
+  "logical_cpus": 24,
+  "physical_cpus": 16,
+  "ram_gib": 15.781120300292969,
+  "gpu": "NVIDIA RTX 4060 Laptop 8 GiB",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "timing": "Sequential fresh subprocesses, common model construction/import excluded; own setup included; independent policy evaluation excluded; OpenBLAS/OMP/MKL thread env=1. CARLA server is not running during synthetic timing. Download traffic may overlap.",
+  "seed_repeats": "three distinct risk-stream seeds, each with three timing repeats; do not treat repeats as independent road scenarios",
+  "lp_feasibility_tolerance": 1e-09,
+  "validation_tolerance": {
+    "risk": 1e-07,
+    "objective_reconstruction": 1e-05,
+    "LP_bracket": 1e-05
+  },
+  "earlier_pilot": "Default LP primal/dual feasibility tolerance produced a 1.94e-5 objective-reconstruction discrepancy; tightened LP tolerance passed at <6.3e-9. Preliminary pilot results excluded; formal suite restarted.",
+  "checks": [
+    "30 scalarized upper checks",
+    "50 independent cache-hull LP checks",
+    "40 directional reach LP checks"
+  ],
+  "policy_recovery": "Clip occupation entries below zero before normalization; assert probabilities >=0 and row sums=1; all final runs restarted after finding negative-probability amplification in near-zero-occupation LP states.",
+  "highs_threads": 1,
+  "formal_restart": "Final suite restarted after both the probability-recovery fix and explicit single-thread control.",
+  "previous_results_commit": "46bbc0a",
+  "candidate_freeze_commit": "4b0193b89d1143afe0627a16bbc9bab568909e94",
+  "method": "Cached primal-hull pricing with scalarized dual certification, warm policy-iteration actions; original full fallback and gap threshold unchanged",
+  "training_seeds": [
+    73044,
+    73047
+  ],
+  "heldout_seeds": [
+    2026102601,
+    2026102602,
+    2026102603,
+    2026102604,
+    2026102605
+  ],
+  "baseline": "Same persistent HiGHS model/basis, tolerance 1e-9, threads1; freshly timed",
+  "scope": "Controlled fixed-model synthetic sequences and archived CARLA observation replays; no new live driving",
+  "source_hashes": {
+    "optimized_controller.py": "39f871972c4c6449a4c4543e9936659530eba72d6d2957e857a42841e482aaa1",
+    "controlled_experiment.py": "31fcf265cf06b0870d1ab81d79bfca1b600a45aff926afa4c5844b31a964ab74",
+    "highs_reopt.py": "d5786a4c0a6f7eb1fa652fc5feb7eab23d115ac24f30695e7e805bf312ea8c0b"
+  },
+  "original_model_snapshot": "1dced97"
+}

@@ -1,0 +1,13 @@
+{
+  "optimized_source_sha256": "39f871972c4c6449a4c4543e9936659530eba72d6d2957e857a42841e482aaa1",
+  "workload_pairs": 138,
+  "jobs": 357,
+  "group": "all",
+  "prespecified_heldout_seeds": [
+    2026102601,
+    2026102602,
+    2026102603,
+    2026102604,
+    2026102605
+  ]
+}

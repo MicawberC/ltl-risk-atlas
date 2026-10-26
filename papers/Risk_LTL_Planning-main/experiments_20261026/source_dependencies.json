@@ -1,0 +1,66 @@
+{
+  "base_commit": "46bbc0a",
+  "hash_basis": "CRLF normalized to LF",
+  "files": [
+    {
+      "path": "papers/Risk_LTL_Planning-main/experiments_20261023/controlled_experiment.py",
+      "sha256_lf": "31fcf265cf06b0870d1ab81d79bfca1b600a45aff926afa4c5844b31a964ab74"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/experiment.py",
+      "sha256_lf": "c0812a9567e2d0d2329cbe759f765fa86c352033661897b8ca3558994c315d62"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/stratified.py",
+      "sha256_lf": "7438868b95c21a73892519be60ad64965341a38fb9538a0faafa814a00be9b0a"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/joint_price_atlas.py",
+      "sha256_lf": "5d394435e163ec17ee523aac672a03f97d077181d64d2f6f70759cc24bc6d8ba"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/local_update_gate.py",
+      "sha256_lf": "bfe90cb200247fb6c55df5c17e08976651a6828a1edf9c7da11a8ef682fad3ef"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/highs_reopt.py",
+      "sha256_lf": "d5786a4c0a6f7eb1fa652fc5feb7eab23d115ac24f30695e7e805bf312ea8c0b"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/paper_atlas_comparison.py",
+      "sha256_lf": "ec0cd986dcdd5c7756d89a783df3496afd465c42702c109d4daf5082668afd1b"
+    },
+    {
+      "path": "reproduction/carla_local_risk/dynamic_product.py",
+      "sha256_lf": "4a6ae12c7520beccf0f510adb58a5a6aabcf4536b097bb8076134aa59d427bc2"
+    },
+    {
+      "path": "reproduction/carla_local_risk/benchmark_dynamic_live_replay.py",
+      "sha256_lf": "c987a8b0371fbbb394e680cf0b9d4273990696e32fe4d0c396825a914b1a31c1"
+    },
+    {
+      "path": "papers/Risk_LTL_Planning-main/experiments_20261023/run_suite.py",
+      "sha256_lf": "91713ea219963f7383daeac98d6e716284d1462e7dfb860eec1164185cac6ed6"
+    },
+    {
+      "path": "reproduction/adaptive_risk_ltl/run_paper_atlas_suite.py",
+      "sha256_lf": "c1aa351316e649bd7c7f5813b0555ad811f600b7ebd80e310897e4bf0143924a"
+    },
+    {
+      "path": "reproduction/carla_local_risk/carla_trace_20hz.json",
+      "sha256_lf": "bcb696995fd6264cc6b6395b3a98b8d5058940828ebd96a69bc81ed6c9329290"
+    },
+    {
+      "path": "reproduction/carla_local_risk/carla_trace_20hz_two_walkers.json",
+      "sha256_lf": "bc5177b8205721bdd76e03de7f63bc418714956514fe6d839b740abf798a8f4a"
+    },
+    {
+      "path": "reproduction/carla_local_risk/revised_certificate_20261014/single_20hz_900_observed_vs_lp.json",
+      "sha256_lf": "c0ab00599b3f7ba36c5904812ecef8cf7dfe3e6221f77b0e286df444ade2af97"
+    },
+    {
+      "path": "reproduction/carla_local_risk/revised_certificate_20261014/double_20hz_1200_observed_vs_lp.json",
+      "sha256_lf": "08fecae51ea9940de97ac6ac6970dcfcc67d68511b0c2f1c722941c4f6c16c5a"
+    }
+  ]
+}

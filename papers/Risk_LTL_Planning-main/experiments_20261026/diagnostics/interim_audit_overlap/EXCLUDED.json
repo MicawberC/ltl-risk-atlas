@@ -1,0 +1,4 @@
+{
+  "reason": "The original LP timing overlapped an interim JSON audit. Both methods rerun as a complete same-input pair after all other timed jobs and plotting ended; all source parameters and thresholds unchanged. Original records retained and excluded from formal summary.",
+  "pair_id": "replay_double_t0_r2"
+}

@@ -1,0 +1,12 @@
+{
+  "runs": 357,
+  "expected_runs": 357,
+  "query_records": 22242,
+  "incomplete": [],
+  "violations": [],
+  "pairs": 138,
+  "expected_pairs": 138,
+  "previous_inputs_checked": 93,
+  "all_complete": true,
+  "all_valid": true
+}

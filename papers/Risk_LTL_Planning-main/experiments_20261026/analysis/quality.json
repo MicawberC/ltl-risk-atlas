@@ -1,0 +1,152 @@
+[
+  {
+    "group": "core",
+    "method": "full",
+    "queries": 540,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 0.021561356514192997,
+    "median_budget_used": 3.488267745083561e-10,
+    "max_budget_used": 0.8088520829226136,
+    "max_certificate_budget_used": 0.964073382641841
+  },
+  {
+    "group": "core",
+    "method": "optimized",
+    "queries": 540,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 0.021561356514192997,
+    "median_budget_used": 2.5223596431514392e-14,
+    "max_budget_used": 0.8088520829226136,
+    "max_certificate_budget_used": 0.9292638131696308
+  },
+  {
+    "group": "core",
+    "method": "warm_lp",
+    "queries": 540,
+    "max_risk": 2.0000000015598007,
+    "max_objective_error": 4.698687439130822e-08,
+    "median_budget_used": 2.6021941608767864e-07,
+    "max_budget_used": 1.5855612527673288e-06,
+    "max_certificate_budget_used": 0.00011370186115348636
+  },
+  {
+    "group": "core",
+    "method": "priced",
+    "queries": 60,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 5.581757278605437e-12,
+    "median_budget_used": 0.0,
+    "max_budget_used": 4.698313680552754e-10,
+    "max_certificate_budget_used": 0.681724487738677
+  },
+  {
+    "group": "heldout",
+    "method": "full",
+    "queries": 900,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 0.027646772111315165,
+    "median_budget_used": 0.0,
+    "max_budget_used": 0.9532468070089472,
+    "max_certificate_budget_used": 0.985994756528185
+  },
+  {
+    "group": "heldout",
+    "method": "optimized",
+    "queries": 900,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 0.00838127953204948,
+    "median_budget_used": 0.0,
+    "max_budget_used": 0.304432628341324,
+    "max_certificate_budget_used": 0.8034226250391212
+  },
+  {
+    "group": "heldout",
+    "method": "warm_lp",
+    "queries": 900,
+    "max_risk": 2.000000003271003,
+    "max_objective_error": 1.84415416271122e-08,
+    "median_budget_used": 5.511299031369883e-08,
+    "max_budget_used": 1.0035068788878315e-06,
+    "max_certificate_budget_used": 0.00011402199037001797
+  },
+  {
+    "group": "historical",
+    "method": "optimized",
+    "queries": 720,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 0.019906933446381725,
+    "median_budget_used": 7.1112754459611555e-12,
+    "max_budget_used": 0.6771034293264845,
+    "max_certificate_budget_used": 0.9966298340892332
+  },
+  {
+    "group": "historical",
+    "method": "warm_lp",
+    "queries": 720,
+    "max_risk": 2.000000007677433,
+    "max_objective_error": 4.698687439130822e-08,
+    "median_budget_used": 2.1802752875520532e-07,
+    "max_budget_used": 1.745629722634275e-06,
+    "max_certificate_budget_used": 0.0001285603094186776
+  },
+  {
+    "group": "historical",
+    "method": "full",
+    "queries": 60,
+    "max_risk": 2.0000000000000004,
+    "max_objective_error": 1.610267474916327e-11,
+    "median_budget_used": 0.0,
+    "max_budget_used": 1.1303816696600687e-09,
+    "max_certificate_budget_used": 5.490278737132491e-06
+  },
+  {
+    "group": "historical",
+    "method": "priced",
+    "queries": 60,
+    "max_risk": 2.000000000000001,
+    "max_objective_error": 1.610267474916327e-11,
+    "median_budget_used": 0.0,
+    "max_budget_used": 1.1303816696600687e-09,
+    "max_certificate_budget_used": 0.5559180504338654
+  },
+  {
+    "group": "replay",
+    "method": "optimized",
+    "queries": 7371,
+    "max_risk": 1.9782400205163628,
+    "max_objective_error": 3.552713678800501e-15,
+    "median_budget_used": 5.344056618900275e-14,
+    "max_budget_used": 5.293392582000728e-13,
+    "max_certificate_budget_used": 0.9737559853815672
+  },
+  {
+    "group": "replay",
+    "method": "warm_lp",
+    "queries": 7371,
+    "max_risk": 1.9782400205163628,
+    "max_objective_error": 3.552713678800501e-15,
+    "median_budget_used": 7.254227572990881e-14,
+    "max_budget_used": 3.1754277283357996e-13,
+    "max_certificate_budget_used": 0.0008319813115797228
+  },
+  {
+    "group": "sensitivity",
+    "method": "optimized",
+    "queries": 780,
+    "max_risk": 1.1817587740837507,
+    "max_objective_error": 0.02103304841986775,
+    "median_budget_used": 9.161910873710794e-13,
+    "max_budget_used": 0.7623643292792942,
+    "max_certificate_budget_used": 0.9875522896548729
+  },
+  {
+    "group": "sensitivity",
+    "method": "warm_lp",
+    "queries": 780,
+    "max_risk": 1.141189926588154,
+    "max_objective_error": 2.0480038109838006e-08,
+    "median_budget_used": 2.8135858264659665e-07,
+    "max_budget_used": 7.117354078996222e-07,
+    "max_certificate_budget_used": 3.8773446016799783e-05
+  }
+]

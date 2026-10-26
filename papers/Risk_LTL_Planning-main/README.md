@@ -18,6 +18,8 @@
 
 ## Team extension: controlled experiments (2026-10-23)
 
+The subsequent [2026-10-26 optimization report](experiments_20261026/README_CN.md) tests cached dual-price proposals and warm policy iteration with fresh LP timings and prespecified new risk sequences. It preserves the earlier batch and does not report new closed-loop driving.
+
 The local-risk policy reuse experiments added by this repository's team are separate from the original authors' implementation described below. See [the Chinese experiment report](experiments_20261023/README_CN.md) for matched ablations, numerical audits, repeated trace replays, new CARLA runs, raw records, and reproduction scripts. Historical timings are kept separate from this batch.
 
 ## Overview
