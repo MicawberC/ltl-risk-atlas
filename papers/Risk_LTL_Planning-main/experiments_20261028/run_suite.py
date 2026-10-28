@@ -206,8 +206,11 @@ def load_json(path):
 
 
 def archive_attempt(root, stem, attempt, paths):
-    target = root / "diagnostics" / stem / f"attempt_{attempt:02d}_{time.time_ns()}"
+    # Keep the longest execution-log path below legacy Windows MAX_PATH.
+    key = hashlib.sha256(stem.encode()).hexdigest()[:8]
+    target = root / "diagnostics" / f"{key}_{attempt}_{time.time_ns()}"
     target.mkdir(parents=True)
+    save(target / 'identity.json', {'trial': stem, 'attempt': attempt})
     for path in paths:
         if path.exists():
             shutil.copy2(path, target / path.name)
@@ -227,6 +230,8 @@ def parser():
     p.add_argument("--trial-timeout", type=float, default=600.)
     p.add_argument("--infra-retries", type=int, default=1)
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--allow-scheduler-update", action="store_true",
+                   help="Archive a manifest amendment only when run_suite.py alone changed")
     return p
 
 
@@ -276,7 +281,21 @@ def main():
     if manifest_path.exists():
         manifest = load_json(manifest_path)
         if manifest.get("protocol_sha256") != protocol_sha:
-            raise RuntimeError("Protocol/source differs from frozen manifest; use a new --out directory")
+            scheduler = "papers/Risk_LTL_Planning-main/experiments_20261028/run_suite.py"
+            old_protocol = {key: manifest[key] for key in protocol}
+            old_hashes = dict(old_protocol['source_hashes_lf'])
+            old_hashes[scheduler] = hashes[scheduler]
+            old_protocol['source_hashes_lf'] = old_hashes
+            if not args.allow_scheduler_update or old_protocol != protocol:
+                raise RuntimeError("Protocol/algorithm changed; only an explicit scheduler-only amendment is resumable")
+            prior_sha = manifest['protocol_sha256']
+            save(out / ('manifest_before_' + prior_sha[:12] + '.json'), manifest)
+            accepted = manifest.get('compatible_scheduler_protocols', []) + [prior_sha]
+            manifest.update(protocol_sha256=protocol_sha, **protocol,
+                            compatible_scheduler_protocols=accepted,
+                            scheduler_amended_utc=utc(),
+                            amendment_reason='Windows diagnostic path length and faithful infrastructure-resume bookkeeping')
+            save(manifest_path, manifest)
     else:
         packages = {}
         for package in ("carla", "numpy", "scipy", "highspy", "psutil"):
@@ -291,8 +310,11 @@ def main():
                     "environment": {key: env[key] for key in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS", "LTL_RISK_GAMMA", "LTL_RISK_SOFT", "LTL_RISK_HARD")},
                     **protocol}
         save(manifest_path, manifest)
+    prior_status = load_json(out / 'suite_status.json')
+    accepted_protocols = {protocol_sha, *manifest.get('compatible_scheduler_protocols', [])}
     status = {"started_utc": utc(), "protocol_sha256": protocol_sha,
-              "expected_trials": len(jobs), "completed": [], "infrastructure_failures": []}
+              "expected_trials": len(jobs), "completed": [],
+              "infrastructure_failures": prior_status.get('infrastructure_failures', [])}
     server = None
     try:
         for case_index, case in enumerate(selected):
@@ -311,13 +333,19 @@ def main():
                 previous_execution = load_json(execution_path)
                 if (previous.get("trial_complete") is True and policy_path.exists() and
                         previous_execution.get("returncode") == 0 and
-                        previous_execution.get("protocol_sha256") == protocol_sha):
+                        previous_execution.get("protocol_sha256") in accepted_protocols):
                     status["completed"].append({"trial": stem, "outcome": previous.get("outcome"), "resumed": True})
                     save(out / "suite_status.json", status)
                     continue
+                start_attempt = 0
                 if any(path.exists() for path in (result_path, policy_path, log_path, execution_path)):
-                    archive_attempt(out, stem, -1, [result_path, policy_path, log_path, execution_path])
-                for attempt in range(args.infra_retries + 1):
+                    location = archive_attempt(out, stem, -1, [result_path, policy_path, log_path, execution_path])
+                    if previous_execution.get('error'):
+                        start_attempt = int(previous_execution.get('attempt', 0)) + 1
+                        if not any(x['trial'] == stem and x['attempt'] == start_attempt-1 for x in status['infrastructure_failures']):
+                            status['infrastructure_failures'].append({'trial': stem, 'attempt': start_attempt-1,
+                                'diagnostics': location, 'error': previous_execution['error']})
+                for attempt in range(start_attempt, args.infra_retries + 1):
                     began = time.perf_counter()
                     command = [sys.executable, str(HERE / "run_trial.py"),
                                "--town", town, "--route-index", str(job["route_index"]),
