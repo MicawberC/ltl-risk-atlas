@@ -1,0 +1,12 @@
+Town01_route0_double warm_lp tick 0 x -8.0 risk 1.0 plan_ms 192.203
+Town01_route0_double warm_lp tick 50 x -8.0 risk 1.0 plan_ms 8.558
+Town01_route0_double warm_lp tick 100 x -8.0 risk 1.0 plan_ms 8.435
+Town01_route0_double warm_lp tick 150 x -8.0 risk 1.0 plan_ms 14.68
+Town01_route0_double warm_lp tick 200 x -8.0 risk 1.0 plan_ms 8.582
+Town01_route0_double warm_lp tick 250 x -8.0 risk 1.0 plan_ms 8.421
+Town01_route0_double warm_lp tick 300 x -8.0 risk 1.0 plan_ms 8.323
+Town01_route0_double warm_lp tick 350 x -6.397 risk 1.0 plan_ms 8.487
+Town01_route0_double warm_lp tick 400 x -3.664 risk 1.978209 plan_ms 8.45
+Town01_route0_double warm_lp tick 450 x 2.573 risk 0.525592 plan_ms 8.519
+DRIVE END Town01_route0_double warm_lp goal 490
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 

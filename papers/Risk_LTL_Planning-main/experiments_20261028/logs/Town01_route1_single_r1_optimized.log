@@ -1,0 +1,17 @@
+Town01_route1_single optimized tick 0 x -8.0 risk 1.0 plan_ms 718.91
+Town01_route1_single optimized tick 50 x -8.0 risk 1.0 plan_ms 4.14
+Town01_route1_single optimized tick 100 x -8.0 risk 1.0 plan_ms 1.239
+Town01_route1_single optimized tick 150 x -8.0 risk 1.0 plan_ms 14.163
+Town01_route1_single optimized tick 200 x -7.174 risk 1.0 plan_ms 3.114
+Town01_route1_single optimized tick 250 x -6.978 risk 1.0 plan_ms 0.89
+Town01_route1_single optimized tick 300 x -6.978 risk 1.0 plan_ms 1.248
+Town01_route1_single optimized tick 350 x -6.978 risk 1.0 plan_ms 1.566
+Town01_route1_single optimized tick 400 x -6.804 risk 1.0 plan_ms 2.04
+Town01_route1_single optimized tick 450 x -6.784 risk 1.0 plan_ms 2.24
+Town01_route1_single optimized tick 500 x -5.248 risk 1.0 plan_ms 2.172
+Town01_route1_single optimized tick 550 x -5.248 risk 1.0 plan_ms 3.005
+Town01_route1_single optimized tick 600 x -5.248 risk 1.0 plan_ms 3.293
+Town01_route1_single optimized tick 650 x -5.043 risk 1.0 plan_ms 2.921
+Town01_route1_single optimized PLANNER FAILURE 667 RuntimeError: Layer policy iteration did not converge
+DRIVE END Town01_route1_single optimized planner_failure 667
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 

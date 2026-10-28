@@ -1,0 +1,12 @@
+Town01_route0_single optimized tick 0 x -8.0 risk 1.0 plan_ms 446.937
+Town01_route0_single optimized tick 50 x -8.0 risk 1.0 plan_ms 2.694
+Town01_route0_single optimized tick 100 x -8.0 risk 1.0 plan_ms 0.628
+Town01_route0_single optimized tick 150 x -8.0 risk 1.0 plan_ms 3.37
+Town01_route0_single optimized tick 200 x -8.0 risk 1.0 plan_ms 3.932
+Town01_route0_single optimized tick 250 x -6.393 risk 1.0 plan_ms 3.566
+Town01_route0_single optimized tick 300 x -5.662 risk 1.0 plan_ms 3.799
+Town01_route0_single optimized tick 350 x -5.662 risk 1.0 plan_ms 3.693
+Town01_route0_single optimized tick 400 x -3.45 risk 1.927905 plan_ms 2.764
+Town01_route0_single optimized tick 450 x 2.786 risk 0.506803 plan_ms 2.477
+DRIVE END Town01_route0_single optimized goal 488
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 

@@ -1,0 +1,3803 @@
+{
+  "trace": "Town01_route0_single_r0_warm_lp.json",
+  "trace_sha256": "f964f2f1a5f686fcf3bab0d1de22fb3ddd34c54caa2727332cf2554306cab376",
+  "source_method": "warm_lp",
+  "source_outcome": "goal",
+  "case": "Town01_route0_single",
+  "method": "optimized",
+  "repetition": 1,
+  "expected_queries": 421,
+  "rows": [
+    {
+      "tick": 0,
+      "plan_s": 0.4818273000018962,
+      "objective": 0.3325828553178207,
+      "risk": 1.0000000000000002,
+      "gap": 3.440779205998723e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 1,
+      "plan_s": 0.0003524000021570828,
+      "objective": 0.3320635733805872,
+      "risk": 1.0,
+      "gap": 0.0005193163450256111,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 2,
+      "plan_s": 0.00027179999960935675,
+      "objective": 0.3310239336199313,
+      "risk": 0.9999999999999999,
+      "gap": 0.0015589561056814638,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 3,
+      "plan_s": 0.0002632999967318028,
+      "objective": 0.3294717141297812,
+      "risk": 1.0,
+      "gap": 0.0031111755958315723,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 4,
+      "plan_s": 0.002221799997641938,
+      "objective": 0.32741038224716257,
+      "risk": 1.0000000000000002,
+      "gap": 3.4297504170055504e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 5,
+      "plan_s": 0.0002781000002869405,
+      "objective": 0.32485227742531736,
+      "risk": 0.9999999999999998,
+      "gap": 0.0025581391193493785,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 6,
+      "plan_s": 0.002105299998220289,
+      "objective": 0.3218055781386267,
+      "risk": 0.9999999999999999,
+      "gap": 3.417799793181686e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 7,
+      "plan_s": 0.0020987999996577855,
+      "objective": 0.3182872986437706,
+      "risk": 1.0,
+      "gap": 3.4102980883687906e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 8,
+      "plan_s": 0.002285999999003252,
+      "objective": 0.314313710000794,
+      "risk": 1.0,
+      "gap": 3.4018255545831266e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 9,
+      "plan_s": 0.002157499999157153,
+      "objective": 0.3099004576465356,
+      "risk": 1.0,
+      "gap": 3.392415587333275e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 10,
+      "plan_s": 0.002130199998646276,
+      "objective": 0.3050687858046659,
+      "risk": 0.9999999999999999,
+      "gap": 3.3821134781675255e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 11,
+      "plan_s": 0.00210259999948903,
+      "objective": 0.2998456017360273,
+      "risk": 0.9999999999999999,
+      "gap": 3.3709765645539846e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 12,
+      "plan_s": 0.021046300000307383,
+      "objective": 0.2942569485089837,
+      "risk": 1.0,
+      "gap": 5.0000017848272904e-08,
+      "scalarized_calls": 1,
+      "full_solve": false
+    },
+    {
+      "tick": 13,
+      "plan_s": 0.0023015000006125774,
+      "objective": 0.28832849319889176,
+      "risk": 1.0,
+      "gap": 3.346419696903524e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 14,
+      "plan_s": 0.002238799999759067,
+      "objective": 0.2823008395031363,
+      "risk": 1.0,
+      "gap": 3.333567472063592e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 15,
+      "plan_s": 0.0026816999998118263,
+      "objective": 0.2764197510109133,
+      "risk": 1.0,
+      "gap": 3.321027769453977e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 16,
+      "plan_s": 0.022390100002667168,
+      "objective": 0.2706794073195472,
+      "risk": 1.0,
+      "gap": 5.0000017848272904e-08,
+      "scalarized_calls": 1,
+      "full_solve": false
+    },
+    {
+      "tick": 17,
+      "plan_s": 0.002420299999357667,
+      "objective": 0.26508205792569955,
+      "risk": 1.0,
+      "gap": 3.296853456902227e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 18,
+      "plan_s": 0.002422399997158209,
+      "objective": 0.25962680963096696,
+      "risk": 1.0,
+      "gap": 3.285221727988841e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 19,
+      "plan_s": 0.002401600002485793,
+      "objective": 0.25431267599993207,
+      "risk": 1.0,
+      "gap": 3.273890902821819e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 20,
+      "plan_s": 0.023335000001679873,
+      "objective": 0.24913847689508528,
+      "risk": 1.0,
+      "gap": 5.000001768173945e-08,
+      "scalarized_calls": 1,
+      "full_solve": false
+    },
+    {
+      "tick": 21,
+      "plan_s": 0.002555300001404248,
+      "objective": 0.24410274528442938,
+      "risk": 1.0,
+      "gap": 4.7180745588182305e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 22,
+      "plan_s": 0.0026165999988734256,
+      "objective": 0.23920400766400554,
+      "risk": 1.0,
+      "gap": 4.723732338618447e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 23,
+      "plan_s": 0.0024537999997846782,
+      "objective": 0.234440502436554,
+      "risk": 0.9999999999999999,
+      "gap": 4.7292339266924444e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 24,
+      "plan_s": 0.0025778999988688156,
+      "objective": 0.2298104549200435,
+      "risk": 1.0,
+      "gap": 4.7345813714017027e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 25,
+      "plan_s": 0.002985800001624739,
+      "objective": 0.225311979989732,
+      "risk": 1.0,
+      "gap": 4.739776873763368e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 26,
+      "plan_s": 0.002551500001573004,
+      "objective": 0.22094299193438788,
+      "risk": 1.0,
+      "gap": 4.744822820756944e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 27,
+      "plan_s": 0.0029327000011107884,
+      "objective": 0.21670339290843468,
+      "risk": 1.0,
+      "gap": 4.7497193261802906e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 28,
+      "plan_s": 0.0032390000014856923,
+      "objective": 0.2125870718466465,
+      "risk": 1.0,
+      "gap": 4.7544734538274014e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 29,
+      "plan_s": 0.0029711999995925,
+      "objective": 0.20859376235136076,
+      "risk": 1.0,
+      "gap": 4.7590855090096085e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 30,
+      "plan_s": 0.002551300000050105,
+      "objective": 0.2047212350533086,
+      "risk": 1.0,
+      "gap": 4.7635580702198865e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 31,
+      "plan_s": 0.00271710000015446,
+      "objective": 0.20096722459316899,
+      "risk": 1.0,
+      "gap": 4.7678937464823434e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 32,
+      "plan_s": 0.002435999998851912,
+      "objective": 0.19732934246181866,
+      "risk": 1.0,
+      "gap": 4.77209528004785e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 33,
+      "plan_s": 0.0024295000002894085,
+      "objective": 0.19380528341905584,
+      "risk": 1.0,
+      "gap": 4.776165382636144e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 34,
+      "plan_s": 0.002382800001214491,
+      "objective": 0.1903927331110986,
+      "risk": 1.0,
+      "gap": 4.780106718782484e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 35,
+      "plan_s": 0.0023657000019738916,
+      "objective": 0.1870892824201236,
+      "risk": 1.0,
+      "gap": 4.7839220251866266e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 36,
+      "plan_s": 0.002330999999685446,
+      "objective": 0.18389265514329944,
+      "risk": 1.0,
+      "gap": 4.7876139552816e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 37,
+      "plan_s": 0.0025855999992927536,
+      "objective": 0.18080046395898827,
+      "risk": 1.0,
+      "gap": 4.7911852679716205e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 38,
+      "plan_s": 0.0029020000001764856,
+      "objective": 0.17781043336084415,
+      "risk": 1.0,
+      "gap": 4.794638591709699e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 39,
+      "plan_s": 0.003049700000701705,
+      "objective": 0.17492031041780398,
+      "risk": 0.9999999999999999,
+      "gap": 4.7979765271932706e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 40,
+      "plan_s": 0.0025693999996292405,
+      "objective": 0.1721290702834432,
+      "risk": 1.0,
+      "gap": 4.801200259585414e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 41,
+      "plan_s": 0.002527399999962654,
+      "objective": 0.16943190072571837,
+      "risk": 1.0,
+      "gap": 4.804315345552368e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 42,
+      "plan_s": 0.002558700001827674,
+      "objective": 0.16682797962106796,
+      "risk": 1.0,
+      "gap": 4.8073227315592604e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 43,
+      "plan_s": 0.0024154999991878867,
+      "objective": 0.1643151049225695,
+      "risk": 1.0,
+      "gap": 4.8102249627923754e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 44,
+      "plan_s": 0.0025752000001375563,
+      "objective": 0.1618912035197651,
+      "risk": 1.0,
+      "gap": 4.8130244428845614e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 45,
+      "plan_s": 0.0038531999998667743,
+      "objective": 0.15955424615421512,
+      "risk": 1.0,
+      "gap": 4.8157235060797277e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 46,
+      "plan_s": 0.002332099997147452,
+      "objective": 0.15730216792396937,
+      "risk": 1.0,
+      "gap": 4.8183245310307043e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 47,
+      "plan_s": 0.002358300000196323,
+      "objective": 0.15513306338993085,
+      "risk": 1.0,
+      "gap": 4.820829729856868e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 48,
+      "plan_s": 0.0024481000000378117,
+      "objective": 0.15304496887261168,
+      "risk": 1.0,
+      "gap": 4.823241367413189e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 49,
+      "plan_s": 0.002287600000272505,
+      "objective": 0.15103605426282618,
+      "risk": 1.0,
+      "gap": 4.825561555898972e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 50,
+      "plan_s": 0.002265600000100676,
+      "objective": 0.14910454151311642,
+      "risk": 1.0,
+      "gap": 4.8277923492268116e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 51,
+      "plan_s": 0.0025448000014876015,
+      "objective": 0.14724862807431377,
+      "risk": 1.0,
+      "gap": 4.829935826289322e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 52,
+      "plan_s": 0.002323599997907877,
+      "objective": 0.14546746455351975,
+      "risk": 1.0,
+      "gap": 4.831992972409438e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 53,
+      "plan_s": 0.002213100000517443,
+      "objective": 0.14375776371154592,
+      "risk": 0.9999999999999999,
+      "gap": 4.8339675873254606e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 54,
+      "plan_s": 0.0021999999989930075,
+      "objective": 0.14211874410242506,
+      "risk": 1.0,
+      "gap": 4.8358605425624646e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 55,
+      "plan_s": 0.002207900000939844,
+      "objective": 0.14054890284527274,
+      "risk": 1.0,
+      "gap": 4.837673620028404e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 56,
+      "plan_s": 0.002215299999079434,
+      "objective": 0.13904679211216045,
+      "risk": 1.0,
+      "gap": 4.8394084795067016e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 57,
+      "plan_s": 0.0022344999997585546,
+      "objective": 0.1376109459129274,
+      "risk": 1.0,
+      "gap": 4.841066802985239e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 58,
+      "plan_s": 0.002423499998258194,
+      "objective": 0.13624002854285144,
+      "risk": 1.0,
+      "gap": 4.842650161429596e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 59,
+      "plan_s": 0.0003469000002951361,
+      "objective": 0.13493275918835207,
+      "risk": 1.0,
+      "gap": 0.0013073177810009884,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 60,
+      "plan_s": 0.0022915000008651987,
+      "objective": 0.1336878402470471,
+      "risk": 1.0,
+      "gap": 4.8455978035599756e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 61,
+      "plan_s": 0.00035600000046542846,
+      "objective": 0.13250412545460277,
+      "risk": 0.9999999999999999,
+      "gap": 0.0011837632484223704,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 62,
+      "plan_s": 0.002298399998835521,
+      "objective": 0.13138042800974495,
+      "risk": 1.0,
+      "gap": 4.848262738499365e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 63,
+      "plan_s": 0.00035939999725087546,
+      "objective": 0.13031568692218143,
+      "risk": 1.0,
+      "gap": 0.001064789570190905,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 64,
+      "plan_s": 0.002314100001967745,
+      "objective": 0.12930889458004213,
+      "risk": 1.0,
+      "gap": 4.850655302424123e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 65,
+      "plan_s": 0.000365700001566438,
+      "objective": 0.12835946006449409,
+      "risk": 1.0,
+      "gap": 0.0009494830221010719,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 66,
+      "plan_s": 0.0023223999996844213,
+      "objective": 0.1274655911797562,
+      "risk": 1.0,
+      "gap": 4.852784166176072e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 67,
+      "plan_s": 0.0003636999972513877,
+      "objective": 0.12662689860687812,
+      "risk": 1.0,
+      "gap": 0.0008387411007197421,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 68,
+      "plan_s": 0.0022936000023037195,
+      "objective": 0.1258425176875818,
+      "risk": 0.9999999999999999,
+      "gap": 4.854658727793115e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 69,
+      "plan_s": 0.000369400000636233,
+      "objective": 0.12511170404254762,
+      "risk": 1.0,
+      "gap": 0.0007308621916214675,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 70,
+      "plan_s": 0.0026027999992948025,
+      "objective": 0.12443376413925851,
+      "risk": 1.0,
+      "gap": 4.8562857596357034e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 71,
+      "plan_s": 0.00042920000123558566,
+      "objective": 0.12380798807436484,
+      "risk": 1.0,
+      "gap": 0.0006258246277512647,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 72,
+      "plan_s": 0.0004970999980287161,
+      "objective": 0.12323380598022884,
+      "risk": 1.0,
+      "gap": 0.0012000067218872618,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 73,
+      "plan_s": 0.002463600001647137,
+      "objective": 0.12271060889033898,
+      "risk": 1.0,
+      "gap": 4.858275910735177e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 74,
+      "plan_s": 0.0003830999994534068,
+      "objective": 0.12223790426706437,
+      "risk": 1.0,
+      "gap": 0.00047275320603372417,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 75,
+      "plan_s": 0.0003659000030893367,
+      "objective": 0.1218152485432584,
+      "risk": 1.0,
+      "gap": 0.0008954089298396917,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 76,
+      "plan_s": 0.002359899997827597,
+      "objective": 0.12144218121717075,
+      "risk": 1.0,
+      "gap": 4.859740874996188e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 77,
+      "plan_s": 0.0003795000011450611,
+      "objective": 0.12111849695783874,
+      "risk": 1.0,
+      "gap": 0.0003237328567407549,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 78,
+      "plan_s": 0.0003606999998737592,
+      "objective": 0.12084359411981874,
+      "risk": 0.9999999999999999,
+      "gap": 0.000598635694760763,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 79,
+      "plan_s": 0.00035990000105812214,
+      "objective": 0.12061732132254434,
+      "risk": 1.0,
+      "gap": 0.0008249084920351618,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 80,
+      "plan_s": 0.0003622999975050334,
+      "objective": 0.12043947697922587,
+      "risk": 1.0,
+      "gap": 0.0010027528353536291,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 81,
+      "plan_s": 0.00036360000012791716,
+      "objective": 0.12030990710517211,
+      "risk": 1.0,
+      "gap": 0.0011323227094073851,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 82,
+      "plan_s": 0.002360200000111945,
+      "objective": 0.1202284403433148,
+      "risk": 1.0,
+      "gap": 4.8611426814448855e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 83,
+      "plan_s": 0.0003744999994523823,
+      "objective": 0.12019501789728372,
+      "risk": 1.0,
+      "gap": 3.3471057457892806e-05,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 84,
+      "plan_s": 0.0003656999979284592,
+      "objective": 0.12020962835581932,
+      "risk": 1.0,
+      "gap": 1.886059892229619e-05,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 85,
+      "plan_s": 0.00037460000021383166,
+      "objective": 0.1202722429070849,
+      "risk": 0.9999999999999999,
+      "gap": 0.001169986907494605,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 86,
+      "plan_s": 0.000361700000212295,
+      "objective": 0.1203829666540957,
+      "risk": 0.9999999999999999,
+      "gap": 0.0010592631604837977,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 87,
+      "plan_s": 0.00036530000215861946,
+      "objective": 0.12054186573539112,
+      "risk": 1.0,
+      "gap": 0.0009003640791883788,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 88,
+      "plan_s": 0.000369400000636233,
+      "objective": 0.1207491187112033,
+      "risk": 1.0,
+      "gap": 0.0006931111033762066,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 89,
+      "plan_s": 0.00036530000215861946,
+      "objective": 0.1210049519137078,
+      "risk": 1.0,
+      "gap": 0.0004372779008716965,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 90,
+      "plan_s": 0.00037089999750605784,
+      "objective": 0.12130942002239306,
+      "risk": 1.0,
+      "gap": 0.00013280979218643907,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 91,
+      "plan_s": 0.000423699999373639,
+      "objective": 0.12166313118754372,
+      "risk": 1.0,
+      "gap": 0.0010475262855543649,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 92,
+      "plan_s": 0.0003738999985216651,
+      "objective": 0.12206632452736985,
+      "risk": 0.9999999999999999,
+      "gap": 0.0006443329457282432,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 93,
+      "plan_s": 0.0003606999998737592,
+      "objective": 0.12251935391026313,
+      "risk": 1.0,
+      "gap": 0.00019130356283496297,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 94,
+      "plan_s": 0.0024009000007936265,
+      "objective": 0.12302268735562821,
+      "risk": 1.0,
+      "gap": 4.857915478218011e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 95,
+      "plan_s": 0.000378099997760728,
+      "objective": 0.12357684229282351,
+      "risk": 0.9999999999999999,
+      "gap": 0.0008569704092925984,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 96,
+      "plan_s": 0.000374399998690933,
+      "objective": 0.12418231978989297,
+      "risk": 1.0,
+      "gap": 0.0002514929122231363,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 97,
+      "plan_s": 0.0003761000007216353,
+      "objective": 0.12483975879141831,
+      "risk": 1.0,
+      "gap": 0.001002807442750775,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 98,
+      "plan_s": 0.0003728000010596588,
+      "objective": 0.1255497602645777,
+      "risk": 0.9999999999999998,
+      "gap": 0.0002928059695913865,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 99,
+      "plan_s": 0.0003848000014841091,
+      "objective": 0.12631304218227588,
+      "risk": 1.0,
+      "gap": 0.0011525975253219856,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 100,
+      "plan_s": 0.00036949999775970355,
+      "objective": 0.12713037405883357,
+      "risk": 1.0,
+      "gap": 0.00033526564876429354,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 101,
+      "plan_s": 0.0023639999999431893,
+      "objective": 0.12800250978922528,
+      "risk": 1.0,
+      "gap": 4.8521640511056674e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 102,
+      "plan_s": 0.00037929999962216243,
+      "objective": 0.12892987365784053,
+      "risk": 1.0,
+      "gap": 0.0003790694287546248,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 103,
+      "plan_s": 0.0023499999988416675,
+      "objective": 0.12991426258290134,
+      "risk": 1.0,
+      "gap": 4.84995613392325e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 104,
+      "plan_s": 0.0003882000019075349,
+      "objective": 0.13095616486519707,
+      "risk": 1.0,
+      "gap": 0.0004243116271752667,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 105,
+      "plan_s": 0.0023407000007864553,
+      "objective": 0.13205661288148174,
+      "risk": 1.0,
+      "gap": 4.847481779868268e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 106,
+      "plan_s": 0.00038689999928465113,
+      "objective": 0.133216693453785,
+      "risk": 0.9999999999999998,
+      "gap": 0.0004711952492401361,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 107,
+      "plan_s": 0.002316699999937555,
+      "objective": 0.1344374781490156,
+      "risk": 1.0,
+      "gap": 4.8447320100120095e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 108,
+      "plan_s": 0.0003896999987773597,
+      "objective": 0.13572016265587966,
+      "risk": 1.0,
+      "gap": 0.0005199143134733963,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 109,
+      "plan_s": 0.0003733000012289267,
+      "objective": 0.13706599837695438,
+      "risk": 1.0,
+      "gap": 0.0005449959466410637,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 110,
+      "plan_s": 0.00037900000097579323,
+      "objective": 0.13847622105907362,
+      "risk": 0.9999999999999998,
+      "gap": 0.0005706194471716275,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 111,
+      "plan_s": 0.0005802000014227815,
+      "objective": 0.13995219296105935,
+      "risk": 1.0,
+      "gap": 0.000596758260949598,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 112,
+      "plan_s": 0.0003977999986091163,
+      "objective": 0.14149530861980913,
+      "risk": 1.0,
+      "gap": 0.0006234838412213506,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 113,
+      "plan_s": 0.0003805999986070674,
+      "objective": 0.14310699403702437,
+      "risk": 1.0,
+      "gap": 0.0006508180141974185,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 114,
+      "plan_s": 0.000378400000045076,
+      "objective": 0.1447888045250846,
+      "risk": 1.0,
+      "gap": 0.0006787083483648648,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 115,
+      "plan_s": 0.00038499999936902896,
+      "objective": 0.14654143793441624,
+      "risk": 0.9999999999999999,
+      "gap": 0.0007072384392557973,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 116,
+      "plan_s": 0.00037929999962216243,
+      "objective": 0.14836815830164987,
+      "risk": 1.0,
+      "gap": 0.0007364314893900381,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 117,
+      "plan_s": 0.0003788999965763651,
+      "objective": 0.1502698076054626,
+      "risk": 0.9999999999999999,
+      "gap": 0.0007662949129791374,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 118,
+      "plan_s": 0.0003768999995372724,
+      "objective": 0.15224816503374114,
+      "risk": 1.0,
+      "gap": 0.0007968520712842153,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 119,
+      "plan_s": 0.0003805999986070674,
+      "objective": 0.15430498846487423,
+      "risk": 1.0,
+      "gap": 0.0008281231333539252,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 120,
+      "plan_s": 0.0005315999987942632,
+      "objective": 0.15644208837839815,
+      "risk": 1.0,
+      "gap": 0.0008601277288165232,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 121,
+      "plan_s": 0.00042829999802052043,
+      "objective": 0.15866140595364006,
+      "risk": 1.0,
+      "gap": 0.0008928883578101232,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 122,
+      "plan_s": 0.004009099997347221,
+      "objective": 0.16096485583687642,
+      "risk": 1.0,
+      "gap": 4.814094325955587e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 123,
+      "plan_s": 0.0023134000002755783,
+      "objective": 0.16335442840776662,
+      "risk": 1.0,
+      "gap": 4.811334497478725e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 124,
+      "plan_s": 0.002232700000604382,
+      "objective": 0.16583213492417803,
+      "risk": 1.0,
+      "gap": 4.80847293649056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 125,
+      "plan_s": 0.0022433999984059483,
+      "objective": 0.16840011409684733,
+      "risk": 1.0,
+      "gap": 4.805507006211407e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 126,
+      "plan_s": 0.002336600002308842,
+      "objective": 0.17106046721657622,
+      "risk": 0.9999999999999999,
+      "gap": 4.802434444561854e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 127,
+      "plan_s": 0.002318299997568829,
+      "objective": 0.17381401943223682,
+      "risk": 1.0,
+      "gap": 4.7992542134833727e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 128,
+      "plan_s": 0.002285800001118332,
+      "objective": 0.1766656196291196,
+      "risk": 1.0,
+      "gap": 4.7959608479031246e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 129,
+      "plan_s": 0.0021969000008539297,
+      "objective": 0.17961621035237324,
+      "risk": 1.0,
+      "gap": 4.792553021104595e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 130,
+      "plan_s": 0.002248400000098627,
+      "objective": 0.18266806337163738,
+      "risk": 1.0,
+      "gap": 4.7890282961482455e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 131,
+      "plan_s": 0.0022312999972200487,
+      "objective": 0.18582344699015518,
+      "risk": 1.0,
+      "gap": 4.785383997396586e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 132,
+      "plan_s": 0.0022004999991622753,
+      "objective": 0.18908473846704224,
+      "risk": 1.0,
+      "gap": 4.781617382598746e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 133,
+      "plan_s": 0.0023320000000239816,
+      "objective": 0.19245424301314404,
+      "risk": 1.0,
+      "gap": 4.777725787219467e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 134,
+      "plan_s": 0.0029936999999335967,
+      "objective": 0.19593427397366603,
+      "risk": 1.0,
+      "gap": 4.7737065411723734e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 135,
+      "plan_s": 0.0030392000007850584,
+      "objective": 0.19952723856890395,
+      "risk": 1.0,
+      "gap": 4.7695568577976744e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 136,
+      "plan_s": 0.0028775999999197666,
+      "objective": 0.20323544892258494,
+      "risk": 1.0,
+      "gap": 4.765274078111226e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 137,
+      "plan_s": 0.002263999998831423,
+      "objective": 0.20706123488408826,
+      "risk": 1.0,
+      "gap": 4.760855507046635e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 138,
+      "plan_s": 0.0022160000007716008,
+      "objective": 0.21100687336508608,
+      "risk": 1.0,
+      "gap": 4.756298505048662e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 139,
+      "plan_s": 0.0022287000028882176,
+      "objective": 0.215074706230132,
+      "risk": 1.0,
+      "gap": 4.751600377050913e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 140,
+      "plan_s": 0.0022251999980653636,
+      "objective": 0.2192649421086828,
+      "risk": 1.0,
+      "gap": 4.746760884355439e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 141,
+      "plan_s": 0.002538499997172039,
+      "objective": 0.22358370302292147,
+      "risk": 0.9999999999999999,
+      "gap": 4.741772949290457e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 142,
+      "plan_s": 0.0022556000003532972,
+      "objective": 0.22803114019038676,
+      "risk": 1.0,
+      "gap": 4.7366364025469565e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 143,
+      "plan_s": 0.0022515000018756837,
+      "objective": 0.23260936793188808,
+      "risk": 1.0,
+      "gap": 4.7313487933076104e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 144,
+      "plan_s": 0.002269299999170471,
+      "objective": 0.237320312265152,
+      "risk": 1.0,
+      "gap": 4.7259079066774845e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 145,
+      "plan_s": 0.002293099998496473,
+      "objective": 0.24216579477314434,
+      "risk": 1.0,
+      "gap": 4.7203116360083897e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 146,
+      "plan_s": 0.0023094999996828847,
+      "objective": 0.24714762248456043,
+      "risk": 1.0,
+      "gap": 4.7145578940810395e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 147,
+      "plan_s": 0.006750699998519849,
+      "objective": 0.2522673660913664,
+      "risk": 1.0,
+      "gap": 3.2695298746165946e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 148,
+      "plan_s": 0.0029174000010243617,
+      "objective": 0.25752648056541544,
+      "risk": 1.0,
+      "gap": 3.280743376965489e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 149,
+      "plan_s": 0.0028870999994978774,
+      "objective": 0.26292621783600245,
+      "risk": 1.0,
+      "gap": 3.29225675610445e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 150,
+      "plan_s": 0.002906400000938447,
+      "objective": 0.26846775274371054,
+      "risk": 1.0,
+      "gap": 3.304072454524132e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 151,
+      "plan_s": 0.003316800000902731,
+      "objective": 0.27415194956507566,
+      "risk": 1.0,
+      "gap": 3.316192370705906e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 152,
+      "plan_s": 0.007551800001238007,
+      "objective": 0.27997667935843873,
+      "risk": 1.0,
+      "gap": 3.328611902775336e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 153,
+      "plan_s": 0.0031801999975868966,
+      "objective": 0.28594792402293506,
+      "risk": 0.9999999999999999,
+      "gap": 3.341343840501665e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 154,
+      "plan_s": 0.0031845000012253877,
+      "objective": 0.29206311984598377,
+      "risk": 1.0,
+      "gap": 3.3543826882809213e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 155,
+      "plan_s": 0.003516900000249734,
+      "objective": 0.2983221610490247,
+      "risk": 1.0,
+      "gap": 3.367728257375191e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 156,
+      "plan_s": 0.00918660000024829,
+      "objective": 0.30472460250758937,
+      "risk": 1.0,
+      "gap": 3.381379620748248e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 157,
+      "plan_s": 0.003192799998942064,
+      "objective": 0.3112697930678568,
+      "risk": 1.0,
+      "gap": 3.395335296252355e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 158,
+      "plan_s": 0.003979699999035802,
+      "objective": 0.317956626701332,
+      "risk": 1.0,
+      "gap": 3.4095930523392326e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 159,
+      "plan_s": 0.003679299999930663,
+      "objective": 0.32478363679301264,
+      "risk": 1.0,
+      "gap": 3.424149624953188e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 160,
+      "plan_s": 0.0036264000009396113,
+      "objective": 0.3317490961123069,
+      "risk": 1.0,
+      "gap": 3.439001450278312e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 161,
+      "plan_s": 0.0035860999996657483,
+      "objective": 0.3388507650233031,
+      "risk": 1.0,
+      "gap": 3.4541437099466776e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 162,
+      "plan_s": 0.0036274999984016176,
+      "objective": 0.34608603104871116,
+      "risk": 1.0,
+      "gap": 3.4695707640253204e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 163,
+      "plan_s": 0.0034205000010842923,
+      "objective": 0.3534518150063752,
+      "risk": 1.0,
+      "gap": 3.4852761843229274e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 164,
+      "plan_s": 0.003088100002059946,
+      "objective": 0.3609447174568927,
+      "risk": 1.0,
+      "gap": 3.5012525712030396e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 165,
+      "plan_s": 0.0030270000024756882,
+      "objective": 0.36855716403546673,
+      "risk": 1.0,
+      "gap": 3.517483893045181e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 166,
+      "plan_s": 0.0029830999992555007,
+      "objective": 0.3762919164211528,
+      "risk": 1.0,
+      "gap": 3.533976022929153e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 167,
+      "plan_s": 0.002993800000695046,
+      "objective": 0.384140528569738,
+      "risk": 1.0,
+      "gap": 3.550710886424113e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 168,
+      "plan_s": 0.0034239999986311886,
+      "objective": 0.3920977510831894,
+      "risk": 1.0,
+      "gap": 3.567677314686435e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 169,
+      "plan_s": 0.0041095000015047844,
+      "objective": 0.4001577408243619,
+      "risk": 1.0,
+      "gap": 3.584862912076048e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 170,
+      "plan_s": 0.00348659999872325,
+      "objective": 0.40831418399376934,
+      "risk": 1.0,
+      "gap": 3.6022541394231666e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 171,
+      "plan_s": 0.003692300000693649,
+      "objective": 0.4165604228661652,
+      "risk": 1.0,
+      "gap": 3.6198368358331123e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 172,
+      "plan_s": 0.0032231000004685484,
+      "objective": 0.42488922231841,
+      "risk": 1.0,
+      "gap": 3.6375955636547275e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 173,
+      "plan_s": 0.003352799998538103,
+      "objective": 0.43329294424843356,
+      "risk": 1.0,
+      "gap": 3.6555140636718164e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 174,
+      "plan_s": 0.003566899998986628,
+      "objective": 0.44176348381533864,
+      "risk": 1.0,
+      "gap": 3.673575016405195e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 175,
+      "plan_s": 0.0034014000011666212,
+      "objective": 0.4502924497556383,
+      "risk": 1.0,
+      "gap": 3.691760519508591e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 176,
+      "plan_s": 0.003087799999775598,
+      "objective": 0.4588709487167724,
+      "risk": 1.0,
+      "gap": 3.710051693639471e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 177,
+      "plan_s": 0.0030761000016354956,
+      "objective": 0.4674856801464032,
+      "risk": 1.0,
+      "gap": 3.728420083781714e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 178,
+      "plan_s": 0.003180899999279063,
+      "objective": 0.47613529066847876,
+      "risk": 1.0,
+      "gap": 3.7468628200088006e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 179,
+      "plan_s": 0.003196499998011859,
+      "objective": 0.48480588867202085,
+      "risk": 1.0,
+      "gap": 3.765350370388276e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 180,
+      "plan_s": 0.0031367000010504853,
+      "objective": 0.49348741283391506,
+      "risk": 1.0,
+      "gap": 3.7838611133267364e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 181,
+      "plan_s": 0.003021299999090843,
+      "objective": 0.5021695596555965,
+      "risk": 1.0,
+      "gap": 3.802373316208474e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 182,
+      "plan_s": 0.0029928000003565103,
+      "objective": 0.5108419797154395,
+      "risk": 1.0,
+      "gap": 3.82086471351073e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 183,
+      "plan_s": 0.0032266000016534235,
+      "objective": 0.5194940980395244,
+      "risk": 1.0,
+      "gap": 3.839312789910565e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 184,
+      "plan_s": 0.0032281999992846977,
+      "objective": 0.5281152796258918,
+      "risk": 1.0,
+      "gap": 3.8576950189828096e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 185,
+      "plan_s": 0.003100800000538584,
+      "objective": 0.5366949877786664,
+      "risk": 1.0,
+      "gap": 3.875988729973301e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 186,
+      "plan_s": 0.0030520000000251457,
+      "objective": 0.5452226180121299,
+      "risk": 1.0,
+      "gap": 3.894171385354639e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 187,
+      "plan_s": 0.0030508999989251606,
+      "objective": 0.5536876971878836,
+      "risk": 1.0,
+      "gap": 3.91222071405295e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 188,
+      "plan_s": 0.003097900000284426,
+      "objective": 0.5620798661345097,
+      "risk": 1.0,
+      "gap": 3.9301145449144315e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 189,
+      "plan_s": 0.003044599998247577,
+      "objective": 0.5703890673491055,
+      "risk": 1.0,
+      "gap": 3.947831461736939e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 190,
+      "plan_s": 0.003052599997317884,
+      "objective": 0.5786015581262304,
+      "risk": 1.0,
+      "gap": 3.9653421768370833e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 191,
+      "plan_s": 0.0030484000017168,
+      "objective": 0.5867154836364875,
+      "risk": 1.0,
+      "gap": 3.982642815536508e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 192,
+      "plan_s": 0.0030643999998574145,
+      "objective": 0.5947177077167272,
+      "risk": 1.0000000000000002,
+      "gap": 3.999705167068157e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 193,
+      "plan_s": 0.0032608000001346227,
+      "objective": 0.6025994600463292,
+      "risk": 1.0,
+      "gap": 4.0165107240142106e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 194,
+      "plan_s": 0.003439200001594145,
+      "objective": 0.6103523107507914,
+      "risk": 1.0,
+      "gap": 4.0330414230460576e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 195,
+      "plan_s": 0.0030993999971542507,
+      "objective": 0.6179683051639147,
+      "risk": 1.0,
+      "gap": 4.0492802888536517e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 196,
+      "plan_s": 0.0029777999989164528,
+      "objective": 0.6254400804616402,
+      "risk": 1.0,
+      "gap": 4.065211611781194e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 197,
+      "plan_s": 0.002936500000942033,
+      "objective": 0.6327607226012302,
+      "risk": 1.0,
+      "gap": 4.0808207923959117e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 198,
+      "plan_s": 0.002984800001286203,
+      "objective": 0.6399239072920898,
+      "risk": 1.0,
+      "gap": 4.0960941971590614e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 199,
+      "plan_s": 0.003709699998580618,
+      "objective": 0.6469238661708593,
+      "risk": 1.0,
+      "gap": 4.111019569208452e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 200,
+      "plan_s": 0.006391999999323161,
+      "objective": 0.6537555033977693,
+      "risk": 1.0,
+      "gap": 4.125586028358441e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 201,
+      "plan_s": 0.003135000002657762,
+      "objective": 0.660414253687078,
+      "risk": 1.0,
+      "gap": 4.139783815748643e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 202,
+      "plan_s": 0.003108000000793254,
+      "objective": 0.6668931673303699,
+      "risk": 0.9999999999999999,
+      "gap": 4.1535982875373634e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 203,
+      "plan_s": 0.003494599997793557,
+      "objective": 0.6731950663437227,
+      "risk": 1.0,
+      "gap": 4.16703522798656e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 204,
+      "plan_s": 0.0036605999994208105,
+      "objective": 0.6793141422010103,
+      "risk": 1.0,
+      "gap": 4.180082413540731e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 205,
+      "plan_s": 0.003122599999187514,
+      "objective": 0.6852482986658036,
+      "risk": 1.0,
+      "gap": 4.1927352811832463e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 206,
+      "plan_s": 0.0031011999999464024,
+      "objective": 0.6909960126831535,
+      "risk": 1.0,
+      "gap": 4.204990600165104e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 207,
+      "plan_s": 0.0030638999996881466,
+      "objective": 0.6965563966998414,
+      "risk": 1.0,
+      "gap": 4.2168464720049315e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 208,
+      "plan_s": 0.0032865000030142255,
+      "objective": 0.7019290622602892,
+      "risk": 1.0,
+      "gap": 4.228302064035461e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 209,
+      "plan_s": 0.003129400000034366,
+      "objective": 0.7071141606244083,
+      "risk": 1.0,
+      "gap": 4.239357787039211e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 210,
+      "plan_s": 0.0031161000006250106,
+      "objective": 0.7121124064332077,
+      "risk": 1.0,
+      "gap": 4.2500150398971925e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 211,
+      "plan_s": 0.0030630999972345307,
+      "objective": 0.7169249475597984,
+      "risk": 0.9999999999999999,
+      "gap": 4.2602763650201325e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 212,
+      "plan_s": 0.0030822000007901806,
+      "objective": 0.7215534061477449,
+      "risk": 1.0,
+      "gap": 4.270145259610558e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 213,
+      "plan_s": 0.00305579999985639,
+      "objective": 0.7259998168817661,
+      "risk": 0.9999999999999999,
+      "gap": 4.2796258648003516e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 214,
+      "plan_s": 0.0030016000018804334,
+      "objective": 0.730266652105807,
+      "risk": 1.0,
+      "gap": 4.2887236872957146e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 215,
+      "plan_s": 0.0030009999973117374,
+      "objective": 0.7343548248638082,
+      "risk": 1.0,
+      "gap": 4.297440470146796e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 216,
+      "plan_s": 0.003015000002051238,
+      "objective": 0.7382713118465479,
+      "risk": 1.0,
+      "gap": 4.3057912901822704e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 217,
+      "plan_s": 0.002996899998834124,
+      "objective": 0.7420175756366563,
+      "risk": 1.0,
+      "gap": 4.313779100595383e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 218,
+      "plan_s": 0.0030369000014616176,
+      "objective": 0.7455973405978858,
+      "risk": 1.0,
+      "gap": 4.3214119060941414e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 219,
+      "plan_s": 0.0031839000002946705,
+      "objective": 0.7490145296527612,
+      "risk": 1.0,
+      "gap": 4.328698066657921e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 220,
+      "plan_s": 0.003315399997518398,
+      "objective": 0.7522732706646996,
+      "risk": 1.0,
+      "gap": 4.335646375253077e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 221,
+      "plan_s": 0.003322600001411047,
+      "objective": 0.7553778932025229,
+      "risk": 0.9999999999999999,
+      "gap": 4.342266135548556e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 222,
+      "plan_s": 0.0031835999980103225,
+      "objective": 0.7583328401387761,
+      "risk": 1.0,
+      "gap": 4.348566629008843e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 223,
+      "plan_s": 0.003127100000710925,
+      "objective": 0.7611426798555224,
+      "risk": 1.0,
+      "gap": 4.3545578809478513e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 224,
+      "plan_s": 0.0031123000007937662,
+      "objective": 0.763812061998502,
+      "risk": 1.0,
+      "gap": 4.360249483692513e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 225,
+      "plan_s": 0.003493000000162283,
+      "objective": 0.7663457233913666,
+      "risk": 1.0,
+      "gap": 4.365651828930339e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 226,
+      "plan_s": 0.0030866999986756127,
+      "objective": 0.7687484175887648,
+      "risk": 1.0,
+      "gap": 4.370774819850709e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 227,
+      "plan_s": 0.003056600002310006,
+      "objective": 0.7710238786397365,
+      "risk": 1.0,
+      "gap": 4.375626572183933e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 228,
+      "plan_s": 0.0031032999977469444,
+      "objective": 0.7731790341557901,
+      "risk": 1.0000000000000002,
+      "gap": 4.380221807487317e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 229,
+      "plan_s": 0.0032171000020753127,
+      "objective": 0.7752175381857737,
+      "risk": 1.0,
+      "gap": 4.384568330628724e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 230,
+      "plan_s": 0.003978200002165977,
+      "objective": 0.7771441126927092,
+      "risk": 1.0,
+      "gap": 4.388676222433219e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 231,
+      "plan_s": 0.0031508000029134564,
+      "objective": 0.7789634225961242,
+      "risk": 0.9999999999999999,
+      "gap": 4.39255537498795e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 232,
+      "plan_s": 0.0031098999970708974,
+      "objective": 0.7806800820063043,
+      "risk": 1.0,
+      "gap": 4.396215547153304e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 233,
+      "plan_s": 0.0031202999998640735,
+      "objective": 0.782298611677037,
+      "risk": 1.0,
+      "gap": 4.399666708732042e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 234,
+      "plan_s": 0.003584699999919394,
+      "objective": 0.7838234448724737,
+      "risk": 1.0,
+      "gap": 4.4029178969395844e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 235,
+      "plan_s": 0.0038022999979148153,
+      "objective": 0.785258929151439,
+      "risk": 1.0,
+      "gap": 4.4059787152050944e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 236,
+      "plan_s": 0.0032950000022538006,
+      "objective": 0.786609293490195,
+      "risk": 1.0,
+      "gap": 4.408857856574855e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 237,
+      "plan_s": 0.0032603999970888253,
+      "objective": 0.787878658436276,
+      "risk": 1.0,
+      "gap": 4.411564402673207e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 238,
+      "plan_s": 0.003103000002738554,
+      "objective": 0.7890710232111212,
+      "risk": 1.0,
+      "gap": 4.414106746786217e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 239,
+      "plan_s": 0.0030363000005309004,
+      "objective": 0.7901902736353048,
+      "risk": 1.0,
+      "gap": 4.416493304404412e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 240,
+      "plan_s": 0.0035719000006793067,
+      "objective": 0.7912396825613554,
+      "risk": 1.0,
+      "gap": 4.418730814581551e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 241,
+      "plan_s": 0.003911600000719773,
+      "objective": 0.7922238590252196,
+      "risk": 1.0,
+      "gap": 4.420829302631546e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 242,
+      "plan_s": 0.003787699999520555,
+      "objective": 0.7931457860964455,
+      "risk": 1.0,
+      "gap": 4.422795063518947e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 243,
+      "plan_s": 0.003782099996897159,
+      "objective": 0.7940088314788567,
+      "risk": 1.0,
+      "gap": 4.4246352581822634e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 244,
+      "plan_s": 0.0036452999993343838,
+      "objective": 0.7948162241951519,
+      "risk": 1.0,
+      "gap": 4.426356814413168e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 245,
+      "plan_s": 0.0035516999996616505,
+      "objective": 0.7955710628375618,
+      "risk": 1.0,
+      "gap": 4.427966338038658e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 246,
+      "plan_s": 0.0033500999998068437,
+      "objective": 0.7962763215606449,
+      "risk": 1.0,
+      "gap": 4.4294700241032103e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 247,
+      "plan_s": 0.003261099998780992,
+      "objective": 0.7969348401767282,
+      "risk": 1.0,
+      "gap": 4.430874123162454e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 248,
+      "plan_s": 0.0030280999999376945,
+      "objective": 0.7975493338214966,
+      "risk": 1.0,
+      "gap": 4.432184386171656e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 249,
+      "plan_s": 0.0031094000005396083,
+      "objective": 0.7981223919331921,
+      "risk": 1.0,
+      "gap": 4.433406153303565e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 250,
+      "plan_s": 0.0031549999985145405,
+      "objective": 0.7986564863873272,
+      "risk": 1.0,
+      "gap": 4.434545075593377e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 251,
+      "plan_s": 0.0037362999973993283,
+      "objective": 0.7991539659845086,
+      "risk": 0.9999999999999999,
+      "gap": 4.4356057715688735e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 252,
+      "plan_s": 0.0038978000011411496,
+      "objective": 0.7996168545496999,
+      "risk": 1.0,
+      "gap": 4.4365927265310745e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 253,
+      "plan_s": 0.003537799999321578,
+      "objective": 0.8000477105692809,
+      "risk": 1.0,
+      "gap": 4.437511402777261e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 254,
+      "plan_s": 0.003954599997086916,
+      "objective": 0.8004483209615929,
+      "risk": 0.9999999999999999,
+      "gap": 4.438365586167947e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 255,
+      "plan_s": 0.0034492000013415236,
+      "objective": 0.8008205938299571,
+      "risk": 1.0,
+      "gap": 4.4391593623238634e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 256,
+      "plan_s": 0.0035801000012725126,
+      "objective": 0.8011663348800976,
+      "risk": 1.0,
+      "gap": 4.439896572616675e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 257,
+      "plan_s": 0.0033815999995567836,
+      "objective": 0.8014872543165574,
+      "risk": 0.9999999999999999,
+      "gap": 4.4405807586578305e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 258,
+      "plan_s": 0.003446400001848815,
+      "objective": 0.8017849657543602,
+      "risk": 1.0,
+      "gap": 4.44121552867216e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 259,
+      "plan_s": 0.0037802000006195158,
+      "objective": 0.8020609926756936,
+      "risk": 1.0,
+      "gap": 4.441804157817586e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 260,
+      "plan_s": 0.0035432000004220754,
+      "objective": 0.8023167738212116,
+      "risk": 1.0,
+      "gap": 4.442349510469512e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 261,
+      "plan_s": 0.003413300000829622,
+      "objective": 0.8025536631189938,
+      "risk": 1.0,
+      "gap": 4.442854606434565e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 262,
+      "plan_s": 0.003382500002771849,
+      "objective": 0.8027729359466459,
+      "risk": 1.0,
+      "gap": 4.4433221435546955e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 263,
+      "plan_s": 0.0034106999992218334,
+      "objective": 0.8029757916566274,
+      "risk": 1.0,
+      "gap": 4.443754664240629e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 264,
+      "plan_s": 0.003289699998276774,
+      "objective": 0.8031633589021011,
+      "risk": 1.0,
+      "gap": 4.4441545554718687e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 265,
+      "plan_s": 0.0032275999983539805,
+      "objective": 0.8033366181903715,
+      "risk": 1.0,
+      "gap": 4.444524048796694e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 266,
+      "plan_s": 0.003249800000048708,
+      "objective": 0.8034967259024098,
+      "risk": 1.0,
+      "gap": 4.4448654090700757e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 267,
+      "plan_s": 0.003236999997170642,
+      "objective": 0.8036445292140444,
+      "risk": 1.0,
+      "gap": 4.445180623591227e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 268,
+      "plan_s": 0.003449800002272241,
+      "objective": 0.8037809021865674,
+      "risk": 1.0,
+      "gap": 4.445471335490225e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 269,
+      "plan_s": 0.0035338999987288844,
+      "objective": 0.8039066622801456,
+      "risk": 1.0,
+      "gap": 4.4457395098618235e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 270,
+      "plan_s": 0.0033138999970105942,
+      "objective": 0.8040225744130176,
+      "risk": 1.0,
+      "gap": 4.445986645507105e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 271,
+      "plan_s": 0.003258000000641914,
+      "objective": 0.8041293544669609,
+      "risk": 1.0,
+      "gap": 4.446214396658377e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 272,
+      "plan_s": 0.0032788000025902875,
+      "objective": 0.8042276705614435,
+      "risk": 1.0,
+      "gap": 4.446424006765426e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 273,
+      "plan_s": 0.0032419000017398503,
+      "objective": 0.8043181467191727,
+      "risk": 0.9999999999999999,
+      "gap": 4.446616919118185e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 274,
+      "plan_s": 0.003279699998529395,
+      "objective": 0.8044013649815523,
+      "risk": 1.0,
+      "gap": 4.446794243939678e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 275,
+      "plan_s": 0.0031398999999510124,
+      "objective": 0.8044778685203744,
+      "risk": 1.0,
+      "gap": 4.4469574245198373e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 276,
+      "plan_s": 0.0031477000011364,
+      "objective": 0.8045481629187994,
+      "risk": 1.0,
+      "gap": 4.447107282423701e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 277,
+      "plan_s": 0.0031589999998686835,
+      "objective": 0.8046126899410472,
+      "risk": 1.0,
+      "gap": 4.447244816851992e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 278,
+      "plan_s": 0.0032307999972545076,
+      "objective": 0.8046719484969203,
+      "risk": 1.0,
+      "gap": 4.4473713156634176e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 279,
+      "plan_s": 0.0033641000009083655,
+      "objective": 0.8047263143126393,
+      "risk": 1.0,
+      "gap": 4.4474870897204255e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 280,
+      "plan_s": 0.003720100001373794,
+      "objective": 0.8047761660618634,
+      "risk": 1.0,
+      "gap": 4.4475934490861846e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 281,
+      "plan_s": 0.003350500002852641,
+      "objective": 0.8048218553321013,
+      "risk": 1.0,
+      "gap": 4.447690904463286e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 282,
+      "plan_s": 0.0033068999982788227,
+      "objective": 0.8048637087014023,
+      "risk": 1.0,
+      "gap": 4.447780133087775e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 283,
+      "plan_s": 0.003311999997094972,
+      "objective": 0.8049020288168062,
+      "risk": 1.0,
+      "gap": 4.447861823297927e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 284,
+      "plan_s": 0.003308300001663156,
+      "objective": 0.8049370962430112,
+      "risk": 1.0,
+      "gap": 4.447936596818636e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 285,
+      "plan_s": 0.0032981000003928784,
+      "objective": 0.8049691710911681,
+      "risk": 1.0,
+      "gap": 4.4480050198636434e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 286,
+      "plan_s": 0.0032802999994601123,
+      "objective": 0.8049984939780449,
+      "risk": 1.0,
+      "gap": 4.448067503215469e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 287,
+      "plan_s": 0.003386800002772361,
+      "objective": 0.8050252876041987,
+      "risk": 1.0,
+      "gap": 3.254942859687304e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 288,
+      "plan_s": 0.0028419999980542343,
+      "objective": 0.8050497578567885,
+      "risk": 1.0,
+      "gap": 3.2549949957605406e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 289,
+      "plan_s": 0.002963599999930011,
+      "objective": 0.8050720951421771,
+      "risk": 1.0,
+      "gap": 3.2550427353505995e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 290,
+      "plan_s": 0.002956099997390993,
+      "objective": 0.8050924660486589,
+      "risk": 1.0,
+      "gap": 3.2550860673552506e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 291,
+      "plan_s": 0.0032584000000497326,
+      "objective": 0.80511105190002,
+      "risk": 1.0,
+      "gap": 3.255125768930611e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 292,
+      "plan_s": 0.003379099998710444,
+      "objective": 0.8051279923321818,
+      "risk": 1.0,
+      "gap": 3.255161873383372e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 293,
+      "plan_s": 0.002958600001875311,
+      "objective": 0.8051434254103385,
+      "risk": 1.0,
+      "gap": 3.2551947581893614e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 294,
+      "plan_s": 0.0035724000008485746,
+      "objective": 0.8051574782602743,
+      "risk": 1.0,
+      "gap": 3.255224767517717e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 295,
+      "plan_s": 0.0030145999990054406,
+      "objective": 0.8051702679604723,
+      "risk": 1.0,
+      "gap": 3.2552520679018926e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 296,
+      "plan_s": 0.0030315000003611203,
+      "objective": 0.8051819023343608,
+      "risk": 1.0,
+      "gap": 3.255276825875342e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 297,
+      "plan_s": 0.0028462999980547465,
+      "objective": 0.8051924804937806,
+      "risk": 1.0,
+      "gap": 3.2552993523005114e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 298,
+      "plan_s": 0.0028164000032120384,
+      "objective": 0.8052020935764765,
+      "risk": 1.0,
+      "gap": 3.255319847017546e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 299,
+      "plan_s": 0.0036187000005156733,
+      "objective": 0.8052108253037359,
+      "risk": 1.0,
+      "gap": 3.255338432150978e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 300,
+      "plan_s": 0.003823700000793906,
+      "objective": 0.8052187525994778,
+      "risk": 1.0,
+      "gap": 3.255355329745413e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 301,
+      "plan_s": 0.003210300001228461,
+      "objective": 0.805225946014749,
+      "risk": 1.0,
+      "gap": 3.255370784049916e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 302,
+      "plan_s": 0.0031049999997776467,
+      "objective": 0.8052324673497503,
+      "risk": 1.0,
+      "gap": 3.255384595224342e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 303,
+      "plan_s": 0.011142100000142818,
+      "objective": 1.2966898758281644,
+      "risk": 1.9280415694843391,
+      "gap": 5.0000000806349476e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 304,
+      "plan_s": 0.0022938000001886394,
+      "objective": 1.296703324097809,
+      "risk": 1.9280281212146946,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 305,
+      "plan_s": 0.0022625999990850687,
+      "objective": 1.2967155032436075,
+      "risk": 1.928015942068896,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 306,
+      "plan_s": 0.002184500001021661,
+      "objective": 1.2967265277932958,
+      "risk": 1.9280049175192078,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 307,
+      "plan_s": 0.0021648000001732726,
+      "objective": 1.2967365020098534,
+      "risk": 1.9279949433026502,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 308,
+      "plan_s": 0.0021764000011899043,
+      "objective": 1.2967455216911707,
+      "risk": 1.9279859236213328,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 309,
+      "plan_s": 0.0022241000006033573,
+      "objective": 1.2967536743139823,
+      "risk": 1.9279777709985213,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 310,
+      "plan_s": 0.0022222999978112057,
+      "objective": 1.2967610393999136,
+      "risk": 1.92797040591259,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 311,
+      "plan_s": 0.0022603999968850985,
+      "objective": 1.2967676898784273,
+      "risk": 1.9279637554340763,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 312,
+      "plan_s": 0.0022286999992502388,
+      "objective": 1.2967736921505368,
+      "risk": 1.9279577531619667,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 313,
+      "plan_s": 0.0021605000001727603,
+      "objective": 1.2967791068257117,
+      "risk": 1.9279523384867918,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 314,
+      "plan_s": 0.0021417000025394373,
+      "objective": 1.2967839888953652,
+      "risk": 1.9279474564171384,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 315,
+      "plan_s": 0.0021422999998321757,
+      "objective": 1.2967883867091308,
+      "risk": 1.9279430586033728,
+      "gap": 5.0000000806349476e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 316,
+      "plan_s": 0.002162199998565484,
+      "objective": 1.296792350091975,
+      "risk": 1.9279390952205286,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 317,
+      "plan_s": 0.0022914000001037493,
+      "objective": 1.296795918500675,
+      "risk": 1.9279355268118286,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 318,
+      "plan_s": 0.0021624000000883825,
+      "objective": 1.2967991296351107,
+      "risk": 1.9279323156773929,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 319,
+      "plan_s": 0.0021360999999160413,
+      "objective": 1.2968020179021291,
+      "risk": 1.9279294274103744,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 320,
+      "plan_s": 0.0021547000033024233,
+      "objective": 1.2968046145343202,
+      "risk": 1.9279268307781834,
+      "gap": 4.999999814181422e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 321,
+      "plan_s": 0.002203100000770064,
+      "objective": 1.2968069477733142,
+      "risk": 1.9279244975391894,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 322,
+      "plan_s": 0.002246799998829374,
+      "objective": 1.2968090433477428,
+      "risk": 1.9279224019647607,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 323,
+      "plan_s": 0.0022620000017923303,
+      "objective": 1.2968109245496962,
+      "risk": 1.9279205207628074,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 324,
+      "plan_s": 0.0027222999997320585,
+      "objective": 1.296812612509699,
+      "risk": 1.9279188328028045,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 325,
+      "plan_s": 0.0025845000018307474,
+      "objective": 1.2968141262976314,
+      "risk": 1.9279173190148722,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 326,
+      "plan_s": 0.0022124999995867256,
+      "objective": 1.2968154832454637,
+      "risk": 1.9279159620670399,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 327,
+      "plan_s": 0.0022050999978091568,
+      "objective": 1.2968166984877287,
+      "risk": 1.9279147468247748,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 328,
+      "plan_s": 0.0021857000028830953,
+      "objective": 1.296817787286038,
+      "risk": 1.9279136580264655,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 329,
+      "plan_s": 0.0021582000008493196,
+      "objective": 1.2968187618536717,
+      "risk": 1.9279126834588318,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 330,
+      "plan_s": 0.00214849999974831,
+      "objective": 1.2968196337511602,
+      "risk": 1.9279118115613434,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 331,
+      "plan_s": 0.002245699997729389,
+      "objective": 1.296820413426004,
+      "risk": 1.9279110318864996,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 332,
+      "plan_s": 0.002299499999935506,
+      "objective": 1.2968211102747738,
+      "risk": 1.9279103350377298,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 333,
+      "plan_s": 0.0024936000008892734,
+      "objective": 1.2968217328029628,
+      "risk": 1.9279097125095408,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 334,
+      "plan_s": 0.002665500000148313,
+      "objective": 1.2968222886742709,
+      "risk": 1.9279091566382327,
+      "gap": 4.9999999918171056e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 335,
+      "plan_s": 0.0024800999999570195,
+      "objective": 1.2968227847714147,
+      "risk": 1.927908660541089,
+      "gap": 4.9999999029992637e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 336,
+      "plan_s": 0.003023699999175733,
+      "objective": 2.4681237438162458,
+      "risk": 1.4981848499337582,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 337,
+      "plan_s": 0.0023121000012906734,
+      "objective": 2.468124043045028,
+      "risk": 1.498184550704976,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 338,
+      "plan_s": 0.002486299999873154,
+      "objective": 2.468124309722309,
+      "risk": 1.4981842840276949,
+      "gap": 4.999999925203724e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 339,
+      "plan_s": 0.0026634999994712416,
+      "objective": 2.4681245472558273,
+      "risk": 1.4981840464941767,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 340,
+      "plan_s": 0.0024689999991096556,
+      "objective": 2.4681247586429476,
+      "risk": 1.4981838351070564,
+      "gap": 4.999999925203724e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 341,
+      "plan_s": 0.0024134000013873447,
+      "objective": 2.4681249468474706,
+      "risk": 1.4981836469025334,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 342,
+      "plan_s": 0.002316499998414656,
+      "objective": 2.4681251142532576,
+      "risk": 1.4981834794967464,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 343,
+      "plan_s": 0.0022845999992568977,
+      "objective": 2.4681252630754904,
+      "risk": 1.4981833306745136,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 344,
+      "plan_s": 0.002255499999591848,
+      "objective": 2.468125395318324,
+      "risk": 1.49818319843168,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 345,
+      "plan_s": 0.0027917000006709713,
+      "objective": 2.468125512775981,
+      "risk": 1.498183080974023,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 346,
+      "plan_s": 0.0024080000002868474,
+      "objective": 2.468125617043247,
+      "risk": 1.4981829767067572,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 347,
+      "plan_s": 0.002359400001296308,
+      "objective": 2.4681257095602542,
+      "risk": 1.4981828841897498,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 348,
+      "plan_s": 0.0023153000001912005,
+      "objective": 2.46812579161147,
+      "risk": 1.4981828021385342,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 349,
+      "plan_s": 0.002340600000025006,
+      "objective": 2.468125864348114,
+      "risk": 1.49818272940189,
+      "gap": 5.000000102839408e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 350,
+      "plan_s": 0.0023058000006130897,
+      "objective": 2.468125928791696,
+      "risk": 1.4981826649583079,
+      "gap": 4.999999925203724e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 351,
+      "plan_s": 0.002716099999815924,
+      "objective": 2.4681259858623608,
+      "risk": 1.4981826078876432,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 352,
+      "plan_s": 0.0025505999983579386,
+      "objective": 2.4681260363586275,
+      "risk": 1.4981825573913765,
+      "gap": 4.999999925203724e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 353,
+      "plan_s": 0.0031385999973281287,
+      "objective": 3.9452382828737624,
+      "risk": 1.009839842126243,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 354,
+      "plan_s": 0.0023395999996864703,
+      "objective": 3.9452383057528113,
+      "risk": 1.009839819247194,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 355,
+      "plan_s": 0.002360499998758314,
+      "objective": 3.945238325975188,
+      "risk": 1.0098397990248174,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 356,
+      "plan_s": 0.002327300000615651,
+      "objective": 3.9452383438417975,
+      "risk": 1.0098397811582078,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 357,
+      "plan_s": 0.002392799997323891,
+      "objective": 3.9452383596174707,
+      "risk": 1.0098397653825346,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 358,
+      "plan_s": 0.002547300002333941,
+      "objective": 3.9452383735411134,
+      "risk": 1.009839751458892,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 359,
+      "plan_s": 0.0024045999998634215,
+      "objective": 3.9452383858249345,
+      "risk": 1.0098397391750709,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 360,
+      "plan_s": 0.0022272999995038845,
+      "objective": 3.9452383966554834,
+      "risk": 1.009839728344522,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 361,
+      "plan_s": 0.002237499997136183,
+      "objective": 3.94523840620072,
+      "risk": 1.0098397187992854,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 362,
+      "plan_s": 0.002240699999674689,
+      "objective": 3.9452384146091184,
+      "risk": 1.009839710390887,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 363,
+      "plan_s": 0.0022859000018797815,
+      "objective": 3.9452384220129284,
+      "risk": 1.009839702987077,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 364,
+      "plan_s": 0.002391499998338986,
+      "objective": 3.9452384285282314,
+      "risk": 1.009839696471774,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 365,
+      "plan_s": 0.0027692000003298745,
+      "objective": 3.945238434256744,
+      "risk": 1.0098396907432612,
+      "gap": 4.999999925203724e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 366,
+      "plan_s": 0.002524800001992844,
+      "objective": 3.945238439295787,
+      "risk": 1.0098396857042182,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 367,
+      "plan_s": 0.0023693000002822373,
+      "objective": 3.945238443724242,
+      "risk": 1.0098396812757633,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 368,
+      "plan_s": 0.002285700000356883,
+      "objective": 3.9452384476137503,
+      "risk": 1.009839677386255,
+      "gap": 5.000000014021566e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 369,
+      "plan_s": 0.031224899998051114,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027303500413,
+      "gap": 5.0000018347873265e-08,
+      "scalarized_calls": 1,
+      "full_solve": false
+    },
+    {
+      "tick": 370,
+      "plan_s": 0.002208400001109112,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027291851669,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 371,
+      "plan_s": 0.0021254999992379453,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027281635632,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 372,
+      "plan_s": 0.002109300003212411,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027272679583,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 373,
+      "plan_s": 0.0021553000005951617,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027264831905,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 374,
+      "plan_s": 0.0026255999982822686,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027257958194,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 375,
+      "plan_s": 0.0022069000006013084,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027251941483,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 376,
+      "plan_s": 0.0021747999999206513,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027246676992,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 377,
+      "plan_s": 0.00212199999805307,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027245099831,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 378,
+      "plan_s": 0.0021711000008508563,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027243541886,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 379,
+      "plan_s": 0.002116200001182733,
+      "objective": 5.273437500000005,
+      "risk": 0.506802724241445,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 380,
+      "plan_s": 0.0021564999988186173,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027241439701,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 381,
+      "plan_s": 0.002472000000125263,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027240577941,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 382,
+      "plan_s": 0.002237299999251263,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027239808122,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 383,
+      "plan_s": 0.0021598000021185726,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027239107238,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 384,
+      "plan_s": 0.00218479999966803,
+      "objective": 5.273437500000005,
+      "risk": 0.5068027238467789,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 385,
+      "plan_s": 0.002877199996873969,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809566357638,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 386,
+      "plan_s": 0.002213099996879464,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809565443164,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 387,
+      "plan_s": 0.002103700000589015,
+      "objective": 7.031250000000006,
+      "risk": 0.0952380956458046,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 388,
+      "plan_s": 0.0024331999993592035,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809563759739,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 389,
+      "plan_s": 0.002194799999415409,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809562975583,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 390,
+      "plan_s": 0.0021239999987301417,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809562220448,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 391,
+      "plan_s": 0.0021520999980566557,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809561495739,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 392,
+      "plan_s": 0.0022153999998408835,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809560793356,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 393,
+      "plan_s": 0.0021529000005102716,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809560113133,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 394,
+      "plan_s": 0.002099699999234872,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809559448665,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 395,
+      "plan_s": 0.002142599998478545,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809558801832,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 396,
+      "plan_s": 0.0025588000025891233,
+      "objective": 7.031250000000006,
+      "risk": 0.095238095581694,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 397,
+      "plan_s": 0.0022742000001017004,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809557550517,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 398,
+      "plan_s": 0.0021723999998357613,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809556947516,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 399,
+      "plan_s": 0.0021883999979763757,
+      "objective": 7.031250000000006,
+      "risk": 0.0952380955635524,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 400,
+      "plan_s": 0.002115399998729117,
+      "objective": 7.031250000000006,
+      "risk": 0.09523809555773488,
+      "gap": 4.999999969612645e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 401,
+      "plan_s": 0.0028664999990724027,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 402,
+      "plan_s": 0.0021262999980535824,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 403,
+      "plan_s": 0.0023330000003625173,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 404,
+      "plan_s": 0.002280400000017835,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 405,
+      "plan_s": 0.0025793999993766192,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 406,
+      "plan_s": 0.002378799999860348,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 407,
+      "plan_s": 0.0021744000005128328,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 408,
+      "plan_s": 0.00235909999901196,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 409,
+      "plan_s": 0.0023015000006125774,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 410,
+      "plan_s": 0.0021927999987383373,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 411,
+      "plan_s": 0.002531699999963166,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 412,
+      "plan_s": 0.0025854999985313043,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 413,
+      "plan_s": 0.002362600000196835,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 414,
+      "plan_s": 0.002269299999170471,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 415,
+      "plan_s": 0.0022189000010257587,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 416,
+      "plan_s": 0.0021506999983103015,
+      "objective": 9.375000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 417,
+      "plan_s": 0.003174699999362929,
+      "objective": 10.000000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 418,
+      "plan_s": 0.002354899999772897,
+      "objective": 10.000000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 419,
+      "plan_s": 0.0031309000005421694,
+      "objective": 10.000000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    },
+    {
+      "tick": 420,
+      "plan_s": 0.0022093000006861985,
+      "objective": 10.000000000000007,
+      "risk": 0.0,
+      "gap": 5.000000058430487e-08,
+      "scalarized_calls": 0,
+      "full_solve": false
+    }
+  ],
+  "complete": true,
+  "planning_time_s": 1.6316156999564555
+}

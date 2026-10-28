@@ -1,0 +1,7 @@
+# Recorded Python environment; CARLA server installation is separate.
+numpy==2.4.6
+scipy==1.17.1
+highspy==1.15.1
+psutil==7.2.2
+carla==0.9.16
+matplotlib==3.11.2

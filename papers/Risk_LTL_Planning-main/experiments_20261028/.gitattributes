@@ -1,0 +1,4 @@
+# Preserve exact experiment bytes and recorded SHA256 values across platforms.
+# In particular, do not normalize Windows-generated JSON CRLF during upload.
+* -text whitespace=cr-at-eol
+*.log whitespace=cr-at-eol,-blank-at-eol

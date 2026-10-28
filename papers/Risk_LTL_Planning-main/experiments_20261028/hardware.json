@@ -1,0 +1,11 @@
+{
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "machine": "AMD64",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "logical_cpus": 24,
+  "physical_cpus": 16,
+  "ram_bytes": 16944848896,
+  "python": "3.11.9",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU (CARLA crash-context device report)",
+  "timing_note": "CARLA live timings share hardware with simulator; paired replays run after server termination"
+}

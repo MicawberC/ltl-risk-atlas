@@ -1,0 +1,34 @@
+{
+  "town": "Town01",
+  "port": 2080,
+  "created_utc": "2026-10-28T08:50:21.574127+00:00",
+  "owned_processes": [
+    {
+      "pid": 27644,
+      "create_time": 1793177422.0802035,
+      "exe": "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4.exe"
+    },
+    {
+      "pid": 19844,
+      "create_time": 1793177422.109042,
+      "exe": "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4\\Binaries\\Win64\\CarlaUE4-Win64-Shipping.exe"
+    }
+  ],
+  "command": [
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4.exe",
+    "/Game/Carla/Maps/Town01",
+    "-RenderOffScreen",
+    "-quality-level=Low",
+    "-nosound",
+    "-carla-rpc-port=2080",
+    "-ResX=640",
+    "-ResY=480"
+  ],
+  "pid": 27644,
+  "ready_utc": "2026-10-28T08:50:58.087839+00:00",
+  "map": "Carla/Maps/Town01",
+  "server_version": "0.9.16",
+  "client_version": "0.9.16",
+  "stopped_utc": "2026-10-28T08:51:11.858360+00:00",
+  "stop_errors": []
+}

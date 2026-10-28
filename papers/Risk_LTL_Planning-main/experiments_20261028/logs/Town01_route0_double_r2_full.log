@@ -1,0 +1,12 @@
+Town01_route0_double full tick 0 x -8.0 risk 1.0 plan_ms 449.202
+Town01_route0_double full tick 50 x -8.0 risk 1.0 plan_ms 2.595
+Town01_route0_double full tick 100 x -8.0 risk 1.0 plan_ms 0.558
+Town01_route0_double full tick 150 x -8.0 risk 1.0 plan_ms 46.595
+Town01_route0_double full tick 200 x -8.0 risk 1.0 plan_ms 0.66
+Town01_route0_double full tick 250 x -8.0 risk 1.0 plan_ms 3.242
+Town01_route0_double full tick 300 x -8.0 risk 1.0 plan_ms 3.85
+Town01_route0_double full tick 350 x -6.393 risk 1.0 plan_ms 3.77
+Town01_route0_double full tick 400 x -3.649 risk 1.978209 plan_ms 0.471
+Town01_route0_double full tick 450 x 2.587 risk 0.525592 plan_ms 0.448
+DRIVE END Town01_route0_double full goal 490
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 

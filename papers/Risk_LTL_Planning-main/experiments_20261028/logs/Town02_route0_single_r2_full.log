@@ -1,0 +1,13 @@
+Town02_route0_single full tick 0 x -8.0 risk 1.0 plan_ms 449.924
+Town02_route0_single full tick 50 x -8.0 risk 1.0 plan_ms 5.614
+Town02_route0_single full tick 100 x -8.0 risk 1.0 plan_ms 1.599
+Town02_route0_single full tick 150 x -8.0 risk 1.0 plan_ms 7.073
+Town02_route0_single full tick 200 x -8.0 risk 1.0 plan_ms 5.646
+Town02_route0_single full tick 250 x -7.117 risk 1.0 plan_ms 6.512
+Town02_route0_single full tick 300 x -6.857 risk 1.0 plan_ms 5.952
+Town02_route0_single full tick 350 x -6.857 risk 1.0 plan_ms 5.538
+Town02_route0_single full tick 400 x -5.316 risk 1.0 plan_ms 6.797
+Town02_route0_single full tick 450 x -5.316 risk 1.0 plan_ms 5.547
+Town02_route0_single full PLANNER FAILURE 499 RuntimeError: Layer policy iteration did not converge
+DRIVE END Town02_route0_single full planner_failure 499
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town02.bin 

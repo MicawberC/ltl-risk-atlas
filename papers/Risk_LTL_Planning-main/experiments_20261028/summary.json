@@ -1,0 +1,201 @@
+{
+  "live": [
+    {
+      "method": "warm_lp",
+      "goal": 6,
+      "timeout": 2,
+      "planner_failure": 4,
+      "collision": 0,
+      "queries": 7358,
+      "returned_queries": 7354,
+      "cumulative_plan_s": 102.5639707998198,
+      "drive_time_median_s": 6.768122349989426,
+      "p50_ms": 15.000900000814,
+      "p95_ms": 18.811309999728106,
+      "max_ms": 494.0879000023415,
+      "over_50ms": 41,
+      "scalarized_calls": 0,
+      "full_solves": 7354,
+      "max_cache": 0
+    },
+    {
+      "method": "full",
+      "goal": 6,
+      "timeout": 2,
+      "planner_failure": 4,
+      "collision": 0,
+      "queries": 7515,
+      "returned_queries": 7511,
+      "cumulative_plan_s": 50.06390679995093,
+      "drive_time_median_s": 4.147973700004513,
+      "p50_ms": 3.70420000035665,
+      "p95_ms": 8.19769000263477,
+      "max_ms": 1082.3571000000811,
+      "over_50ms": 53,
+      "scalarized_calls": 279,
+      "full_solves": 24,
+      "max_cache": 19
+    },
+    {
+      "method": "optimized",
+      "goal": 6,
+      "timeout": 2,
+      "planner_failure": 4,
+      "collision": 0,
+      "queries": 7855,
+      "returned_queries": 7851,
+      "cumulative_plan_s": 45.505076900040876,
+      "drive_time_median_s": 3.4615690000064205,
+      "p50_ms": 3.7276000002748333,
+      "p95_ms": 8.516320000126141,
+      "max_ms": 1417.5515999995696,
+      "over_50ms": 17,
+      "scalarized_calls": 63,
+      "full_solves": 0,
+      "max_cache": 13
+    }
+  ],
+  "replay_pairs": 36,
+  "replay_valid_pairs": 36,
+  "replay_faster": 36,
+  "replay_slower_or_equal": 0,
+  "replay_median_speedup": 2.730454735798868,
+  "replay_min_speedup": 2.312404601498402,
+  "replay_max_speedup": 3.5553903047993396,
+  "drive_trial_count": 36,
+  "policy_audit": {
+    "scope": "Model-certificate and logging integrity checks, not a driving-success or physical safety guarantee",
+    "parameters": {
+      "gamma": 0.8,
+      "soft": 1.0,
+      "hard": 2.0
+    },
+    "tolerances": {
+      "policy_minimum": 1e-12,
+      "probability_row_sum": 1e-10,
+      "policy_value": 1e-05,
+      "risk_budget": 1e-07,
+      "LP_bracket": 1e-05,
+      "flow_residual": 1e-07,
+      "gap": 1e-07,
+      "forward_probability": 1e-12
+    },
+    "trial_files": 36,
+    "checked_queries": 22728,
+    "checked_returned_policies": 22716,
+    "nonreturning_failed_queries": 12,
+    "violation_count": 0,
+    "all_integrity_checks_passed": true,
+    "all_trials_fully_checked": true,
+    "limited_run": false
+  },
+  "failure_diagnostics": [
+    {
+      "trial": "Town01_route1_single_r1_full.json",
+      "tick": 612,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town01_route1_single_r1_optimized.json",
+      "tick": 667,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town01_route1_single_r1_warm_lp.json",
+      "tick": 667,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r0_full.json",
+      "tick": 680,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r0_optimized.json",
+      "tick": 897,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r0_warm_lp.json",
+      "tick": 739,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r1_full.json",
+      "tick": 486,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r1_optimized.json",
+      "tick": 540,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r1_warm_lp.json",
+      "tick": 485,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r2_full.json",
+      "tick": 499,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r2_optimized.json",
+      "tick": 513,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    },
+    {
+      "trial": "Town02_route0_single_r2_warm_lp.json",
+      "tick": 388,
+      "diagnosis": {
+        "status": "Infeasible",
+        "exception_type": "RuntimeError"
+      }
+    }
+  ],
+  "infrastructure_failure_count": 4,
+  "fresh_lp_infeasible_count": 12,
+  "explicitly_recovered_drives": 2,
+  "failure_inclusive_supplement": {
+    "pairs": 9,
+    "faster": 9,
+    "median_speedup": 2.0452626224529236,
+    "minimum_speedup": 1.9729909810914654,
+    "maximum_speedup": 2.230770559651382,
+    "scope": "Post-hoc, all three failed-driving r0 traces, including final failure costs"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "started_utc": "2026-10-28T08:34:49.660535+00:00",
+  "protocol_sha256": "1fc53234ba7df5d992d45522865f3dd971e18cdffe0b18efb14f5eeb03211696",
+  "expected_trials": 36,
+  "completed": [
+    {
+      "trial": "Town01_route0_single_r0_full",
+      "outcome": "goal",
+      "resumed": true
+    },
+    {
+      "trial": "Town01_route0_single_r0_optimized",
+      "outcome": "goal",
+      "resumed": true
+    },
+    {
+      "trial": "Town01_route0_single_r0_warm_lp",
+      "outcome": "goal",
+      "resumed": true
+    },
+    {
+      "trial": "Town01_route0_single_r1_full",
+      "outcome": "goal",
+      "resumed": true
+    },
+    {
+      "trial": "Town01_route0_single_r1_warm_lp",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_single_r2_warm_lp",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_single_r2_full",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_single_r2_optimized",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r0_full",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r0_optimized",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r0_warm_lp",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r1_warm_lp",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r1_optimized",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r1_full",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r2_warm_lp",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r2_optimized",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_double_r2_full",
+      "outcome": "goal",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r0_full",
+      "outcome": "timeout",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r0_optimized",
+      "outcome": "timeout",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r0_warm_lp",
+      "outcome": "timeout",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r1_full",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r1_optimized",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r1_warm_lp",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r2_optimized",
+      "outcome": "timeout",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route1_single_r2_warm_lp",
+      "outcome": "timeout",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r0_warm_lp",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r0_full",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r0_optimized",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r1_optimized",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r1_warm_lp",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r1_full",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r2_full",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r2_optimized",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town02_route0_single_r2_warm_lp",
+      "outcome": "planner_failure",
+      "attempt": 0
+    },
+    {
+      "trial": "Town01_route0_single_r1_optimized",
+      "outcome": "goal",
+      "attempt": 2,
+      "explicit_infrastructure_recovery": true
+    },
+    {
+      "trial": "Town01_route1_single_r2_full",
+      "outcome": "timeout",
+      "attempt": 2,
+      "explicit_infrastructure_recovery": true
+    }
+  ],
+  "infrastructure_failures": [
+    {
+      "trial": "Town01_route0_single_r1_optimized",
+      "attempt": 0,
+      "diagnostics": "diagnostics/a90ff31a_-1_1793176489781650500",
+      "error": "RuntimeError(\"CARLA startup failed: RuntimeError('time-out of 5000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2060')\")"
+    },
+    {
+      "trial": "Town01_route0_single_r1_optimized",
+      "attempt": 1,
+      "diagnostics": "diagnostics/a90ff31a_1_1793176651157992200",
+      "error": "RuntimeError(\"CARLA startup failed: RuntimeError('time-out of 5000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2060')\")"
+    },
+    {
+      "trial": "Town01_route1_single_r2_full",
+      "attempt": 0,
+      "diagnostics": "diagnostics/fb231e50_0_1793177624476271800",
+      "error": "RuntimeError(\"CARLA startup failed: RuntimeError('time-out of 5000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2080')\")"
+    },
+    {
+      "trial": "Town01_route1_single_r2_full",
+      "attempt": 1,
+      "diagnostics": "diagnostics/fb231e50_1_1793177706706598900",
+      "error": "RuntimeError(\"CARLA startup failed: RuntimeError('time-out of 5000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2080')\")"
+    }
+  ],
+  "ended_utc": "2026-10-28T09:08:52.478387+00:00",
+  "complete": true
+}

@@ -1,0 +1,17 @@
+Town01_route1_single warm_lp tick 0 x -8.0 risk 1.0 plan_ms 227.191
+Town01_route1_single warm_lp tick 50 x -8.0 risk 1.0 plan_ms 15.217
+Town01_route1_single warm_lp tick 100 x -8.0 risk 1.0 plan_ms 14.127
+Town01_route1_single warm_lp tick 150 x -8.0 risk 1.0 plan_ms 56.771
+Town01_route1_single warm_lp tick 200 x -7.174 risk 1.0 plan_ms 13.829
+Town01_route1_single warm_lp tick 250 x -6.978 risk 1.0 plan_ms 16.755
+Town01_route1_single warm_lp tick 300 x -6.978 risk 1.0 plan_ms 16.711
+Town01_route1_single warm_lp tick 350 x -6.978 risk 1.0 plan_ms 15.486
+Town01_route1_single warm_lp tick 400 x -6.804 risk 1.0 plan_ms 14.472
+Town01_route1_single warm_lp tick 450 x -6.784 risk 1.0 plan_ms 17.271
+Town01_route1_single warm_lp tick 500 x -5.245 risk 1.0 plan_ms 17.313
+Town01_route1_single warm_lp tick 550 x -5.245 risk 1.0 plan_ms 17.805
+Town01_route1_single warm_lp tick 600 x -5.245 risk 1.0 plan_ms 15.313
+Town01_route1_single warm_lp tick 650 x -5.046 risk 1.0 plan_ms 15.209
+Town01_route1_single warm_lp PLANNER FAILURE 667 RuntimeError: Infeasible
+DRIVE END Town01_route1_single warm_lp planner_failure 667
+INFO:  Found the required file in cache!  Carla/Maps/Nav/Town01.bin 

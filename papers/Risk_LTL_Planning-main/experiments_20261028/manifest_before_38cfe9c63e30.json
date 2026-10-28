@@ -1,0 +1,410 @@
+{
+  "created_utc": "2026-10-28T08:26:46.018512+00:00",
+  "protocol_sha256": "38cfe9c63e30ac52cf6434826c6b759d7a3e88e4e724e1bb660934b976b7fd4d",
+  "base_commit": "7f930cdb248ff680a08fc37f912a8f97c3661f89",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\python311\\python.exe",
+  "versions": {
+    "carla": "0.9.16",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "highspy": "1.15.1",
+    "psutil": "7.2.2"
+  },
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "LTL_RISK_GAMMA": "0.8",
+    "LTL_RISK_SOFT": "1.0",
+    "LTL_RISK_HARD": "2.0"
+  },
+  "jobs": [
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route0_single",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "full",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "optimized",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "warm_lp",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "warm_lp",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "optimized",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "full",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "warm_lp",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "optimized",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route0_double",
+      "town": "Town01",
+      "route_index": 0,
+      "second_walker": true,
+      "max_ticks": 1200,
+      "method": "full",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town01_route1_single",
+      "town": "Town01",
+      "route_index": 1,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 0,
+      "seed": 5000
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 1,
+      "seed": 5001
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "full",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "optimized",
+      "repetition": 2,
+      "seed": 5002
+    },
+    {
+      "case": "Town02_route0_single",
+      "town": "Town02",
+      "route_index": 0,
+      "second_walker": false,
+      "max_ticks": 900,
+      "method": "warm_lp",
+      "repetition": 2,
+      "seed": 5002
+    }
+  ],
+  "source_hashes_lf": {
+    "papers/Risk_LTL_Planning-main/experiments_20261028/run_suite.py": "9c11fb25d93044a4cd1c7416cf8474ac498a7f6957ff93c45117d6ae8e71db24",
+    "papers/Risk_LTL_Planning-main/experiments_20261028/run_trial.py": "601bcf0537ba3ef7cbebfd46b6348d7a74106b7c984f4f1c61b60db07fc5da50",
+    "papers/Risk_LTL_Planning-main/experiments_20261028/planner.py": "e8e0cf05351116fab12d2338631f368b6900f7e55bc1e1b71a9a314db28047ba",
+    "papers/Risk_LTL_Planning-main/experiments_20261026/optimized_controller.py": "39f871972c4c6449a4c4543e9936659530eba72d6d2957e857a42841e482aaa1",
+    "papers/Risk_LTL_Planning-main/experiments_20261023/controlled_experiment.py": "31fcf265cf06b0870d1ab81d79bfca1b600a45aff926afa4c5844b31a964ab74",
+    "reproduction/carla_local_risk/closed_loop_dynamic.py": "a063e79dc9820cca38153a4dd468ccf92f3894f2346e464f945a4877843a96fc",
+    "reproduction/carla_local_risk/capture_crossing.py": "16ca58991d9c89f67ca8aefecb4c3e77b32c395840712e07594c1ae81d7bf9be",
+    "reproduction/carla_local_risk/benchmark.py": "5aacab269a5fe8d0f651266eff1163f22ea3e2210a15f9c09bb3b1240213d1e6",
+    "reproduction/carla_local_risk/dynamic_product.py": "4a6ae12c7520beccf0f510adb58a5a6aabcf4536b097bb8076134aa59d427bc2",
+    "reproduction/carla_local_risk/dynamic_certificate.py": "d95c1f938b43b2b0e48f234ef89566bdd8c79974fc84b641272b6145709bcf9b",
+    "reproduction/adaptive_risk_ltl/experiment.py": "c0812a9567e2d0d2329cbe759f765fa86c352033661897b8ca3558994c315d62",
+    "reproduction/adaptive_risk_ltl/highs_reopt.py": "d5786a4c0a6f7eb1fa652fc5feb7eab23d115ac24f30695e7e805bf312ea8c0b",
+    "reproduction/adaptive_risk_ltl/joint_price_atlas.py": "5d394435e163ec17ee523aac672a03f97d077181d64d2f6f70759cc24bc6d8ba",
+    "reproduction/adaptive_risk_ltl/stratified.py": "7438868b95c21a73892519be60ad64965341a38fb9538a0faafa814a00be9b0a",
+    "reproduction/adaptive_risk_ltl/paper_atlas_comparison.py": "ec0cd986dcdd5c7756d89a783df3496afd465c42702c109d4daf5082668afd1b"
+  },
+  "server": "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4.exe",
+  "base_port": 2060,
+  "order_seed": 20261028,
+  "trial_timeout_s": 600.0,
+  "startup_timeout_s": 180.0,
+  "infra_retries": 1,
+  "fixed_delta_seconds": 0.05,
+  "action_every_ticks": 10,
+  "scope": "New live CARLA trials; complete non-arrivals are retained and never retried"
+}

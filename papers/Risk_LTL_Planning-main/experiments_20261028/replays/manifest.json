@@ -1,0 +1,383 @@
+{
+  "selection": "Every scene and every driving method, repetition 0; all returned prefixes",
+  "traces": {
+    "Town01_route0_double_r0_full.json": "c5190997ea196277275144dbdaba08f37fe16750e5cd5c3384af77780694ffbb",
+    "Town01_route0_double_r0_optimized.json": "c6c519f45d969f83c783223eacddd910c8135bdf9c81dda9333d5eac28f7687c",
+    "Town01_route0_double_r0_warm_lp.json": "c1f8ce736623d5809e89118674fbeb639de19142aca0a59e435569f31ee3d478",
+    "Town01_route0_single_r0_full.json": "65df581a0fef5356d539d488e20fca75544b91050f7f732ec00cab850a582f97",
+    "Town01_route0_single_r0_optimized.json": "4a112174e4bf3525bef747e2754f50ac0d690c819bded62ebf42ff7a3d27a1cf",
+    "Town01_route0_single_r0_warm_lp.json": "f964f2f1a5f686fcf3bab0d1de22fb3ddd34c54caa2727332cf2554306cab376",
+    "Town01_route1_single_r0_full.json": "0d930cc9f749894803b3df151c2c8a99dd2e84a75e6f99e23f30f662586036d9",
+    "Town01_route1_single_r0_optimized.json": "c3ed8e9f97a95c5bd18f37be115b25793e7ce8ca9fad29e7bd5e118d5bfd75c5",
+    "Town01_route1_single_r0_warm_lp.json": "66c377c9eabf9dc7b185504b12b84915d1ace97126a632a46b1cb34ae77818c4",
+    "Town02_route0_single_r0_full.json": "1513999b9c49292faf21355eac59a9630134f0155e78b139ace8356034a0d8f9",
+    "Town02_route0_single_r0_optimized.json": "51a97ed582c06c69183131b3272b78bfee89c0683959aacf6fb893e10fc332e4",
+    "Town02_route0_single_r0_warm_lp.json": "044d46d0af8873094993b5ec5b1e510b169eccaf20938e7e155d51d3c2214da2"
+  },
+  "order": [
+    {
+      "trace": "Town01_route0_double_r0_full.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_full.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_full.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_full.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_full.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_full.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_optimized.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_optimized.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_optimized.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_optimized.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_optimized.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_optimized.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_double_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_double_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_full.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_full.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_full.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_full.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_full.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_full.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route0_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route0_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_full.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_full.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_full.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_full.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_full.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_full.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town01_route1_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town01_route1_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "optimized"
+    }
+  ],
+  "source_sha256": {
+    "replay.py": "c378747d260e1b008395529fd6dcf513fefef4a28056d0508176d3230ee3b154",
+    "planner.py": "e8e0cf05351116fab12d2338631f368b6900f7e55bc1e1b71a9a314db28047ba"
+  }
+}

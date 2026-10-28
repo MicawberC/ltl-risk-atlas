@@ -1,0 +1,218 @@
+[
+  {
+    "trace": "Town01_route0_double_r0_full.json",
+    "repetition": 0,
+    "queries": 721,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_full.json",
+    "repetition": 1,
+    "queries": 721,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_full.json",
+    "repetition": 2,
+    "queries": 721,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_optimized.json",
+    "repetition": 0,
+    "queries": 721,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_optimized.json",
+    "repetition": 1,
+    "queries": 721,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_optimized.json",
+    "repetition": 2,
+    "queries": 721,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_warm_lp.json",
+    "repetition": 0,
+    "queries": 694,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_warm_lp.json",
+    "repetition": 1,
+    "queries": 694,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_double_r0_warm_lp.json",
+    "repetition": 2,
+    "queries": 694,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_full.json",
+    "repetition": 0,
+    "queries": 420,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_full.json",
+    "repetition": 1,
+    "queries": 420,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_full.json",
+    "repetition": 2,
+    "queries": 420,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_optimized.json",
+    "repetition": 0,
+    "queries": 421,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_optimized.json",
+    "repetition": 1,
+    "queries": 421,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_optimized.json",
+    "repetition": 2,
+    "queries": 421,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_warm_lp.json",
+    "repetition": 0,
+    "queries": 421,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_warm_lp.json",
+    "repetition": 1,
+    "queries": 421,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route0_single_r0_warm_lp.json",
+    "repetition": 2,
+    "queries": 421,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_full.json",
+    "repetition": 0,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_full.json",
+    "repetition": 1,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_full.json",
+    "repetition": 2,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_optimized.json",
+    "repetition": 0,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_optimized.json",
+    "repetition": 1,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_optimized.json",
+    "repetition": 2,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_warm_lp.json",
+    "repetition": 0,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_warm_lp.json",
+    "repetition": 1,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town01_route1_single_r0_warm_lp.json",
+    "repetition": 2,
+    "queries": 900,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_full.json",
+    "repetition": 0,
+    "queries": 680,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_full.json",
+    "repetition": 1,
+    "queries": 680,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_full.json",
+    "repetition": 2,
+    "queries": 680,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_optimized.json",
+    "repetition": 0,
+    "queries": 897,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_optimized.json",
+    "repetition": 1,
+    "queries": 897,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_optimized.json",
+    "repetition": 2,
+    "queries": 897,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_warm_lp.json",
+    "repetition": 0,
+    "queries": 739,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_warm_lp.json",
+    "repetition": 1,
+    "queries": 739,
+    "errors": []
+  },
+  {
+    "trace": "Town02_route0_single_r0_warm_lp.json",
+    "repetition": 2,
+    "queries": 739,
+    "errors": []
+  }
+]

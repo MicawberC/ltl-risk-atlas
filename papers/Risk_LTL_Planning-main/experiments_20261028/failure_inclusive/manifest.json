@@ -1,0 +1,102 @@
+{
+  "scope": "Post-hoc complete-prefix supplement including the final failed call",
+  "selection": "All failed-driving r0 traces among the original twelve sources",
+  "source_hashes": {
+    "Town02_route0_single_r0_full.json": "1513999b9c49292faf21355eac59a9630134f0155e78b139ace8356034a0d8f9",
+    "Town02_route0_single_r0_optimized.json": "51a97ed582c06c69183131b3272b78bfee89c0683959aacf6fb893e10fc332e4",
+    "Town02_route0_single_r0_warm_lp.json": "044d46d0af8873094993b5ec5b1e510b169eccaf20938e7e155d51d3c2214da2"
+  },
+  "script_sha256": "6ce53e9a2849e7bbfe0a703c49d9c0a167c74affcbb0ccefc630a3b3ee92468f",
+  "jobs": [
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_full.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_optimized.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 0,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "optimized"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 1,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "warm_lp"
+    },
+    {
+      "trace": "Town02_route0_single_r0_warm_lp.json",
+      "repetition": 2,
+      "method": "optimized"
+    }
+  ]
+}

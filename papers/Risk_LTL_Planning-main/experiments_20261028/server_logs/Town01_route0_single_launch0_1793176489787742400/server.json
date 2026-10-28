@@ -1,0 +1,32 @@
+{
+  "town": "Town01",
+  "port": 2060,
+  "created_utc": "2026-10-28T08:34:49.788741+00:00",
+  "owned_processes": [
+    {
+      "pid": 36796,
+      "create_time": 1793176490.3003058,
+      "exe": "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4.exe"
+    },
+    {
+      "pid": 29872,
+      "create_time": 1793176490.34146,
+      "exe": "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4\\Binaries\\Win64\\CarlaUE4-Win64-Shipping.exe"
+    }
+  ],
+  "command": [
+    "C:\\Users\\12410\\Documents\\Codex\\2026-10-13\\1-mdp-2-cmdp-3-1\\work\\carla_0916\\server\\CarlaUE4.exe",
+    "/Game/Carla/Maps/Town01",
+    "-RenderOffScreen",
+    "-quality-level=Low",
+    "-nosound",
+    "-carla-rpc-port=2060",
+    "-ResX=640",
+    "-ResY=480"
+  ],
+  "pid": 36796,
+  "startup_failure": "RuntimeError('time-out of 5000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2060')",
+  "ended_utc": "2026-10-28T08:37:31.119779+00:00",
+  "stopped_utc": "2026-10-28T08:37:31.170790+00:00",
+  "stop_errors": []
+}

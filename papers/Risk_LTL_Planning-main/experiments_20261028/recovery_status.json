@@ -1,0 +1,17 @@
+{
+  "recovered": [
+    {
+      "trial": "Town01_route0_single_r1_optimized",
+      "outcome": "goal",
+      "attempt": 2,
+      "explicit_infrastructure_recovery": true
+    },
+    {
+      "trial": "Town01_route1_single_r2_full",
+      "outcome": "timeout",
+      "attempt": 2,
+      "explicit_infrastructure_recovery": true
+    }
+  ],
+  "complete": true
+}
